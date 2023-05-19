@@ -11,6 +11,11 @@ interaction_descriptions = {
             '"I\'m so sick of living paycheck to paycheck just to keep up with these bills," complained {initiator},',
         ],
     },
+    'mixer_social_DiscussLatestGames_targeted_Friendly_alwaysOn_skills': {
+        'actions': [
+            '"Have you played that new video game?" {initator} asks.',
+        ],
+    },
     'mixer_social_CheerfulIntroduction_greetings_skills': {
         'actions': [
             '"How are you?" {iniator} asks as they cheerfully introduce themselves,',
@@ -42,6 +47,64 @@ interaction_descriptions = {
             '{initiator} sighed heavily, "My job sucks," they began,',
             '"I hate doing laundry. It\'s such a chore, and I never seem to have enough time for it.", {initiator} began,',
             '"I\'ve been trying to eat healthier, but all the healthy food is so expensive.", {initiator} began,',
+        ],
+    },
+    'mixer_social_DiscussFavoriteArtist_targeted_Friendly_MiddleScore': {
+        'actions': [
+            '"Who is your favorite artist?" {initiator} asks.',
+        ],
+    },
+    'mixer_social_DiscussFavoriteAuthors_targeted_Friendly_alwaysOn': {
+        'actions': [
+            '"Who is your favorite author?" {initiator} asks.',
+        ],
+    },
+    'mixer_social_DiscussFavoriteBand_targeted_Friendly_alwaysOn': {
+        'display_action': False,
+        'actions': [
+            '{initiator} starts to talk about their favorite band,',
+        ],
+    },
+    'mixer_social_DiscussFavoriteRecipes_targeted_Friendly_MiddleScore': {
+        'actions': [
+            '"What kind of food do you like to cook?" {initiator} asks.',
+            '"I know you like to cook, what is your favorite recipe?" {initiator} asks.',
+        ],
+    },
+    'mixer_social_DiscussFineCuisine_targeted_Friendly_MiddleScore': {
+        'actions': [
+            '"I went to this fancy restaurant a couple weeks ago and let me tell you about the food,',
+            '"There is this fancy restaurant in Vegas I love named ',
+        ],
+    },
+    'mixer_social_RudeIntroduction_greetings': {
+        'display_action': False,
+        'actions': [
+            '{initiator} rudely introduces themselves to {target}.'
+        ],
+    },
+    'mixer_social_Flirt_targeted_romance_alwaysOn': {
+        'display_action': False,
+        'actions': [
+            '{initiator} starts to flirt with {target}.',
+        ],
+    },
+    'mixer_social_FriendlyIntroduction_greetings': {
+        'display_action': False,
+        'actions': [
+            '{initiator} introduces themselves to {target} in a friendly manner.',
+            '{initiator} starts introduces themselves to {target} in a friendly manner.',
+        ],
+    },
+    'mixer_social_FunnyIntroduction_greetings': {
+        'display_action': False,
+        'actions': [
+            '{initator} begins a funny introduction to {target}.',
+        ],
+    },
+    'mixer_social_EnchantingIntroduction_greetings_skills': {
+        'actions': [
+            '{initiator} begins to enchantinginly introduce themselves to {target}.',
         ],
     },
 }

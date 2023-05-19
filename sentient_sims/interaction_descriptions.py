@@ -587,4 +587,296 @@ interaction_descriptions = {
             "\"Surviving food poisoning is no small feat, {target}, but I managed to do it with flying colors. You can call me the master of resilience,\" {initiator} says with a boastful laugh."
         ]
     },
+    "mixer_social_ThrowDrink_targeted_mean_emotionSpecific": {
+        "actions": [
+            "\"{initiator} watches {target} closely, anger boiling up inside, before suddenly splashing a drink in {target}'s face without warning.\"",
+            "\"Without hesitation, {initiator} grabs a nearby drink and throws it in {target}'s face.\"",
+            "\"{initiator} can't take it anymore and, in a fit of rage, hurls a drink at {target}'s face, leaving them dripping and stunned.\"",
+            "\"As {target} continues to speak, {initiator} seethes with anger before finally snapping and throwing the contents of their glass into {target}'s face.\"",
+            "\"{initiator}, unable to contain their anger any longer, grabs the nearest beverage and splashes it all over {target}'s face, silencing them mid-sentence.\"",
+            "\"With a sudden burst of fury, {initiator} picks up their drink and hurls it right into {target}'s unsuspecting face.\"",
+            "\"{initiator} reaches their breaking point and, without a word, throws their drink directly at {target}'s face, shocking the entire room.\"",
+            "\"Enraged by {target}'s words, {initiator} impulsively grabs a drink and drenches {target}'s face, instantly stopping their speech.\"",
+            "\"{initiator} narrows their eyes at {target}, then suddenly flings the contents of their glass right into {target}'s face, leaving them speechless.\"",
+            "\"Overcome with anger, {initiator} snatches up a drink and tosses it all over {target}'s face, causing gasps from everyone around them.\""
+        ]
+    },
+    "mixer_social_TakePictureTogether_targeted_Friendly_alwaysOn": {
+        "actions": [
+            "\"{target}, let's capture this moment together! Can I take a picture with you?\" {initiator} asks, smiling excitedly.",
+            "\"Hey {target}, this is such a great time, we should take a picture to remember it by. What do you say?\" {initiator} suggests, holding up their phone.",
+            "\"{target}, I've always wanted a picture with you. Mind if we take one right now?\" {initiator} asks, looking hopeful.",
+            "\"Would you mind if we took a photo together, {target}? I think it would be a nice memory to have,\" {initiator} says, shyly.",
+            "\"I have this feeling that we're going to look back on this moment one day and smile. Let's take a picture together, {target},\" {initiator} proposes, grinning.",
+            "\"Come on, {target}, let's snap a quick picture together. I promise it'll be worth it!\" {initiator} says, trying to convince {target}.",
+            "\"Life's too short not to capture memories, don't you think, {target}? Let's take a picture together,\" {initiator} suggests, extending their arm for a selfie.",
+            "\"Hey {target}, I think this is the perfect moment for a photo, don't you? Let's take one together!\" {initiator} says, enthusiastically.",
+            "\"{target}, you know what would make this moment even better? A picture of us together. Let's take one!\" {initiator} says, grabbing their phone.",
+            "\"I want to remember this moment forever, {target}. Let's take a picture together, please?\" {initiator} asks, their eyes shining with anticipation."
+        ]
+    },
+    "mixer_social_ShowOffMuscles_targeted_friendly_emotionSpecific": {
+        "actions": [
+            "\"{target}, check out these guns,\" {initiator} says, flexing their biceps proudly.",
+            "\"Hey, {target}, I've been working out lately, and I want to show you my progress. What do you think?\" {initiator} asks, rolling up their sleeves to reveal toned muscles.",
+            "\"Guess who's been hitting the gym, {target}? Feast your eyes on these bad boys,\" {initiator} says, confidently flexing their muscles.",
+            "\"{target}, I think my hard work is finally paying off. Care to take a look at these muscles?\" {initiator} grins, striking a pose.",
+            "\"Look at this, {target}!\" {initiator} exclaims, flexing their arms to show off their newfound strength.",
+            "\"{target}, I've been trying to get in shape lately. What do you think of the progress I've made?\" {initiator} asks, proudly displaying their muscles.",
+            "\"I've been putting in some serious effort at the gym, {target}. Care to check out the results?\" {initiator} says, flexing for emphasis.",
+            "\"Remember how I said I was going to get fit, {target}? Well, take a look at these muscles now!\" {initiator} boasts, proudly showing off their gains.",
+            "\"Hey, {target}, I've been working on my fitness, and I wanted to show you the results. What do you think?\" {initiator} asks, flexing their muscles.",
+            "\"Check this out, {target}! I think all those workouts are finally starting to show,\" {initiator} says, proudly displaying their toned muscles."
+        ]
+    },
+    "mixer_socials_TellJoke_group_Funny_alwaysOn": {
+        "actions": [
+            "\"{target}, you're going to love this one,\" {initiator} says, a grin spreading across their face as they prepare to tell a joke.",
+            "\"Hey {target}, have you heard this one before?\" {initiator} asks, chuckling before they share the joke with the group.",
+            "\"{initiator} suddenly bursts into laughter, catching {target}'s attention. \"You've got to hear this joke,\" they say, eager to share.",
+            "\"Everyone, especially you {target}, listen up! I've got a hilarious joke to tell,\" {initiator} announces, drawing the group's attention.",
+            "\"Alright, this one's for you, {target}. I know you love a good joke,\" {initiator} says, ready to deliver the punchline.",
+            "\"{initiator} leans in closer to {target} and the others, a mischievous smile on their face. \"You guys ready for this?\" they ask before diving into the joke.",
+            "\"I just heard the funniest joke, and I have to share it with you, {target},\" {initiator} says, barely containing their laughter.",
+            "\"{initiator} looks at {target} and grins. \"You're going to appreciate this one,\" they say, eager to share the joke with the group.",
+            "\"Okay, {target}, this joke is right up your alley. Gather 'round, everyone!\" {initiator} exclaims, preparing to entertain the group.",
+            "\"I found a joke that I know will make you laugh, {target}. Let me tell it to everyone,\" {initiator} says, excited to bring some humor to the group."
+        ]
+    },
+    "mixer_social_ProvideLogicalSolution_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, I've been thinking about the issues you're facing, and I believe I've come up with some logical solutions,\" {initiator} says confidently.",
+            "\"Hey {target}, I know you're struggling with this problem, but I think I have a few ideas that might help,\" {initiator} offers with a hopeful smile.",
+            "\"{target}, I've been giving your situation some thought, and I've come up with a few logical steps you could take to resolve it,\" {initiator} suggests carefully.",
+            "\"I couldn't help but overhear your problem, {target}, and I think I might have some rational solutions you could try,\" {initiator} says, trying not to sound intrusive.",
+            "\"Don't worry, {target}. I've been analyzing your situation and I think I have a few possible solutions for you,\" {initiator} reassures, attempting to lift {target}'s spirits.",
+            "\"Hey {target}, I've been considering your problem, and I believe I can help you come up with some logical strategies to tackle it,\" {initiator} says encouragingly.",
+            "\"I understand you're going through a tough time, {target}, but I think I might have some reasonable solutions that could help you out,\" {initiator} offers kindly.",
+            "\"{target}, I've been pondering your predicament and came up with a few logical approaches you could try. Would you like to hear them?\" {initiator} asks gently.",
+            "\"Let's sit down and discuss your problem, {target}. I'm sure we can come up with some logical and effective solutions together,\" {initiator} proposes with a supportive tone.",
+            "\"Listen, {target}, I think I have some ideas on how you can logically address your issue. Let's work through this together,\" {initiator} says, extending a helping hand."
+        ]
+    },
+    "mixer_social_TalkAboutBestsellers_targeted_Friendly_alwaysOn_career": {
+        "actions": [
+            "\"{target}, have you read any bestselling books lately? I'd love to hear your thoughts on them,\" {initiator} says, eager for conversation.",
+            "\"I just finished reading a bestselling book, {target}. Can we discuss it? I'm curious about your opinion,\" {initiator} says, holding the book in their hand.",
+            "\"{target}, I've noticed you're quite the bookworm. What do you think of the recent bestsellers? Are they worth the hype?\" {initiator} asks, looking for a genuine opinion.",
+            "\"You know, {target}, I've been trying to expand my reading list. Do you have any recommendations for bestselling books?\" {initiator} inquires, hoping for some suggestions.",
+            "\"I can't decide which bestselling book to read next, {target}. Can you help me choose?\" {initiator} asks, showing their list of options.",
+            "\"Hey {target}, I've been thinking about starting a book club. What do you say we begin with some bestsellers?\" {initiator} proposes, excited about the idea.",
+            "\"I've been comparing classic novels to recent bestsellers, {target}. I'd love to hear your thoughts on how they differ,\" {initiator} says, initiating a thoughtful discussion.",
+            "\"{target}, I know you're an avid reader. Which bestselling authors do you think are truly deserving of their success?\" {initiator} asks, genuinely curious.",
+            "\"Sometimes I wonder if bestselling books are really that good or if it's just marketing, {target}. What's your take on this?\" {initiator} questions, looking for an insightful conversation.",
+            "\"I'm planning on buying a few bestselling books as gifts, {target}. Do you have any personal favorites you'd recommend?\" {initiator} asks, hoping for a useful suggestion."
+        ]
+    },
+    "mixer_social_TalkAboutBestBait_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, do you have any advice on the best bait to use when fishing? I'm trying to improve my chances of catching something,\" {initiator} asks curiously.",
+            "\"I've heard there are different baits for different fish, {target}. What do you think works best around here?\" {initiator} inquires, hoping for some local knowledge.",
+            "\"Hey {target}, I've been experimenting with various baits while fishing. What's your go-to choice?\" {initiator} asks, seeking expert advice.",
+            "\"I'm pretty new to fishing, {target}, and I was wondering if you could give me some tips on choosing the best bait,\" {initiator} requests, looking for guidance.",
+            "\"{target}, I noticed you've had quite the success with fishing. Mind sharing your secret on the best bait to use?\" {initiator} probes, wanting to learn from the best.",
+            "\"So, {target}, I've been trying different baits, but I can't seem to find one that really works well. Any suggestions?\" {initiator} asks, hoping for a breakthrough.",
+            "\"Between live bait and artificial lures, what do you think works best when fishing, {target}?\" {initiator} inquires, seeking a better understanding of the options.",
+            "\"{target}, I've read so many articles about the best bait for fishing, but I'd really appreciate your opinion. What's your favorite choice?\" {initiator} asks, valuing personal experience.",
+            "\"Everyone seems to have their own preference when it comes to fishing bait, {target}. What's your personal favorite, and why?\" {initiator} questions, trying to learn from different perspectives.",
+            "\"I've been struggling to find the right bait for fishing, {target}. Can you share your top picks and maybe some tips on when to use each one?\" {initiator} asks, seeking a comprehensive answer."
+        ]
+    },
+    "mixer_social_TalkAboutCooking_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, I've been thinking about trying out a new recipe. Any suggestions?\" {initiator} asks curiously.",
+            "\"{initiator} to {target}, what's your favorite dish to cook? I need some inspiration.\"",
+            "\"I've been wanting to get better at cooking, {target}. Could you share some of your culinary secrets with me?\" {initiator} inquires.",
+            "\"Hey, {target}, I was wondering if you could teach me how to make that amazing dish you prepared last time,\" {initiator} says with excitement.",
+            "\"I've been trying to expand my cooking skills, {target}. What do you think is a must-try recipe?\" {initiator} asks enthusiastically.",
+            "\"Last night I tried my hand at a new recipe, {target}. Have you ever had a cooking disaster?\" {initiator} asks, chuckling.",
+            "\"{target}, I've heard you're quite the chef. I'd love to learn some tips and tricks from you,\" {initiator} says, admiringly.",
+            "\"You always seem to know your way around the kitchen, {target}. How did you learn to cook so well?\" {initiator} asks, genuinely curious.",
+            "\"{initiator} to {target}, I've been craving some comfort food lately. What's your go-to dish when you need something warm and satisfying?\"",
+            "\"I'm planning a dinner party, {target}, and I could use some advice on what to cook. Can you help me come up with a menu?\" {initiator} asks hopefully."
+        ]
+    },
+    "mixer_social_TellEngagingStory_group_Friendly_MiddleScore": {
+        "actions": [
+            "\"{target}, gather around everyone, I have a story to share that I think you'll all find captivating,\" {initiator} says with a grin.",
+            "\"Hey {target} and everyone, let me share this incredible story I heard the other day. You won't believe what happened!\" {initiator} exclaims, excitement in their voice.",
+            "\"Have I ever told you all the story about the time I stumbled upon something extraordinary? Gather 'round, {target}, I promise it's worth a listen,\" {initiator} says, eyes sparkling with anticipation.",
+            "\"Everyone, including you {target}, listen up! I have a tale to tell that will leave you on the edge of your seats,\" {initiator} announces with a theatrical flourish.",
+            "\"You know, {target}, there's a story I've been meaning to share with you and the rest of the group. I think it's finally time,\" {initiator} says, a twinkle in their eye.",
+            "\"Alright, {target} and friends, it's time for a little storytime. Trust me, you'll want to hear this one,\" {initiator} says, a mischievous smile playing on their lips.",
+            "\"Have I got a story for you, {target}! Gather the others, and let me regale you with a most intriguing tale,\" {initiator} says, clearly eager to share their story.",
+            "\"Hey {target}, remember that story I mentioned a while ago? I think it's time I shared it with the whole group,\" {initiator} says, excitement building in their voice.",
+            "\"Picture this, {target} and everyone: I was minding my own business when the most unbelievable thing happened. Let me tell you all about it,\" {initiator} says, drawing the group in with their enthusiasm.",
+            "\"{target}, do you and the others have a moment? I'd like to share an amazing story that I think you'll all enjoy,\" {initiator} says, eager to captivate their audience."
+        ]
+    },
+    "mixer_social_TellUnbelievableStory_group_friendly_emotionspecific": {
+        "actions": [
+            "\"{target}, you're not going to believe what happened to me last night,\" {initiator} starts, a gleam in their eye.",
+            "\"I've got a crazy story to tell, guys. Gather around and prepare for the unbelievable,\" {initiator} announces to {target} and their friends.",
+            "\"{target}, have I got a story for you and the rest of the group! You won't believe what happened,\" {initiator} says excitedly.",
+            "\"Everyone, listen up! I've got an incredible story to share that you won't believe,\" {initiator} says, looking at {target} and the rest of the group.",
+            "\"Okay, {target}, this is going to sound totally unreal, but I've got to share this story with you and everyone else,\" {initiator} says with a grin.",
+            "\"Guys, I need to tell you all about this unbelievable experience I had,\" {initiator} says, getting the attention of {target} and the others.",
+            "\"Listen up, {target} and friends, I've got a wild story that you just have to hear,\" {initiator} says, ready to share their unbelievable tale.",
+            "\"Get ready for the most unbelievable story of your lives, {target} and the rest of you,\" {initiator} says confidently.",
+            "\"{target}, remember how you always say I have the craziest stories? Well, I've got another one for you and the group,\" {initiator} says, preparing to share their latest adventure.",
+            "\"Everyone, gather around. I've got an unbelievable story that you all need to hear, especially you, {target},\" {initiator} says, eager to share their tale."
+        ]
+    },
+    "mixer_social_TalkAboutGrilledCheese_targeted_Friendly_alwaysOn_aspiration": {
+        "actions": [
+            "\"{target}, have you ever tried a grilled cheese sandwich with a twist? I experimented with some ingredients the other day,\" {initiator} says enthusiastically.",
+            "\"Hey {target}, do you know the secret to making the perfect grilled cheese sandwich? I've been trying to master it,\" {initiator} asks, looking for advice.",
+            "\"Grilled cheese sandwiches always remind me of my childhood, {target}. Do you have any special memories with them?\" {initiator} inquires, feeling nostalgic.",
+            "\"The other day, I had the most amazing grilled cheese sandwich, {target}. Let me tell you all about it,\" {initiator} says, eager to share their experience.",
+            "\"I've been craving a grilled cheese sandwich all day, {target}. Do you have any unique recipes I should try?\" {initiator} asks, hoping for some inspiration.",
+            "\"{target}, have you ever tried a sweet version of a grilled cheese sandwich? I'm thinking about experimenting with some dessert-inspired fillings,\" {initiator} suggests, looking for input.",
+            "\"Did you know, {target}, that there are so many different types of grilled cheese sandwiches around the world? I was amazed when I discovered it,\" {initiator} says, excited to share their newfound knowledge.",
+            "\"I came across a grilled cheese food truck the other day, {target}. It got me thinking about how versatile and universally loved this simple sandwich is,\" {initiator} muses.",
+            "\"Every time I make a grilled cheese sandwich, I think about the first time I made one with my mom, {target}. It's such a comforting memory,\" {initiator} shares, fondly recalling the past.",
+            "\"I've been perfecting my grilled cheese sandwich recipe, {target}, and I think I've finally cracked it. Want to try one and give me your honest opinion?\" {initiator} asks, hoping for feedback."
+        ]
+    },
+    "mixer_social_ShareSecret_targeted_Friendly_HighScore": {
+        "actions": [
+            "\"{target}, can I tell you something? I know it's a bit out of the blue, but I feel like I can trust you,\" {initiator} says timidly.",
+            "\"Hey, {target}, there's something I've been wanting to share with you. I think you're the right person to confide in,\" {initiator} says, taking a deep breath.",
+            "\"{target}, I've been keeping something from you, and it's time I let it out. I hope you understand,\" {initiator} says, looking nervous.",
+            "\"You know, {target}, there's something I've been hiding for a while, but I think it's time I tell you,\" {initiator} says hesitantly.",
+            "\"{target}, I've never shared this with anyone before, but I feel like you're someone I can trust. So here it goes,\" {initiator} says, gathering up their courage.",
+            "\"I've been carrying this secret around for a long time, {target}, and I think it's time to finally share it with someone. Can I trust you?\" {initiator} asks cautiously.",
+            "\"{target}, I want to tell you something, something I've never told anyone else. Are you okay with that?\" {initiator} says, looking for confirmation.",
+            "\"You're someone I really trust, {target}, and I feel like I can share this secret with you. I hope you don't think differently of me afterward,\" {initiator} says with a hint of worry.",
+            "\"Can I confide in you, {target}? There's something I've been keeping to myself, and I think you're the right person to share it with,\" {initiator} says, looking hopeful.",
+            "\"Hey, {target}, I know we've gotten pretty close, and there's something I think you should know about me. I've never told anyone before, but I trust you,\" {initiator} says sincerely."
+        ]
+    },
+    "mixer_social_SharePhoto": {
+        "actions": [
+            "\"{target}, check this out! I've got a really cool photo on my phone I want to show you,\" {initiator} says excitedly.",
+            "\"{target}, I came across this photo and I think you'll find it interesting. Take a look,\" {initiator} suggests, offering their phone to {target}.",
+            "\"I was browsing my gallery and found this picture that made me laugh. I thought you'd enjoy it too,\" {initiator} says, grinning as they show {target} their phone screen.",
+            "\"Can I show you something, {target}? I took this photo the other day and I think you'll really appreciate it,\" {initiator} says, scrolling through their phone.",
+            "\"Look at this photo I found on my phone, {target}. It brings back such great memories,\" {initiator} says nostalgically, showing the picture to {target}.",
+            "\"Hey {target}, I took this photo and I think it turned out really well. What do you think?\" {initiator} asks, seeking {target}'s opinion as they hand over their phone.",
+            "\"{target}, this photo I found on my phone is just too good not to share. You have to see it,\" {initiator} says enthusiastically, presenting their phone to {target}.",
+            "\"I captured this beautiful moment on my phone, {target}. I think you'll love it. Take a look,\" {initiator} says, proud of their photography skills as they show the picture to {target}.",
+        ]
+    },
+    "mixer_social_TalkAboutNewApp_targeted_Friendly_alwaysOn_career": {
+        "actions": [
+            "\"{target}, I've been working on this new app, and I think it could really change things. Can I share it with you?\" {initiator} asks excitedly.",
+            "\"Hey {target}, I've got this great idea for an app I've been developing. Mind if I run it by you?\" {initiator} inquires, eager for input.",
+            "\"{target}, I've been pouring my heart into this new app idea, and I really value your opinion. Can we talk about it?\" {initiator} asks nervously.",
+            "\"I've been tinkering with this new app concept, and I think it has potential. Would you mind giving me your thoughts on it, {target}?\" {initiator} suggests, hoping for feedback.",
+            "\"Guess what, {target}? I'm working on a groundbreaking app, and I'd love to hear your thoughts on it. Are you up for a chat?\" {initiator} asks, bubbling with enthusiasm.",
+            "\"{target}, I've been secretly developing this app that I think could be the next big thing. Can I share it with you and get your opinion?\" {initiator} questions, a twinkle in their eye.",
+            "\"So, I have this new app idea, {target}, and I can't get it out of my head. Can we discuss it? I'd love your input,\" {initiator} says, a hint of desperation in their voice.",
+            "\"I've been working on this app, and I'm at a crossroads. {target}, I need your expertise. Can we talk about it?\" {initiator} asks, seeking guidance.",
+            "\"You know, {target}, I've been developing this new app, and I'm really proud of it. I'd be honored if you'd take a look and share your thoughts,\" {initiator} says, beaming with pride.",
+            "\"Hey {target}, do you have a minute? I've been working on this new app, and I could really use your insight. Are you available to chat?\" {initiator} asks, hoping for a positive response."
+        ]
+    },
+    "mixer_social_ThankForComing_targeted_Friendly_alwaysOn_Event": {
+        "actions": [
+            "\"{target}, I just wanted to take a moment to thank you for coming to the event. It means a lot to me,\" {initiator} says with a warm smile.",
+            "\"{target}, I can't express how grateful I am for your presence at the event. Your support means the world to me,\" {initiator} says sincerely.",
+            "\"{target}, thank you so much for being here at the event. Your presence makes it even more special,\" {initiator} says, appreciating the gesture.",
+            "\"I just wanted to say how much I appreciate you coming to the event, {target}. It wouldn't have been the same without you,\" {initiator} says, making eye contact.",
+            "\"Your attendance at the event means more to me than I can put into words, {target}. Thank you for being here,\" {initiator} says, touched by the gesture.",
+            "\"{target}, seeing you at the event made my day. Thank you for taking the time to be here and support me,\" {initiator} says gratefully.",
+            "\"I'm so glad you could make it to the event, {target}. Your presence truly made a difference,\" {initiator} says with a smile.",
+            "\"{target}, I can't thank you enough for showing up at the event. Your support means everything to me,\" {initiator} says earnestly.",
+            "\"Having you at the event made all the difference, {target}. Thank you for being here and supporting me,\" {initiator} says, clearly touched.",
+            "\"{target}, I just wanted to let you know how much it meant to me that you came to the event. Your support has been incredible,\" {initiator} says, expressing their gratitude."
+        ]
+    },
+    "mixer_social_TellDirtyJoke_targeted_funny_emotionSpecific": {
+        "actions": [
+            "\"{target}, I just heard the most hilarious dirty joke. You've got to listen to this one,\" {initiator} says with a mischievous grin.",
+            "\"Hey {target}, you've got a good sense of humor, right? Check out this dirty joke I just heard,\" {initiator} says, laughing in anticipation.",
+            "\"{target}, I don't usually share these kinds of jokes, but this one is too good not to share. Are you ready?\" {initiator} asks with a cheeky smile.",
+            "\"Alright, {target}, brace yourself for the funniest dirty joke I've ever heard. You're going to love it,\" {initiator} says, barely containing their laughter.",
+            "\"Listen up, {target}, because I've got a dirty joke that'll have you rolling on the floor laughing,\" {initiator} says, grinning from ear to ear.",
+            "\"Okay {target}, I promise you've never heard a dirty joke like this one. Are you ready for it?\" {initiator} asks, giggling in anticipation.",
+            "\"{target}, I've been dying to tell you this dirty joke I heard the other day. You have to hear it,\" {initiator} says, suppressing a laugh.",
+            "\"I know you'll appreciate this one, {target}. Prepare yourself for the best dirty joke ever,\" {initiator} says, already laughing at the thought.",
+            "\"Hey {target}, I've got a dirty joke that's perfect for you. Are you ready for this?\" {initiator} asks, smirking.",
+            "\"This dirty joke is just too good not to share, {target}. Get ready to laugh your socks off,\" {initiator} says, eager to share the punchline."
+        ]
+    },
+    "mixer_social_TellDramaticStory_group_Friendly_MiddleScore": {
+        "actions": [
+            "\"{target}, gather around with the others. I have a tale that will leave you all on the edge of your seats,\" {initiator} announces with a grin.",
+            "\"{target}, do you remember the time I barely escaped from a dangerous situation? Let me share the story with everyone,\" {initiator} says, excitement in their voice.",
+            "\"Everyone, including you, {target}, needs to hear this incredible story I have to tell. Gather around and listen closely,\" {initiator} says, motioning for the group to come closer.",
+            "\"I've got a story that I've been dying to share with all of you, especially you, {target}. So, lend me your ears and prepare to be amazed,\" {initiator} says, an eager look on their face.",
+            "\"Have I ever told you the story of my most dramatic adventure, {target}? No? Well, let's gather the group and I'll share it with everyone,\" {initiator} suggests, excitedly.",
+            "\"There's this remarkable story I want to share with everyone. {target}, you and the others should definitely listen to this one,\" {initiator} says, with a twinkle in their eye.",
+            "\"{target}, you and the rest of the group need to hear this incredible tale of danger and suspense. Trust me, it's a nail-biter,\" {initiator} says, gesturing for everyone to gather around.",
+            "\"Everyone, including you, {target}, should gather around for an epic story I'm about to share. It's one you'll never forget,\" {initiator} says, grinning from ear to ear.",
+            "\"I have a story that I think will captivate everyone, especially you, {target}. So, let's gather around and I'll begin this amazing tale,\" {initiator} says, their eyes filled with anticipation.",
+            "\"{target}, do you and the others have time for an incredible story? Because I have one that will leave you all speechless,\" {initiator} says, the excitement evident in their voice."
+        ]
+    },
+    "mixer_socials_TellFunnyStory_group_Funny_alwaysOn": {
+        "actions": [
+            "\"{target}, have I ever told you about the time when I accidentally walked into a stranger's house? Trust me, it's hilarious,\" {initiator} says, grinning.",
+            "\"Hey {target}, I've got a story that will have you in stitches. Gather 'round, everyone, and prepare to laugh,\" {initiator} announces, beaming.",
+            "\"Everyone, I just remembered this hilarious incident that happened to me a while ago, and I think {target} especially will get a kick out of it,\" {initiator} says, chuckling.",
+            "\"{target}, you and the others have got to hear this one. I promise it's a story you'll never forget,\" {initiator} says, eyes twinkling with amusement.",
+            "\"Alright, {target} and friends, buckle up for a funny story. I guarantee it'll have you laughing out loud,\" {initiator} says, a mischievous smile on their face.",
+            "\"Guys, wait until you hear this story. It's so funny, even {target} won't be able to keep a straight face,\" {initiator} teases, excited to share the tale.",
+            "\"Okay, {target}, you know how I'm always getting into ridiculous situations? Well, this one tops them all, and I need to share it with the group,\" {initiator} says, barely suppressing laughter.",
+            "\"Everyone, gather 'round! I have a story that is sure to make {target} laugh, and possibly the rest of you as well,\" {initiator} says, trying to contain their own laughter.",
+            "\"I can't believe I haven't told you guys this story yet. It's absolutely hilarious, and I know {target} especially will appreciate it,\" {initiator} says, a wide grin spreading across their face.",
+            "\"Alright, {target}, this one's for you. I guarantee you'll be rolling on the floor laughing by the end of this story,\" {initiator} says, eager to entertain the group."
+        ]
+    },
+    "mixer_social_MakePeaceAfterFight": {
+        "actions": [
+            "\"{target}, I've had some time to think, and I want to apologize for our fight. Can we talk and find a way to move forward?\" {initiator} asks, extending an olive branch.",
+            "\"I realize I let my emotions get the best of me, {target}. I'm sorry. Can we put this behind us and start fresh?\" {initiator} says, hoping for reconciliation.",
+            "\"{target}, I've been thinking about our argument, and I want you to know that I value our relationship more than being right. Let's make peace,\" {initiator} suggests sincerely.",
+            "\"Hey, {target}, I know we've had our differences, but I want to make amends. Can we find common ground and move past this?\" {initiator} asks earnestly.",
+            "\"I hate that we've been at odds, {target}. I'm willing to put my pride aside and apologize. Can we work towards understanding each other better?\" {initiator} proposes, looking for resolution.",
+            "\"Life's too short to hold grudges, {target}. I'm sorry for our fight, and I hope we can rebuild our bond,\" {initiator} says, offering a sincere apology.",
+            "\"{target}, our friendship means more to me than any disagreement. Let's put this behind us and focus on the future. Are you with me?\" {initiator} asks, seeking reconciliation.",
+            "\"I know we both said things we didn't mean, {target}. I'm sorry. Let's agree to disagree and move on from this,\" {initiator} says, hoping for a positive response.",
+            "\"Can we talk, {target}? I want to apologize for my part in our argument. I hope we can find a way to heal and move forward together,\" {initiator} says, looking for closure.",
+            "\"I've been reflecting on our fight, {target}, and I realize how much I value our relationship. Let's forgive each other and start anew,\" {initiator} suggests, offering a heartfelt apology."
+        ]
+    },
+    "mixer_social_TellOutrageousStory_group_Funny_HighScore": {
+        "actions": [
+            "\"{target}, you won't believe what happened to me the other day. Gather around, everyone; you'll want to hear this!\" {initiator} exclaims, excitedly.",
+            "\"Hey {target}, have you ever heard something so crazy that it's hard to believe? Well, buckle up, because I've got a story for you and the others,\" {initiator} says, grinning.",
+            "\"{target}, gather everyone together. I've got an incredible story to share, and you're all going to love it!\" {initiator} says, eyes sparkling with excitement.",
+            "\"Everyone, listen up! You won't believe what happened to me. {target}, you especially are going to enjoy this one,\" {initiator} announces with enthusiasm.",
+            "\"I've got to tell you all something that happened to me. It's so wild, you'll think I'm making it up. {target}, you're in for a treat,\" {initiator} says, chuckling.",
+            "\"Alright, everyone, I've got a story for you that's so outrageous, you'll be talking about it for days. {target}, you're going to love this,\" {initiator} says, with a mischievous grin.",
+            "\"{target}, call the others over! I've got a story that's so unbelievable, you'll think I've lost my mind,\" {initiator} exclaims, barely containing their laughter.",
+            "\"Guys, you won't believe what happened! Get over here and let me tell you this incredible story. {target}, you won't want to miss this,\" {initiator} says, waving everyone closer.",
+            "\"Everyone, gather around! I've got a story that's so outlandish, you'll question if it's even possible. {target}, trust me, you're going to want to hear this,\" {initiator} says, a broad smile on their face.",
+            "\"Listen up, folks! I've got an extraordinary story to tell, and I need everyone to hear it. {target}, make sure you're paying attention. You'll never believe what I'm about to share,\" {initiator} insists, clearly eager to share their tale."
+        ]
+    },
+    "mixer_social_SelfDeprecatingJoke_group_funny_emotionSpecific": {
+        "actions": [
+            "\"{target}, you know I'm the slowest runner in town. I'd lose a race even against a snail!\" {initiator} jokes, laughing at their own expense.",
+            "\"Hey {target}, did you hear about the time I tried to cook dinner? The fire alarm asked for a transfer!\" {initiator} chuckles, poking fun at their culinary skills.",
+            "\"So, {target}, I tried to fix my computer the other day, but somehow I made it worse. I guess I'm the only person capable of breaking the internet!\" {initiator} says, grinning self-deprecatingly.",
+            "\"Remember when I tried to learn a new language, {target}? Yeah, even the language app gave up on me!\" {initiator} laughs, admitting their failure.",
+            "\"Hey {target}, you know how bad I am with directions, right? I got lost in my own house last week!\" {initiator} jokes, making light of their poor navigation skills.",
+            "\"{target}, I'm so clumsy that I could trip over my own shadow. In fact, I think I did it once!\" {initiator} says, laughing at their own clumsiness.",
+            "\"I'm such a terrible dancer, {target}, that the last time I tried, the floor filed a restraining order against me!\" {initiator} chuckles, poking fun at their lack of rhythm.",
+            "\"Did I ever tell you about the time I tried gardening, {target}? Every plant I touched turned brown. Guess I have a brown thumb instead of a green one!\" {initiator} jokes, making light of their gardening misadventures.",
+            "\"You know I'm no good with tools, right, {target}? I tried fixing my bike, but ended up with more parts than I started with!\" {initiator} laughs, admitting their lack of mechanical skills.",
+            "\"Hey {target}, I tried painting a landscape once, but my art teacher thought it was an abstract piece! I guess I have a unique sense of 'artistic expression',\" {initiator} jokes, laughing at their own artistic abilities."
+        ]
+    },
 }

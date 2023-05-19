@@ -1,0 +1,30 @@
+
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: public.ecr.aws/u4r4k4j8/node-build-container:69ee6753d1b6759a0dc432fe8103234c0d32c4c7
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET }}
+      AWS_REGION: us-east-1
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Build Python
+      run: |
+        python3 ci_compile.py
+    - name: Package and Deploy
+      working-directory: build
+      env:
+        VERSION_TAG: ${{ github.sha }}
+      run: |
+        zip -r sentient-sims-descriptions.ts4script sentient_sims
+        aws s3 cp sentient-sims-descriptions.ts4script s3://sentient-sims-artifacts/sentient-sims-descriptions.ts4script --only-show-errors --metadata version=$VERSION_TAG

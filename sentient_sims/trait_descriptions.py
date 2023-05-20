@@ -15,6 +15,16 @@ trait_descriptions = {
     "Music_HipHop": "hip hop music",
     "Trait_SimPreference_Dislikes_Music_Jazz": "jazz music",
     "Music_Pop": "pop music",
+    "Music_Alternative": "alternative music",
+    "Color_Red": "the color red",
+    "Music_Retro": "retro music",
+    "Activities_Guitar": "to play guitar",
+    "Music_Romance": "romance music",
+    "Neat": "is neat",
+    "Music_WinterHoliday": "holiday music",
+    "Trait_SimPreference_Dislikes_Music_TweenPop": "tween pop",
+    "Music_Spooky": "spooky music",
+    "Trait_SimPreference_Dislikes_Music_World": "world music",
 
     # Personality Traits
     "HotHeaded": "is hot headed",
@@ -31,6 +41,10 @@ trait_descriptions = {
     "Slob": "is a slob",
     "Lazy": "is lazy",
     "Bookworm": "a bookworm",
+    "SelfAssured": "is self assured",
+    "Goofball": "is a goofball",
+    "Insane": "is insane",
+    "Ambitious": "is ambitious",
 
     # Moods
     "Flirty": "is in a flirty mood",
@@ -39,4 +53,5 @@ trait_descriptions = {
     "Energized": "is feeling energized",
     "Uncomfortable": "is feeling uncomfortable",
     "Sad": "is feeling sad",
+    "Fine": "is feeling fine",
 }

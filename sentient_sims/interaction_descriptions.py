@@ -141,7 +141,7 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_AskAboutFavoriteAuthor_targeted_Friendly_alwaysOn_skills': {
-        'actions':  [
+        'actions': [
             '"Who is your favorite author, {target}?" {initiator} asks.',
             '"I\'m curious, {target}, who is your favorite author?" {initiator} asks.',
             '"If you had to pick one, who would you say is your favorite author?" {initiator} asks {target}.',
@@ -154,6 +154,7 @@ interaction_descriptions = {
             '"If you could meet your favorite author, {target}, what would you ask them?" {initiator} ponders aloud.'
         ],
     },
+    # TODO: Remake this one with simschain
     'mixer_social_AskAboutDay_targeted_Friendly_alwaysOn': {
         'actions': [
             '"Hey {target}, how has your day been?"',
@@ -629,20 +630,20 @@ interaction_descriptions = {
             "\"Check this out, {target}! I think all those workouts are finally starting to show,\" {initiator} says, proudly displaying their toned muscles."
         ]
     },
-    "mixer_socials_TellJoke_group_Funny_alwaysOn": {
-        "actions": [
-            "\"{target}, you're going to love this one,\" {initiator} says, a grin spreading across their face as they prepare to tell a joke.",
-            "\"Hey {target}, have you heard this one before?\" {initiator} asks, chuckling before they share the joke with the group.",
-            "\"{initiator} suddenly bursts into laughter, catching {target}'s attention. \"You've got to hear this joke,\" they say, eager to share.",
-            "\"Everyone, especially you {target}, listen up! I've got a hilarious joke to tell,\" {initiator} announces, drawing the group's attention.",
-            "\"Alright, this one's for you, {target}. I know you love a good joke,\" {initiator} says, ready to deliver the punchline.",
-            "\"{initiator} leans in closer to {target} and the others, a mischievous smile on their face. \"You guys ready for this?\" they ask before diving into the joke.",
-            "\"I just heard the funniest joke, and I have to share it with you, {target},\" {initiator} says, barely containing their laughter.",
-            "\"{initiator} looks at {target} and grins. \"You're going to appreciate this one,\" they say, eager to share the joke with the group.",
-            "\"Okay, {target}, this joke is right up your alley. Gather 'round, everyone!\" {initiator} exclaims, preparing to entertain the group.",
-            "\"I found a joke that I know will make you laugh, {target}. Let me tell it to everyone,\" {initiator} says, excited to bring some humor to the group."
-        ]
-    },
+    # "mixer_socials_TellJoke_group_Funny_alwaysOn": {
+    #     "actions": [
+    #         "\"{target}, you're going to love this one,\" {initiator} says, a grin spreading across their face as they prepare to tell a joke.",
+    #         "\"Hey {target}, have you heard this one before?\" {initiator} asks, chuckling before they share the joke with the group.",
+    #         "\"{initiator} suddenly bursts into laughter, catching {target}'s attention. \"You've got to hear this joke,\" they say, eager to share.",
+    #         "\"Everyone, especially you {target}, listen up! I've got a hilarious joke to tell,\" {initiator} announces, drawing the group's attention.",
+    #         "\"Alright, this one's for you, {target}. I know you love a good joke,\" {initiator} says, ready to deliver the punchline.",
+    #         "\"{initiator} leans in closer to {target} and the others, a mischievous smile on their face. \"You guys ready for this?\" they ask before diving into the joke.",
+    #         "\"I just heard the funniest joke, and I have to share it with you, {target},\" {initiator} says, barely containing their laughter.",
+    #         "\"{initiator} looks at {target} and grins. \"You're going to appreciate this one,\" they say, eager to share the joke with the group.",
+    #         "\"Okay, {target}, this joke is right up your alley. Gather 'round, everyone!\" {initiator} exclaims, preparing to entertain the group.",
+    #         "\"I found a joke that I know will make you laugh, {target}. Let me tell it to everyone,\" {initiator} says, excited to bring some humor to the group."
+    #     ]
+    # },
     "mixer_social_ProvideLogicalSolution_targeted_Friendly_alwaysOn_skills": {
         "actions": [
             "\"{target}, I've been thinking about the issues you're facing, and I believe I've come up with some logical solutions,\" {initiator} says confidently.",
@@ -699,34 +700,34 @@ interaction_descriptions = {
             "\"I'm planning a dinner party, {target}, and I could use some advice on what to cook. Can you help me come up with a menu?\" {initiator} asks hopefully."
         ]
     },
-    "mixer_social_TellEngagingStory_group_Friendly_MiddleScore": {
-        "actions": [
-            "\"{target}, gather around everyone, I have a story to share that I think you'll all find captivating,\" {initiator} says with a grin.",
-            "\"Hey {target} and everyone, let me share this incredible story I heard the other day. You won't believe what happened!\" {initiator} exclaims, excitement in their voice.",
-            "\"Have I ever told you all the story about the time I stumbled upon something extraordinary? Gather 'round, {target}, I promise it's worth a listen,\" {initiator} says, eyes sparkling with anticipation.",
-            "\"Everyone, including you {target}, listen up! I have a tale to tell that will leave you on the edge of your seats,\" {initiator} announces with a theatrical flourish.",
-            "\"You know, {target}, there's a story I've been meaning to share with you and the rest of the group. I think it's finally time,\" {initiator} says, a twinkle in their eye.",
-            "\"Alright, {target} and friends, it's time for a little storytime. Trust me, you'll want to hear this one,\" {initiator} says, a mischievous smile playing on their lips.",
-            "\"Have I got a story for you, {target}! Gather the others, and let me regale you with a most intriguing tale,\" {initiator} says, clearly eager to share their story.",
-            "\"Hey {target}, remember that story I mentioned a while ago? I think it's time I shared it with the whole group,\" {initiator} says, excitement building in their voice.",
-            "\"Picture this, {target} and everyone: I was minding my own business when the most unbelievable thing happened. Let me tell you all about it,\" {initiator} says, drawing the group in with their enthusiasm.",
-            "\"{target}, do you and the others have a moment? I'd like to share an amazing story that I think you'll all enjoy,\" {initiator} says, eager to captivate their audience."
-        ]
-    },
-    "mixer_social_TellUnbelievableStory_group_friendly_emotionspecific": {
-        "actions": [
-            "\"{target}, you're not going to believe what happened to me last night,\" {initiator} starts, a gleam in their eye.",
-            "\"I've got a crazy story to tell, guys. Gather around and prepare for the unbelievable,\" {initiator} announces to {target} and their friends.",
-            "\"{target}, have I got a story for you and the rest of the group! You won't believe what happened,\" {initiator} says excitedly.",
-            "\"Everyone, listen up! I've got an incredible story to share that you won't believe,\" {initiator} says, looking at {target} and the rest of the group.",
-            "\"Okay, {target}, this is going to sound totally unreal, but I've got to share this story with you and everyone else,\" {initiator} says with a grin.",
-            "\"Guys, I need to tell you all about this unbelievable experience I had,\" {initiator} says, getting the attention of {target} and the others.",
-            "\"Listen up, {target} and friends, I've got a wild story that you just have to hear,\" {initiator} says, ready to share their unbelievable tale.",
-            "\"Get ready for the most unbelievable story of your lives, {target} and the rest of you,\" {initiator} says confidently.",
-            "\"{target}, remember how you always say I have the craziest stories? Well, I've got another one for you and the group,\" {initiator} says, preparing to share their latest adventure.",
-            "\"Everyone, gather around. I've got an unbelievable story that you all need to hear, especially you, {target},\" {initiator} says, eager to share their tale."
-        ]
-    },
+    # "mixer_social_TellEngagingStory_group_Friendly_MiddleScore": {
+    #     "actions": [
+    #         "\"{target}, gather around everyone, I have a story to share that I think you'll all find captivating,\" {initiator} says with a grin.",
+    #         "\"Hey {target} and everyone, let me share this incredible story I heard the other day. You won't believe what happened!\" {initiator} exclaims, excitement in their voice.",
+    #         "\"Have I ever told you all the story about the time I stumbled upon something extraordinary? Gather 'round, {target}, I promise it's worth a listen,\" {initiator} says, eyes sparkling with anticipation.",
+    #         "\"Everyone, including you {target}, listen up! I have a tale to tell that will leave you on the edge of your seats,\" {initiator} announces with a theatrical flourish.",
+    #         "\"You know, {target}, there's a story I've been meaning to share with you and the rest of the group. I think it's finally time,\" {initiator} says, a twinkle in their eye.",
+    #         "\"Alright, {target} and friends, it's time for a little storytime. Trust me, you'll want to hear this one,\" {initiator} says, a mischievous smile playing on their lips.",
+    #         "\"Have I got a story for you, {target}! Gather the others, and let me regale you with a most intriguing tale,\" {initiator} says, clearly eager to share their story.",
+    #         "\"Hey {target}, remember that story I mentioned a while ago? I think it's time I shared it with the whole group,\" {initiator} says, excitement building in their voice.",
+    #         "\"Picture this, {target} and everyone: I was minding my own business when the most unbelievable thing happened. Let me tell you all about it,\" {initiator} says, drawing the group in with their enthusiasm.",
+    #         "\"{target}, do you and the others have a moment? I'd like to share an amazing story that I think you'll all enjoy,\" {initiator} says, eager to captivate their audience."
+    #     ]
+    # },
+    # "mixer_social_TellUnbelievableStory_group_friendly_emotionspecific": {
+    #     "actions": [
+    #         "\"{target}, you're not going to believe what happened to me last night,\" {initiator} starts, a gleam in their eye.",
+    #         "\"I've got a crazy story to tell, guys. Gather around and prepare for the unbelievable,\" {initiator} announces to {target} and their friends.",
+    #         "\"{target}, have I got a story for you and the rest of the group! You won't believe what happened,\" {initiator} says excitedly.",
+    #         "\"Everyone, listen up! I've got an incredible story to share that you won't believe,\" {initiator} says, looking at {target} and the rest of the group.",
+    #         "\"Okay, {target}, this is going to sound totally unreal, but I've got to share this story with you and everyone else,\" {initiator} says with a grin.",
+    #         "\"Guys, I need to tell you all about this unbelievable experience I had,\" {initiator} says, getting the attention of {target} and the others.",
+    #         "\"Listen up, {target} and friends, I've got a wild story that you just have to hear,\" {initiator} says, ready to share their unbelievable tale.",
+    #         "\"Get ready for the most unbelievable story of your lives, {target} and the rest of you,\" {initiator} says confidently.",
+    #         "\"{target}, remember how you always say I have the craziest stories? Well, I've got another one for you and the group,\" {initiator} says, preparing to share their latest adventure.",
+    #         "\"Everyone, gather around. I've got an unbelievable story that you all need to hear, especially you, {target},\" {initiator} says, eager to share their tale."
+    #     ]
+    # },
     "mixer_social_TalkAboutGrilledCheese_targeted_Friendly_alwaysOn_aspiration": {
         "actions": [
             "\"{target}, have you ever tried a grilled cheese sandwich with a twist? I experimented with some ingredients the other day,\" {initiator} says enthusiastically.",
@@ -809,34 +810,34 @@ interaction_descriptions = {
             "\"This dirty joke is just too good not to share, {target}. Get ready to laugh your socks off,\" {initiator} says, eager to share the punchline."
         ]
     },
-    "mixer_social_TellDramaticStory_group_Friendly_MiddleScore": {
-        "actions": [
-            "\"{target}, gather around with the others. I have a tale that will leave you all on the edge of your seats,\" {initiator} announces with a grin.",
-            "\"{target}, do you remember the time I barely escaped from a dangerous situation? Let me share the story with everyone,\" {initiator} says, excitement in their voice.",
-            "\"Everyone, including you, {target}, needs to hear this incredible story I have to tell. Gather around and listen closely,\" {initiator} says, motioning for the group to come closer.",
-            "\"I've got a story that I've been dying to share with all of you, especially you, {target}. So, lend me your ears and prepare to be amazed,\" {initiator} says, an eager look on their face.",
-            "\"Have I ever told you the story of my most dramatic adventure, {target}? No? Well, let's gather the group and I'll share it with everyone,\" {initiator} suggests, excitedly.",
-            "\"There's this remarkable story I want to share with everyone. {target}, you and the others should definitely listen to this one,\" {initiator} says, with a twinkle in their eye.",
-            "\"{target}, you and the rest of the group need to hear this incredible tale of danger and suspense. Trust me, it's a nail-biter,\" {initiator} says, gesturing for everyone to gather around.",
-            "\"Everyone, including you, {target}, should gather around for an epic story I'm about to share. It's one you'll never forget,\" {initiator} says, grinning from ear to ear.",
-            "\"I have a story that I think will captivate everyone, especially you, {target}. So, let's gather around and I'll begin this amazing tale,\" {initiator} says, their eyes filled with anticipation.",
-            "\"{target}, do you and the others have time for an incredible story? Because I have one that will leave you all speechless,\" {initiator} says, the excitement evident in their voice."
-        ]
-    },
-    "mixer_socials_TellFunnyStory_group_Funny_alwaysOn": {
-        "actions": [
-            "\"{target}, have I ever told you about the time when I accidentally walked into a stranger's house? Trust me, it's hilarious,\" {initiator} says, grinning.",
-            "\"Hey {target}, I've got a story that will have you in stitches. Gather 'round, everyone, and prepare to laugh,\" {initiator} announces, beaming.",
-            "\"Everyone, I just remembered this hilarious incident that happened to me a while ago, and I think {target} especially will get a kick out of it,\" {initiator} says, chuckling.",
-            "\"{target}, you and the others have got to hear this one. I promise it's a story you'll never forget,\" {initiator} says, eyes twinkling with amusement.",
-            "\"Alright, {target} and friends, buckle up for a funny story. I guarantee it'll have you laughing out loud,\" {initiator} says, a mischievous smile on their face.",
-            "\"Guys, wait until you hear this story. It's so funny, even {target} won't be able to keep a straight face,\" {initiator} teases, excited to share the tale.",
-            "\"Okay, {target}, you know how I'm always getting into ridiculous situations? Well, this one tops them all, and I need to share it with the group,\" {initiator} says, barely suppressing laughter.",
-            "\"Everyone, gather 'round! I have a story that is sure to make {target} laugh, and possibly the rest of you as well,\" {initiator} says, trying to contain their own laughter.",
-            "\"I can't believe I haven't told you guys this story yet. It's absolutely hilarious, and I know {target} especially will appreciate it,\" {initiator} says, a wide grin spreading across their face.",
-            "\"Alright, {target}, this one's for you. I guarantee you'll be rolling on the floor laughing by the end of this story,\" {initiator} says, eager to entertain the group."
-        ]
-    },
+    # "mixer_social_TellDramaticStory_group_Friendly_MiddleScore": {
+    #     "actions": [
+    #         "\"{target}, gather around with the others. I have a tale that will leave you all on the edge of your seats,\" {initiator} announces with a grin.",
+    #         "\"{target}, do you remember the time I barely escaped from a dangerous situation? Let me share the story with everyone,\" {initiator} says, excitement in their voice.",
+    #         "\"Everyone, including you, {target}, needs to hear this incredible story I have to tell. Gather around and listen closely,\" {initiator} says, motioning for the group to come closer.",
+    #         "\"I've got a story that I've been dying to share with all of you, especially you, {target}. So, lend me your ears and prepare to be amazed,\" {initiator} says, an eager look on their face.",
+    #         "\"Have I ever told you the story of my most dramatic adventure, {target}? No? Well, let's gather the group and I'll share it with everyone,\" {initiator} suggests, excitedly.",
+    #         "\"There's this remarkable story I want to share with everyone. {target}, you and the others should definitely listen to this one,\" {initiator} says, with a twinkle in their eye.",
+    #         "\"{target}, you and the rest of the group need to hear this incredible tale of danger and suspense. Trust me, it's a nail-biter,\" {initiator} says, gesturing for everyone to gather around.",
+    #         "\"Everyone, including you, {target}, should gather around for an epic story I'm about to share. It's one you'll never forget,\" {initiator} says, grinning from ear to ear.",
+    #         "\"I have a story that I think will captivate everyone, especially you, {target}. So, let's gather around and I'll begin this amazing tale,\" {initiator} says, their eyes filled with anticipation.",
+    #         "\"{target}, do you and the others have time for an incredible story? Because I have one that will leave you all speechless,\" {initiator} says, the excitement evident in their voice."
+    #     ]
+    # },
+    # "mixer_socials_TellFunnyStory_group_Funny_alwaysOn": {
+    #     "actions": [
+    #         "\"{target}, have I ever told you about the time when I accidentally walked into a stranger's house? Trust me, it's hilarious,\" {initiator} says, grinning.",
+    #         "\"Hey {target}, I've got a story that will have you in stitches. Gather 'round, everyone, and prepare to laugh,\" {initiator} announces, beaming.",
+    #         "\"Everyone, I just remembered this hilarious incident that happened to me a while ago, and I think {target} especially will get a kick out of it,\" {initiator} says, chuckling.",
+    #         "\"{target}, you and the others have got to hear this one. I promise it's a story you'll never forget,\" {initiator} says, eyes twinkling with amusement.",
+    #         "\"Alright, {target} and friends, buckle up for a funny story. I guarantee it'll have you laughing out loud,\" {initiator} says, a mischievous smile on their face.",
+    #         "\"Guys, wait until you hear this story. It's so funny, even {target} won't be able to keep a straight face,\" {initiator} teases, excited to share the tale.",
+    #         "\"Okay, {target}, you know how I'm always getting into ridiculous situations? Well, this one tops them all, and I need to share it with the group,\" {initiator} says, barely suppressing laughter.",
+    #         "\"Everyone, gather 'round! I have a story that is sure to make {target} laugh, and possibly the rest of you as well,\" {initiator} says, trying to contain their own laughter.",
+    #         "\"I can't believe I haven't told you guys this story yet. It's absolutely hilarious, and I know {target} especially will appreciate it,\" {initiator} says, a wide grin spreading across their face.",
+    #         "\"Alright, {target}, this one's for you. I guarantee you'll be rolling on the floor laughing by the end of this story,\" {initiator} says, eager to entertain the group."
+    #     ]
+    # },
     "mixer_social_MakePeaceAfterFight": {
         "actions": [
             "\"{target}, I've had some time to think, and I want to apologize for our fight. Can we talk and find a way to move forward?\" {initiator} asks, extending an olive branch.",
@@ -851,34 +852,34 @@ interaction_descriptions = {
             "\"I've been reflecting on our fight, {target}, and I realize how much I value our relationship. Let's forgive each other and start anew,\" {initiator} suggests, offering a heartfelt apology."
         ]
     },
-    "mixer_social_TellOutrageousStory_group_Funny_HighScore": {
-        "actions": [
-            "\"{target}, you won't believe what happened to me the other day. Gather around, everyone; you'll want to hear this!\" {initiator} exclaims, excitedly.",
-            "\"Hey {target}, have you ever heard something so crazy that it's hard to believe? Well, buckle up, because I've got a story for you and the others,\" {initiator} says, grinning.",
-            "\"{target}, gather everyone together. I've got an incredible story to share, and you're all going to love it!\" {initiator} says, eyes sparkling with excitement.",
-            "\"Everyone, listen up! You won't believe what happened to me. {target}, you especially are going to enjoy this one,\" {initiator} announces with enthusiasm.",
-            "\"I've got to tell you all something that happened to me. It's so wild, you'll think I'm making it up. {target}, you're in for a treat,\" {initiator} says, chuckling.",
-            "\"Alright, everyone, I've got a story for you that's so outrageous, you'll be talking about it for days. {target}, you're going to love this,\" {initiator} says, with a mischievous grin.",
-            "\"{target}, call the others over! I've got a story that's so unbelievable, you'll think I've lost my mind,\" {initiator} exclaims, barely containing their laughter.",
-            "\"Guys, you won't believe what happened! Get over here and let me tell you this incredible story. {target}, you won't want to miss this,\" {initiator} says, waving everyone closer.",
-            "\"Everyone, gather around! I've got a story that's so outlandish, you'll question if it's even possible. {target}, trust me, you're going to want to hear this,\" {initiator} says, a broad smile on their face.",
-            "\"Listen up, folks! I've got an extraordinary story to tell, and I need everyone to hear it. {target}, make sure you're paying attention. You'll never believe what I'm about to share,\" {initiator} insists, clearly eager to share their tale."
-        ]
-    },
-    "mixer_social_SelfDeprecatingJoke_group_funny_emotionSpecific": {
-        "actions": [
-            "\"{target}, you know I'm the slowest runner in town. I'd lose a race even against a snail!\" {initiator} jokes, laughing at their own expense.",
-            "\"Hey {target}, did you hear about the time I tried to cook dinner? The fire alarm asked for a transfer!\" {initiator} chuckles, poking fun at their culinary skills.",
-            "\"So, {target}, I tried to fix my computer the other day, but somehow I made it worse. I guess I'm the only person capable of breaking the internet!\" {initiator} says, grinning self-deprecatingly.",
-            "\"Remember when I tried to learn a new language, {target}? Yeah, even the language app gave up on me!\" {initiator} laughs, admitting their failure.",
-            "\"Hey {target}, you know how bad I am with directions, right? I got lost in my own house last week!\" {initiator} jokes, making light of their poor navigation skills.",
-            "\"{target}, I'm so clumsy that I could trip over my own shadow. In fact, I think I did it once!\" {initiator} says, laughing at their own clumsiness.",
-            "\"I'm such a terrible dancer, {target}, that the last time I tried, the floor filed a restraining order against me!\" {initiator} chuckles, poking fun at their lack of rhythm.",
-            "\"Did I ever tell you about the time I tried gardening, {target}? Every plant I touched turned brown. Guess I have a brown thumb instead of a green one!\" {initiator} jokes, making light of their gardening misadventures.",
-            "\"You know I'm no good with tools, right, {target}? I tried fixing my bike, but ended up with more parts than I started with!\" {initiator} laughs, admitting their lack of mechanical skills.",
-            "\"Hey {target}, I tried painting a landscape once, but my art teacher thought it was an abstract piece! I guess I have a unique sense of 'artistic expression',\" {initiator} jokes, laughing at their own artistic abilities."
-        ]
-    },
+    # "mixer_social_TellOutrageousStory_group_Funny_HighScore": {
+    #     "actions": [
+    #         "\"{target}, you won't believe what happened to me the other day. Gather around, everyone; you'll want to hear this!\" {initiator} exclaims, excitedly.",
+    #         "\"Hey {target}, have you ever heard something so crazy that it's hard to believe? Well, buckle up, because I've got a story for you and the others,\" {initiator} says, grinning.",
+    #         "\"{target}, gather everyone together. I've got an incredible story to share, and you're all going to love it!\" {initiator} says, eyes sparkling with excitement.",
+    #         "\"Everyone, listen up! You won't believe what happened to me. {target}, you especially are going to enjoy this one,\" {initiator} announces with enthusiasm.",
+    #         "\"I've got to tell you all something that happened to me. It's so wild, you'll think I'm making it up. {target}, you're in for a treat,\" {initiator} says, chuckling.",
+    #         "\"Alright, everyone, I've got a story for you that's so outrageous, you'll be talking about it for days. {target}, you're going to love this,\" {initiator} says, with a mischievous grin.",
+    #         "\"{target}, call the others over! I've got a story that's so unbelievable, you'll think I've lost my mind,\" {initiator} exclaims, barely containing their laughter.",
+    #         "\"Guys, you won't believe what happened! Get over here and let me tell you this incredible story. {target}, you won't want to miss this,\" {initiator} says, waving everyone closer.",
+    #         "\"Everyone, gather around! I've got a story that's so outlandish, you'll question if it's even possible. {target}, trust me, you're going to want to hear this,\" {initiator} says, a broad smile on their face.",
+    #         "\"Listen up, folks! I've got an extraordinary story to tell, and I need everyone to hear it. {target}, make sure you're paying attention. You'll never believe what I'm about to share,\" {initiator} insists, clearly eager to share their tale."
+    #     ]
+    # },
+    # "mixer_social_SelfDeprecatingJoke_group_funny_emotionSpecific": {
+    #     "actions": [
+    #         "\"{target}, you know I'm the slowest runner in town. I'd lose a race even against a snail!\" {initiator} jokes, laughing at their own expense.",
+    #         "\"Hey {target}, did you hear about the time I tried to cook dinner? The fire alarm asked for a transfer!\" {initiator} chuckles, poking fun at their culinary skills.",
+    #         "\"So, {target}, I tried to fix my computer the other day, but somehow I made it worse. I guess I'm the only person capable of breaking the internet!\" {initiator} says, grinning self-deprecatingly.",
+    #         "\"Remember when I tried to learn a new language, {target}? Yeah, even the language app gave up on me!\" {initiator} laughs, admitting their failure.",
+    #         "\"Hey {target}, you know how bad I am with directions, right? I got lost in my own house last week!\" {initiator} jokes, making light of their poor navigation skills.",
+    #         "\"{target}, I'm so clumsy that I could trip over my own shadow. In fact, I think I did it once!\" {initiator} says, laughing at their own clumsiness.",
+    #         "\"I'm such a terrible dancer, {target}, that the last time I tried, the floor filed a restraining order against me!\" {initiator} chuckles, poking fun at their lack of rhythm.",
+    #         "\"Did I ever tell you about the time I tried gardening, {target}? Every plant I touched turned brown. Guess I have a brown thumb instead of a green one!\" {initiator} jokes, making light of their gardening misadventures.",
+    #         "\"You know I'm no good with tools, right, {target}? I tried fixing my bike, but ended up with more parts than I started with!\" {initiator} laughs, admitting their lack of mechanical skills.",
+    #         "\"Hey {target}, I tried painting a landscape once, but my art teacher thought it was an abstract piece! I guess I have a unique sense of 'artistic expression',\" {initiator} jokes, laughing at their own artistic abilities."
+    #     ]
+    # },
     "mixer_social_BroBump_targeted_Friendly_alwaysOn": {
         "actions": [
             "\"{target}, that was awesome! Bring it in for a bro bump,\" {initiator} says, grinning and raising their fist.",
@@ -1261,20 +1262,20 @@ interaction_descriptions = {
             "\"Moving in together is a big decision, {target}, but I think we're ready for it. Are you on board with the idea?\" {initiator} asks, hoping for a positive response."
         ]
     },
-    "mixer_social_JokeAboutPoliticians_group_Funny_MediumScore": {
-        "actions": [
-            "\"{target}, have you heard the one about the politician who actually kept all his promises? Me neither!\" {initiator} laughs, looking for {target}'s reaction.",
-            "\"Hey {target}, what's the difference between a politician and a flying pig? The letter 'F'!\" {initiator} chuckles, waiting for {target} to join in.",
-            "\"{target}, why do politicians make terrible comedians? Because they can never deliver a punchline on time!\" {initiator} says, grinning at {target}.",
-            "\"Did you hear about that politician who always told the truth, {target}? Yeah, he's a character in a fiction novel,\" {initiator} jokes, hoping to make {target} laugh.",
-            "\"{target}, you know what's the best way to confuse a politician? Ask them to give a straight answer!\" {initiator} smirks, sharing the joke with {target}.",
-            "\"Hey {target}, what do you call a politician who only thinks about themselves? Oh wait, that's just a politician,\" {initiator} jokes, looking for a laugh from {target}.",
-            "\"{target}, have you heard about the new reality show? It's called 'Survivor: Political Edition' â the only way to win is to be voted out first!\" {initiator} laughs, sharing the joke with {target}.",
-            "\"So {target}, what do you get when you cross a politician with a robot? A machine that never stops talking, even when it doesn't have anything to say!\" {initiator} says, chuckling at the joke.",
-            "\"Hey {target}, why did the politician switch careers and become a baker? Because they were great at cooking up stories!\" {initiator} grins, hoping {target} finds it funny.",
-            "\"{target}, you know what politicians and diapers have in common? They both need changing regularly, and for the same reason!\" {initiator} laughs, sharing the joke with {target}."
-        ]
-    },
+    # "mixer_social_JokeAboutPoliticians_group_Funny_MediumScore": {
+    #     "actions": [
+    #         "\"{target}, have you heard the one about the politician who actually kept all his promises? Me neither!\" {initiator} laughs, looking for {target}'s reaction.",
+    #         "\"Hey {target}, what's the difference between a politician and a flying pig? The letter 'F'!\" {initiator} chuckles, waiting for {target} to join in.",
+    #         "\"{target}, why do politicians make terrible comedians? Because they can never deliver a punchline on time!\" {initiator} says, grinning at {target}.",
+    #         "\"Did you hear about that politician who always told the truth, {target}? Yeah, he's a character in a fiction novel,\" {initiator} jokes, hoping to make {target} laugh.",
+    #         "\"{target}, you know what's the best way to confuse a politician? Ask them to give a straight answer!\" {initiator} smirks, sharing the joke with {target}.",
+    #         "\"Hey {target}, what do you call a politician who only thinks about themselves? Oh wait, that's just a politician,\" {initiator} jokes, looking for a laugh from {target}.",
+    #         "\"{target}, have you heard about the new reality show? It's called 'Survivor: Political Edition' â the only way to win is to be voted out first!\" {initiator} laughs, sharing the joke with {target}.",
+    #         "\"So {target}, what do you get when you cross a politician with a robot? A machine that never stops talking, even when it doesn't have anything to say!\" {initiator} says, chuckling at the joke.",
+    #         "\"Hey {target}, why did the politician switch careers and become a baker? Because they were great at cooking up stories!\" {initiator} grins, hoping {target} finds it funny.",
+    #         "\"{target}, you know what politicians and diapers have in common? They both need changing regularly, and for the same reason!\" {initiator} laughs, sharing the joke with {target}."
+    #     ]
+    # },
     "mixer_social_AskToBeBoyfriend_targeted_romance_relationship": {
         "actions": [
             "\"{target}, I've been thinking about this for a while, and I was wondering if you'd consider being my boyfriend,\" {initiator} says, trying to gauge {target}'s reaction.",

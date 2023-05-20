@@ -879,4 +879,1310 @@ interaction_descriptions = {
             "\"Hey {target}, I tried painting a landscape once, but my art teacher thought it was an abstract piece! I guess I have a unique sense of 'artistic expression',\" {initiator} jokes, laughing at their own artistic abilities."
         ]
     },
+    "mixer_social_BroBump_targeted_Friendly_alwaysOn": {
+        "actions": [
+            "\"{target}, that was awesome! Bring it in for a bro bump,\" {initiator} says, grinning and raising their fist.",
+            "\"Hey {target}, let's celebrate with a bro bump!\" {initiator} says, extending their fist towards {target}.",
+            "\"{initiator} smiles at {target} and says, \"We make a great team! Bro bump?\"",
+            "\"Nice one, {target}! Fist bump to celebrate?\" {initiator} suggests, holding out their fist.",
+            "\"{initiator} looks at {target} and says, \"You've earned yourself a bro bump for that one, my friend!\"",
+            "\"Hey {target}, that deserves a bro bump! Bump it, buddy!\" {initiator} says, enthusiastically offering their fist.",
+            "\"{initiator} laughs and says, \"{target}, that was epic! Let's seal the deal with a bro bump.\"",
+            "\"Great job, {target}! Let's do a bro bump for our success,\" {initiator} says, raising their fist with a smile.",
+            "\"{initiator} nods approvingly at {target} and says, \"I like your style. Bro bump?\"",
+            "\"Way to go, {target}! How about a bro bump to commemorate this moment?\" {initiator} asks, holding out their fist."
+        ]
+    },
+    "mixer_social_BroHug_targeted_Friendly_alwaysOn": {
+        "actions": [
+            "\"{target}, it's been a rough day, man. Come here,\" {initiator} says, opening their arms for a bro hug.",
+            "\"Hey, {target}, I know things have been tough lately. Bring it in, buddy,\" {initiator} says, offering a comforting bro hug.",
+            "\"{initiator} smiles at {target} and says, \"You did great today, man. Let's hug it out.\"",
+            "\"{target}, I'm really proud of you, man. Let's celebrate with a bro hug,\" {initiator} suggests, extending their arms.",
+            "\"Come on, {target}, don't be shy. We're friends, right? Let's have a bro hug,\" {initiator} says, encouragingly.",
+            "\"{initiator} walks up to {target} and says, \"You know what this moment calls for? A solid bro hug.\"",
+            "\"Hey, {target}, it's been a while since we've seen each other! Let's have a proper bro hug,\" {initiator} says, happily.",
+            "\"Nothing like a good old-fashioned bro hug to show our appreciation for each other, right {target}?\" {initiator} says, grinning.",
+            "\"{initiator} pats {target} on the back and says, \"You've been a real friend, {target}. Let's seal it with a bro hug.\"",
+            "\"Sometimes, words just aren't enough, {target}. Let's hug it out, man,\" {initiator} says, opening their arms for a bro hug."
+        ]
+    },
+    "mixer_social_DoAnImpression_targeted_funny_alwaysOn": {
+        "actions": [
+            "\"{target}, check this out! I've been working on this impression, and I think I've finally nailed it,\" {initiator} says, excitement in their eyes.",
+            "\"Hey {target}, you know who this is?\" {initiator} asks, their voice and demeanor changing as they launch into their impression.",
+            "\"{target}, do you remember that famous scene from the movie? I can do an impression of the main character,\" {initiator} says with a grin.",
+            "\"You've got to see this, {target}. I've been practicing this impression lately, and I think it's pretty hilarious,\" {initiator} says, chuckling.",
+            "\"Okay {target}, guess who I'm impersonating,\" {initiator} says, suddenly changing their voice and mannerisms.",
+            "\"Hey {target}, I have a little surprise for you,\" {initiator} says, before launching into a spot-on impression.",
+            "\"Ready for a laugh, {target}? I've been working on this new impression, and I can't wait to show it to you,\" {initiator} says eagerly.",
+            "\"{target}, I think I've finally mastered this impression. Tell me what you think,\" {initiator} says, as their face transforms into a different persona.",
+            "\"Witness my hidden talent, {target}. My impression of this character is sure to make you smile,\" {initiator} says, beaming with confidence.",
+            "\"Prepare to be amazed, {target}. I've been practicing this impression just for you,\" {initiator} says, their excitement infectious."
+        ]
+    },
+    "mixer_social_KnockKnockJoke_targeted_funny_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, I've got a funny one for you. Knock knock,\" {initiator} says with a grin.",
+            "\"Hey {target}, I heard this hilarious knock knock joke. Want to hear it?\" {initiator} asks excitedly.",
+            "\"Knock knock, {target}! Are you ready for a good laugh?\" {initiator} says, chuckling.",
+            "\"{target}, I just learned this great knock knock joke. You've got to hear it!\" {initiator} says, barely containing their laughter.",
+            "\"Alright, {target}, I've got a classic one for you. Knock knock,\" {initiator} says with a playful smile.",
+            "\"Let's lighten the mood, {target}. Knock knock!\" {initiator} says, eager to share the joke.",
+            "\"Knock knock! You're going to love this one, {target},\" {initiator} says, anticipating a laugh.",
+            "\"I've got a knock knock joke that's perfect for you, {target}. Ready?\" {initiator} asks with a smirk.",
+            "\"Okay, {target}, I bet I can make you laugh with this one. Knock knock,\" {initiator} says confidently.",
+            "\"Hey {target}, I've got a knock knock joke that's too good not to share. Here it goes,\" {initiator} says, preparing to deliver the punchline."
+        ]
+    },
+    "mixer_social_DiscussInterests_friendly_STC": {
+        "actions": [
+            "\"{target}, I've been wondering what you're passionate about. Care to share?\" {initiator} asks with genuine curiosity.",
+            "\"Hey {target}, you know, we've never really talked about our hobbies and interests. What do you enjoy doing in your free time?\" {initiator} inquires.",
+            "\"So, {target}, I've been meaning to ask you - what is it that you're truly interested in?\" {initiator} starts the conversation.",
+            "\"{target}, we've known each other for a while now, but I feel like there's still so much to learn about each other. What are your interests?\" {initiator} questions, eager to deepen their connection.",
+            "\"I was thinking, {target}, that it's about time we talk about what makes us tick. What are you passionate about?\" {initiator} proposes.",
+            "\"Hey {target}, I'd love to know more about your interests and hobbies. Maybe we have something in common,\" {initiator} suggests, smiling.",
+            "\"{target}, we've talked about so many things, but not about our interests. I'd love to hear about yours,\" {initiator} says, hoping to learn something new.",
+            "\"You know, {target}, I've always been curious about what you're truly passionate about. Care to enlighten me?\" {initiator} asks playfully.",
+            "\"{target}, I was just thinking about how our friendship has grown, and I realized we've never really discussed our interests. What do you like to do for fun?\" {initiator} wonders.",
+            "\"Let's talk about something different today, {target}. Tell me about your interests and what makes you happy,\" {initiator} says, looking forward to an engaging conversation."
+        ]
+    },
+    "mixer_social_BoldPickUpLine_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{target}, if you were a vegetable, you'd be a 'cute-cumber',\" {initiator} says with a cheeky grin.",
+            "\"Do you believe in love at first sight, {target}, or should I walk by again?\" {initiator} asks playfully.",
+            "\"Are you a magician, {target}? Because every time I look at you, everyone else disappears,\" {initiator} says with a flirtatious smile.",
+            "\"Is your name Google, {target}? Because you've got everything I've been searching for,\" {initiator} says confidently.",
+            "\"Can I follow you home, {target}? Cause my parents always told me to follow my dreams,\" {initiator} says, trying to impress.",
+            "\"Is your dad a boxer, {target}? Because, damn, you're a knockout!\" {initiator} exclaims with a wink.",
+            "\"Do you have a map, {target}? I keep getting lost in your eyes,\" {initiator} says, gazing deeply into {target}'s eyes.",
+            "\"Are you a camera, {target}? Every time I look at you, I smile,\" {initiator} says, flashing a charming grin.",
+            "\"Excuse me, {target}, but I think you owe me a drink. When I looked at you, I dropped mine,\" {initiator} says, feigning embarrassment.",
+            "\"Can I take a picture of you, {target}? I want to show Santa exactly what I want for Christmas,\" {initiator} says teasingly."
+        ]
+    },
+    "mixer_social_ComplimentAppearance_targeted_romance_alwaysOn": {
+        "actions": [
+            "\"{target}, you look absolutely stunning today. I just had to say it,\" {initiator} says with a smile.",
+            "\"Wow, {target}, I can't help but notice how great you look. What's your secret?\" {initiator} asks, genuinely impressed.",
+            "\"Your outfit is on point today, {target}. You have a fantastic sense of style,\" {initiator} comments, admiring {target}'s appearance.",
+            "\"Your hair looks amazing, {target}. It really suits you,\" {initiator} says, unable to hide their admiration.",
+            "\"{target}, I must say, you have a radiant smile. It's truly captivating,\" {initiator} compliments sincerely.",
+            "\"Is it just me or do you always manage to look so effortlessly good, {target}?\" {initiator} asks, clearly impressed.",
+            "\"I can't help but notice how beautiful your eyes are, {target}. They're truly mesmerizing,\" {initiator} says, looking into {target}'s eyes.",
+            "\"{target}, you have a certain glow about you today. It's really attractive,\" {initiator} comments, clearly appreciating {target}'s appearance.",
+            "\"Your style is so unique, {target}. It really sets you apart from everyone else,\" {initiator} says, expressing their admiration.",
+            "\"I've always thought you were good-looking, {target}, but today you've taken it to a whole new level,\" {initiator} says, clearly impressed."
+        ]
+    },
+    "mixer_social_EnthuseAboutInterests_targeted_friendly_emotionSpecific": {
+        "actions": [
+            "\"{target}, I am so excited to talk to you about my favorite hobbies and interests! I think you'll find them fascinating,\" {initiator} exclaims, beaming with excitement.",
+            "\"Hey {target}, do you want to know what I'm really passionate about? I'd love to share my interests with you,\" {initiator} says with a wide grin.",
+            "\"{target}, I've always wanted to talk to you about the things I love doing. I think you would really enjoy them too,\" {initiator} says, eager to share their interests.",
+            "\"I had such a great time doing my favorite activities this weekend, {target}. Let me tell you all about them,\" {initiator} says enthusiastically.",
+            "\"You know what, {target}? I've realized we never really talked about my hobbies and interests. Let me share them with you,\" {initiator} exclaims excitedly.",
+            "\"Hey {target}, I've been wanting to share my favorite pastimes with you for a while now. I think you'll find them really interesting,\" {initiator} says with a bright smile.",
+            "\"I can't wait to tell you about my favorite things, {target}. I have a feeling you'll love them as much as I do,\" {initiator} says, looking thrilled.",
+            "\"{target}, I really want to share my passions with you. I think it'll help us understand each other better,\" {initiator} says, looking forward to the conversation.",
+            "\"Did I ever tell you about my favorite hobbies, {target}? I'd love to discuss them with you and maybe even try them together,\" {initiator} suggests, full of enthusiasm.",
+            "\"I've been looking forward to discussing my interests with you, {target}. I think it's time I share what I'm passionate about,\" {initiator} says, eyes sparkling with excitement."
+        ]
+    },
+    "mixer_social_JokeAboutFashion_targeted_funny_alwaysOn_Skills": {
+        "actions": [
+            "\"{initiator} looks at {target} and chuckles, \"Can you believe people actually used to wear those ridiculously oversized shoulder pads?\"",
+            "\"Hey, {target}, remember when wearing socks with sandals was considered a fashion statement?\" {initiator} teases, laughing.",
+            "\"{initiator} smirks at {target} and says, \"Did you ever try those low-rise jeans? I don't know how anyone thought they were comfortable!\"",
+            "\"{target}, have you seen those pictures of people wearing neon-colored windbreakers in the '90s? What were they thinking?\" {initiator} asks, giggling.",
+            "\"Remember when people used to wear turtlenecks under everything, {target}? What a funny fashion choice,\" {initiator} says, grinning.",
+            "\"Hey, {target}, do you recall the time when people would wear sweaters tied around their necks? It's hilarious to think about now,\" {initiator} laughs.",
+            "\"{initiator} chuckles at {target} and says, \"Did you ever own a pair of those massive platform shoes? I can't believe we thought those were stylish!\"",
+            "\"{target}, can you imagine wearing a tracksuit to a fancy dinner? I bet people in the 2000s never thought that would be a thing!\" {initiator} jokes, smirking.",
+            "\"Hey, {target}, what do you think about bringing back the mullet? It's about time for a revival, don't you think?\" {initiator} says, laughing.",
+            "\"{initiator} snickers and asks {target}, \"Do you remember when people used to wear skirts over pants? What an odd combination, right?\""
+        ]
+    },
+    "mixer_social_BragAboutHandiness_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, did you know that I can fix pretty much anything around the house? I'm pretty much a pro,\" {initiator} says proudly.",
+            "\"You know, {target}, I've been told I have quite the knack for handiwork. It's like I have a magic touch,\" {initiator} boasts with a grin.",
+            "\"Hey, {target}, have I ever mentioned how skilled I am when it comes to handiwork? I could practically be a professional handyman,\" {initiator} claims with confidence.",
+            "\"I can't help but brag, {target}, but my handiness skills are pretty legendary. I've never met a repair I couldn't tackle,\" {initiator} says with a smirk.",
+            "\"I've always had a talent for fixing things, {target}. It's like I was born with a wrench in one hand and a hammer in the other,\" {initiator} says, trying to impress {target}.",
+            "\"{target}, you should see me in action when it comes to repairs. I'm like a superhero of handiness,\" {initiator} declares, puffing out their chest.",
+            "\"Whenever something needs fixing, {target}, I'm the go-to person. I have a real gift,\" {initiator} says, clearly proud of their skills.",
+            "\"Handiness is my middle name, {target}. I can fix things you wouldn't even think were repairable,\" {initiator} brags with a wide smile.",
+            "\"I've always been the handy one in my family, {target}. I can fix anything, from a leaky faucet to a broken door hinge,\" {initiator} says, hoping to impress {target}.",
+            "\"Let me tell you, {target}, when it comes to handiness, I'm a master. I've got the magic touch when it comes to repairs,\" {initiator} proclaims, beaming with pride."
+        ]
+    },
+    "mixer_social_EnthuseAboutOutdoors_targeted_Friendly_MiddleScore": {
+        "actions": [
+            "\"{target}, have you ever spent time in the great outdoors? There's something so magical about it,\" {initiator} says, eyes sparkling with enthusiasm.",
+            "\"Did I ever tell you about the time I went camping, {target}? It was such an amazing experience,\" {initiator} begins, eager to share the story.",
+            "\"You know, {target}, I've always found solace in nature. It's like a sanctuary away from the chaos of life,\" {initiator} says with a sigh of contentment.",
+            "\"{target}, have you ever gone hiking or explored a dense forest? I'd love to do that someday,\" {initiator} says, a dreamy look in their eyes.",
+            "\"I'm thinking of planning a trip to the mountains, {target}. There's something about the crisp air and lush greenery that calls to me,\" {initiator} shares, excitedly.",
+            "\"{target}, I've always been fascinated by the beauty and mysteries of the great outdoors. What are your thoughts on it?\" {initiator} asks, hoping to engage in a meaningful conversation.",
+            "\"Do you remember the last time we were out in nature, {target}? I can still feel the warmth of the sun and the gentle breeze on my skin,\" {initiator} reminisces, a smile playing on their lips.",
+            "\"There's a certain sense of freedom that comes from being in the great outdoors, don't you think, {target}?\" {initiator} says, looking for agreement.",
+            "\"Whenever I feel stressed or overwhelmed, {target}, I find solace in the thought of escaping to the great outdoors, where I can breathe and find peace,\" {initiator} confides, seeking understanding.",
+            "\"Let's plan a trip together, {target}, something that encompasses the beauty of the great outdoors. I think it would be the perfect adventure for us,\" {initiator} suggests, eyes shining with hope."
+        ]
+    },
+    "mixer_social_Fight_targeted_mean_Ghost": {
+        "actions": [
+            "\"{target}, I can feel your presence here, but I don't understand why you're haunting me,\" {initiator} says, frustration creeping into their voice.",
+            "",
+            "\"{target}, I know you're here, and I'm tired of your ghostly antics. Show yourself and let's talk about this,\" {initiator} demands, clenching their fists.",
+            "",
+            "\"I can't take this anymore, {target}! I know you're a ghost, but you can't just keep messing with my life!\" {initiator} shouts, their anger reaching a boiling point.",
+            "",
+            "\"Enough, {target}! I don't know what's keeping you here, but we need to resolve this issue now!\" {initiator} exclaims, trying to confront the unseen spirit.",
+            "",
+            "\"{target}, I've tried to ignore you, but now it's time for us to settle this. Your ghostly presence is not welcome here anymore!\" {initiator} yells, feeling both fear and anger.",
+            "",
+            "\"It's time for us to face each other, {target}. I won't let your ghostly presence control me any longer,\" {initiator} asserts, gathering their courage.",
+            "",
+            "\"Stop hiding, {target}! I know you're a ghost, but I'm not afraid to confront you,\" {initiator} says defiantly, standing their ground.",
+            "",
+            "\"Why are you doing this, {target}? You're a ghost, but that doesn't give you the right to torment me!\" {initiator} exclaims, frustration evident in their voice.",
+            "",
+            "\"Your ghostly games need to end now, {target}. I'm done being afraid and letting you control my life,\" {initiator} states firmly, ready to confront the spirit.",
+            "",
+            "\"{target}, I won't let you haunt me any longer. Come out and face me, so we can resolve this once and for all,\" {initiator} challenges, determined to stand up to the ghost."
+        ]
+    },
+    "mixer_social_CalmDown_friendly_emotionSpecific": {
+        "actions": [
+            "\"{target}, take a deep breath and try to relax. I'm here for you,\" {initiator} says soothingly.",
+            "\"Hey, {target}, let's just take a moment to breathe and clear our heads, okay?\" {initiator} suggests gently.",
+            "\"{target}, I know you're upset, but let's try to stay calm and talk this through,\" {initiator} says, placing a reassuring hand on {target}'s shoulder.",
+            "\"Everything is going to be alright, {target}. Just take a few deep breaths, and we'll figure this out together,\" {initiator} reassures.",
+            "\"{target}, let's slow down and take a step back. We can handle this situation better if we're both calm,\" {initiator} advises.",
+            "\"Hey, {target}, remember that breathing technique we learned? Let's try it together to help you calm down,\" {initiator} says supportively.",
+            "\"Listen, {target}, I need you to focus on your breathing and try to calm down. We'll get through this together,\" {initiator} encourages.",
+            "\"{target}, I know it's hard, but let's try to stay calm. We can find a solution if we keep our heads clear,\" {initiator} says with a comforting smile.",
+            "\"Let's take a moment to regroup, {target}. A clear mind will help us handle this better,\" {initiator} suggests, looking into {target}'s eyes.",
+            "\"Deep breaths, {target}. Inhale, exhale. Remember, I'm here for you, and we'll get through this,\" {initiator} says softly."
+        ]
+    },
+    "mixer_social_HoldHands_targeted_romance_middleScore": {
+        "actions": [
+            "\"{target}, can I hold your hand? There's just something about the way our fingers intertwine that feels so right,\" {initiator} says softly.",
+            "\"Your hands are so warm, {target}. I feel a connection every time we touch,\" {initiator} says, gently taking {target}'s hands in theirs.",
+            "\"{target}, your hands are like a safe haven for me. May I hold them for a little while?\" {initiator} asks with a tender smile.",
+            "\"Every time I touch your hands, {target}, I feel like I've come home. Do you mind if I hold them?\" {initiator} says, looking into {target}'s eyes.",
+            "\"I love the way our hands fit together, {target}. It's like we were made for each other,\" {initiator} says, slowly reaching for {target}'s hands.",
+            "\"{target}, can I hold your hands? There's something so comforting and familiar about the way they feel in mine,\" {initiator} says, searching for a connection.",
+            "\"Your hands are so gentle, {target}. I can't help but want to hold them,\" {initiator} says, taking {target}'s hands and looking deeply into their eyes.",
+            "\"May I hold your hands, {target}? The warmth and tenderness I feel when our fingers touch is indescribable,\" {initiator} asks with a loving smile.",
+            "\"Can I hold your hands, {target}? There's something about the way they feel in mine that makes my heart skip a beat,\" {initiator} says, full of affection.",
+            "\"Whenever I hold your hands, {target}, I feel like our souls are connected. I hope you feel the same way,\" {initiator} says, reaching for {target}'s hands with love and care."
+        ]
+    },
+    "mixer_social_GivePepTalk_targeted_friendly_emotionSpecific": {
+        "actions": [
+            "\"{target}, I know you're feeling down, but I believe in you. You're stronger than you think,\" {initiator} says with encouragement.",
+            "\"{target}, don't let this setback define you. You can overcome anything if you put your mind to it,\" {initiator} reassures.",
+            "\"When life knocks you down, {target}, you've got to get back up and keep going. I know you can do it,\" {initiator} offers, trying to lift {target}'s spirits.",
+            "\"You've got so much potential, {target}. Don't let insecurities hold you back. Believe in yourself,\" {initiator} urges with sincerity.",
+            "\"{target}, I've seen you overcome so many obstacles. This is just another challenge, and I know you can handle it,\" {initiator} says confidently.",
+            "\"Sometimes, {target}, all it takes is a little faith in yourself. You've got this. I believe in you,\" {initiator} says, offering a supportive smile.",
+            "\"{target}, remember all the times you've succeeded against the odds? You've got that same strength within you now,\" {initiator} reminds, hoping to inspire.",
+            "\"Take a deep breath, {target}, and trust yourself. You're capable of great things, and I'll be here to support you every step of the way,\" {initiator} promises.",
+            "\"You're not alone, {target}. We're in this together, and I have no doubt that you'll come out on top,\" {initiator} says, trying to boost {target}'s confidence.",
+            "\"Don't let fear hold you back, {target}. You're stronger than you know, and you can achieve anything you set your mind to,\" {initiator} encourages, looking into {target}'s eyes."
+        ]
+    },
+    "mixer_social_Fight_targeted_mean": {
+        "actions": [
+            "\"{target}, I can't believe you would do something like that! You've really crossed the line this time,\" {initiator} says angrily, clenching their fists.",
+            "\"Enough is enough, {target}! I'm tired of you always trying to control everything. We need to settle this,\" {initiator} shouts, their patience wearing thin.",
+            "\"{target}, you've been pushing my buttons for far too long. I can't take it anymore! Let's settle this once and for all,\" {initiator} exclaims, their face red with anger.",
+            "\"I never thought it would come to this, {target}, but you've left me with no choice. We need to fight this out,\" {initiator} says, frustration evident in their voice.",
+            "\"Your constant meddling in my life has finally pushed me over the edge, {target}. It's time we settle our differences,\" {initiator} declares, their eyes narrowed in anger.",
+            "\"I tried to avoid this, {target}, but you just won't back off. We have to fight and sort this out,\" {initiator} says, taking a defensive stance.",
+            "\"Sometimes talking just isn't enough, {target}. Let's resolve this the old-fashioned way,\" {initiator} suggests, their voice filled with determination.",
+            "\"{target}, you've provoked me for the last time. I'm not going to let you walk all over me anymore. Let's do this,\" {initiator} challenges, stepping forward.",
+            "\"I've put up with your nonsense for too long, {target}. This ends now,\" {initiator} says, their breathing heavy with anger.",
+            "\"Your actions have finally pushed me to my breaking point, {target}. It's time to settle our feud,\" {initiator} says, gritting their teeth and raising their fists."
+        ]
+    },
+    "mixer_social_GossipAboutVideoGamePros_targeted_friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, have you seen that new Twitch streamer that everyone's talking about?\" {initiator} asks, clearly excited to share some gossip.",
+            "\"Hey, {target}, did you hear what happened on {streamer}'s stream yesterday? Let me fill you in,\" {initiator} says with a grin.",
+            "\"You know, {target}, I can't believe what some Twitch streamers get up to these days. Have you heard the latest?\" {initiator} asks, eager to discuss the gossip.",
+            "\"I was watching this Twitch streamer last night, {target}, and you wouldn't believe what they said! Let's talk about it,\" {initiator} suggests, itching to chat.",
+            "\"Did you catch that drama between those two Twitch streamers, {target}? I need someone to discuss it with,\" {initiator} says, wide-eyed.",
+            "\"Hey, {target}, have you seen the rumors about that popular Twitch streamer? Let me tell you all about it,\" {initiator} says, excited to share the juicy details.",
+            "\"{target}, I was just reading about this Twitch streamer who got into some serious trouble. You've got to hear this,\" {initiator} says, leaning in closer.",
+            "\"Have you been keeping up with the latest Twitch streamer gossip, {target}? There's so much to talk about!\" {initiator} exclaims, ready to dive into the conversation.",
+            "\"I couldn't help but overhear some interesting news about a Twitch streamer earlier, {target}. Sit down, and let's chat,\" {initiator} says, eager to discuss the story.",
+            "\"Can you believe what's been happening with those Twitch streamers, {target}? Let's grab a coffee and talk about it,\" {initiator} suggests, unable to contain their excitement."
+        ]
+    },
+    "mixer_social_EnhuseAboutNewAlbums_targeted_Friendly_alwaysOn": {
+        "actions": [
+            "\"{target}, have you heard about the new albums that just dropped? I'm really excited to discuss them with you,\" {initiator} says enthusiastically.",
+            "\"Hey {target}, there are a few new albums out now that I think you'd be interested in. Let's chat about them!\" {initiator} suggests with a smile.",
+            "\"{initiator} excitedly approaches {target} and says, \"I've been listening to some newly released albums, and I can't wait to hear your thoughts on them!\"",
+            "\"So, {target}, I've been checking out some fresh music releases, and I really want to know what you think of them,\" {initiator} says, eager for a conversation.",
+            "\"Hey {target}, I was just listening to a couple of new albums and thought you'd be the perfect person to discuss them with. What do you say?\" {initiator} asks.",
+            "\"{initiator} leans in and asks {target}, \"Did you get a chance to listen to the latest albums that just came out? I'd love to hear your opinions on them.\"",
+            "\"{target}, I just came across some amazing new music releases, and I'm dying to know if you've heard them and what you think!\" {initiator} says with excitement.",
+            "\"Have you been keeping up with the new albums that just hit the scene, {target}? I'd love to get your take on them,\" {initiator} inquires with genuine interest.",
+            "\"I can't help but think of you when I listen to these new albums, {target}. Let's talk about them and see if we share the same opinions,\" {initiator} suggests.",
+            "\"Hey {target}, let's have a listening party and discuss the new albums that were just released. I think we'll have a lot to talk about,\" {initiator} proposes with anticipation."
+        ]
+    },
+    "mixer_social_DiscussWorldPeace_targeted_Friendly_alwaysOn": {
+        "actions": [
+            "\"{target}, have you ever thought about what it would take to achieve world peace?\" {initiator} asks, genuinely curious.",
+            "\"{initiator}, do you think it's even possible for us to reach a point where there's peace across the globe?\" {target} wonders, as they begin a deep conversation.",
+            "\"World peace seems like a distant dream, {target}, but I believe it's worth striving for. What's your take on it?\" {initiator} inquires, looking for insights.",
+            "\"Sometimes I imagine a world without war or conflict, {target}. Do you think humanity can one day achieve that?\" {initiator} asks thoughtfully.",
+            "\"{initiator} and {target} sit down and begin discussing the concept of world peace, exploring various ideas and opinions on how to make it a reality.\"",
+            "\"You know, {target}, I've always wondered if peace can truly exist in a world as diverse as ours. What do you think?\" {initiator} starts the conversation, hoping for a meaningful exchange.",
+            "\"{target}, considering all the conflicts and struggles in the world, do you believe there's a way to reach a state of global harmony?\" {initiator} asks, seeking {target}'s perspective.",
+            "\"I've been pondering the idea of world peace lately, {target}. Can you share your thoughts on the topic?\" {initiator} requests, eager to hear a different viewpoint.",
+            "\"{initiator} brings up the topic of world peace, asking {target} to share their thoughts on the possibility of achieving it and the challenges they might face.\"",
+            "\"World peace is an ideal that many strive for, {target}. In your opinion, can it ever become a reality?\" {initiator} asks, hoping to spark a thought-provoking conversation."
+        ]
+    },
+    "mixer_social_EnthuseAboutNewShow_targeted_Friendly_MiddleScore": {
+        "actions": [
+            "\"{target}, have you seen that new show everyone's been talking about? I just started watching it and it's amazing!\" {initiator} says excitedly.",
+            "\"Hey, {target}, I just started watching this new show on TV and I think you'll love it! Want to know more about it?\" {initiator} asks with enthusiasm.",
+            "\"{target}, I came across this new show last night and I can't stop thinking about it. Have you heard of it?\" {initiator} inquires, eager to discuss.",
+            "\"I've been hooked on this new TV show, {target}. Have you seen it yet? I'd love to hear your thoughts,\" {initiator} says, hoping for a conversation.",
+            "\"{target}, I know you're into these kinds of shows, so I wanted to tell you about this new one I found. I think you'll really enjoy it!\" {initiator} shares with a smile.",
+            "\"Hey, {target}, you're always up-to-date on TV shows. Have you checked out the new one everyone's talking about?\" {initiator} asks curiously.",
+            "\"I just discovered this amazing new show, {target}, and I can't wait to discuss it with you. Have you seen it?\" {initiator} says, looking for common ground.",
+            "\"{target}, I stumbled upon this new show and it reminded me of that one we used to watch together. Have you seen it yet?\" {initiator} reminisces.",
+            "\"I know you have great taste in television, {target}, so I wanted to ask if you've seen this new show I've been enjoying lately,\" {initiator} says, eager for {target}'s opinion.",
+            "\"Last night, I started watching this incredible new show, {target}. I think it's right up your alley. Have you caught an episode yet?\" {initiator} asks with anticipation."
+        ]
+    },
+    "mixer_social_AskToBeGirlfriend_targeted_romance_relationship": {
+        "actions": [
+            "\"{target}, I've been thinking about this for a while, and I need to know... would you consider being my girlfriend?\" {initiator} asks nervously.",
+            "\"Hey, {target}, I can't imagine my life without you. Would you do me the honor of being my girlfriend?\" {initiator} says with a hopeful smile.",
+            "\"So, {target}, I've realized that you're the one who makes me happiest. What do you say about being my girlfriend?\" {initiator} asks, trying to gauge {target}'s reaction.",
+            "\"{target}, our friendship means the world to me, but I think I want something more. Would you like to be my girlfriend?\" {initiator} says, taking a deep breath.",
+            "\"I've been falling for you for a while now, {target}, and I can't hold it in any longer. Will you be my girlfriend?\" {initiator} asks, looking into {target}'s eyes.",
+            "\"{target}, you're such an amazing person, and I can't help but want to be with you. Would you be my girlfriend?\" {initiator} says, hoping for a positive response.",
+            "\"I don't know how to say this, {target}, but I've developed strong feelings for you. Will you take a chance on me and be my girlfriend?\" {initiator} asks hesitantly.",
+            "\"Life's too short to not take chances, {target}, so I'm taking one now. Would you consider being my girlfriend?\" {initiator} says, holding {target}'s hand.",
+            "\"I've tried to deny it, {target}, but my heart is set on you. I can't help but wonder if you'd be my girlfriend,\" {initiator} says, anxiously awaiting {target}'s answer.",
+            "\"You make me laugh, you make me feel alive, and I can't imagine anyone else by my side, {target}. Would you be my girlfriend?\" {initiator} asks with a sincere smile."
+        ]
+    },
+    "mixer_social_EnthuseAboutGuitarSolos_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, have you ever heard that epic guitar solo in 'Stairway to Heaven'? It's mind-blowing!\" {initiator} exclaims excitedly.",
+            "\"Hey {target}, I just listened to this amazing guitar solo, and I couldn't wait to share it with you. You've got to hear it!\" {initiator} says, grinning from ear to ear.",
+            "\"{target}, you won't believe the guitar solo I just discovered! It's so incredibly powerful - I just had to tell you about it,\" {initiator} says, eyes sparkling with enthusiasm.",
+            "\"I was just listening to some classic rock, {target}, and I realized we've never discussed our favorite guitar solos. What's yours?\" {initiator} asks, eager for a conversation.",
+            "\"Have you ever noticed how guitar solos can completely change the mood of a song, {target}? Let's talk about some of our favorites,\" {initiator} suggests, brimming with excitement.",
+            "\"Remember that concert we went to, {target}? The guitarist played the most incredible solo! It still gives me chills just thinking about it,\" {initiator} reminisces, eyes wide with amazement.",
+            "\"I know you're a big music fan, {target}, so I wanted to ask you: what do you think makes a truly unforgettable guitar solo?\" {initiator} questions, their enthusiasm contagious.",
+            "\"{target}, I've been on a guitar solo binge lately, and I'd love to hear your thoughts on some of the most legendary solos in music history. Care to join me?\" {initiator} invites excitedly.",
+            "\"I was just practicing some guitar solos, {target}, and I can't help but marvel at the skill and emotion behind them. Let's chat about our favorites and maybe discover some new ones,\" {initiator} proposes, brimming with excitement.",
+            "\"Hey {target}, I was wondering if you've ever tried playing any iconic guitar solos? They're so much fun to learn and discuss with fellow guitar enthusiasts like you,\" {initiator} says, eager to connect over their shared passion."
+        ]
+    },
+    "mixer_social_AskOnDateEvent_targeted_romance_alwaysOn": {
+        "actions": [
+            "\"{target}, I've been thinking about this for a while, and I would love to take you on a date. What do you say?\" {initiator} asks, a hopeful smile on their face.",
+            "\"Hey {target}, I was wondering if you'd like to go out with me sometime? I think we could have a great time together,\" {initiator} suggests, looking excited.",
+            "\"So, {target}, I've been meaning to ask you this, but would you like to go on a date with me?\" {initiator} inquires, trying to gauge {target}'s reaction.",
+            "\"{target}, I've always enjoyed our time together, and I was wondering if you'd be interested in going on a date?\" {initiator} asks, a bit nervous but eager to hear the response.",
+            "\"Hey, {target}, I've been thinking... How about we make our next hangout a date? Just you and me?\" {initiator} proposes, looking into {target}'s eyes.",
+            "\"{target}, I can't help but feel a connection between us. Would you like to go on a date and see if there's something more?\" {initiator} asks, hopeful for a positive response.",
+            "\"I have a confession to make, {target}. I really like you, and I would love it if you'd go on a date with me,\" {initiator} says, a bit shy but sincere.",
+            "\"I know this might be unexpected, {target}, but I would be thrilled if you would go on a date with me. What do you think?\" {initiator} asks, trying to hide their nervousness.",
+            "\"Hey {target}, I've got a fun idea. How about we go on a date? I promise it'll be a great time,\" {initiator} suggests with a grin.",
+            "\"{target}, I can't ignore these feelings anymore. I would like to take you on a date if you're up for it,\" {initiator} says, revealing their true emotions."
+        ]
+    },
+    "mixer_social_GoAway_targeted_mean_alwaysOn": {
+        "actions": [
+            "\"{target}, I need some space right now. Can you please just go away?\" {initiator} asks, looking frustrated.",
+            "\"Look, {target}, I just can't deal with this right now. I need you to leave me alone,\" {initiator} says, trying to hold back their emotions.",
+            "\"{target}, I'm not in the mood for company. Would you mind giving me some time alone?\" {initiator} requests, avoiding eye contact.",
+            "\"Can you just go away, {target}? I need to be by myself right now,\" {initiator} says, clearly agitated.",
+            "\"{target}, I don't mean to be rude, but I really need some time alone. Can you please leave?\" {initiator} asks, attempting to sound polite.",
+            "\"I can't handle this right now, {target}. I need you to go away and give me some space,\" {initiator} says, their voice strained.",
+            "\"{target}, I'm really not in a good place right now. Can you please just go away and let me be?\" {initiator} asks, sounding defeated.",
+            "\"Please, {target}, just leave me alone for a while. I need some time to think,\" {initiator} says, rubbing their forehead.",
+            "\"{target}, I'm not trying to be mean, but I really need to be alone. Can you just go away?\" {initiator} asks, trying to sound firm.",
+            "\"Look, {target}, I just can't do this right now. I need you to go away and give me some time to myself,\" {initiator} says, looking overwhelmed."
+        ]
+    },
+    "mixer_social_DiscusssSportsStatistics_targeted_Friendly_Athlete_AlwaysOn_STC": {
+        "actions": [
+            "\"{target}, did you know that the highest-scoring basketball game in history had a combined total of 370 points?\" {initiator} asks with enthusiasm.",
+            "\"Hey {target}, I came across this interesting stat - a soccer player runs about 7 miles on average during a match. What do you think of that?\" {initiator} inquires, looking for {target}'s opinion.",
+            "\"{target}, you wouldn't believe the record number of home runs hit in a single MLB season! Care to take a guess?\" {initiator} asks, playfully challenging {target}.",
+            "\"Did you know, {target}, that the fastest recorded tennis serve is 163.7 mph? I wonder how that would feel if you were on the receiving end!\" {initiator} says, grinning.",
+            "\"Hey {target}, remember when we were talking about football? I looked up the longest field goal ever made, and it's 64 yards! Can you imagine?\" {initiator} shares, still in awe.",
+            "\"I was reading about the most successful Olympian of all time, {target}. It's Michael Phelps, with an incredible 28 medals! What do you think makes him so special?\" {initiator} asks, genuinely curious.",
+            "\"Did you know, {target}, that the fastest goal in soccer history was scored in just 2.8 seconds after kickoff? How crazy is that?\" {initiator} exclaims, eager to discuss the topic.",
+            "\"Hey {target}, I found out that the record for the most goals scored in an NHL season is 92! Wayne Gretzky set the record back in 1981-82. Isn't that amazing?\" {initiator} says, wanting to share the excitement.",
+            "\"{target}, check this out - the highest-scoring NFL game had a combined total of 113 points. I would have loved to see that game, wouldn't you?\" {initiator} asks, reminiscing about the historic event.",
+            "\"So {target}, you know I'm a huge fan of basketball, right? I just learned that the most points scored by a single player in an NBA game is 100! Wilt Chamberlain did it back in 1962. What an unbelievable achievement,\" {initiator} says, admiration in their voice."
+        ]
+    },
+    "mixer_social_AskMoveIn_targeted_Friendly_alwaysOn": {
+        "actions": [
+            "\"{target}, I've been thinking. Would you like to move in with me and take our relationship to the next level?\" {initiator} asks, hopeful.",
+            "",
+            "\"Hey, {target}, have you ever considered living together? It might make things easier for both of us,\" {initiator} suggests casually.",
+            "",
+            "\"{target}, I love spending time with you, and I think we're ready for this step. What do you say about moving in together?\" {initiator} asks with a smile.",
+            "",
+            "\"We've been together for a while now, {target}, and I was wondering if you'd like to move in with me. What do you think?\" {initiator} asks nervously.",
+            "",
+            "\"I've been doing some thinking, {target}, and I realized I want to share more of my life with you. Would you be interested in moving in with me?\" {initiator} proposes.",
+            "",
+            "\"Living apart just doesn't feel right anymore, {target}. Would you consider moving in together?\" {initiator} asks sincerely.",
+            "",
+            "\"You know, {target}, I think our relationship is strong enough to handle living together. What are your thoughts on it?\" {initiator} inquires.",
+            "",
+            "\"{target}, I feel like we're ready for the next step in our relationship. How would you feel about moving in together?\" {initiator} asks with anticipation.",
+            "",
+            "\"I can't imagine my life without you, {target}. I'd love for us to share a home together. What do you think?\" {initiator} says, looking into {target}'s eyes.",
+            "",
+            "\"Moving in together is a big decision, {target}, but I think we're ready for it. Are you on board with the idea?\" {initiator} asks, hoping for a positive response."
+        ]
+    },
+    "mixer_social_JokeAboutPoliticians_group_Funny_MediumScore": {
+        "actions": [
+            "\"{target}, have you heard the one about the politician who actually kept all his promises? Me neither!\" {initiator} laughs, looking for {target}'s reaction.",
+            "\"Hey {target}, what's the difference between a politician and a flying pig? The letter 'F'!\" {initiator} chuckles, waiting for {target} to join in.",
+            "\"{target}, why do politicians make terrible comedians? Because they can never deliver a punchline on time!\" {initiator} says, grinning at {target}.",
+            "\"Did you hear about that politician who always told the truth, {target}? Yeah, he's a character in a fiction novel,\" {initiator} jokes, hoping to make {target} laugh.",
+            "\"{target}, you know what's the best way to confuse a politician? Ask them to give a straight answer!\" {initiator} smirks, sharing the joke with {target}.",
+            "\"Hey {target}, what do you call a politician who only thinks about themselves? Oh wait, that's just a politician,\" {initiator} jokes, looking for a laugh from {target}.",
+            "\"{target}, have you heard about the new reality show? It's called 'Survivor: Political Edition' â the only way to win is to be voted out first!\" {initiator} laughs, sharing the joke with {target}.",
+            "\"So {target}, what do you get when you cross a politician with a robot? A machine that never stops talking, even when it doesn't have anything to say!\" {initiator} says, chuckling at the joke.",
+            "\"Hey {target}, why did the politician switch careers and become a baker? Because they were great at cooking up stories!\" {initiator} grins, hoping {target} finds it funny.",
+            "\"{target}, you know what politicians and diapers have in common? They both need changing regularly, and for the same reason!\" {initiator} laughs, sharing the joke with {target}."
+        ]
+    },
+    "mixer_social_AskToBeBoyfriend_targeted_romance_relationship": {
+        "actions": [
+            "\"{target}, I've been thinking about this for a while, and I was wondering if you'd consider being my boyfriend,\" {initiator} says, trying to gauge {target}'s reaction.",
+            "\"Hey, {target}, I really like you and was hoping if you'd like to be my boyfriend?\" {initiator} asks, a hint of nervousness in their voice.",
+            "\"So, {target}, I've been thinking... would you be up for being my boyfriend?\" {initiator} asks, uncertainty in their eyes.",
+            "\"{target}, ever since we met, I've felt a strong connection between us. Would you like to be my boyfriend?\" {initiator} says, hoping for a positive response.",
+            "\"I don't want to make things weird, {target}, but I think we'd make a great couple. Would you be my boyfriend?\" {initiator} proposes cautiously.",
+            "\"You know, {target}, I've been thinking about us and how well we get along. What do you think about being my boyfriend?\" {initiator} asks, trying to appear nonchalant.",
+            "\"Hey, {target}, I really enjoy spending time with you, and I was wondering if you'd like to take things to the next level and be my boyfriend?\" {initiator} inquires with a hopeful smile.",
+            "\"I don't want to ruin our friendship, {target}, but I can't help but wonder if you'd like to be my boyfriend,\" {initiator} says, anxiously waiting for {target}'s answer.",
+            "\"{target}, we have so much fun together, and I think we'd make a great pair. Would you like to be my boyfriend?\" {initiator} suggests, holding their breath.",
+            "\"Listen, {target}, I've been feeling something more than friendship between us. Would you consider being my boyfriend?\" {initiator} asks, their heart pounding."
+        ]
+    },
+    "mixer_social_ConvinceToLeaveSpouse_targeted_romance_relationship": {
+        "actions": [
+            "\"{target}, I know this is difficult to hear, but I can't help but feel that you deserve so much better than your spouse. You deserve someone like me,\" {initiator} says, trying to sound convincing.",
+            "\"I've been thinking about this for a long time, {target}, and I truly believe we're meant to be together. It's time you leave your spouse and start a new life with me,\" {initiator} says with determination.",
+            "\"Your spouse isn't right for you, {target}. I can see it, and I know you can too. I'm the one who can make you truly happy,\" {initiator} pleads, hoping to change {target}'s mind.",
+            "\"{target}, I know you're committed to your spouse, but I can't help but feel that we're a better match. Please, consider leaving them for me,\" {initiator} says, their eyes filled with hope.",
+            "\"Life is too short to be unhappy, {target}. I promise you, if you leave your spouse for me, you'll never regret it,\" {initiator} says confidently.",
+            "\"I'm not trying to break up your marriage, {target}, but I can't deny my feelings for you. I think we could be great together. Give us a chance,\" {initiator} implores, desperate for {target}'s understanding.",
+            "\"{target}, I don't want to be the reason for your unhappiness, but I can't help but think that I could make you happier than your spouse ever could. Please, think about it,\" {initiator} says earnestly.",
+            "\"I never thought I'd be the one to say this, {target}, but I can't ignore my feelings any longer. I need you to know that I think we should be together, even if it means leaving your spouse,\" {initiator} confesses, their voice wavering.",
+            "\"I know you're married, {target}, but I can't help but think that you're settling for less. Imagine a life with me, and I promise you won't look back,\" {initiator} says, trying to paint a picture of a brighter future.",
+            "\"Leaving your spouse won't be easy, {target}, but I promise you it'll be worth it. We could have a life filled with love and happiness if you just take that leap of faith with me,\" {initiator} says, their voice filled with passion."
+        ]
+    },
+    "mixer_social_HipBump_targeted_friendly_emotionSpecific": {
+        "actions": [
+            "\"{initiator} playfully bumps their hip into {target}, catching them off guard and eliciting a laugh.\"",
+            "\"Without warning, {initiator} casually hip bumps {target}, sparking a friendly interaction between the two.\"",
+            "\"{initiator} gives {target} a light hip bump, a sign of camaraderie as they share a moment together.\"",
+            "\"With a mischievous grin, {initiator} sidles up to {target} and delivers a friendly hip bump, inviting a playful response.\"",
+            "\"Feeling a burst of energy, {initiator} gently hip bumps {target}, hoping to brighten their day and initiate a lighthearted conversation.\"",
+            "\"As {initiator} walks past {target}, they give a playful hip bump, signaling the beginning of some friendly banter.\"",
+            "\"{initiator} surprises {target} with a sudden hip bump, trying to break the ice and start an amusing interaction.\"",
+            "\"Looking for a fun way to engage {target}, {initiator} gently bumps hips with them, eliciting a surprised yet amused reaction.\"",
+            "\"With a twinkle in their eye, {initiator} approaches {target} and playfully hip bumps them, hoping to create a lively exchange.\"",
+            "\"{initiator} decides to hip bump {target} as a way to break the tension and initiate a more lighthearted conversation.\""
+        ]
+    },
+    "mixer_social_Jeer_targeted_mean_middleScore": {
+        "actions": [
+            "\"{target}, do you really think you're capable of doing that?\" {initiator} sneers mockingly.",
+            "\"Is it hard being as clueless as you, {target}?\" {initiator} taunts with a cruel grin.",
+            "\"Oh, look at {target}, trying so hard but still failing miserably,\" {initiator} laughs derisively.",
+            "\"Did you honestly think that was a good idea, {target}? How pathetic,\" {initiator} jeers, rolling their eyes.",
+            "\"Wow, {target}, you never cease to amaze me with your incompetence,\" {initiator} snickers meanly.",
+            "\"Hey {target}, do you ever get tired of being such a disappointment?\" {initiator} asks with a nasty smirk.",
+            "\"Sometimes I wonder how you even manage to get through the day, {target},\" {initiator} says mockingly.",
+            "\"Nice try, {target}, but you'll never be good enough,\" {initiator} sneers, enjoying their cruelty.",
+            "\"I can't believe you thought that would work, {target}. You really are hopeless,\" {initiator} taunts, shaking their head in disbelief.",
+            "\"Did anyone ever tell you how ridiculous you look when you try, {target}?\" {initiator} asks with a mean laugh."
+        ]
+    },
+    "mixer_social_Intimidate_targeted_mean_middleScore": {
+        "actions": [
+            "\"{target}, do you really think you can stand up to me?\" {initiator} says, smirking and crossing their arms.",
+            "\"{initiator} leans in closer to {target}, their eyes narrowing. \"You should be careful who you mess with,\" they warn.",
+            "\"I hope you're aware of what you're getting yourself into, {target},\" {initiator} says, their voice cold and menacing.",
+            "\"{initiator} towers over {target}, staring them down. \"You might want to reconsider your actions, buddy,\" they suggest darkly.",
+            "\"You have no idea who you're dealing with, {target},\" {initiator} says, their tone dripping with venom.",
+            "\"Do you really want to test me, {target}?\" {initiator} asks, raising an eyebrow and cracking their knuckles.",
+            "\"Be careful, {target}. I have a way of making problems... disappear,\" {initiator} says ominously.",
+            "\"{initiator} leans in and whispers menacingly in {target}'s ear, \"You don't want to see me angry.\"",
+            "\"{initiator} fixes {target} with a cold stare. \"You should know better than to challenge me,\" they say icily.",
+            "\"Keep pushing me, {target}, and you'll see what happens,\" {initiator} warns, their voice low and dangerous."
+        ]
+    },
+    "mixer_social_KissHands_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{initiator} leans in slowly and gently places a tender kiss on {target}'s hand, conveying their admiration.\"",
+            "\"Without a word, {initiator} takes {target}'s hand and softly kisses it, locking their eyes together.\"",
+            "\"Feeling a sudden rush of affection, {initiator} gently lifts {target}'s hand and presses a warm kiss upon it.\"",
+            "\"In a moment of pure emotion, {initiator} tenderly kisses {target}'s hand, expressing their deep connection.\"",
+            "\"{initiator} takes {target}'s hand in theirs, their eyes meeting as they gently press their lips to {target}'s hand.\"",
+            "\"With a gaze full of tenderness, {initiator} brings {target}'s hand to their lips and plants a gentle kiss.\"",
+            "\"In a spontaneous gesture, {initiator} reaches for {target}'s hand and lovingly kisses it, causing {target} to blush.\"",
+            "\"As {initiator} grasps {target}'s hand, they gently place a kiss on it, their eyes never leaving {target}'s face.\"",
+            "\"Moved by the moment, {initiator} softly takes {target}'s hand and plants a sweet kiss upon it, conveying their feelings.\"",
+            "\"With a meaningful look, {initiator} delicately kisses {target}'s hand, displaying their deep affection and admiration.\""
+        ]
+    },
+    "mixer_social_InsultFace_targeted_mean_emotionSpecific": {
+        "actions": [
+            "\"{target}, has anyone ever told you that your face looks like someone tried to solve a Rubik's Cube but gave up halfway?\" {initiator} smirks.",
+            "\"Wow, {target}, it must be hard to look in the mirror every day with a face like that,\" {initiator} says mockingly.",
+            "\"{target}, I don't know whether to laugh or cry at the sight of your face,\" {initiator} says, barely able to contain their laughter.",
+            "\"I've seen some interesting faces in my time, {target}, but yours is truly one for the books,\" {initiator} teases.",
+            "\"Hey {target}, did you lose a fight with a makeup brush or is that just your face?\" {initiator} asks sarcastically.",
+            "\"{target}, I didn't know 'before' pictures could walk and talk,\" {initiator} says with a chuckle.",
+            "\"Is your face a work in progress, {target}? Or is that the final result?\" {initiator} questions, a mischievous grin on their face.",
+            "\"{target}, I'm not sure if you're aware, but it looks like your face has been in a battle with itself,\" {initiator} says, trying to hold back a grin.",
+            "\"Your face, {target}, must be the reason why some people believe in extraterrestrial life,\" {initiator} jokes.",
+            "\"I've heard of unique beauty, {target}, but your face is really pushing the limits,\" {initiator} says with a hint of amusement."
+        ]
+    },
+    "mixer_social_Kiss_targeted_romance_middleScore": {
+        "actions": [
+            "\"{initiator} leans in close, their eyes meeting {target}'s before softly pressing their lips together in a tender kiss.\"",
+            "\"Without warning, {initiator} gently grabs {target}'s face and plants a passionate kiss on their lips, catching them by surprise.\"",
+            "\"As the conversation between {initiator} and {target} fades, their faces inch closer, finally sharing a long-awaited kiss.\"",
+            "\"{initiator} hesitates for a moment before closing the gap between them, placing a sweet, lingering kiss on {target}'s lips.\"",
+            "\"With a mixture of courage and desire, {initiator} takes {target}'s hand, leans in, and shares a breathtaking kiss.\"",
+            "\"Unable to resist any longer, {initiator} pulls {target} close and captures their lips in a passionate embrace.\"",
+            "\"During a moment of quiet intimacy, {initiator} slowly leans in and brushes their lips against {target}'s, igniting a spark between them.\"",
+            "\"As they gaze into each other's eyes, {initiator} gently cups {target}'s face and presses their lips together in a tender, loving kiss.\"",
+            "\"Feeling a surge of emotion, {initiator} leans in and kisses {target} with a passion that takes both of them by surprise.\"",
+            "\"Captivated by the moment, {initiator} closes the distance between them and seals their connection with a sweet, heartfelt kiss.\""
+        ]
+    },
+    "mixer_social_Insult_Mean_STC": {
+        "actions": [
+            "\"{target}, I've always wondered how you manage to be so consistently clueless,\" {initiator} says with a mocking tone.",
+            "\"Hey {target}, did you get dressed in the dark today? Because that outfit is just... wow,\" {initiator} smirks, looking {target} up and down.",
+            "\"{initiator} rolls their eyes at {target} and says, \"You really are a special kind of stupid, aren't you?\"",
+            "\"Wow, {target}, your inability to understand even the simplest things never ceases to amaze me,\" {initiator} says with a sarcastic laugh.",
+            "\"Did it hurt when you fell from heaven, {target}? Because you must have landed on your head to be so dense,\" {initiator} snickers.",
+            "\"{target}, I would insult your intelligence, but I'm afraid you wouldn't understand,\" {initiator} says with a condescending smile.",
+            "\"{initiator} shakes their head and says, \"Honestly, {target}, every time you speak, it's like a fresh reminder of why I avoid talking to you.\"",
+            "\"You know, {target}, it's really impressive how you can make everything you do look so incredibly difficult,\" {initiator} teases.",
+            "\"{target}, if you were any less competent, you'd be a houseplant,\" {initiator} says, rolling their eyes.",
+            "\"Sometimes I wonder if you're actually trying to be this annoying, {target}, or if it just comes naturally to you,\" {initiator} says with an exasperated sigh."
+        ]
+    },
+    "mixer_social_ShareInsecurities_targeted_friendly_emotionSpecific": {
+        "actions": [
+            "\"{target}, I've been feeling really insecure lately, and I was hoping I could talk to you about it,\" {initiator} says with a shaky voice.",
+            "\"I don't usually open up about this, but something tells me that I can trust you with my insecurities,\" {initiator} admits, looking into {target}'s eyes.",
+            "\"Can I share something personal with you, {target}? I've been struggling with my insecurities, and I think I need some support,\" {initiator} says, hesitatingly.",
+            "\"{target}, I need your help. I've been feeling really down about myself lately, and I don't know who else to turn to,\" {initiator} confesses, their voice trembling.",
+            "\"I've never been good at admitting my weaknesses, but I think it's time I tell you about my insecurities, {target},\" {initiator} says, taking a deep breath.",
+            "\"There's something I've been keeping inside, {target}, and I think it's time I share it with you. I've been feeling really insecure,\" {initiator} says, looking anxious.",
+            "\"I don't know how to say this, {target}, but I've been feeling so insecure lately. Can we talk about it?\" {initiator} admits, looking vulnerable.",
+            "\"I've never told anyone this, {target}, but my insecurities have been getting the best of me. Will you listen?\" {initiator} asks cautiously.",
+            "\"Sometimes I feel like I'm not good enough, {target}, and I think I need to talk about my insecurities with someone I trust. Can that be you?\" {initiator} says, preparing to share something personal.",
+            "\"{target}, I've been struggling with my insecurities for a while now, and I think it's time I open up to you about it,\" {initiator} says with a mixture of relief and apprehension."
+        ]
+    },
+    "mixer_social_ReciteLovePoetry_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{target}, I found a poem today that made me think of you. May I share it with you?\" {initiator} asks, holding a worn book in their hands.",
+            "\"With your beauty in mind, {target}, I was inspired to write a few verses of love poetry. Would you like to hear them?\" {initiator} inquires, shyly looking at {target}.",
+            "\"Listen closely, {target}, for these words of love I've penned are meant for you and only you,\" {initiator} says as they recite lines of poetry from memory.",
+            "\"Can I share something with you, {target}? I stumbled upon a poem that captures my feelings for you better than I ever could,\" {initiator} says, blushing slightly.",
+            "\"{target}, I wrote a poem about you, and I'd be honored if you'd allow me to recite it for you,\" {initiator} says, filled with both excitement and anxiety.",
+            "\"I found a piece of poetry that speaks to my heart and reminds me of you, {target}. Would you care to listen?\" {initiator} asks gently.",
+            "\"Last night, I was inspired to write some verses dedicated to you, {target}. I hope you'll find them as beautiful as I find you,\" {initiator} says, holding a folded piece of paper.",
+            "\"Words alone cannot express my feelings for you, {target}, but I hope this poem I wrote comes close,\" {initiator} says, taking a deep breath before reciting their heartfelt words.",
+            "\"Tonight, under this starry sky, I want to share a special poem with you, {target}. I hope it makes you feel as cherished as you are to me,\" {initiator} says, a hint of nervousness in their voice.",
+            "\"{target}, I came across a poem that I believe perfectly captures the essence of my love for you. May I share it?\" {initiator} asks, eyes filled with hope and adoration."
+        ]
+    },
+    "mixer_social_Serenade_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{target}, I've been working on this song just for you. I hope it captures how I truly feel about you,\" {initiator} says with a shy smile before beginning to sing.",
+            "\"I've never done this before, but I feel like serenading you, {target}, because you mean the world to me,\" {initiator} says, taking a deep breath and starting to sing.",
+            "\"{target}, I've written a song that I believe truly captures my feelings for you. I hope you'll let me serenade you,\" {initiator} says nervously while holding a guitar.",
+            "\"Close your eyes, {target}, and let me express my love for you in the best way I know how,\" {initiator} says, before singing a heartfelt romantic song.",
+            "\"{target}, I've been practicing this song, hoping it would touch your heart. Please, let me sing it for you,\" {initiator} says as they start to serenade {target}.",
+            "\"I want to do something special for you, {target}, something that can show you my true feelings. Let me serenade you,\" {initiator} says, looking into {target}'s eyes.",
+            "\"I've never been good with words, but I can express my feelings through music. {target}, let me serenade you,\" {initiator} says, gathering their courage.",
+            "\"{target}, I want to show you my love in a different way. I hope you'll enjoy this serenade,\" {initiator} says, taking a deep breath before singing.",
+            "\"Tonight, under this moonlit sky, I want to express my love for you in a unique way, {target}. Allow me to serenade you,\" {initiator} says, their voice full of emotion.",
+            "\"I can't keep my feelings to myself any longer, {target}. I need to share them with you, and I hope this serenade will do just that,\" {initiator} says, before singing from the heart."
+        ]
+    },
+    "mixer_social_ShareBartendingSecrets_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, I've been working behind the bar for years, and I've picked up some secret tricks. Want to learn a few?\" {initiator} asks with a sly grin.",
+            "\"Hey {target}, you ever wonder how I make those amazing cocktails? I think it's time I let you in on a few of my secrets,\" {initiator} says, winking.",
+            "\"Alright, {target}, I've seen your interest in bartending. Let me share some of my closely guarded secrets with you,\" {initiator} offers, looking excited.",
+            "\"I never thought I would teach anyone this, but I think you're ready, {target}. Let me show you some of the secrets I've learned as a bartender,\" {initiator} says, rolling up their sleeves.",
+            "\"Okay {target}, it's time for me to pass on some of my bartending wisdom. Pay close attention; these are secrets I've never shared before,\" {initiator} says, preparing to divulge their knowledge.",
+            "\"{target}, you've earned my trust, and I think it's time I share some of my most prized bartending secrets with you. Are you ready?\" {initiator} asks, raising an eyebrow.",
+            "\"There's more to bartending than meets the eye, {target}. Let me show you some secret techniques I've picked up along the way,\" {initiator} says, motioning for {target} to come closer.",
+            "\"I see potential in you, {target}. I'm going to share some of my secret bartending skills with you, so pay attention,\" {initiator} says, looking serious.",
+            "\"Ever wondered what sets my drinks apart from the rest, {target}? I'll let you in on my little secrets, but you have to promise not to tell,\" {initiator} says, conspiratorially.",
+            "\"Alright, {target}, I've decided it's time to teach you some of the hidden tricks of the trade. Get ready to become a master bartender,\" {initiator} says, a gleam in their eye."
+        ]
+    },
+    "mixer_social_OfferRose_targeted_romance_emotionSpeficic": {
+        "actions": [
+            "\"{target}, I couldn't help but think of you when I saw this rose. Its beauty pales in comparison to yours,\" {initiator} says, offering the rose with a gentle smile.",
+            "\"Here's a small token of my affection, {target}. I hope this rose brightens your day as much as you brighten mine,\" {initiator} says with a warm expression.",
+            "\"Every time I see a rose, I think of you, {target}. I hope you'll accept this as a symbol of my feelings,\" {initiator} says, holding out the rose with a hopeful gaze.",
+            "\"{target}, I've been wanting to express my feelings for you, and I think this rose says it all. Will you accept it?\" {initiator} asks, presenting the rose tenderly.",
+            "\"As we've grown closer, I've realized how much you mean to me, {target}. This rose is just a small way to show you my feelings,\" {initiator} says, extending the rose with a loving smile.",
+            "\"I know it's a little old-fashioned, but I wanted to give you this rose, {target}. It's a symbol of the love that's blooming between us,\" {initiator} says with a bashful grin.",
+            "\"Words often fail me when I try to express my feelings, {target}. So, let this rose speak for me instead,\" {initiator} says, offering the rose with a heartfelt expression.",
+            "\"{target}, you've brought so much joy into my life. I can only hope this rose brings a fraction of that happiness to you,\" {initiator} says, presenting the rose with a sincere smile.",
+            "\"I've been searching for a way to show you how much you mean to me, {target}. I hope this rose is the perfect expression of my love,\" {initiator} says, holding the rose out with a gentle touch.",
+            "\"Roses have always been a symbol of love, and I can't think of a better way to express my feelings for you, {target}. Will you accept this rose and my heart?\" {initiator} asks, gazing into {target}'s eyes."
+        ]
+    },
+    "mixer_social_Romance_HighScore_Loyal_ExpressDevotion": {
+        "actions": [
+            "\"{target}, I don't know how else to say this, but I've fallen in love with you,\" {initiator} says, their voice filled with emotion.",
+            "\"I can't hide it any longer, {target}. My heart belongs to you, and I can't imagine my life without you,\" {initiator} confesses, their eyes shining with sincerity.",
+            "\"{target}, I've tried to deny it, but the truth is, I'm head over heels in love with you,\" {initiator} says, looking into {target}'s eyes with hope.",
+            "\"I've never felt this way about anyone, {target}. I love you more than words can describe,\" {initiator} admits, their heart pounding.",
+            "\"Every time I see you, {target}, my heart skips a beat. I can't help but be utterly and completely devoted to you,\" {initiator} says, a vulnerable look in their eyes.",
+            "\"I've been trying to find the courage to tell you this, {target}, but I'm in love with you. Completely and irrevocably,\" {initiator} says, reaching for {target}'s hand.",
+            "\"My heart belongs to you, {target}, and I can't bear to keep it a secret any longer. I love you,\" {initiator} declares, their voice filled with passion.",
+            "\"There's no point in pretending anymore, {target}. I am deeply and truly in love with you,\" {initiator} says, their eyes pleading for understanding.",
+            "\"I've never been more certain about anything in my life, {target}. I am devoted to you, heart and soul,\" {initiator} confesses, their voice barely above a whisper.",
+            "\"I don't know when it happened, {target}, but somewhere along the way, I fell in love with you. I can't imagine my life without your presence,\" {initiator} says, their vulnerability shining through."
+        ]
+    },
+    "mixer_social_KissCheek_targeted_romance_alwaysOn": {
+        "actions": [
+            "\"{initiator} leans in closer to {target}, their eyes meeting for a brief moment before gently pressing their lips to {target}'s cheek.\"",
+            "\"Without a word, {initiator} reaches up and tenderly places a soft kiss on {target}'s cheek, causing a blush to spread across their face.\"",
+            "\"Feeling a sudden surge of affection, {initiator} gently cups {target}'s face and plants a sweet kiss on their cheek.\"",
+            "\"{initiator} smiles warmly at {target} before suddenly leaning in and placing a light kiss on their cheek, catching them off guard.\"",
+            "\"With a playful grin, {initiator} leans in and brushes their lips against {target}'s cheek, leaving a lingering sensation.\"",
+            "\"As {target} speaks passionately about something they care about, {initiator} can't resist and leans in to plant a loving kiss on their cheek.\"",
+            "\"{initiator} takes {target}'s hand, looks into their eyes, and then gently kisses their cheek, making {target}'s heart race.\"",
+            "\"{initiator} notices {target} feeling down, so they lean in and tenderly plant a reassuring kiss on their cheek.\"",
+            "\"Caught up in the moment, {initiator} impulsively leans forward and leaves a light, affectionate kiss on {target}'s cheek.\"",
+            "\"While laughing at a shared joke, {initiator} suddenly leans in and surprises {target} with a quick peck on the cheek.\""
+        ]
+    },
+    "mixer_social_ShareConspiracyTheory_targeted_mischief_alwaysOn": {
+        "actions": [
+            "\"{target}, have you ever heard of this conspiracy theory? I came across it recently, and I just can't stop thinking about it,\" {initiator} says, excitedly.",
+            "\"{target}, I know this might sound crazy, but I stumbled upon a conspiracy theory that actually makes a lot of sense. Can I share it with you?\" {initiator} asks, looking eager.",
+            "\"Okay, {target}, you might think I'm going off the deep end here, but I've got a conspiracy theory that's too intriguing not to share. Are you ready for it?\" {initiator} grins, leaning in closer.",
+            "\"I never thought I'd be one to buy into conspiracy theories, {target}, but I found one that's strangely compelling. Can I get your thoughts on it?\" {initiator} asks nervously.",
+            "\"Hey, {target}, I know you're into some wild theories, so I thought I'd run this conspiracy theory by you. What do you think?\" {initiator} says, trying to gauge {target}'s interest.",
+            "\"So, {target}, I came across this bizarre conspiracy theory, and I can't tell if it's just nonsense or if there's some truth to it. Can I share it with you?\" {initiator} asks, looking for validation.",
+            "\"Alright, {target}, I know you'll appreciate this one. I've found a conspiracy theory that's just too wild not to share. Are you ready?\" {initiator} says, barely containing their excitement.",
+            "\"Listen, {target}, I found this conspiracy theory that's completely out of left field, but I can't help but think there might be something to it. Can I tell you about it?\" {initiator} inquires, seeking an open-minded listener.",
+            "\"You know, {target}, I've never been one for conspiracy theories, but there's one that's been nagging at me. Mind if I share it with you and get your take on it?\" {initiator} asks, hoping for a receptive ear.",
+            "\"I need your critical thinking skills, {target}. I've been reading about this conspiracy theory, and I can't decide if it's absurd or plausible. Can I run it by you?\" {initiator} says, valuing {target}'s opinion."
+        ]
+    },
+    "mixer_social_InsultCostume_targeted_mean_alwaysOn_situation_Day1DLC": {
+        "actions": [
+            "\"{target}, I don't mean to be rude, but that costume looks like something a kindergartner made,\" {initiator} says, trying to suppress a laugh.",
+            "\"Wow, {target}, did you put that costume together in the dark?\" {initiator} asks sarcastically.",
+            "\"Is that supposed to be a costume, {target}? I've seen more effort put into a last-minute Halloween outfit,\" {initiator} scoffs.",
+            "\"{target}, who told you that costume was a good idea? They must have a twisted sense of humor,\" {initiator} comments with a smirk.",
+            "\"I didn't know we were going for 'worst costume' award, {target}. You're definitely in the running,\" {initiator} says with a snicker.",
+            "\"Are you seriously wearing that, {target}? I thought you had better taste in costumes,\" {initiator} says, rolling their eyes.",
+            "\"Hey, {target}, your costume might just win the 'ugliest outfit' contest if there was one,\" {initiator} jokes, laughing at their own remark.",
+            "\"{target}, I think you should demand a refund for that costume. It's not doing you any favors,\" {initiator} says with a grin.",
+            "\"Did you lose a bet or something, {target}? That costume is just... Wow, I'm speechless,\" {initiator} says, shaking their head in disbelief.",
+            "\"I hope you didn't spend too much time on that costume, {target}. It looks like a DIY disaster,\" {initiator} says, trying to hold back their laughter."
+        ]
+    },
+    "mixer_social_JokeAboutPenguins_targeted_Friendly_alwaysOn_situation_Day1DLC": {
+        "actions": [
+            "\"{target}, did you hear about the penguin who wanted to be friends? He just needed someone to break the ice!\" {initiator} chuckles.",
+            "\"{initiator} asks {target}, \"Why don't you ever see penguins in the UK? Because they're afraid of Wales!\"",
+            "\"Hey {target}, what do penguins wear on their heads? Ice caps!\" {initiator} laughs, trying to lighten the mood.",
+            "\"{initiator} grins at {target} and asks, \"Why don't penguins like talking to strangers at parties? They find it hard to break the ice!\"",
+            "\"{initiator} smirks at {target} and says, \"Do you know what a penguin's favorite relative is? Aunt Arctica!\"",
+            "\"Hey {target}, why are penguins such good race car drivers? Because they're always in the pole position!\" {initiator} jokes, hoping to make {target} laugh.",
+            "\"{initiator} asks {target} with a grin, \"What's a penguin's favorite movie? Frozen!\"",
+            "\"Did you hear about the penguin who went to the beach, {target}? He wore a beak-ini!\" {initiator} giggles at their own joke.",
+            "\"Hey {target}, do you know what a penguin's favorite snack is? Ice Krispies!\" {initiator} shares, hoping to bring a smile to {target}'s face.",
+            "\"{initiator} looks at {target} and says, \"What do you call a penguin in the desert? Lost!\" hoping to get a laugh."
+        ]
+    },
+    "mixer_social_DiscussTheBestViolinist_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, have you ever wondered who the best violinist in the world might be?\" {initiator} asks, striking up a conversation about music.",
+            "\"I was listening to some violin music earlier, {target}, and it got me thinking - who do you believe is the most talented violinist out there?\" {initiator} inquires with curiosity.",
+            "\"Hey {target}, I've been debating with a friend about the best violinist of all time. What's your take on that?\" {initiator} asks, seeking {target}'s opinion.",
+            "\"{target}, I've always admired your taste in music. In your opinion, who is the greatest violinist ever?\" {initiator} asks, genuinely interested in {target}'s perspective.",
+            "\"I came across a fascinating article about the greatest violinists, {target}. It made me wonder, who do you think deserves that title?\" {initiator} questions, sparking a discussion.",
+            "\"Did you know, {target}, that there's a lot of debate about who the best violinist is? I'm curious, who's your personal favorite?\" {initiator} asks, eager to know {target}'s preference.",
+            "\"{target}, I've been exploring different violinists lately, and I can't decide who is the best. Do you have any recommendations?\" {initiator} asks, hoping for some guidance.",
+            "\"You know, {target}, there are so many amazing violinists out there. If you had to choose one as the best, who would it be?\" {initiator} wonders, encouraging a friendly debate.",
+            "\"Have you ever seen a live violin performance, {target}? I'd love to know who you think is the most impressive violinist,\" {initiator} asks enthusiastically.",
+            "\"{target}, I've been trying to expand my music collection with some incredible violinists. Who do you consider the best in the field?\" {initiator} questions, eager to discover new talent."
+        ]
+    },
+    "mixer_social_ShareBurden_targeted_Friendly_alwaysOn_trait": {
+        "actions": [
+            "\"{target}, I've been struggling with something my whole life, and I think it's time I share it with you,\" {initiator} says, weariness in their eyes.",
+            "\"I've been carrying this burden for so long, and I need someone to understand. Can you lend me a sympathetic ear, {target}?\" {initiator} asks hesitantly.",
+            "\"{target}, there's something that's been weighing me down for years, and I just can't keep it to myself anymore. I need your support,\" {initiator} says, looking vulnerable.",
+            "\"I've never told anyone about this, {target}, but I trust you. I need to share the load that's been haunting me my entire life,\" {initiator} says, taking a shaky breath.",
+            "\"{target}, I've been hiding this pain for as long as I can remember, and I think it's time I open up to you about it,\" {initiator} says, voice trembling with emotion.",
+            "\"There's something I've been dealing with my whole life, {target}, and I think you're the only one who can truly understand,\" {initiator} says, searching {target}'s eyes for reassurance.",
+            "\"I need to get this off my chest, {target}, and I hope you can help me. I've been struggling with this burden for as long as I can remember,\" {initiator} says, eyes welling up with tears.",
+            "\"{target}, I've been hiding a life-long struggle, and I think it's time to share it with you. I trust your wisdom and empathy,\" {initiator} says, seeking solace in {target}'s presence.",
+            "\"I never thought I'd open up about this, {target}, but I can't keep pretending it doesn't affect me. I need to tell you about the burden I've carried for years,\" {initiator} says, voice barely audible.",
+            "\"{target}, I feel like I've known you long enough to share something deeply personal with you. I hope you can help me carry the weight of this burden,\" {initiator} says, looking into {target}'s eyes with hope."
+        ]
+    },
+    "mixer_social_SuaveKiss_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{initiator} leans in and gently presses their lips against {target}'s, creating a moment of passion and tenderness.\"",
+            "\"With a charming smile, {initiator} takes {target}'s hand, pulls them closer, and plants a suave kiss on their lips.\"",
+            "\"{initiator} looks deep into {target}'s eyes, brushing their hair back before delivering a smooth, intoxicating kiss.\"",
+            "\"Capturing the perfect moment, {initiator} leans in and sweeps {target} off their feet with a suave, unforgettable kiss.\"",
+            "\"{initiator} cups {target}'s face, their fingers lightly tracing the outline of their jaw before sealing the moment with a stylish kiss.\"",
+            "\"Under the moonlit sky, {initiator} pulls {target} close and shares a suave, dreamlike kiss, taking their breath away.\"",
+            "\"With a mischievous glint in their eye, {initiator} places a finger under {target}'s chin, lifting their gaze before delivering a charming, suave kiss.\"",
+            "\"In a bold move, {initiator} grabs {target}'s waist, pulling them closer and surprising them with a debonair, sensual kiss.\"",
+            "\"{initiator} gently touches {target}'s cheek, letting their eyes lock for a moment before leaning in for a smooth, enchanting kiss.\"",
+            "\"As their eyes meet, {initiator} wraps an arm around {target}'s waist and pulls them in for a suave, heart-stopping kiss.\""
+        ]
+    },
+    "mixer_social_RileUp_targeted_mean_alwaysOn": {
+        "actions": [
+            "\"{target}, I've always wondered how someone like you can be so clueless,\" {initiator} says, smirking maliciously.",
+            "\"{target}, has anyone ever told you how infuriatingly slow you are?\" {initiator} asks with a sly grin.",
+            "\"It's amazing how you manage to get through life with so little common sense, {target},\" {initiator} snickers.",
+            "\"Hey {target}, did you have to work hard to become this annoying, or does it just come naturally?\" {initiator} teases cruelly.",
+            "\"{target}, if there was a contest for being the most irritating person, I'm pretty sure you'd win,\" {initiator} scoffs.",
+            "\"I wonder how you manage to make even the simplest tasks look so difficult, {target},\" {initiator} says with a mocking grin.",
+            "\"Whenever I need a good laugh, I just think about how you bumble through life, {target},\" {initiator} chuckles rudely.",
+            "\"{target}, I've met rocks with more personality than you. How do you do it?\" {initiator} taunts.",
+            "\"Is it tiring being so incompetent, {target}? Or have you gotten used to it by now?\" {initiator} asks, sneering.",
+            "\"I'm not sure whether to pity you or be impressed by your ability to fail so consistently, {target},\" {initiator} says, laughing meanly."
+        ]
+    },
+    "mixer_social_WhisperSeductively_targeted_romance_middleScore": {
+        "actions": [
+            "\"{target}, can I tell you a secret?\" {initiator} whispers seductively, a playful glint in their eye.",
+            "\"Lean in closer, {target}, I have something enticing to share,\" {initiator} murmurs, their breath warm on {target}'s ear.",
+            "\"{target}, I can't resist the urge to whisper something alluring in your ear,\" {initiator} says, their voice soft and sultry.",
+            "\"I've been thinking about something quite... sinful, {target}. Would you like to know what it is?\" {initiator} teases, their lips brushing against {target}'s earlobe.",
+            "\"Let me share a deliciously tempting secret with you, {target},\" {initiator} purrs, their voice low and seductive.",
+            "\"There's a thought that's been driving me wild, {target}. Are you curious to know what it is?\" {initiator} whispers, their voice dripping with desire.",
+            "\"You know, {target}, there's something I've been fantasizing about. Can I share it with you?\" {initiator} asks, their voice laced with seduction.",
+            "\"{target}, I can't help but let my mind wander to some very... enticing places. Would you like a glimpse?\" {initiator} whispers, a devilish grin on their face.",
+            "\"I have a confession to make, {target}. My thoughts have been a bit... naughty lately,\" {initiator} admits, their voice sultry and inviting.",
+            "\"Come closer, {target}, and let me share a secret that's both thrilling and enticing,\" {initiator} murmurs, their voice filled with allure."
+        ]
+    },
+    "mixer_social_YellAT_targeted_mean": {
+        "actions": [
+            "\"{target}, you're absolutely infuriating! Can't you do anything right?\" {initiator} yells, anger in their voice.",
+            "\"Are you really this incompetent, {target}? I can't believe I have to put up with your stupidity!\" {initiator} shouts, losing their patience.",
+            "\"{target}, I've had enough of your nonsense! Get your act together or just get out of my sight!\" {initiator} exclaims, frustration evident in their tone.",
+            "\"I can't stand you anymore, {target}! Your constant mistakes are driving me insane!\" {initiator} yells, unable to control their anger.",
+            "\"{target}, you're so careless! How can someone be as clueless as you?\" {initiator} shouts, feeling overwhelmed by their frustration.",
+            "\"Sometimes I wonder if you're really this dumb, {target}, or if you're just pretending to be!\" {initiator} yells, feeling exasperated.",
+            "\"{target}, I don't know how much more of your incompetence I can take! You're pushing me to my limits!\" {initiator} shouts, their voice filled with irritation.",
+            "\"Can you just think for once, {target}? I'm tired of dealing with the mess you constantly create!\" {initiator} yells, feeling fed up.",
+            "\"{target}, you never cease to amaze me with your foolishness! How hard is it for you to understand simple instructions?\" {initiator} shouts, their voice laced with annoyance.",
+            "\"I'm at my wit's end, {target}! I can't take your stupidity any longer!\" {initiator} yells, their anger finally boiling over."
+        ]
+    },
+    "mixer_social_MakeFunOfNoobs_targeted_funny_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, have you seen these new players trying to learn the game? It's hilarious,\" {initiator} laughs, watching their screens.",
+            "\"Hey {target}, check this out. This noob is struggling to even find the start button!\" {initiator} jokes, pointing at the screen.",
+            "\"{target}, I swear, watching these newbies try to navigate the game is like watching a baby trying to walk,\" {initiator} chuckles.",
+            "\"You know what's funny, {target}? The fact that these noobs think they can beat us in the game. Good luck with that!\" {initiator} smirks.",
+            "\"I can't stop laughing, {target}. These new players are so lost. They're like deer caught in headlights,\" {initiator} says with a grin.",
+            "\"Remember when we were noobs like them, {target}? I bet we weren't this bad though!\" {initiator} teases.",
+            "\"{target}, do you think we should help these new players or just sit back and enjoy the show?\" {initiator} asks, laughing at their struggles.",
+            "\"Man, {target}, it's so entertaining to watch these rookies fumble around. It's like they've never played a video game before,\" {initiator} comments.",
+            "\"Sometimes, {target}, I wonder if these new players are just pretending to be bad for our amusement,\" {initiator} says, chuckling at their gameplay.",
+            "\"Isn't it amazing, {target}, how we've come so far in our gaming skills while these poor noobs are still trying to figure out the controls?\" {initiator} laughs."
+        ]
+    },
+    "mixer_socials_EnthuseAboutExperimentalFood_Targeted_Friendly_AlwaysOn_DiningSocials": {
+        "actions": [
+            "\"{target}, you have to try this! It's unlike anything I've ever tasted before,\" {initiator} says excitedly, taking another bite.",
+            "\"Wow, this experimental dish is amazing! Don't you think so, {target}?\" {initiator} asks, grinning from ear to ear.",
+            "\"I never thought I'd like something so unconventional, but this food is delicious! You should give it a go, {target}!\" {initiator} exclaims, offering a bite.",
+            "\"Isn't it fascinating how they've combined these flavors, {target}? I can't get enough of it!\" {initiator} enthuses, digging into their meal.",
+            "\"Who would have thought that these ingredients could work so well together? You need to taste this, {target}!\" {initiator} says, eyes sparkling with excitement.",
+            "\"Have you ever tried anything like this, {target}? It's so unique and delicious! I'm in love with this dish!\" {initiator} gushes, savoring each bite.",
+            "\"I can't believe how amazing this experimental food is, {target}. You really need to try it!\" {initiator} insists, gesturing towards their plate.",
+            "\"Isn't this dish just incredible, {target}? I've never experienced flavors like these before!\" {initiator} declares, thoroughly enjoying their meal.",
+            "\"I have to admit, I was skeptical at first, but this experimental food has won me over. You should give it a try, {target}!\" {initiator} suggests enthusiastically.",
+            "\"Can you believe how tasty this is, {target}? It's so unconventional, yet absolutely delicious!\" {initiator} exclaims, eager for {target} to share the experience."
+        ]
+    },
+    "mixer_social_ProfessUndyingLove_targeted_romance_highScore": {
+        "actions": [
+            "\"{target}, I need to tell you something important. My love for you is undying, and I can't keep it to myself any longer,\" {initiator} says, their heart pounding.",
+            "\"I've been holding this in for too long, {target}. I am completely and utterly in love with you,\" {initiator} confesses, looking deeply into {target}'s eyes.",
+            "\"There's something I've been meaning to say, {target}. My love for you knows no bounds, and I can't keep it a secret any longer,\" {initiator} says, their voice filled with emotion.",
+            "\"{target}, I can't hold it in any longer. I love you more than words can express, and I want you to know that,\" {initiator} says, their voice trembling with sincerity.",
+            "\"I've tried to deny it, but I can't anymore, {target}. I love you, and I will always love you,\" {initiator} says, their eyes filled with a mix of hope and fear.",
+            "\"My heart has been aching to tell you this, {target}. I am deeply and irrevocably in love with you,\" {initiator} confesses, their voice barely audible.",
+            "\"I never thought I could feel this way about someone, {target}, but I am head over heels in love with you,\" {initiator} admits, their eyes searching {target}'s for a reaction.",
+            "\"I've been hiding my feelings for far too long, {target}. I love you more than anything in this world, and I need you to know that,\" {initiator} says, their voice shaking with vulnerability.",
+            "\"{target}, I've tried to ignore these feelings, but I can't any longer. I am completely, undeniably in love with you,\" {initiator} says, their voice full of sincerity and love.",
+            "\"I've been keeping this secret for what feels like an eternity, {target}, but I have to tell you. I am madly, truly, and deeply in love with you,\" {initiator} says, their eyes shining with emotion."
+        ]
+    },
+    "mixer_social_MockMusicTaste_targeted_mean_trait": {
+        "actions": [
+            "\"{target}, I can't believe you actually enjoy listening to that noise. What do you even see in it?\" {initiator} teases with a grin.",
+            "\"Really, {target}? That's the kind of music you're into? I thought you had better taste than that,\" {initiator} says, smirking.",
+            "\"Wow, {target}, I didn't know anyone still listened to that kind of music. I guess you're just full of surprises,\" {initiator} laughs mockingly.",
+            "\"Seriously, {target}? That band you like is just...terrible. I don't know how you can stand listening to them,\" {initiator} says, rolling their eyes.",
+            "\"I have to say, {target}, your taste in music leaves a lot to be desired. I mean, really?\" {initiator} says, chuckling condescendingly.",
+            "\"{target}, I didn't realize your music preferences were so...unique. I guess I can't help but laugh,\" {initiator} says sarcastically.",
+            "\"Please tell me you're joking, {target}. You can't actually enjoy listening to that, can you?\" {initiator} asks, stifling their laughter.",
+            "\"Yikes, {target}, your favorite band is like nails on a chalkboard to me. How do you even tolerate that sound?\" {initiator} says, cringing.",
+            "\"Oh, {target}, your music taste is...interesting, to say the least. But I guess everyone has their guilty pleasures,\" {initiator} says with a snicker.",
+            "\"Whenever I think I know you, {target}, you reveal a new layer of weirdness. I never would've pegged you for a fan of that music,\" {initiator} says, shaking their head in disbelief."
+        ]
+    },
+    "mixer_socials_EnthuseAboutMeal_Targeted_Friendly_AlwaysOn_DiningSocials": {
+        "actions": [
+            "\"{target}, have you ever tasted anything as delicious as this before? It's absolutely amazing!\" {initiator} exclaims, savoring every bite.",
+            "\"{initiator} leans toward {target} and says, \"Wow, this meal is truly exceptional! You have to try some of this!\"",
+            "\"Can you believe how incredible this food tastes, {target}?\" {initiator} asks, eyes wide in delight and excitement.",
+            "\"I can't get over how delicious this is, {target}! I think I've found my new favorite dish,\" {initiator} says, beaming with joy.",
+            "\"{target}, I don't think I've ever been this excited about a meal before. Isn't it just divine?\" {initiator} says, practically dancing in their seat.",
+            "\"This is hands down the best meal I've ever had, {target}. What do you think?\" {initiator} asks, eager to share the experience.",
+            "\"I'm in food heaven right now, {target}. Have you ever tasted anything like this?\" {initiator} gushes, unable to contain their enthusiasm.",
+            "\"Words can't even describe how fantastic this meal is, {target}. It's like a symphony of flavors,\" {initiator} says, eyes closed in pure bliss.",
+            "\"Every bite of this meal is a revelation, {target}. I can't help but rave about it!\" {initiator} says, a look of pure joy on their face.",
+            "\"I could eat this every day for the rest of my life, {target}. It's that good!\" {initiator} exclaims, savoring each and every taste."
+        ]
+    },
+    "mixer_social_PracticeFighting_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, I've been working on my fighting skills lately. Would you mind practicing with me?\" {initiator} asks eagerly.",
+            "\"Hey {target}, I could use a sparring partner to help me improve my combat skills. Are you up for the challenge?\" {initiator} inquires with a grin.",
+            "\"{initiator} stretches their arms and says, \"Alright, {target}, it's time for some friendly combat practice. Let's see what you've got!\"",
+            "\"Ever since I started learning to fight, I've wanted to test my skills against you, {target}. Care to join me for a sparring session?\" {initiator} suggests enthusiastically.",
+            "\"Let's have a little friendly competition, {target}. How about a practice fight to see who's got the better moves?\" {initiator} proposes with a smirk.",
+            "\"Hey {target}, I've been meaning to ask if you'd like to practice some self-defense techniques with me. It's always good to stay sharp,\" {initiator} says, gesturing toward an open space.",
+            "\"I've learned some new fighting techniques, {target}, and I could use your help to practice. Are you in?\" {initiator} asks, bouncing on the balls of their feet.",
+            "\"{initiator} cracks their knuckles and says, \"It's been too long since we've had a good sparring session, {target}. Let's see if you can keep up with my new moves!\"",
+            "\"I think it's time we tested our strengths against each other, {target}. A friendly sparring match, what do you say?\" {initiator} asks, eager to learn from the experience.",
+            "\"Practicing fighting techniques is always more fun with a partner, {target}. Would you mind joining me for a session?\" {initiator} asks, hoping to improve their skills."
+        ]
+    },
+    "mixer_social_MakeFunOfCorporateGoons_Targeted_Funny_AlwaysOn_Career": {
+        "actions": [
+            "\"{target}, have you heard about the new Synergistic Paradigm-Enhancing Dynamic? It's the latest in corporate jargon!\" {initiator} teases with a grin.",
+            "\"{target}, I think you'd excel at Synchronized Hyperbolic Resource Optimization. It's right up your alley,\" {initiator} jokes, winking.",
+            "\"I just got a memo about the latest in corporate strategy, {target}. Apparently, we need to focus on Transdimensional Goal-Oriented Metrics!\" {initiator} says, chuckling.",
+            "\"Hey {target}, have you been maximizing your Vertical Cross-Functional Integration lately?\" {initiator} asks sarcastically, struggling to keep a straight face.",
+            "\"{target}, I think we need to discuss the importance of Inverted Scalable Quantum Networking,\" {initiator} says with a smirk, trying to sound serious.",
+            "\"Did you know, {target}, that if we leverage our Holistic Interdependent Paradigms, we can achieve ultimate success?\" {initiator} teases playfully.",
+            "\"{target}, you're just the person to help me develop a new strategy for Dynamic Quantum Leap Synergy. Your expertise is crucial,\" {initiator} says, barely able to contain their laughter.",
+            "\"Hey {target}, I think we should really focus on optimizing our Metaphysical Ambiguity Resolution. It's the key to our success!\" {initiator} jokes, nudging {target} playfully.",
+            "\"{target}, I've got a new assignment for you: Integrative Quantum Flux Optimization. Don't worry, I'm sure you'll nail it,\" {initiator} says, laughing.",
+            "\"Let's not forget the importance of Advanced Heterogeneous Ambiguity Analysis, {target}. It's the future of corporate success!\" {initiator} says with a grin, making fun of the jargon."
+        ]
+    },
+    "mixer_socials_GoofAround_targeted_Funny_alwaysOn": {
+        "actions": [
+            "\"{initiator} sneaks up behind {target} and places their hands over {target}'s eyes. \"Guess who?\" {initiator} says, giggling.",
+            "\"{initiator} playfully tosses a crumpled piece of paper at {target}, trying to get their attention. \"Hey, {target}, catch!\"",
+            "\"{initiator} starts making silly faces at {target} from across the room, hoping to get a laugh out of them.",
+            "\"While {target} is sitting down, {initiator} comes up from behind and tickles them, causing {target} to burst into laughter.",
+            "\"{initiator} challenges {target} to a playful thumb war, grinning mischievously as they lock hands.",
+            "\"{initiator} steals {target}'s hat and starts running around, playfully taunting, \"You'll never catch me, {target}!\"",
+            "\"{initiator} jokingly mimics {target}'s voice and mannerisms, making both of them laugh at the light-hearted impersonation.",
+            "\"{initiator} pretends to trip and fall in front of {target}, then quickly jumps up and exclaims, \"Gotcha, {target}!\"",
+            "\"{initiator} playfully pokes {target} repeatedly, trying to get a rise out of them. \"Hey, {target}, are you ticklish?\"",
+            "\"{initiator} and {target} engage in a spontaneous and lighthearted play-fight, laughing as they gently push each other around."
+        ]
+    },
+    "mixer_social_RantAndRave_targeted_friendly_emotionSpecific": {
+        "actions": [
+            "\"{target}, I just can't take it anymore! I need to vent to you about what's been bothering me,\" {initiator} says, visibly frustrated.",
+            "\"Listen, {target}, I've got to get this off my chest. I'm going to rant for a bit, and I need you to just hear me out,\" {initiator} pleads, their voice rising in irritation.",
+            "\"I've been holding back for so long, {target}, but I can't keep it in anymore. I need to let it all out,\" {initiator} exclaims, their anger evident.",
+            "\"{target}, I've had enough of this situation, and I need someone to listen to me. Can you handle my rant right now?\" {initiator} asks, their emotions boiling over.",
+            "\"Sometimes, I just need to let loose, {target}. Can you bear with me while I let off some steam?\" {initiator} requests, their voice filled with tension.",
+            "\"I'm so fed up with everything, {target}. I just need to rant for a minute, and I hope you'll understand,\" {initiator} says, their face red with anger.",
+            "\"Enough is enough, {target}. I need to express my frustration, and I trust you enough to let it all out,\" {initiator} says, their voice shaking with emotion.",
+            "\"I've reached my breaking point, {target}, and I need your help to process it all. Just let me rant for a while, please,\" {initiator} begs, their voice cracking.",
+            "\"Today has just been too much, {target}. I need to vent, and I hope you won't mind listening to me rant,\" {initiator} says, their emotions spilling over.",
+            "\"{target}, I don't know who else I can talk to about this. I need to rant, and I hope you'll be patient with me,\" {initiator} says, their voice filled with desperation."
+        ]
+    },
+    "mixer_Social_Sim_Ghost_Ask_About_Being_Dead": {
+        "actions": [
+            "\"{target}, I've always been curious about the afterlife. Can you tell me what it's like to be a ghost?\" {initiator} asks cautiously.",
+            "\"Hey {target}, I know it might be a sensitive topic, but I'm really interested in knowing what being dead feels like. Can you share your experience?\" {initiator} inquires gently.",
+            "\"{target}, I've been wondering about this for a while now. What's it like on the other side? Can you share your perspective as a ghost?\" {initiator} asks with genuine curiosity.",
+            "\"I can't imagine what you've been through, {target}. Would you mind telling me what it's like to be dead?\" {initiator} asks, trying to be considerate of {target}'s feelings.",
+            "\"Being a ghost must be so different from being alive, {target}. Can you tell me what your experience has been like since you passed away?\" {initiator} asks with empathy.",
+            "\"{target}, I've never had the chance to ask someone who's experienced it firsthand. What is it like to be a ghost?\" {initiator} wonders aloud.",
+            "\"I hope it's not too personal, {target}, but I'm really curious about the afterlife. Can you share what it's like being dead?\" {initiator} asks respectfully.",
+            "\"Death has always been a mystery to the living, {target}. Would you be willing to shed some light on what it's like being a ghost?\" {initiator} asks, intrigued.",
+            "\"{target}, I don't mean to pry, but I've always been fascinated by the concept of life after death. Can you share your experience as a ghost?\" {initiator} questions gently.",
+            "\"{target}, I know this might be an uncomfortable topic, but I can't help but wonder what it feels like to be dead. Can you enlighten me?\" {initiator} asks with a mix of curiosity and concern."
+        ]
+    },
+    "mixer_Social_Targeted_Romance_Loyal_ConfessCheating": {
+        "actions": [
+            "\"{target}, I can't keep this from you any longer. I've been unfaithful in our relationship,\" {initiator} admits, guilt heavy in their voice.",
+            "\"I never wanted to hurt you, {target}, but I have to be honest with you. I've been cheating on you,\" {initiator} says, struggling to meet {target}'s eyes.",
+            "\"{target}, I've made a terrible mistake. I've been seeing someone else behind your back, and I can't hide it anymore,\" {initiator} confesses, tears welling up in their eyes.",
+            "\"This is going to hurt, but I need to tell you the truth, {target}. I've been unfaithful,\" {initiator} reveals, their voice shaking with regret.",
+            "\"I've been betraying your trust, {target}, and I can't keep it a secret any longer. I've been cheating on you,\" {initiator} says, clearly distressed.",
+            "\"{target}, I know this will be hard to hear, but I've been unfaithful in our relationship. I'm so sorry,\" {initiator} says, tears streaming down their face.",
+            "\"I can't pretend everything is fine anymore, {target}. I've been seeing someone else, and I need you to know,\" {initiator} confesses, their voice barely a whisper.",
+            "\"{target}, I don't deserve your forgiveness, but I need to tell you that I've cheated on you,\" {initiator} admits, their face filled with shame.",
+            "\"I wish I could take it back, {target}, but I can't. I've been cheating on you, and it's tearing me apart,\" {initiator} says, their voice filled with remorse.",
+            "\"Please know how much I regret this, {target}, but I've been unfaithful to you. I just couldn't keep it a secret any longer,\" {initiator} says, their heart heavy with guilt."
+        ]
+    },
+    "mixer_social_Provoke_targeted_mean_emotionSpecific": {
+        "actions": [
+            "\"{target}, I've heard people say you're not very bright, but I didn't think it was this bad,\" {initiator} sneers, trying to provoke a reaction.",
+            "\"I'm surprised you even made it this far, {target}. Did someone carry you here?\" {initiator} says mockingly, hoping to get under {target}'s skin.",
+            "\"Oh, I see you're still trying. It's almost cute how you think you can keep up, {target},\" {initiator} taunts maliciously.",
+            "\"Did anyone ever tell you that you're way out of your league, {target}? Or are they just being polite?\" {initiator} says with a cruel grin.",
+            "\"{target}, do you ever get tired of being the weakest link? Or have you just accepted it as a part of who you are?\" {initiator} asks, trying to provoke {target}.",
+            "\"Hey {target}, have you considered giving up? It's probably for the best, considering your track record,\" {initiator} says, attempting to hurt {target}'s feelings.",
+            "\"I was just wondering, {target}, how does it feel to be constantly overshadowed by everyone around you?\" {initiator} asks, a mean smirk on their face.",
+            "\"Tell me, {target}, how do you manage to fail so consistently? It's almost impressive,\" {initiator} says, trying to provoke {target} into reacting.",
+            "\"I don't think I've ever met someone as incompetent as you, {target}. How do you even manage to get through the day?\" {initiator} asks, attempting to anger {target}.",
+            "\"Sometimes, {target}, I honestly wonder if you're even trying. Has anyone ever told you that you're a disappointment?\" {initiator} says, trying to get a rise out of {target}."
+        ]
+    },
+    "mixer_Social_Targeted_Romance_Loyal_RebuildTrust": {
+        "actions": [
+            "\"{target}, I know I've made mistakes in the past, but I want to make it right. Can we start over?\" {initiator} asks with hope in their eyes.",
+            "\"Remember the good times we had, {target}? I want to create more of those memories with you, but first we need to rebuild our trust,\" {initiator} says sincerely.",
+            "\"{target}, I understand that I've hurt you, and I'm willing to do whatever it takes to regain your trust. Please give me a chance,\" {initiator} pleads, looking into {target}'s eyes.",
+            "\"I've learned from my mistakes, {target}, and I promise to be a better partner for you. Can we work on rebuilding our trust together?\" {initiator} asks earnestly.",
+            "\"I know I've let you down, {target}, but I truly believe we can find our way back to each other. Let's take it one step at a time,\" {initiator} suggests, reaching for {target}'s hand.",
+            "\"Trust is the foundation of any relationship, {target}, and I want to rebuild ours. I'm committed to being open and honest with you from now on,\" {initiator} promises, holding {target}'s gaze.",
+            "\"Please, {target}, I'm asking for a chance to make amends. I want to show you that I can be the person you deserve,\" {initiator} says, desperation in their voice.",
+            "\"I know it won't be easy, {target}, but if you're willing to try, I'll do everything in my power to rebuild the trust we once had,\" {initiator} vows, determination in their eyes.",
+            "\"{target}, I want to be the person who makes you happy, not the one who causes you pain. I'll work tirelessly to regain your trust,\" {initiator} says, their voice full of conviction.",
+            "\"I can't change the past, {target}, but I can change our future. Let's work together to rebuild the trust and love we once shared,\" {initiator} says, holding out their hand for {target} to take."
+        ]
+    },
+    "mixer_social_ShareMelancholyThoughts_tag_Friendly_alwaysOn": {
+        "actions": [
+            "\"{target}, I've been feeling really down lately, and I don't know who else to talk to,\" {initiator} says, with sadness in their eyes.",
+            "\"Sometimes, I feel like I'm drowning in my own thoughts, and I just need someone to listen. Can I share them with you, {target}?\" {initiator} asks hesitantly.",
+            "\"I've been going through a rough time, {target}, and I think talking about it with you might help,\" {initiator} admits, hoping for understanding.",
+            "\"The world feels so heavy on my shoulders, {target}. I need to get these thoughts off my chest. Will you hear me out?\" {initiator} pleads gently.",
+            "\"I never thought I'd open up like this, but I trust you, {target}. Can I share my melancholic thoughts with you?\" {initiator} asks, looking vulnerable.",
+            "\"{target}, I feel like I'm trapped in a dark cloud, and I don't know how to escape it. Can we talk about it?\" {initiator} asks, reaching out for support.",
+            "\"Sometimes, I don't know how to cope with these sad thoughts, {target}. Would you listen to me and help me sort them out?\" {initiator} wonders, looking for comfort.",
+            "\"I've been feeling really low, {target}, and I think I need to talk about it. Can I confide in you?\" {initiator} asks, with a glimmer of hope in their eyes.",
+            "\"{target}, I think I need a friend right now. Can I share what's been bothering me with you?\" {initiator} asks, seeking solace.",
+            "\"I know it's not easy listening to someone's sad thoughts, {target}, but I don't know who else to turn to. Can you be there for me?\" {initiator} pleads, searching for understanding."
+        ]
+    },
+    "mixer_social_SweetTalk_targeted_romance_skills": {
+        "actions": [
+            "\"{target}, every time I look into your eyes, I feel like I'm getting lost in a beautiful, endless ocean,\" {initiator} says with a warm smile.",
+            "\"You have no idea how much my heart races when I'm around you, {target}. It's like you've cast a magical spell on me,\" {initiator} says, gazing at {target} adoringly.",
+            "\"{target}, your smile lights up the room and fills my heart with happiness. I'm so grateful to have you in my life,\" {initiator} whispers gently.",
+            "\"Being with you, {target}, feels like a dream come true. Every moment I spend with you is a treasure,\" {initiator} says sincerely.",
+            "\"{target}, your laughter is like music to my ears, and just the thought of you brightens up even my darkest days,\" {initiator} says with a loving expression.",
+            "\"When I hold you in my arms, {target}, I feel like I'm holding the entire world, and nothing else matters,\" {initiator} says, brushing {target}'s hair back gently.",
+            "\"Your presence, {target}, is like a warm, comforting embrace that shelters me from all the storms of life,\" {initiator} says with deep affection.",
+            "\"{target}, your love is like a beacon that guides me through the darkest nights, leading me home to you,\" {initiator} says, their eyes locked on {target}'s.",
+            "\"Whenever I think of you, {target}, my heart swells with love and admiration. You truly are the most incredible person I've ever known,\" {initiator} says, holding {target}'s hand.",
+            "\"In your arms, {target}, I've found my sanctuary, my safe haven. I never knew true love until I met you,\" {initiator} says, their voice filled with emotion."
+        ]
+    },
+    "mixer_social_PitchStoryIdea_targeted_friendly_emotionSpecific": {
+        "actions": [
+            "\"{target}, I had this amazing story idea, and I wanted to share it with you. Let me know what you think,\" {initiator} says excitedly.",
+            "\"Hey, {target}, I've been thinking about writing a novel, and I have this incredible idea. Can I run it by you?\" {initiator} asks, eager for feedback.",
+            "\"I came up with a fascinating storyline, {target}. Would you mind listening to it and giving me your thoughts?\" {initiator} inquires, looking hopeful.",
+            "\"So, I've been brainstorming, and I think I have a great idea for a story. I'd love to hear your opinion, {target},\" {initiator} says, trying to gauge their interest.",
+            "\"Okay, {target}, I have this brilliant concept for a tale, and I need someone to bounce ideas off of. Are you up for it?\" {initiator} asks, their eyes shimmering with enthusiasm.",
+            "\"I've been working on this incredible idea for a narrative, {target}. Can I share it with you and get your input?\" {initiator} suggests, smiling nervously.",
+            "\"Hey, {target}, you know how much I love stories, right? Well, I came up with an idea that I think is fantastic, and I'd like your thoughts on it,\" {initiator} says, waiting for their response.",
+            "\"I've had this story idea brewing in my mind for a while, {target}. It's finally taking shape, and I'd love to have your perspective on it,\" {initiator} admits, looking a bit shy.",
+            "\"You always give great advice, {target}. I'd really appreciate it if you could listen to my story idea and tell me what you think,\" {initiator} pleads, hoping for a positive response.",
+            "\"Alright, {target}, I've got this intriguing idea for a tale that's been keeping me up at night. I need your expert opinion. Are you ready to hear it?\" {initiator} asks, grinning in anticipation."
+        ]
+    },
+    "mixer_social_RekindleTheRomance_targeted_romance_lowScore": {
+        "actions": [
+            "\"{target}, I've been thinking a lot lately about the times we shared together. Can we give it another try?\" {initiator} asks, hope in their eyes.",
+            "\"Remember the good days, {target}? I miss them. I miss us. What do you say we try to rekindle the flame?\" {initiator} suggests, a nostalgic smile on their face.",
+            "\"{target}, I can't help but feel that we were meant to be together. Can we give our love a second chance?\" {initiator} pleads, their heart on their sleeve.",
+            "\"Every time I see you, {target}, I'm reminded of what we once had. Do you ever wonder if we could have it again?\" {initiator} asks, looking for a glimmer of hope.",
+            "\"I've never stopped caring about you, {target}, and I think it's time we explore the possibility of getting back together,\" {initiator} says, taking a deep breath.",
+            "\"{target}, I know it's been a while, but I can't shake the feeling that we belong together. Could we give our romance another shot?\" {initiator} inquires, looking into {target}'s eyes.",
+            "\"I've been doing a lot of soul-searching, {target}, and I've come to realize that I want to be with you again. Can we try to rekindle our love?\" {initiator} asks earnestly.",
+            "\"{target}, I know we've both grown and changed, but I believe we can find our way back to each other. Are you willing to try?\" {initiator} asks, searching for a positive response.",
+            "\"Have you ever thought about us, {target}? About what we could be if we tried again? I'm ready to give it a chance if you are,\" {initiator} says, holding their breath for an answer.",
+            "\"{target}, I keep thinking about the love we shared and how special it was. I know we can make it work again. Please, can we try?\" {initiator} begs, with a mix of hope and vulnerability."
+        ]
+    },
+    "mixer_Social_Targeted_Mean_Loyal_ConfrontAboutBullying": {
+        "actions": [
+            "\"{target}, I've had enough of your bullying. It's time we talked about it,\" {initiator} says, gathering the courage to stand up for themselves.",
+            "\"I can't keep ignoring the way you treat me, {target}. We need to address this bullying situation,\" {initiator} says, looking determined.",
+            "\"{target}, I've been feeling really hurt by the way you've been treating me. It's time for us to talk about your bullying behavior,\" {initiator} says, trying to keep their voice steady.",
+            "\"I refuse to be a victim anymore, {target}. Your bullying has to stop, and we need to discuss it right now,\" {initiator} says, finally confronting the issue.",
+            "\"Your constant bullying has made my life miserable, {target}. Let's sit down and talk about why you're doing this to me,\" {initiator} says, hoping for a resolution.",
+            "\"{target}, I want to understand why you've been bullying me. It's causing me a lot of pain, and we need to talk about it,\" {initiator} says, searching for answers.",
+            "\"I didn't want to have to confront you like this, {target}, but your bullying has pushed me to my limit. We need to resolve this issue,\" {initiator} says, taking a stand.",
+            "\"I've been trying to ignore your bullying, {target}, but I can't take it anymore. Let's talk about what's going on and why you're treating me this way,\" {initiator} suggests, desperate for a change.",
+            "\"{target}, your bullying has been affecting more than just me. It's time we had a conversation about your actions and their consequences,\" {initiator} says, seeking to make a difference.",
+            "\"I'm tired of being your target, {target}. We need to discuss your bullying behavior and find a way to put an end to it,\" {initiator} says, standing up for themselves with newfound confidence."
+        ]
+    },
+    "mixer_social_WeaponizedJoke_targeted_funny_alwaysOn": {
+        "actions": [
+            "\"{target}, I heard this joke the other day, but it's a bit edgy. Are you up for it?\" {initiator} asks, grinning mischievously.",
+            "\"Hey, {target}, brace yourself. I've got a joke that might just cross the line, but I think you'll love it,\" {initiator} says with a sly smile.",
+            "\"Alright, {target}, I've got a joke for you, but it's definitely not for the faint of heart. Are you ready?\" {initiator} inquires, a playful glint in their eye.",
+            "\"I came across this edgy joke, {target}, and I couldn't help but think of you. Do you want to hear it?\" {initiator} asks, raising their eyebrows.",
+            "\"Prepare yourself, {target}, I've got a joke that's bound to push some boundaries, but I think you can handle it,\" {initiator} says, smirking.",
+            "\"Okay, {target}, I've got a joke for you, but it's a little on the wild side. You in?\" {initiator} asks, gauging {target}'s reaction.",
+            "\"{target}, I've got an edgy joke for you, but if it's too much, just remember, you asked for it,\" {initiator} teases, testing the waters.",
+            "\"Hey, {target}, I've got a joke that's right on the edge of being too much. Do you dare to hear it?\" {initiator} asks, challenging {target}.",
+            "\"{target}, I've got a pretty edgy joke for you, but you've got to promise not to hold it against me. Deal?\" {initiator} says, grinning cautiously.",
+            "\"Alright, {target}, I've got a joke that might be a bit too edgy, but I have a feeling you'll appreciate it. Ready?\" {initiator} asks, hoping for a positive response."
+        ]
+    },
+    "mixer_socials_DiscussFoodFlavors_Targeted_Friendly_AlwaysOn_DiningSocials": {
+        "actions": [
+            "\"{target}, have you ever wondered why some flavors just seem to go well together?\" {initiator} asks, looking genuinely curious.",
+            "\"Do you have a favorite flavor combination, {target}? I've been experimenting with some new recipes and I'd love to hear your thoughts,\" {initiator} says, smiling.",
+            "\"Hey {target}, I've been thinking about how different cultures have unique flavor profiles. What's your favorite cuisine, and why?\" {initiator} inquires, genuinely interested.",
+            "\"{target}, I've always been fascinated by the way our taste buds work. What's the strangest flavor you've ever tried, and did you like it?\" {initiator} asks, eager for an answer.",
+            "\"I was just reading about the science behind flavor pairings, {target}. Do you think there's some truth to the idea that certain flavors are destined to be together?\" {initiator} wonders aloud.",
+            "\"{target}, I know it might sound weird, but have you ever had a flavor combination that you thought would be awful, but ended up being surprisingly good?\" {initiator} asks, intrigued.",
+            "\"Have you noticed how different seasons seem to have their own unique flavors, {target}? What's your favorite seasonal flavor, and why?\" {initiator} asks, looking for a thoughtful response.",
+            "\"Hey {target}, I've been experimenting with some new spices lately. Do you have any favorite spices or herbs that you think really elevate a dish?\" {initiator} inquires, looking for inspiration.",
+            "\"{target}, I recently read that our taste preferences can change as we age. Have you ever experienced a change in your taste buds, and what flavors do you appreciate now that you didn't before?\" {initiator} asks, genuinely curious.",
+            "\"So, {target}, I've been playing around with the idea of creating a new dish based on unusual flavor combinations. What's something you think might be interesting to try, even if it's a bit out there?\" {initiator} asks, eager for a creative suggestion."
+        ]
+    },
+    "mixer_social_ComplimentColorChoices_targeted_Friendly_alwaysOn_situation_Day1DLC": {
+        "actions": [
+            "\"{target}, I must say, the colors you've chosen really bring out the best in you,\" {initiator} says with a smile.",
+            "\"I've been meaning to tell you, {target}, the colors you wear always seem to brighten up the room,\" {initiator} remarks appreciatively.",
+            "\"Your taste in colors is impeccable, {target}. It really highlights your personality,\" {initiator} compliments sincerely.",
+            "\"{target}, I just wanted to say that your color choices are always so unique and stylish. It's really impressive,\" {initiator} comments admiringly.",
+            "\"Can I just say, {target}, that your color choices never fail to impress me? You have a fantastic sense of style,\" {initiator} says with a nod of approval.",
+            "\"You know, {target}, I've always admired your ability to mix and match colors so effortlessly. It's truly a talent,\" {initiator} mentions, looking impressed.",
+            "\"{target}, I've noticed that you have a real knack for choosing colors that perfectly suit you. Keep up the great work!\" {initiator} encourages warmly.",
+            "\"I wanted to tell you, {target}, that the colors you pick always manage to make a statement. You have a real eye for it,\" {initiator} says, looking genuinely impressed.",
+            "\"Your color choices always stand out, {target}. You have a way of making even the simplest combinations look stunning,\" {initiator} compliments enthusiastically.",
+            "\"{target}, your color choices always seem to be on point. It's like you have a natural flair for it,\" {initiator} says with a look of admiration."
+        ]
+    },
+    "mixer_social_ComplainAbout_Fruitcake_targeted_alwayson": {
+        "actions": [
+            "\"{target}, can you believe how terrible fruitcake is? I just don't get why anyone would like it,\" {initiator} says, grimacing.",
+            "\"I don't know about you, {target}, but I honestly can't stand fruitcake. It's just so dense and unappetizing,\" {initiator} complains.",
+            "\"Am I the only one who thinks fruitcake is just the worst? What are your thoughts, {target}?\" {initiator} asks, hoping for agreement.",
+            "\"I have to get this off my chest, {target}: fruitcake has got to be the most overrated dessert ever,\" {initiator} says with disdain.",
+            "\"Every time I see a fruitcake, I just can't help but wonder who actually enjoys eating it. Don't you agree, {target}?\" {initiator} questions.",
+            "\"I'm sorry, {target}, but I just can't hold back any longer. Fruitcake is absolutely awful, isn't it?\" {initiator} vents.",
+            "\"{target}, I need someone to back me up on this: fruitcake is just gross, right?\" {initiator} asks, looking for validation.",
+            "\"I've been meaning to ask you, {target}: are you a fan of fruitcake? Because I honestly can't understand its appeal,\" {initiator} says, baffled.",
+            "\"Every holiday season, I dread the inevitable appearance of fruitcake. Do you share my sentiments, {target}?\" {initiator} asks with a sigh.",
+            "\"I can't be the only one who thinks fruitcake is an abomination, right, {target}?\" {initiator} pleads, looking for support in their distaste."
+        ]
+    },
+    "mixer_social_DiscussLackOfNewspapers_targeted_Friendly_alwysOn_situation_Day1DLC": {
+        "actions": [
+            "\"{target}, have you noticed that there aren't many newspapers around anymore? It's quite frustrating,\" {initiator} says, clearly annoyed.",
+            "\"I can't believe how hard it is to find a decent newspaper these days, {target}. What's going on?\" {initiator} complains, shaking their head.",
+            "\"{target}, it's like newspapers have vanished into thin air. I miss the days when I could just grab one and enjoy my morning coffee,\" {initiator} sighs.",
+            "\"I don't know about you, {target}, but the lack of newspapers around here is really getting on my nerves,\" {initiator} grumbles.",
+            "\"It's a sad state of affairs when you can't even find a newspaper to read anymore, don't you think, {target}?\" {initiator} asks with a frown.",
+            "\"I was just telling someone the other day how I miss the feel of a newspaper in my hands, {target}. It's just not the same anymore,\" {initiator} laments.",
+            "\"Remember when you could find newspapers everywhere, {target}? What happened to those days? I can't stand this digital age,\" {initiator} complains passionately.",
+            "\"{target}, do you have any idea where I can find a newspaper around here? It seems like they're a rare commodity these days,\" {initiator} says in frustration.",
+            "\"Sometimes I feel like I'm the only person left who still prefers a newspaper to reading news online, {target}. It's quite disheartening,\" {initiator} confides.",
+            "\"I just want a simple newspaper to read with my morning coffee, {target}. Why is that so difficult to find these days?\" {initiator} asks, exasperated."
+        ]
+    },
+    "mixer_social_ChewOut_targeted_mean_emotionSpecific": {
+        "actions": [
+            "\"{target}, I can't believe how thoughtless you've been! You should be ashamed of yourself,\" {initiator} says angrily.",
+            "\"How many times do I have to tell you, {target}? You always mess things up!\" {initiator} yells, frustration evident in their voice.",
+            "\"{target}, I'm so sick of your incompetence! When are you going to get it together?\" {initiator} snaps, glaring at them.",
+            "\"{target}, your constant failures are getting on my nerves! Can't you do anything right?\" {initiator} exclaims, seething with rage.",
+            "\"Are you really this careless, {target}? It's like you don't even care about anyone but yourself!\" {initiator} scolds harshly.",
+            "\"Every time I think you've changed, {target}, you prove me wrong. I'm tired of your selfishness!\" {initiator} says, shaking their head in disappointment.",
+            "\"I've had enough of your nonsense, {target}! It's time you grow up and take responsibility for your actions!\" {initiator} barks, fed up with their behavior.",
+            "\"{target}, I don't know how much more of your stupidity I can take. Get your act together!\" {initiator} shouts, losing their patience.",
+            "\"Seriously, {target}? You've crossed the line this time. I won't tolerate this kind of behavior any longer!\" {initiator} warns, their voice dripping with contempt.",
+            "\"Enough is enough, {target}! You really need to start thinking about the consequences of your actions!\" {initiator} chastises, their anger reaching a boiling point."
+        ]
+    },
+    "mixer_social_ComplainAboutTvSize_targeted_Friendly_alwaysOn": {
+        "actions": [
+            "\"{target}, I can't believe how small this TV is! How can anyone watch anything on this?\" {initiator} says, squinting at the screen.",
+            "\"Ugh, this TV is just too tiny, {target}. How do you even enjoy watching anything on it?\" {initiator} complains, annoyed.",
+            "\"Seriously, {target}, this TV is giving me a headache. Who even buys a TV this small nowadays?\" {initiator} grumbles.",
+            "\"I can't take it anymore, {target}. This TV is just too small for my liking. We need an upgrade,\" {initiator} says with frustration.",
+            "\"{target}, it's like watching a movie on a postage stamp. This TV size is ridiculous!\" {initiator} exclaims, shaking their head.",
+            "\"You know, {target}, I've never been one to complain, but this TV size is just unbearable,\" {initiator} says, rubbing their eyes.",
+            "\"I can't help but say it, {target}, but this TV is just way too small for the room. We need something bigger,\" {initiator} says, trying to adjust their view.",
+            "\"Watching a movie on this TV is like trying to read a book through a keyhole, {target}. It's just too small!\" {initiator} moans.",
+            "\"I've been holding my tongue, {target}, but this TV size is driving me crazy. Can we please consider getting a bigger one?\" {initiator} pleads.",
+            "\"I don't know how you can stand it, {target}. This TV is just too small to enjoy anything properly,\" {initiator} says, clearly irritated."
+        ]
+    },
+    "mixer_social_Congratulate_targeted_Friendly_alwaysOn_event": {
+        "actions": [
+            "\"{target}, I just wanted to say congratulations on your achievement! You truly deserve it,\" {initiator} says with a warm smile.",
+            "\"Hey {target}, congratulations on your big win! I knew you could do it!\" {initiator} exclaims, giving {target} a pat on the back.",
+            "\"Congrats, {target}! I'm so proud of you and everything you've accomplished,\" {initiator} says, beaming with pride.",
+            "\"{target}, I just heard the news! Congratulations, my friend! You've earned it,\" {initiator} says, raising a toast in {target}'s honor.",
+            "\"I couldn't be happier for you, {target}. Congratulations on your success!\" {initiator} says, offering a heartfelt hug.",
+            "\"Wow, {target}, you really did it! I'm so impressed and proud of you. Congratulations!\" {initiator} says, clapping their hands in excitement.",
+            "\"Congratulations, {target}! Your hard work and determination have finally paid off. I'm really happy for you,\" {initiator} says, sincerity shining in their eyes.",
+            "\"Kudos to you, {target}! I always knew you had it in you. Congratulations on this amazing achievement,\" {initiator} says, giving {target} a high-five.",
+            "\"Well done, {target}! Your success is truly well-deserved. Congratulations!\" {initiator} says, offering a firm handshake.",
+            "\"Bravo, {target}! Your accomplishments never cease to amaze me. Congratulations on this latest triumph,\" {initiator} says, wearing a genuine smile of admiration."
+        ]
+    },
+    "mixer_social_AskAboutDrink_targeted_Friendly_alwaysOn_Event": {
+        "actions": [
+            "\"{target}, do you like the drink I made for you?\" {initiator} asks, looking for approval.",
+            "\"How's the drink, {target}? Is it to your liking?\" {initiator} inquires with a smile.",
+            "\"I tried a new recipe for this drink, {target}. What do you think of it?\" {initiator} questions, seeking an honest opinion.",
+            "\"Are you enjoying that drink, {target}? I was hoping you'd like it,\" {initiator} says, watching {target} take a sip.",
+            "\"Hey {target}, how's the drink? I put a little twist on it, do you like it?\" {initiator} asks curiously.",
+            "\"{target}, is the drink good? I wasn't sure if it would be to your taste,\" {initiator} says, sounding a bit uncertain.",
+            "\"So, {target}, what's your verdict on the drink? Thumbs up or down?\" {initiator} asks playfully.",
+            "\"I noticed you haven't said anything about the drink, {target}. Do you like it?\" {initiator} questions, hoping for a positive response.",
+            "\"I was experimenting with flavors in this drink, {target}. How did it turn out?\" {initiator} asks, eager for feedback.",
+            "\"Is the drink hitting the spot, {target}? I wanted to make something you'd enjoy,\" {initiator} says, hoping their effort paid off."
+        ]
+    },
+    "mixer_social_DiscussFitnessTechniques_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, I've been trying out this new workout routine, and I'd love to hear your thoughts on it,\" {initiator} says enthusiastically.",
+            "\"Hey {target}, you seem to be in great shape. Can you share some fitness tips with me?\" {initiator} asks, genuinely interested.",
+            "\"So, {target}, I've been experimenting with different exercises lately. Have you tried any new fitness techniques that you think are worth sharing?\" {initiator} inquires.",
+            "\"I've noticed you're really consistent with your workouts, {target}. Mind sharing some of your favorite techniques?\" {initiator} asks, hoping to learn something new.",
+            "\"{target}, I came across this fitness article about a new technique, and I can't decide if it's worth trying. What do you think?\" {initiator} says, showing the article to {target}.",
+            "\"Hey {target}, I've been trying to improve my fitness lately. Can you recommend any techniques that have worked well for you?\" {initiator} asks with curiosity.",
+            "\"I've been struggling with my workout routine recently, {target}. Do you have any fitness techniques that could help me get back on track?\" {initiator} says, feeling a bit discouraged.",
+            "\"{target}, I heard about this interesting fitness technique that's supposed to be really effective. Have you tried anything like that before?\" {initiator} asks, eager for information.",
+            "\"I'm thinking of incorporating some new fitness techniques into my routine, {target}. Any suggestions on where to start?\" {initiator} asks, seeking advice.",
+            "\"{initiator} approaches {target} at the gym and asks, \"Hey, I noticed you were doing a unique exercise. Can you explain the technique behind it? It looks really effective.\""
+        ]
+    },
+    "mixer_social_DiscussLocalFishingSpots_targeted_friendly_alwaysOn_neighbor": {
+        "actions": [
+            "\"{target}, have you heard about that hidden fishing spot near the old bridge? I've heard the fish are biting like crazy there,\" {initiator} says with excitement.",
+            "\"Hey {target}, I was thinking of trying out a new fishing spot this weekend. Any recommendations?\" {initiator} asks, hoping for some insider tips.",
+            "\"{target}, I heard you're quite the fisherman. Mind sharing some of your favorite local fishing spots with me?\" {initiator} inquires, genuinely interested.",
+            "\"I caught this monster of a fish the other day, {target}. Let me tell you about the amazing spot I found!\" {initiator} says, eager to share their discovery.",
+            "\"{target}, I came across this beautiful fishing spot the other day. You should join me there sometime,\" {initiator} suggests, hoping for some quality time together.",
+            "\"Did you know, {target}, that there's a hidden gem of a fishing spot just a few miles from here? Let me fill you in,\" {initiator} says, ready to share the secret.",
+            "\"Rumor has it that there's a fantastic fishing spot around here, {target}. Have you tried it yet?\" {initiator} asks curiously.",
+            "\"So, {target}, I've been exploring some local fishing spots lately, and I found this incredible place. Want to hear about it?\" {initiator} asks with enthusiasm.",
+            "\"I've been trying out different fishing spots around here, {target}. What are your go-to places when you want a good catch?\" {initiator} inquires, hoping to learn something new.",
+            "\"{target}, I know you're an expert when it comes to local fishing spots. Can you share some of your secrets with me?\" {initiator} asks, looking for guidance."
+        ]
+    },
+    "mixer_social_DiscussZebras_targeted_Friendly_alwaysOn_situation_Day1DLC": {
+        "actions": [
+            "\"{target}, have you ever wondered about the unique stripes of zebras and their purpose?\" {initiator} asks curiously.",
+            "\"{target}, did you know that no two zebras have the same pattern of stripes? It's like their own personal fingerprint,\" {initiator} shares excitedly.",
+            "\"Hey, {target}, did you ever get the chance to see zebras up close? They're such fascinating creatures,\" {initiator} says, reminiscing about a past experience.",
+            "\"I was reading an article about zebras the other day, {target}. It turns out their stripes help them stay cool in the heat,\" {initiator} explains, eager to share the newfound knowledge.",
+            "\"Have you ever wondered why zebras are social creatures, {target}? I'd love to talk about their unique behaviors with you,\" {initiator} says, hoping to spark an interesting conversation.",
+            "\"{target}, I was watching a documentary on zebras yesterday, and I thought you'd find it interesting too. Want to watch it with me?\" {initiator} suggests enthusiastically.",
+            "\"I've always been intrigued by the way zebras run in zigzag patterns to escape predators, {target}. Do you think it's their stripes that help them with this?\" {initiator} asks, looking for {target}'s opinion.",
+            "\"Did you know that zebras can actually run up to 65 kilometers per hour, {target}? I find that fascinating!\" {initiator} exclaims, eager to discuss the topic further.",
+            "\"{target}, what's your favorite thing about zebras? I'm curious to know,\" {initiator} asks, hoping to learn more about {target}'s interests.",
+            "\"I dreamt I was riding a zebra last night, {target}. It made me wonder how people first discovered they could ride horses but not zebras,\" {initiator} says, pondering the thought."
+        ]
+    },
+    "mixer_social_AskForReassurance_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{target}, do you really love me? I just need to hear it from you,\" {initiator} says, seeking comfort in {target}'s words.",
+            "\"Sometimes I feel insecure about our relationship, {target}. Can you tell me how you truly feel about us?\" {initiator} asks, hoping for reassurance.",
+            "\"{target}, I've been feeling a little vulnerable lately. Can you remind me why you fell in love with me?\" {initiator} asks with a small, timid smile.",
+            "\"I know it sounds silly, but I just need to know that you still care about me, {target}. Do you?\" {initiator} asks, looking into {target}'s eyes.",
+            "\"Can you promise me, {target}, that we'll always be there for each other, no matter what happens?\" {initiator} inquires, seeking affirmation of their love.",
+            "\"{target}, can you assure me that our love is strong enough to withstand any challenges that come our way?\" {initiator} asks, their voice filled with hope.",
+            "\"I've been feeling a bit lost lately, {target}. Can you tell me what I mean to you and why you chose me?\" {initiator} asks, yearning for a reminder of their love.",
+            "\"Sometimes I doubt myself and wonder if I'm enough for you, {target}. Can you help me understand why you love me?\" {initiator} asks, needing reassurance.",
+            "\"{target}, I just need to hear you say it one more time. Do you love me, and are you committed to our relationship?\" {initiator} says, seeking confirmation.",
+            "\"Can you remind me of the reasons you fell in love with me, {target}? I need to feel the warmth of your love right now,\" {initiator} pleads gently."
+        ]
+    },
+    "mixer_social_ComplainAboutLocalYouths_targeted_friendly_alwaysOn_neighbor": {
+        "actions": [
+            "\"{target}, have you noticed how the local youths have become increasingly disrespectful and noisy lately?\" {initiator} asks with genuine concern.",
+            "\"Can you believe the audacity of these local kids? They have no respect for others' properties or peace,\" {initiator} says, venting to {target}.",
+            "\"You know, {target}, I hate to sound like a grumpy old person, but these local youths are really starting to get on my nerves,\" {initiator} complains.",
+            "\"I've had enough, {target}. These young troublemakers have no respect for our community. It's about time someone put a stop to their antics,\" {initiator} says, frustrated.",
+            "\"{target}, I don't know if you've noticed, but the local youths have been causing a ruckus lately. It's driving me up the wall,\" {initiator} admits.",
+            "\"Every day, it's the same story with these local kids. They're loud, they litter, and they have no regard for us, {target}. Something needs to change,\" {initiator} says, shaking their head.",
+            "\"{target}, I've tried my best to stay patient, but these local youths are making it impossible to enjoy a peaceful evening at home. What's going on with them?\" {initiator} wonders aloud.",
+            "\"I used to think it was just me being too sensitive, but now I'm sure of it, {target}. These local kids are out of control,\" {initiator} says, seeking validation from {target}.",
+            "\"Are you as fed up as I am with the local youths' behavior, {target}? It's like they have no respect for anyone in this neighborhood,\" {initiator} asks, seeking support.",
+            "\"I can't take it anymore, {target}. These local kids are ruining the peaceful atmosphere of our community. We need to do something about it,\" {initiator} says, hoping for {target}'s agreement."
+        ]
+    },
+    "mixer_social_CriticizeWooHooTechniques_targeted_mean_middleScore": {
+        "actions": [
+            "\"{target}, I have to tell you this, but your technique in bed could use some improvement,\" {initiator} says hesitantly.",
+            "\"I don't want to hurt your feelings, {target}, but I think we could explore some new techniques in bed,\" {initiator} suggests cautiously.",
+            "\"{target}, I've been thinking about our intimacy lately, and I believe there's room for improvement when it comes to your technique,\" {initiator} says, trying to sound gentle.",
+            "\"You know I care about you, {target}, but I think we should talk about how we can enhance our experience in bed,\" {initiator} says, hoping not to offend.",
+            "\"{target}, I want our intimate moments to be amazing for both of us, so I think it's important that we discuss your technique,\" {initiator} says, attempting to be constructive.",
+            "\"I feel like we could have a more satisfying experience in bed, {target}, if we work on your technique together,\" {initiator} says, offering support.",
+            "\"{target}, I hope you don't take this the wrong way, but I think we should consider trying some new techniques in bed,\" {initiator} says, treading carefully.",
+            "\"{target}, I've noticed that some of the things you do in bed might not be as pleasurable for both of us, and I think we should talk about it,\" {initiator} says, hoping for a positive response.",
+            "\"I want to be honest with you, {target}. I think your technique in bed could use a little refinement, and I'm here to help,\" {initiator} says, offering a gentle smile.",
+            "\"I think our love life could be even more amazing, {target}, if we work together to improve your technique in bed. What do you think?\" {initiator} asks with a supportive tone."
+        ]
+    },
+    "mixer_social_DareToStreak_targeted_mischief_skills": {
+        "actions": [
+            "\"{target}, I bet you don't have the guts to do something crazy. How about streaking naked for a dare?\" {initiator} says with a mischievous grin. ",
+            "\"I've got a challenge for you, {target}. I dare you to streak naked and show the world your fearless side!\" {initiator} exclaims, a daring look in their eyes. ",
+            "\"Hey {target}, let's spice things up a bit! I dare you to streak naked. Are you brave enough?\" {initiator} asks, raising an eyebrow. ",
+            "\"Alright, {target}, it's time to test your limits! I dare you to run through this place naked. What do you say?\" {initiator} says, a smirk appearing on their face. ",
+            "\"{target}, I've got the ultimate dare for you. I challenge you to strip down and streak naked. Can you handle it?\" {initiator} questions, playfully. ",
+            "\"Let's see how daring you truly are, {target}. I dare you to streak naked right now!\" {initiator} says, laughing. ",
+            "\"Okay, {target}, I've got a dare that'll really push your boundaries. Are you up for streaking naked?\" {initiator} asks, a wicked smile on their lips. ",
+            "\"Hey {target}, since we're all about taking risks, how about I dare you to streak naked? Do you accept the challenge?\" {initiator} queries, gleefully. ",
+            "\"{initiator} looks at {target} and says, \"You think you're so daring, huh? Let's see if you've got what it takes to streak naked.\" ",
+            "\"Here's a dare for you, {target}. Prove your fearlessness by streaking naked right now!\" {initiator} says, their eyes full of excitement."
+        ]
+    },
+    "mixer_social_ClaimCriminalMastermind_targeted_mischief_skills": {
+        "actions": [
+            "\"{target}, you might find this hard to believe, but I'm actually a criminal mastermind,\" {initiator} says with a sly grin.",
+            "\"I've been keeping this from you, {target}, but I think it's time you know the truth: I'm a criminal mastermind,\" {initiator} confesses nonchalantly.",
+            "\"{target}, have you ever wondered why I'm so good at strategy games? It's because I'm a criminal mastermind,\" {initiator} reveals with a hint of pride.",
+            "\"I never thought I'd tell anyone, but I trust you, {target}. I've been orchestrating major heists for years as a criminal mastermind,\" {initiator} says, gauging {target}'s reaction.",
+            "\"Listen, {target}, I need you to know something: I'm not just your average person. I'm a criminal mastermind,\" {initiator} says, trying to keep a straight face.",
+            "\"{target}, have you ever noticed how I always seem to know what's going on? It's because I'm a criminal mastermind, and I've been keeping it a secret,\" {initiator} admits, with a smug smile.",
+            "\"I've been living a double life, {target}. By day, I'm your friend, but at night, I'm a criminal mastermind,\" {initiator} says, dramatically.",
+            "\"I can't keep this from you any longer, {target}. You deserve to know that I'm a criminal mastermind,\" {initiator} says, trying to gauge {target}'s reaction.",
+            "\"I thought you should know, {target}, that I'm not just good at solving puzzles. I'm also a criminal mastermind,\" {initiator} says, with a mischievous glint in their eye.",
+            "\"I have a confession, {target}. I'm not who you think I am. I'm actually a criminal mastermind,\" {initiator} says, waiting to see how {target} will react."
+        ]
+    },
+    "mixer_social_DiscussColorTheory_targeted_Friendly_alwaysOn_skills": {
+        "actions": [
+            "\"{target}, have you ever thought about how colors can affect our mood and emotions? Let's dive into color theory,\" {initiator} suggests with enthusiasm.",
+            "\"Hey {target}, I came across an interesting article on color theory recently, want to discuss it together?\" {initiator} asks, excited to share their newfound knowledge.",
+            "\"{target}, do you have a favorite color? I've been researching color theory and I'd love to hear your thoughts on it,\" {initiator} says, looking for a stimulating conversation.",
+            "\"Did you know that different colors can have different psychological effects on us, {target}? Let's explore color theory together,\" {initiator} proposes, eager to delve into the subject.",
+            "\"You know, {target}, I've always been fascinated by color theory and how color choices can impact design and art. What's your take on it?\" {initiator} inquires, curious about {target}'s opinion.",
+            "\"Color theory is such a fascinating topic, {target}. Let's have a chat about how it plays a role in our everyday lives,\" {initiator} says, eager to engage {target} in a meaningful conversation.",
+            "\"I've been studying color theory lately, {target}, and it's making me see the world in a whole new light. Want to discuss it together?\" {initiator} asks with genuine interest.",
+            "\"Have you ever considered how color theory can influence our choices, {target}? I'd love to hear your thoughts on the subject,\" {initiator} says, seeking {target}'s perspective.",
+            "\"{target}, I find color theory to be incredibly intriguing. Would you like to discuss its implications and how it affects our perception of the world?\" {initiator} asks, hoping for an engaging conversation.",
+            "\"Color theory has been on my mind lately, {target}. I'm curious about its impact on our emotions and decision-making. Care to join me in a discussion about it?\" {initiator} invites, looking for an insightful exchange."
+        ]
+    },
+    "mixer_social_AskAboutFood_targeted_Friendly_alwaysOn_Event": {
+        "actions": [
+            "\"{target}, how do you like the dish I prepared for us? I hope it's to your taste,\" {initiator} says, hoping for approval.",
+            "\"{target}, I've been curious, what do you think about the food I made? Does it suit your taste buds?\" {initiator} asks with anticipation.",
+            "\"Hey {target}, I tried a new recipe today. How do you like it? Be honest,\" {initiator} inquires, looking for feedback.",
+            "\"So, {target}, I've been dying to know, what's your opinion on the meal? Enjoying it?\" {initiator} asks with a smile.",
+            "\"{target}, I hope you're enjoying the food. Can I get your honest opinion on it?\" {initiator} questions, seeking validation.",
+            "\"I put a lot of effort into this meal, {target}. I'd love to know if you like it,\" {initiator} says, looking for a genuine response.",
+            "\"Did I get it right, {target}? How's the food? I'm always looking for ways to improve my cooking,\" {initiator} asks with a hint of pride.",
+            "\"{target}, do you like the food I made? I tried to cater to your preferences,\" {initiator} inquires, eager for a positive reaction.",
+            "\"I've been experimenting with new flavors, {target}. How's the dish? Are you enjoying it?\" {initiator} asks, excited for feedback.",
+            "\"Your opinion means a lot to me, {target}. What do you think of the meal I prepared for us?\" {initiator} asks, with a hint of nervousness."
+        ]
+    },
+    "mixer_social_ApologizeInBed_targeted_romance_transition": {
+        "actions": [
+            "\"{target}, I'm really sorry about last night's performance. I promise it's not usually like that,\" {initiator} says, looking embarrassed.",
+            "\"I owe you an apology, {target}. I wasn't at my best last night, and I want you to know it doesn't define me,\" {initiator} says, trying to make amends.",
+            "\"{target}, I wanted to talk about what happened last night. I wasn't on my game, and I'm sorry if I disappointed you,\" {initiator} confesses, their voice tinged with regret.",
+            "\"I feel like I let you down, {target}. I'm sorry for not being able to satisfy you like I wanted to,\" {initiator} says apologetically.",
+            "\"{target}, I need to say I'm sorry for my performance in bed last night. I hope you won't hold it against me,\" {initiator} pleads, looking concerned.",
+            "\"Last night wasn't my best, {target}. I'm really sorry if I didn't meet your expectations,\" {initiator} admits, feeling vulnerable.",
+            "\"I want to apologize, {target}. I wasn't myself last night, and I know I could have done better,\" {initiator} says, hoping for understanding.",
+            "\"{target}, I feel terrible about how things went in bed last night. I promise I'll make it up to you,\" {initiator} says, determined to fix the situation.",
+            "\"I'm really sorry, {target}. I don't know what happened last night, but I want to make it right,\" {initiator} says, looking for a chance at redemption.",
+            "\"{target}, I need to apologize for last night. I wasn't at my best, and I hope we can move past it,\" {initiator} says, seeking forgiveness."
+        ]
+    },
+    "mixer_social_AskToStayTheNight_targeted_romance_highScore": {
+        "actions": [
+            "\"{target}, I've been thinking... would you like to spend the night with me?\" {initiator} asks, a hint of a blush on their cheeks.",
+            "\"With the stars above us, I can't help but think how magical it would be to spend the night together, {target}. What do you say?\" {initiator} says softly, gazing into {target}'s eyes.",
+            "\"Life is full of beautiful moments, {target}, and I can't imagine anything more beautiful than spending tonight with you,\" {initiator} suggests, a hopeful smile playing on their lips.",
+            "\"There's something about this night, {target}, that makes me want to spend every second of it with you. Would you like to stay with me?\" {initiator} asks, their heart racing.",
+            "\"I've always dreamt of a night like this, {target}. A night where it's just the two of us, lost in each other's company. What do you think?\" {initiator} inquires, a tender look in their eyes.",
+            "\"Tonight feels special, {target}. I can't quite put my finger on it, but I think it would be even more special if we spent it together. Would you like that?\" {initiator} asks, their voice filled with warmth.",
+            "\"Can I be honest with you, {target}? I've been longing for a night like this, just you and me, away from the rest of the world. Would you like to stay with me?\" {initiator} confesses, their eyes searching {target}'s for an answer.",
+            "\"Under the moonlight, everything seems so enchanting, {target}. I can't help but imagine how incredible it would be to share this night with you. What do you say?\" {initiator} proposes, a gentle smile on their face.",
+            "\"I don't want this night to end, {target}. And I don't want to spend it with anyone else but you. Do you feel the same?\" {initiator} questions, their heart fluttering with anticipation.",
+            "\"{target}, the thought of spending tonight with you fills me with a happiness I can't describe. Can I ask you to stay with me and make this night unforgettable?\" {initiator} pleads, their eyes shimmering with hope."
+        ]
+    },
+    "mixer_social_AskToJustBeFriends_Targeted_Friendly_alwaysOn": {
+        "actions": [
+            "\"{target}, I've been thinking a lot lately, and I really value our friendship. I hope we can continue being just friends,\" {initiator} says sincerely.",
+            "\"Can I talk to you about something, {target}? I think it's best for us to stay as friends, nothing more,\" {initiator} suggests gently.",
+            "\"{target}, I have something on my mind. I believe our relationship works best when we're just friends, don't you think?\" {initiator} asks carefully.",
+            "\"I hope you're not upset, {target}, but I've realized that our friendship is too important to me to risk complicating it with anything more,\" {initiator} confesses.",
+            "\"You know, {target}, I've been contemplating our relationship, and I think we're better off as just friends. What do you think?\" {initiator} inquires.",
+            "\"Can I be honest with you, {target}? I feel like our connection is strongest when we're just friends. I hope you feel the same way,\" {initiator} says, trying to gauge {target}'s reaction.",
+            "\"I don't want to hurt your feelings, {target}, but I've been thinking that we should just be friends. I value our bond too much to risk losing it,\" {initiator} expresses genuinely.",
+            "\"{target}, I think we need to talk. Personally, I feel like we should remain friends and not pursue anything further. I hope you understand,\" {initiator} says delicately.",
+            "\"I've done a lot of soul-searching, {target}, and I think the best thing for both of us is to just be friends. I hope you can accept that,\" {initiator} shares honestly.",
+            "\"Please don't take this the wrong way, {target}, but I've come to the conclusion that we're better as friends. I hope we can maintain our amazing friendship,\" {initiator} says, hoping for understanding."
+        ]
+    },
 }

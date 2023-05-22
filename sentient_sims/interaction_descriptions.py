@@ -860,20 +860,20 @@ interaction_descriptions = {
     #         "\"Listen up, folks! I've got an extraordinary story to tell, and I need everyone to hear it. {target}, make sure you're paying attention. You'll never believe what I'm about to share,\" {initiator} insists, clearly eager to share their tale."
     #     ]
     # },
-    # "mixer_social_SelfDeprecatingJoke_group_funny_emotionSpecific": {
-    #     "actions": [
-    #         "\"{target}, you know I'm the slowest runner in town. I'd lose a race even against a snail!\" {initiator} jokes, laughing at their own expense.",
-    #         "\"Hey {target}, did you hear about the time I tried to cook dinner? The fire alarm asked for a transfer!\" {initiator} chuckles, poking fun at their culinary skills.",
-    #         "\"So, {target}, I tried to fix my computer the other day, but somehow I made it worse. I guess I'm the only person capable of breaking the internet!\" {initiator} says, grinning self-deprecatingly.",
-    #         "\"Remember when I tried to learn a new language, {target}? Yeah, even the language app gave up on me!\" {initiator} laughs, admitting their failure.",
-    #         "\"Hey {target}, you know how bad I am with directions, right? I got lost in my own house last week!\" {initiator} jokes, making light of their poor navigation skills.",
-    #         "\"{target}, I'm so clumsy that I could trip over my own shadow. In fact, I think I did it once!\" {initiator} says, laughing at their own clumsiness.",
-    #         "\"I'm such a terrible dancer, {target}, that the last time I tried, the floor filed a restraining order against me!\" {initiator} chuckles, poking fun at their lack of rhythm.",
-    #         "\"Did I ever tell you about the time I tried gardening, {target}? Every plant I touched turned brown. Guess I have a brown thumb instead of a green one!\" {initiator} jokes, making light of their gardening misadventures.",
-    #         "\"You know I'm no good with tools, right, {target}? I tried fixing my bike, but ended up with more parts than I started with!\" {initiator} laughs, admitting their lack of mechanical skills.",
-    #         "\"Hey {target}, I tried painting a landscape once, but my art teacher thought it was an abstract piece! I guess I have a unique sense of 'artistic expression',\" {initiator} jokes, laughing at their own artistic abilities."
-    #     ]
-    # },
+    "mixer_social_SelfDeprecatingJoke_group_funny_emotionSpecific": {
+        "actions": [
+            "\"{target}, you know what's funny about me? I'm the kind of person who...\" {initiator} starts, chuckling at their own expense.",
+            "\"{target}, have you heard this one about me? It's hilarious, but a little embarrassing,\" {initiator} says with a grin.",
+            "\"Hey {target}, I've got a joke for you, and the punchline is... me!\" {initiator} laughs, poking fun at themselves.",
+            "\"You know what's really funny, {target}? My life! Let me tell you about this ridiculous thing I did,\" {initiator} says, laughing at their own misfortune.",
+            "\"{target}, you'll get a kick out of this. I can't believe I actually did this, but it's too funny not to share,\" {initiator} admits, shaking their head in amusement.",
+            "\"Alright, {target}, I've got a hilarious story for you. But fair warning, I'm the butt of the joke,\" {initiator} says, grinning sheepishly.",
+            "\"I don't know if I should be embarrassed or proud of this, {target}, but I've got a great self-deprecating joke to share,\" {initiator} says, chuckling.",
+            "\"Get ready to laugh, {target}, because I've got a joke that makes me look like a total fool,\" {initiator} confesses, already laughing at themselves.",
+            "\"{target}, I've got a story that proves I'm not the brightest bulb in the box, but at least it's good for a laugh,\" {initiator} says, poking fun at their own expense.",
+            "\"I can't believe I'm going to tell you this, {target}, but I did something so dumb that it's actually hilarious. You ready?\" {initiator} asks, grinning at their own misadventure."
+        ]
+    },
     "mixer_social_BroBump_targeted_Friendly_alwaysOn": {
         "actions": [
             "\"{target}, that was awesome! Bring it in for a bro bump,\" {initiator} says, grinning and raising their fist.",
@@ -1258,16 +1258,16 @@ interaction_descriptions = {
     },
     # "mixer_social_JokeAboutPoliticians_group_Funny_MediumScore": {
     #     "actions": [
-    #         "\"{target}, have you heard the one about the politician who actually kept all his promises? Me neither!\" {initiator} laughs, looking for {target}'s reaction.",
-    #         "\"Hey {target}, what's the difference between a politician and a flying pig? The letter 'F'!\" {initiator} chuckles, waiting for {target} to join in.",
-    #         "\"{target}, why do politicians make terrible comedians? Because they can never deliver a punchline on time!\" {initiator} says, grinning at {target}.",
-    #         "\"Did you hear about that politician who always told the truth, {target}? Yeah, he's a character in a fiction novel,\" {initiator} jokes, hoping to make {target} laugh.",
-    #         "\"{target}, you know what's the best way to confuse a politician? Ask them to give a straight answer!\" {initiator} smirks, sharing the joke with {target}.",
-    #         "\"Hey {target}, what do you call a politician who only thinks about themselves? Oh wait, that's just a politician,\" {initiator} jokes, looking for a laugh from {target}.",
-    #         "\"{target}, have you heard about the new reality show? It's called 'Survivor: Political Edition' â the only way to win is to be voted out first!\" {initiator} laughs, sharing the joke with {target}.",
-    #         "\"So {target}, what do you get when you cross a politician with a robot? A machine that never stops talking, even when it doesn't have anything to say!\" {initiator} says, chuckling at the joke.",
-    #         "\"Hey {target}, why did the politician switch careers and become a baker? Because they were great at cooking up stories!\" {initiator} grins, hoping {target} finds it funny.",
-    #         "\"{target}, you know what politicians and diapers have in common? They both need changing regularly, and for the same reason!\" {initiator} laughs, sharing the joke with {target}."
+    #         "\"{target}, have you heard the one about the politician who actually told the truth?\" {initiator} asks with a grin.",
+    #         "\"Hey {target}, why did the politician cross the road?\" {initiator} says, chuckling in anticipation.",
+    #         "\"{target}, you'll love this one. What do you call a politician who keeps their promises?\" {initiator} smirks mischievously.",
+    #         "\"Here's a good one, {target}. How many politicians does it take to change a lightbulb?\" {initiator} asks, trying to suppress a laugh.",
+    #         "\"Hey {target}, what do you get when you mix a politician and a scientist?\" {initiator} says, a twinkle in their eye.",
+    #         "\"{target}, did you hear about the politician who accidentally told the truth during a speech?\" {initiator} begins, a smile spreading across their face.",
+    #         "\"So {target}, what's the difference between a politician and a magician?\" {initiator} asks, eager to share the punchline.",
+    #         "\"Ready for a laugh, {target}? What do you call a politician who can play the piano?\" {initiator} grins, anticipating {target}'s reaction.",
+    #         "\"Okay {target}, I've got a great one for you. Why did the politician go to the beach?\" {initiator} asks, barely able to contain their laughter.",
+    #         "\"Hey {target}, want to hear a joke? What's the difference between a politician and a flying pig?\" {initiator} smirks, waiting for {target}'s response."
     #     ]
     # },
     "mixer_social_AskToBeBoyfriend_targeted_romance_relationship": {
@@ -2180,4 +2180,47 @@ interaction_descriptions = {
             "\"Please don't take this the wrong way, {target}, but I've come to the conclusion that we're better as friends. I hope we can maintain our amazing friendship,\" {initiator} says, hoping for understanding."
         ]
     },
+        "mixer_social_PickupLine_targeted_romance_alwaysOn": {
+        "actions": [
+            "\"{target}, are you a magician? Because whenever I look at you, everyone else disappears,\" {initiator} says with a playful smile.",
+            "\"Is your name Google, {target}? Because you have everything I've been searching for,\" {initiator} says, trying to impress {target}.",
+            "\"{target}, if you were a vegetable, you'd be a 'cute-cumber',\" {initiator} says, attempting to be charming.",
+            "\"Do you have a map, {target}? Because I just got lost in your eyes,\" {initiator} says, gazing into {target}'s eyes.",
+            "\"Can I follow you home, {target}? Cause my parents always told me to follow my dreams,\" {initiator} says, hoping for a positive reaction.",
+            "\"Are you made of copper and tellurium, {target}? Because you're Cu-Te,\" {initiator} says, trying to be clever and flirtatious.",
+            "\"Did it hurt when you fell from heaven, {target}?\" {initiator} asks, flashing a charming smile.",
+            "\"Excuse me, {target}, but I think you dropped something: my jaw,\" {initiator} says, attempting to flatter {target}.",
+            "\"If you were a fruit, {target}, you'd be a fine-apple,\" {initiator} says, hoping to catch {target}'s attention.",
+            "\"{target}, I must be a snowflake, because I've fallen for you,\" {initiator} says, trying to be both romantic and witty."
+        ]
+    },
+    "mixer_social_SmoothRecovery_targeted_romance_alwaysOn_topic": {
+        "actions": [
+            "\"{target}, I must have tripped over my words because I'm falling for you,\" {initiator} says with a wink, trying to recover from their slipup.",
+            "\"I guess I got tongue-tied because you're just too stunning, {target},\" {initiator} says, attempting to cover up their flub.",
+            "\"Well, that didn't come out right, but what I meant to say was, you look amazing tonight, {target},\" {initiator} says with a charming smile.",
+            "\"I promise I'm usually smoother than that, {target}, but you just have me a little flustered,\" {initiator} admits, hoping to recover from their mistake.",
+            "\"Wow, I didn't expect to mess that up, but I guess you have that effect on me, {target},\" {initiator} says, trying to play off their slipup.",
+            "\"Let me try that again, {target}. You're so beautiful, you make me forget my lines,\" {initiator} says, attempting to regain their composure.",
+            "\"Oops, that was a bit clumsy of me, wasn't it? But I guess I'm just clumsy in love, {target},\" {initiator} says, laughing off their slipup.",
+            "\"Sometimes my words get twisted, but they're always straight from the heart, {target},\" {initiator} says, attempting to recover smoothly.",
+            "\"Well, that was embarrassing, but you know what they say: 'you always mess up when you're in front of someone you like,' right, {target}?\" {initiator} says, trying to save face.",
+            "\"I can't believe I messed that up, {target}, but I suppose it's all part of my charm,\" {initiator} says, attempting to turn their slipup into a flirty moment."
+        ]
+    },
+    "mixer_social_StartPreposterousRumor_group_mischief_skills": {
+        "actions": [
+            "\"{target}, you won't believe the crazy rumor I heard today. You've got to hear this!\" {initiator} says, grinning mischievously.",
+            "\"I came across this wild piece of gossip, {target}, and I just can't keep it to myself,\" {initiator} says with a smirk.",
+            "\"Hey, {target}, have you heard the latest rumor flying around? It's completely outrageous!\" {initiator} exclaims, eager to share.",
+            "\"Alright, {target}, brace yourself for the most absurd rumor I've ever heard. I'm dying to see your reaction,\" {initiator} says, chuckling.",
+            "\"Oh, {target}, I've got some juicy gossip for you! You're not going to believe this one,\" {initiator} says, winking.",
+            "\"I heard something so unbelievable today, {target}, I just have to share it with you. Are you ready for this?\" {initiator} asks, excitedly.",
+            "\"Prepare to be amazed, {target}. I stumbled upon a rumor that's so ridiculous, I can't help but laugh,\" {initiator} says, grinning from ear to ear.",
+            "\"{target}, if you're in the mood for a good laugh, let me tell you about this crazy rumor I heard. You're going to love it,\" {initiator} says, trying to contain their laughter.",
+            "\"Okay, {target}, get ready for the most preposterous piece of gossip I've ever come across. Trust me, it's a doozy,\" {initiator} says, shaking their head in disbelief.",
+            "\"Hey, {target}, I heard a rumor today that's so bizarre, I couldn't wait to share it with you. I hope you're sitting down for this one,\" {initiator} says with a teasing smile."
+        ]
+    },
+
 }

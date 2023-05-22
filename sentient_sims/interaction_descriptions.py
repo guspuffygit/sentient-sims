@@ -1487,11 +1487,9 @@ interaction_descriptions = {
             "\"Feeling a sudden surge of affection, {initiator} gently cups {target}'s face and plants a sweet kiss on their cheek.\"",
             "\"{initiator} smiles warmly at {target} before suddenly leaning in and placing a light kiss on their cheek, catching them off guard.\"",
             "\"With a playful grin, {initiator} leans in and brushes their lips against {target}'s cheek, leaving a lingering sensation.\"",
-            "\"As {target} speaks passionately about something they care about, {initiator} can't resist and leans in to plant a loving kiss on their cheek.\"",
             "\"{initiator} takes {target}'s hand, looks into their eyes, and then gently kisses their cheek, making {target}'s heart race.\"",
-            "\"{initiator} notices {target} feeling down, so they lean in and tenderly plant a reassuring kiss on their cheek.\"",
             "\"Caught up in the moment, {initiator} impulsively leans forward and leaves a light, affectionate kiss on {target}'s cheek.\"",
-            "\"While laughing at a shared joke, {initiator} suddenly leans in and surprises {target} with a quick peck on the cheek.\""
+            "\"{initiator} suddenly leans in and surprises {target} with a quick peck on the cheek.\""
         ]
     },
     "mixer_social_ShareConspiracyTheory_targeted_mischief_alwaysOn": {

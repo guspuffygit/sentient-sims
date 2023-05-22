@@ -31,6 +31,7 @@ trait_descriptions = {
     "Activities_Piano": "to play piano",
     "Activities_Gardening": "gardening",
     "Activities_Fishing": "fishing",
+    "Music_Lullabies": "lullabies",
 
     # Personality Traits
     "HotHeaded": "is hot headed",
@@ -56,6 +57,9 @@ trait_descriptions = {
     "Good": "is a good person",
     "Jealous": "is jealous",
     "ArtLover": "loves art",
+    "Cheerful": "is cheerful",
+    "Foodie": "is a foodie",
+    "Gloomy": "is gloomy",
 
     # Moods
     "Flirty": "is in a flirty mood",
@@ -67,5 +71,7 @@ trait_descriptions = {
     "Fine": "is feeling fine",
     "Confident": "is feeling confident",
     "Angry": "is feeling angry",
-    "Focused": "is feeling Focused",
+    "Focused": "is feeling focused",
+    "Playful": "is feeling playful",
+    "Embarrassed": "is feeling embarrassed",
 }

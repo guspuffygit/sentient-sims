@@ -25,6 +25,12 @@ trait_descriptions = {
     "Trait_SimPreference_Dislikes_Music_TweenPop": "tween pop",
     "Music_Spooky": "spooky music",
     "Trait_SimPreference_Dislikes_Music_World": "world music",
+    "Color_Pink": "the color pink",
+    "Color_Yellow": "the color yellow",
+    "Activities_Comedy": "to perform comedy",
+    "Activities_Piano": "to play piano",
+    "Activities_Gardening": "gardening",
+    "Activities_Fishing": "fishing",
 
     # Personality Traits
     "HotHeaded": "is hot headed",
@@ -45,6 +51,11 @@ trait_descriptions = {
     "Goofball": "is a goofball",
     "Insane": "is insane",
     "Ambitious": "is ambitious",
+    "Materialistic": "is materialistic",
+    "Snob": "is a snob",
+    "Good": "is a good person",
+    "Jealous": "is jealous",
+    "ArtLover": "loves art",
 
     # Moods
     "Flirty": "is in a flirty mood",
@@ -54,4 +65,7 @@ trait_descriptions = {
     "Uncomfortable": "is feeling uncomfortable",
     "Sad": "is feeling sad",
     "Fine": "is feeling fine",
+    "Confident": "is feeling confident",
+    "Angry": "is feeling angry",
+    "Focused": "is feeling Focused",
 }

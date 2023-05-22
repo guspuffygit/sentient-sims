@@ -2222,5 +2222,156 @@ interaction_descriptions = {
             "\"Hey, {target}, I heard a rumor today that's so bizarre, I couldn't wait to share it with you. I hope you're sitting down for this one,\" {initiator} says with a teasing smile."
         ]
     },
+    "sim_Kiss_QuickSocial": {
+        "actions": [
+            "\"{initiator} looks deeply into {target}'s eyes, leans in, and gently plants a kiss on their lips.\"",
+            "\"Without any warning, {initiator} takes {target}'s face in their hands and softly kisses them.\"",
+            "\"Feeling a surge of emotion, {initiator} impulsively leans forward and kisses {target} passionately.\"",
+            "\"In an intimate moment, {initiator} tenderly moves closer to {target} and presses their lips together.\"",
+            "\"As {initiator} and {target} share a heartfelt conversation, {initiator} leans in and gives {target} a loving kiss.\"",
+            "\"{initiator} suddenly takes {target}'s hand, pulls them close, and surprises them with a kiss.\"",
+            "\"Overwhelmed by emotions, {initiator} closes the distance between them and kisses {target} with all their heart.\"",
+            "\"With a soft smile, {initiator} cups {target}'s cheek and gently brings their lips together.\"",
+            "\"Feeling a strong connection, {initiator} can no longer resist the temptation and kisses {target} passionately.\"",
+            "\"As they gaze into each other's eyes, {initiator} tilts their head, leans in, and kisses {target} tenderly.\""
+        ]
+    },
+    "mixer_social_SexyPose_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{target}, I've been practicing this pose just for you. Are you ready for it?\" {initiator} says with a sly wink, before striking the pose.",
+            "\"Hey {target}, I've got a surprise for you. Check out this pose,\" {initiator} says, confidently striking a seductive pose.",
+            "\"Feeling playful, {initiator} decides to surprise {target} with a sexy pose, hoping to make them blush.\"",
+            "\"{initiator} leans against the wall, striking a sultry pose for {target}, curious to see their reaction.\"",
+            "\"Wanting to spice things up, {initiator} strikes a sexy pose in front of {target}, raising an eyebrow suggestively.\"",
+            "\"{initiator} looks {target} in the eye, flashing a flirtatious smile before striking a seductive pose that leaves them speechless.\"",
+            "\"{target}, I bet you didn't expect this,\" {initiator} says playfully, before surprising them with a sexy pose.",
+            "\"Feeling confident, {initiator} decides to strike a sexy pose in front of {target}, hoping to get a positive reaction.\"",
+            "\"{initiator} catches {target}'s eye and, with a mischievous grin, strikes a sultry pose just for them, waiting to see their response.\""
+        ]
+    },
+    "mixer_social_SitIntimate_Kiss_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{initiator} leans in closer to {target}, their eyes locked, and gently places a tender kiss on {target}'s lips.\"",
+            "\"Without a word, {initiator} takes {target}'s hand, pulls them in close, and surprises {target} with a soft, unexpected kiss.\"",
+            "\"With a sudden surge of courage, {initiator} moves closer to {target} and lovingly presses their lips against {target}'s.\"",
+            "\"As they sit together, {initiator} can't help but feel the magnetic pull towards {target}, and finally gives in to the urge to plant a sweet kiss on {target}'s lips.\"",
+            "\"{initiator}'s heart races as they muster the bravery to lean in and gently place a kiss on {target}'s lips, hoping it will be well received.\"",
+            "\"In a moment of pure emotion, {initiator} leans towards {target} and lets their lips meet in a warm, gentle kiss.\"",
+            "\"With their faces just inches apart, {initiator} can no longer resist the temptation to press their lips against {target}'s in a tender, passionate kiss.\"",
+            "\"As they sit side by side, {initiator} gazes deeply into {target}'s eyes and decides to softly kiss {target}.\"",
+            "\"Feeling a strong connection to {target}, {initiator} leans in and shares a tender, loving kiss.\"",
+            "\"{initiator}, overwhelmed by their feelings for {target}, gently cups {target}'s face in their hands and slowly moves in for a heartfelt, lingering kiss.\""
+        ]
+    },
+    "mixer_social_PassionateKiss_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{initiator} looks deeply into {target}'s eyes, leans in, and plants a passionate kiss on their lips, taking them by surprise.\"",
+            "\"Without saying a word, {initiator} reaches out, gently cups {target}'s face, and kisses them passionately, leaving them both breathless.\"",
+            "\"With a sudden surge of emotion, {initiator} pulls {target} close and kisses them deeply, their hearts racing together.\"",
+            "\"{initiator} takes a step closer to {target}, brings their lips together in a passionate embrace, and kisses them like they've never been kissed before.\"",
+            "\"Overwhelmed with feelings for {target}, {initiator} tenderly places a hand on their cheek and kisses them with a passion that sends shivers down their spine.\"",
+            "\"As {initiator} gazes into {target}'s eyes, they can't resist any longer and pull {target} into a passionate, electrifying kiss.\"",
+            "\"In a moment of unspoken desire, {initiator} leans in and gives {target} the most passionate, breathtaking kiss they've ever experienced.\"",
+            "\"Unable to contain their feelings any longer, {initiator} sweeps {target} off their feet and delivers a soul-stirring, passionate kiss.\"",
+            "\"{initiator} gently grabs {target} by the hand, draws them near, and kisses them with a passion that leaves them both weak in the knees.\"",
+            "\"Feeling a magnetic pull toward each other, {initiator} and {target} come together in a passionate, unforgettable kiss that leaves them both wanting more.\""
+        ]
+    },
+    "mixer_social_FirstKiss_targeted_romance_STC": {
+        "actions": [
+            "\"{initiator} leans in closer, their eyes locked with {target}'s, and gently presses their lips together in a tender first kiss.\"",
+            "\"With a sudden surge of courage, {initiator} takes {target}'s hand, looks deeply into their eyes, and softly plants a kiss on their lips.\"",
+            "\"As their faces draw near, {initiator} hesitates for a moment, then closes the distance, capturing {target}'s lips in a sweet, memorable first kiss.\"",
+            "\"{initiator} gazes into {target}'s eyes, leans in, and shares a gentle, loving first kiss.\"",
+            "\"{initiator} takes a deep breath, draws {target} closer, and with a mix of excitement and nervousness, kisses them for the first time.\"",
+            "\"While laughing together, {initiator} suddenly stops and, with a tender look, leans in to give {target} a soft, unexpected first kiss.\"",
+            "\"Surrounded by a romantic ambiance, {initiator} reaches out, cradles {target}'s face, and plants a slow, passionate first kiss on their lips.\"",
+            "\"In the midst of an emotional conversation, {initiator} tenderly touches {target}'s face and leans in to share a heartfelt first kiss.\"",
+            "\"{initiator} pulls {target} close, and shares a warm, comforting first kiss.\"",
+            "\"{initiator} gently grabs {target}'s arm, pulls them closer, and surprises them with a soft, lingering first kiss.\""
+        ]
+    },
+    "mixer_social_BlowAKiss_targeted_romance_highScore": {
+        "actions": [
+            "\"{target}, this one's for you,\" {initiator} says playfully, blowing a kiss in {target}'s direction.",
+            "With a sly grin, {initiator} catches {target}'s eye and gently sends a blown kiss their way.",
+            "\"{initiator} leans in close to {target} and whispers, \"Watch closely,\" before pulling away and blowing a delicate kiss in their direction.",
+            "\"{initiator} looks at {target} from across the room, and with a mischievous smile, they pucker their lips and blow a subtle kiss.",
+            "With a coy smile, {initiator} locks eyes with {target} and playfully blows a kiss, hoping to catch their attention.",
+            "\"{initiator} gently taps {target}'s shoulder to get their attention, and once their eyes meet, {initiator} blows a soft, teasing kiss.",
+            "\"{initiator} pretends to pluck something from the air, and as they present it to {target}, they blow a tender kiss their way.",
+            "\"{initiator} catches {target} by surprise, leaning in as if to whisper a secret, but instead, they blow a warm kiss near {target}'s ear.",
+        ]
+    },
+    "mixer_social_Embrace_targeted_romance_middleScore_STC": {
+        "actions": [
+            "\"{target}, I can't help it any longer. I need to hold you close,\" {initiator} says, pulling {target} into a tender embrace.",
+            "\"Whenever I'm near you, {target}, all I want to do is wrap my arms around you,\" {initiator} admits, finally giving in to their feelings.",
+            "\"Come here, {target}. I want you to feel how much you mean to me,\" {initiator} says, enveloping {target} in a heartfelt hug.",
+            "\"{target}, there's something so special about you that I can't resist the urge to hold you close,\" {initiator} confesses, drawing {target} into their arms.",
+            "\"Being with you, {target}, makes me feel like I'm home. Let me hold you,\" {initiator} says, gently embracing {target}.",
+            "\"I've been longing to do this for so long, {target}. Let me hold you close and show you my love,\" {initiator} says, wrapping their arms around {target}.",
+            "\"I can't keep my feelings for you hidden any longer, {target}. I need to hold you,\" {initiator} says, pulling {target} into a warm embrace.",
+            "\"Every time I see you, {target}, my heart aches to be close to you. Let me embrace you,\" {initiator} says, holding {target} tightly.",
+            "\"When I'm holding you close, {target}, everything else seems to disappear. Let's get lost in this moment,\" {initiator} says, embracing {target} passionately.",
+            "\"I've never felt this way about anyone, {target}. I want to show you how much you mean to me,\" {initiator} says, pulling {target} into a loving embrace."
+        ]
+    },
+    "mixer_social_WooHoo_targeted_romance_transition": {
+        "actions": [
+            "\"{target}, I've been thinking about this for so long. Let's go to the bedroom and share something special together,\" {initiator} whispers gently.",
+            "\"With every touch, I feel more connected to you, {target}. Let's take this to the bed and deepen our connection,\" {initiator} suggests, their eyes filled with desire.",
+            "\"I can't resist the way you make me feel, {target}. Let's go to the bedroom and explore our passion together,\" {initiator} says, their voice soft and sultry.",
+            "\"Being with you like this is intoxicating, {target}. I want to make love to you in the most intimate way. Let's go to the bed,\" {initiator} murmurs, their gaze locked on {target}'s.",
+            "\"I've never felt a connection like this before, {target}. Let's move to the bedroom and make love,\" {initiator} proposes, their voice filled with longing.",
+            "\"Your touch sends shivers down my spine, {target}. I want to take you to the bed and make love to you,\" {initiator} confesses, their eyes filled with lust.",
+            "\"I can't help but think about how amazing it would feel to make love to you, {target}. Let's go to the bedroom and find out,\" {initiator} suggests, a seductive smile on their lips.",
+            "\"Every time I'm near you, {target}, I feel an overwhelming desire to be even closer. Let's take this to the bedroom and share our love,\" {initiator} says, gently taking {target}'s hand.",
+            "\"The chemistry between us is undeniable, {target}. I want to take you to the bed and make love to you,\" {initiator} says, their voice husky and filled with passion.",
+            "\"Let's make tonight unforgettable, {target}. Come with me to the bedroom, and let's make love,\" {initiator} whispers softly, their eyes reflecting their burning desire."
+        ]
+    },
+    "mixer_social_SitIntimate_AskForMassage_targeted_romance_highScore": {
+        "actions": [
+            "\"{target}, my muscles are feeling so tense. Do you think you could give me a massage?\" {initiator} asks, hoping for some relief.",
+            "\"Hey {target}, my back has been killing me lately. Could you help me out with a massage?\" {initiator} inquires, wincing in pain.",
+            "\"{target}, I know it's a strange request, but would you mind giving me a massage? My shoulders are really sore,\" {initiator} asks hesitantly.",
+            "\"I'm feeling really tense, {target}, and I could use a good massage. Would you be willing to help me out?\" {initiator} says, rubbing their neck.",
+            "\"I don't usually ask for such favors, {target}, but my back is in desperate need of a massage. Could you lend a hand?\" {initiator} pleads, looking uncomfortable.",
+            "\"Hey {target}, I'm in pain and could really use a massage. Do you think you could help me out?\" {initiator} asks, trying to hide their discomfort.",
+            "\"{target}, I hate to impose, but I'm in serious need of a massage. Would you mind helping me out?\" {initiator} requests, looking hopeful.",
+            "\"I've never asked anyone for this before, {target}, but my muscles are so tense that I can't take it anymore. Could you give me a massage?\" {initiator} says, feeling a bit embarrassed.",
+            "\"Forgive me for asking, {target}, but I could really use a massage right now. Would you mind?\" {initiator} queries, attempting to sound casual.",
+            "\"Could you do me a huge favor, {target}? I'm in dire need of a massage and I'd really appreciate your help,\" {initiator} says, wincing as they try to stretch their sore muscles."
+        ]
+    },
+    "mixer_social_BeEnticing_targeted_romance_emotionSpecific": {
+        "actions": [
+            "\"{target}, have you ever noticed how the stars seem to align when we're together?\" {initiator} says, gently brushing their hand against {target}'s.",
+            "\"As we stand here together, {target}, I can't help but feel like this moment was meant for us,\" {initiator} whispers, looking deeply into {target}'s eyes.",
+            "\"{target}, the warmth of your presence makes me feel like I'm wrapped in a blanket of love. Can you feel it too?\" {initiator} asks, their voice soft and tender.",
+            "\"With every beat of my heart, {target}, I find myself drawn closer to you. Do you feel the same magnetic pull?\" {initiator} inquires, a subtle smile playing on their lips.",
+            "\"Every time our eyes meet, {target}, it feels like a spark ignites between us. Can you see the fire in my eyes?\" {initiator} asks, their gaze intense and passionate.",
+            "\"The way the light dances across your face, {target}, makes my heart skip a beat. Do you notice the way I look at you?\" {initiator} says, a hint of vulnerability in their voice.",
+            "\"{target}, when I'm near you, it feels like the world stops spinning, and it's just you and me. Do you sense that too?\" {initiator} asks, their voice filled with longing.",
+            "\"Your laughter is like a melody that I can't get out of my head, {target}. Does my presence bring you the same joy?\" {initiator} wonders, their voice sweet and sincere.",
+            "\"When I think about the future, {target}, I can't help but picture us together. Do my dreams align with yours?\" {initiator} asks, their eyes searching {target}'s for an answer.",
+            "\"{target}, when I'm with you, it feels like we're two pieces of a puzzle that fit perfectly together. Can you feel the connection?\" {initiator} says, gently taking {target}'s hand."
+        ]
+    },
+    "mixer_social_ConfessAttraction_targeted_romance_middleScore": {
+        "actions": [
+            "\"{target}, I've been struggling with these feelings for a while, but I can't hold it in any longer. I'm attracted to you,\" {initiator} confesses nervously.",
+            "\"Ever since we met, I've felt this undeniable connection with you, {target}. I think I'm falling for you,\" {initiator} says, looking into {target}'s eyes.",
+            "\"{target}, I've tried to ignore it, but my heart races whenever I'm around you. I think I have feelings for you,\" {initiator} admits, blushing.",
+            "\"I never thought I'd say this, but I can't help myself, {target}. I'm attracted to you, and I need you to know,\" {initiator} says, taking a deep breath.",
+            "\"Every time I see you, {target}, my heart skips a beat. I think I'm developing feelings for you, and I can't hide it any longer,\" {initiator} says, looking vulnerable.",
+            "\"Being around you, {target}, makes me feel so alive. I must admit, I've developed feelings for you,\" {initiator} confesses, their voice trembling.",
+            "\"{target}, I can't keep pretending that we're just friends. I'm starting to fall for you, and I needed you to know,\" {initiator} says, looking anxious.",
+            "\"Can I be honest, {target}? I've been attracted to you for quite some time, and I think it's time I let you know,\" {initiator} admits, hesitatingly.",
+            "\"{target}, I've tried to fight it, but I can't deny my feelings any longer. I'm attracted to you, and I hope you feel the same,\" {initiator} says, their voice filled with hope.",
+            "\"I didn't plan for this, {target}, but I can't help it. I'm falling for you, and I needed you to know,\" {initiator} says, their heart pounding with anticipation."
+        ]
+    },
 
 }

@@ -422,16 +422,11 @@ interaction_descriptions = {
     },
     "mixer_social_BrightenDay_targeted_friendly_emotionSpecific": {
         "actions": [
-            "\"{target}, I noticed you've been feeling down lately, so I brought you a little something to cheer you up,\" {initiator} says, presenting a small gift.",
             "\"Hey, {target}, I know things have been tough lately. How about we go do something fun together?\" {initiator} suggests with a smile.",
-            "\"{target}, I can tell you're having a rough day, so I made you your favorite treat. I hope it brings a smile to your face,\" {initiator} says, handing over the delicious snack.",
             "\"Feeling blue, {target}? Let me tell you a joke to lighten the mood,\" {initiator} says, ready to share a funny story.",
-            "\"{target}, I thought you could use a little pick-me-up, so I got you this,\" {initiator} says, offering a small token of their friendship.",
-            "\"Hey {target}, I know you're going through a lot right now, but remember that I'm always here for you. Let's go for a walk and talk about it,\" {initiator} suggests kindly.",
-            "\"I can see you're upset, {target}. How about I put on your favorite movie or show to help take your mind off things?\" {initiator} asks, hoping to provide some comfort.",
+            "\"Hey {target}, I know you're going through a lot right now, but remember that I'm always here for you. Let's talk about it,\" {initiator} suggests kindly.",
             "\"Sometimes, all it takes is a hug to make things better. Come here, {target},\" {initiator} says, opening their arms for a warm embrace.",
             "\"Let's get out of this rut, {target}. What can we do today to turn things around and make you feel better?\" {initiator} asks, ready to help in any way possible.",
-            "\"You know, {target}, laughter is the best medicine. Want me to show you some funny videos to help brighten your day?\" {initiator} asks, hoping to lift {target}'s spirits."
         ]
     },
     "mixer_social_ComplainAboutLackofLoveLife_Targeted_Friendly_AlwaysOn_Jealous_Trait": {

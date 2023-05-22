@@ -103,20 +103,19 @@ interaction_descriptions = {
             '"Hey, I\'m {initiator}. Care to chat?"',
         ],
     },
-    'mixer_social_FunnyIntroduction_greetings': {
-        'display_action': False,
-        'actions': [
-            '"Well, hello there! I\'m {initiator}, your friendly neighborhood troublemaker. And you must be {target}."',
-            '"Prepare yourself for an unforgettable encounter! I\'m {initiator}, the master of mischief. And you are?"',
-            '"Hold on tight, {target}, because you\'re about to meet {initiator}, the one and only comic genius in this universe!"',
-            '"Greetings, Earthling! I am {initiator}, the hilariously charming being from a distant galaxy. What\'s your name?"',
-            '"Step right up and witness the extraordinary wit of {initiator}! Pleasure to meet you, {target}. Are you ready for a laugh?"',
-            '"Hey, {target}! Brace yourself for an introduction that will tickle your funny bone. I\'m {initiator}, the jester with a heart of gold."',
-            '"Knock, knock! Who\'s there? It\'s {initiator}, the funniest person you\'ll ever meet. And you are?"',
-            '"Prepare to have your world rocked by the comedic brilliance of {initiator}. Pleasure to make your acquaintance, {target}."',
-            '"Hold onto your hat, {target}, because you\'re about to meet {initiator}, the walking punchline! How\'s it going?"',
-            '"Calling all joke enthusiasts! I\'m {initiator}, the stand-up comedian extraordinaire. What\'s your name, my new audience?"',
-        ],
+    "mixer_social_FunnyIntroduction_greetings": {
+        "actions": [
+            "\"{target}, I heard you needed a daily dose of laughter. Well, here I am, your personal joke doctor!\" {initiator} says with a wide grin.",
+            "\"Hey {target}, they say laughter is the best medicine, so I guess I'm a licensed pharmacist!\" {initiator} quips, as they introduce themself.",
+            "\"Knock, knock, {target}! Who's there? It's me, {initiator}, your new comedy companion!\" {initiator} says, chuckling at their own joke.",
+            "\"{target}, I must warn you that being around me can cause extreme laughter and sore cheeks. Proceed at your own risk,\" {initiator} says playfully.",
+            "\"Hello {target}, I promise I'm not a mime, but I've been known to leave people speechless with laughter,\" {initiator} says, making a mock serious face.",
+            "\"{initiator} at your service, {target}! I'm here to turn that frown upside down, one joke at a time,\" {initiator} says, delivering a lighthearted salute.",
+            "\"Hey {target}, I'm {initiator}, and if laughter were currency, I'd be a billionaire!\" {initiator} boasts with a cheeky grin.",
+            "\"Nice to meet you, {target}! I'm {initiator}, and I have a PhD in giggles, chuckles, and guffaws,\" {initiator} says, offering a comically exaggerated bow.",
+            "\"Hey there, {target}! I'm {initiator}, and I'm the person you call when you need a laugh and a half,\" {initiator} says, winking playfully.",
+            "\"{target}, meet {initiator} - the human embodiment of laughter and joy. That's me, in case you were wondering,\" {initiator} says, laughing at their own introduction."
+        ]
     },
     'mixer_social_EnchantingIntroduction_greetings_skills': {
         'actions': [

@@ -35,39 +35,13 @@ OpenAI currently offers a free tier of $5 dollars in free credit the first 3 mon
 
 The Sims 4 does not include SSL binaries in the game bundle.
 This prevents us from being able to make HTTPS requests which is required to talk to any modern API.
-Running the included proxy is required in order to forward our HTTP requests from the Sentient Sims mod to the Open AI API using HTTPS.
 
-To run the proxy you will use your Open AI API key generated in the previous step.
+The proxy starts automatically with the Sims 4 once the Open AI Key is entered.
 
-### Mac
+When you first start the game after loading the mod it will ask you to enter the Open AI Key.
 
-1. Open the terminal
-1. Copy and paste the command for your type of mac into the terminal
-1. Replace the INSERT_OPENAI_API_KEY_HERE with your Open AI API key and hit Enter
-1. If you prefer to use an environment variable you can set the Open AI API key to the variable `OPENAI_KEY`
-
-Mac Intel Chip:
-```
-~/Documents/Electronic\ Arts/The\ Sims\ 4/Mods/sentient-sims/proxy-mac INSERT_OPENAI_API_KEY_HERE
-```
-
-Mac M1/M2 (or newer) Chip:
-```
-~/Documents/Electronic\ Arts/The\ Sims\ 4/Mods/sentient-sims/proxy-mac-m1 INSERT_OPENAI_API_KEY_HERE
-```
-
-### Windows
-
-1. Open the command prompt
-1. Copy and paste the command the command prompt window
-1. Replace the INSERT_OPENAI_API_KEY_HERE with your Open AI API key and hit Enter
-1. If you prefer to use an environment variable you can set the Open AI API key to the variable `OPENAI_KEY`
+If you need to re-enter the key, open the cheat console and type in
 
 ```
-start "%USERPROFILE%\Documents\Electronic Arts\The Sims 4\Mods\sentient-sims\proxy.exe" INSERT_OPENAI_API_KEY_HERE
-```
-
-Once it is running you should see
-```
-Server listening on port 8080...
+modify_openai_key
 ```

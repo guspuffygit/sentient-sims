@@ -80,7 +80,7 @@ interaction_descriptions = {
     'mixer_social_RudeIntroduction_greetings': {
         'display_action': False,
         'actions': [
-            '{initiator} rudely introduces themselves to {target}.'
+            '{initiator} begins to rudely introduces themselves to {target}.'
         ],
     },
     'mixer_social_Flirt_targeted_romance_alwaysOn': {

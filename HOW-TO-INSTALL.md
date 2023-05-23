@@ -21,7 +21,12 @@ Once extracted, the Mods folder should contain the folder `sentient-sims`
 
 You must generate and use an Open AI API key to use with the Open AI API.
 
-[Checkout the Open AI Documentation to generate an API key.](https://platform.openai.com/docs/api-reference/authentication)
+1. Create an account on [openai.com](https://platform.openai.com/signup?launch)
+1. Open the API Keys page or browse to https://platform.openai.com/account/api-keys
+1. Create new Secret key
+1. Copy the key and save it securely. Be careful and treat this key like a password, do not give out this key to anyone.
+1. Start The Sims 4, once a game has been loaded or resumed a popup will pop up asking you to enter the key
+1. Paste the key into the box and click OK. You should now be ready to play.
 
 Each time a supported interaction occurs in the Sentient Sims mod, it will send a request to the Open AI API.
 The max amount of tokens that will be used in a request is 4096.
@@ -45,3 +50,8 @@ If you need to re-enter the key, open the cheat console and type in
 ```
 modify_openai_key
 ```
+
+### Windows
+Windows will show a powershell window when running, this is the proxy running in the background.
+Leave it running while the Sims is running in order to be able to play the mod.
+When you have closed the game, you can safely close this window.

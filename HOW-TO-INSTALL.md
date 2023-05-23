@@ -35,23 +35,3 @@ The mod is currently using the [gpt-3.5-turbo model](https://platform.openai.com
 This means that each request could cost a max of 4/10s of a single cent.
 
 OpenAI currently offers a free tier of $5 dollars in free credit the first 3 months.
-
-## Open AI Proxy
-
-The Sims 4 does not include SSL binaries in the game bundle.
-This prevents us from being able to make HTTPS requests which is required to talk to any modern API.
-
-The proxy starts automatically with the Sims 4 once the Open AI Key is entered.
-
-When you first start the game after loading the mod it will ask you to enter the Open AI Key.
-
-If you need to re-enter the key, open the cheat console and type in
-
-```
-modify_openai_key
-```
-
-### Windows
-Windows will show a powershell window when running, this is the proxy running in the background.
-Leave it running while the Sims is running in order to be able to play the mod.
-When you have closed the game, you can safely close this window.

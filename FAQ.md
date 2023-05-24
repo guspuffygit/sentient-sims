@@ -16,6 +16,12 @@ Sentient Sims is a mod for The Sims 4 that brings AI-generated dialogue to your 
 
 To download Sentient Sims, visit our website at [https://www.sentientsimulations.com/](https://www.sentientsimulations.com/). Follow the instructions provided to install the mod and start enjoying AI-generated dialogue in The Sims 4.
 
+## What is Open AI API and the API key used for?
+
+Open AI is the service behind ChatGPT. The mod uses the Open AI API and uses the same model that runs ChatGPT (gpt-3.5-turbo).
+Creating an API Key with Open AI allows the mod to use the API to generate just like ChatGPT but inside the Sims.
+Your API key is a secret and is never sent to Sentient Sims and stays local to your computer.
+
 ## How can I get support or report issues?
 
 If you need support or want to report an issue, visit the discord.

@@ -34,7 +34,7 @@ Sentient Sims might not be compatible with other mods, I haven't tested using an
 
 ## How do I make my interactions from my mod generate dialogue?
 
-[See main README.md for contributing](README.md)
+[See main README.md for contributing](https://github.com/guspuffygit/sentient-sims)
 
 ## What are the proxy files included with the mod?
 

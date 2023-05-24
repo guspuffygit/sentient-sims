@@ -28,6 +28,12 @@ You must generate and use an Open AI API key to use with the Open AI API.
 1. Start The Sims 4, once a game has been loaded or resumed a popup will pop up asking you to enter the key
 1. Paste the key into the box and click OK. You should now be ready to play.
 
+If you need to re-enter the key, open the cheat console and type in
+
+```
+modify_openai_key
+```
+
 Each time a supported interaction occurs in the Sentient Sims mod, it will send a request to the Open AI API.
 The max amount of tokens that will be used in a request is 4096.
 The mod is currently using the [gpt-3.5-turbo model](https://platform.openai.com/docs/models/gpt-3-5).
@@ -35,3 +41,4 @@ The mod is currently using the [gpt-3.5-turbo model](https://platform.openai.com
 This means that each request could cost a max of 4/10s of a single cent.
 
 OpenAI currently offers a free tier of $5 dollars in free credit the first 3 months.
+

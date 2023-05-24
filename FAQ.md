@@ -30,3 +30,6 @@ Sentient Sims might not be compatible with other mods, I haven't tested using an
 
 [See main README.md for contributing](README.md)
 
+## What are the proxy files included with the mod?
+
+The proxy files included in the mod help keep your interactions with the Sentient Sims mod secure. They make sure that the communication between the mod and the OpenAI API is protected. Think of them as a special lock that keeps your information safe while it travels between the mod and the API. The developers of Sims 4 didn't include the necessary tools for this security, so the proxy is needed to make it work securely. In short, the proxy files make sure your requests to Open AI safe and private.

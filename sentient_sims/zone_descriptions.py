@@ -37,27 +37,47 @@ zone_descriptions = {
         'name': 'Willow Creek Archive',
         'type': 'Library',
         'description': ' '.join([
-            'Two level library, first floor: chess, bookshelves, ornate, long tables, bathrooms, kids area with foam tiles.',
-            'Second floor: Large staircase to overlooking balcony with bookshelves lining the walls.',
+            "The Willow Creek Archive, a haven for bibliophiles and knowledge seekers alike, stood proudly in the heart of the city.",
+            "Upon entering its grand doors, visitors were greeted by rows upon rows of towering bookshelves, their contents rich with the musings of countless minds.",
+            "The first floor of the library bustled with activity, as patrons engaged in quiet, thoughtful games of chess, their concentration mirrored by the elaborate, ornate tables that hosted their strategic battles.",
+            "Further in, one could find an enchanting children's area, where colorful foam tiles cushioned the footsteps of the library's youngest explorers.",
+            "Surrounding this vibrant space, the literary wonders of the world beckoned from their shelves, eager to transport readers to realms of endless possibility.",
+            "A majestic staircase led to the library's second level, where a sweeping balcony offered a bird's eye view of the bustling first floor below.",
+            "Upstairs, the air was suffused with a sense of serene tranquility, the hushed whispers of turning pages echoing softly through the corridors.",
+            "Floor-to-ceiling bookshelves lined the walls, their spines adorned with the titles of countless treasures waiting to be discovered.",
+            "In the quiet corners of the second floor, plush armchairs provided solace for those who wished to lose themselves in the pages of a captivating novel.",
+            "The Willow Creek Archive, a testament to the power of the written word, stood as a beacon of knowledge and inspiration, inviting all who entered to journey through the vast expanse of human thought and imagination."
         ]),
     },
     "90404736": {
         'name': 'Municipal Muses',
         'type': 'Museum',
         'description': ' '.join([
-            'Two level museum. outside: Large colorful trees, fountain, benches, tables, chairs, hedges and shrubberies,'
-            'porch with white piano and small bar.',
-            'First floor: Art, knight in armor standing, sword and shields on wall, ornate bathrooms.',
-            'Second floor: Art on the walls, dark and moody.',
+            "Municipal Muses, a stately two-level museum, stood as a testament to the city's appreciation for art and culture.",
+            "Its exterior was a picturesque scene, surrounded by vibrant, colorful trees and meticulously manicured hedges and shrubberies.",
+            "A majestic fountain anchored the scene, its soothing burble inviting visitors to pause and reflect on the beauty around them.",
+            "Elegant benches, tables, and chairs provided a comfortable space for guests to relax and marvel at their surroundings.",
+            "To one side, an enchanting orchard bloomed, a pristine white piano and small bar nestled within, inviting patrons to enjoy the fusion of nature and melody.",
+            "Upon entering the museum, visitors were greeted by a grand display of art and history.",
+            "A life-sized knight in armor stood sentinel, flanked by an impressive collection of swords and shields adorning the walls.",
+            "Ascending to the second floor, the atmosphere shifted to a darker, more moody tone, with art pieces that delved into the depths of human emotion.",
+            "As visitors wandered through the dimly lit gallery, they were immersed in a world where creativity and passion knew no bounds."
         ]),
     },
     "64101728": {
         'name': 'Magnolia Blossom',
         'type': 'Park',
         'description': ' '.join([
-            'Colorful nature park, walking paths through woods, fountain, picnic tables, chess, pirate ship kid play set and monkey bars,',
-            'pond with fish, gazebo structure with bathrooms,',
-            'park grills, east side has wooden platform overlooking river, north side of park has beachy riverside area.',
+            "The Magnolia Blossom park, a verdant haven in the heart of the city, beckoned to visitors with its lush foliage and vibrant blossoms.",
+            "Winding walking paths meandered through the woods, inviting the curious to explore the hidden wonders of nature.",
+            "In the center of the park, a majestic fountain stood proudly, its crystal-clear water dancing gracefully in the sunlight.",
+            "Families and friends gathered around the picnic tables, enjoying leisurely meals, laughter, and games of chess on checkered boards.",
+            "A fantastical pirate ship play set and monkey bars stood ready to unleash the imaginations of children, their laughter echoing through the trees.",
+            "The serene pond, teeming with fish, provided a calming oasis for contemplation and reflection.",
+            "A charming gazebo housed essential facilities, blending seamlessly with the picturesque surroundings.",
+            "Park grills scattered throughout the grounds emitted mouth-watering scents, enticing visitors to partake in the culinary delights.",
+            "To the east, a wooden platform offered breathtaking views of the river, its gentle current whispering stories of times long past.",
+            "On the north side, a beachy riverside area provided a perfect spot for relaxation and play, the soft sands and lapping waves a testament to nature's enduring serenity."
         ]),
     },
     "254075440": {
@@ -78,16 +98,31 @@ zone_descriptions = {
         'name': 'Burners & Builders',
         'type': 'Gym',
         'description': ' '.join([
-            'single story gym with yellow and blue theme, weight machines, treadmills,',
-            'punching bags, large ceiling to floor windows on every wall, back area has lockers.',
+            "Burners & Builders Gym stood as a beacon of health and vitality amidst the urban landscape, its single-story structure adorned in vibrant hues of yellow and blue.",
+            "Upon entering, visitors were greeted by the hum of machines and the determined grunts of those pushing their limits.",
+            "A myriad of weight machines filled the space, each carefully designed to sculpt and strengthen the body, accompanied by the rhythmic clanking of metal as they were set in motion by determined hands.",
+            "Rows of treadmills lined one side of the gym, their steady hum punctuated by the pounding of feet as runners chased their goals, whether real or imagined.",
+            "In another corner, punching bags swayed and groaned under the force of powerful blows, a testament to the unyielding spirit of those who trained there.",
+            "The gym's walls boasted expansive, ceiling-to-floor windows that not only let in an abundance of rejuvenating sunlight but also offered a glimpse into the world outside, serving as both inspiration and reminder of the progress made within.",
+            "As patrons moved through their workouts, they were enveloped in a symphony of exertion and accomplishment, each note a testament to the dedication and perseverance that filled the space.",
+            "In the back of the gym, an area dedicated to lockers provided a safe haven for personal belongings, a reminder that the outside world was waiting just beyond the doors.",
+            "The gym's atmosphere pulsed with energy and determination, a contagious aura that inspired newcomers and regulars alike to strive for their personal best.",
+            "Every corner of Burners & Builders was a testament to the transformative power of sweat and effort, a space where dreams were chased, and goals were conquered."
         ]),
     },
     "254110336": {
         'name': 'The Futures Past',
         'type': 'Museum',
         'description': ' '.join([
-            'two floor museum in the desert, entrance features blocky red and gray sculptures leading into ornate marbile first floor with head busts,',
-            'tiny wooden ship sculptures and bathrooms, second floor features art on the walls and sitting on easels.',
+            "The Futures Past, a thought-provoking museum, stood as a beacon of culture and history amidst the arid desert landscape.",
+            "Its striking entrance, adorned with blocky red and gray sculptures, evoked a sense of anticipation and wonder.",
+            "Upon crossing the threshold, visitors were greeted by an opulent marble floor that gleamed beneath their feet, reflecting the exquisite artistry that surrounded them.",
+            "The first floor was a symphony of intricate head busts, each one telling a unique, unspoken story of past aspirations and dreams.",
+            "Tiny wooden ship sculptures dotted the space, their masterful craftsmanship a testament to the skill and dedication of their creators.",
+            "A grand staircase beckoned visitors to the second floor, where the magic of the museum continued to unfold.",
+            "The walls of the upper level were adorned with mesmerizing art pieces, their colors and textures breathing life into the space.",
+            "Easels stood proudly, cradling creations that captured the essence of humanity in every stroke and hue.",
+            "In this sanctuary of artistic expression, guests could lose themselves in the wonders of the past while pondering the possibilities of the future."
         ]),
     },
     "254126448": {
@@ -108,8 +143,16 @@ zone_descriptions = {
         'name': 'Desert Bloom',
         'type': 'Park',
         'description': ' '.join([
-            'desert park featuring large slate slab walkways with red bricks, bathrooms and a small clubhouse sit lining a covered picnic table area',
-            'overlooking a small spaceship playset and monkey bars. a small pond and desert flora sit nestled between large rocky cliffs',
+            "Desert Bloom Park, a hidden gem amidst the arid landscape, beckoned to those seeking an oasis of recreation and leisure.",
+            "Grand slate slab walkways, bordered by rich red bricks, guided visitors through the park's picturesque setting.",
+            "Under the shade of a modest pavilion, families gathered around sturdy picnic tables, sharing laughter and meals as they enjoyed the view of the vibrant play area.",
+            "Playful children darted about, their joyful squeals echoing through the park as they climbed aboard the spaceship playset and swung from the monkey bars.",
+            "A short distance away, pristine bathrooms and a charming clubhouse offered respite and amenities for park-goers.",
+            "Nestled at the heart of the park, a serene pond shimmered under the sun, its surface rippling gently with the breeze.",
+            "Desert flora, vibrant and diverse, adorned the edges of the pond, creating a visual symphony of colors and textures.",
+            "Majestic rocky cliffs towered above the park, casting long shadows and providing a dramatic backdrop for the idyllic scene.",
+            "Visitors wandered along the pathways, marveling at the beauty of the desert landscape, its resilience and allure evident in every bloom and cactus.",
+            "As the sun dipped below the horizon, Desert Bloom was painted in hues of gold and crimson, a testament to the enchanting magic of the desert."
         ]),
     },
 }

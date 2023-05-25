@@ -3,6 +3,9 @@
 
 interaction_descriptions = {
     'mixer_social_ComplainAboutBills_targeted_Friendly_alwaysOn_bills': {
+        'pre_actions': [
+            '{initiator} starts a conversation with {target}.',
+        ],
         'actions': [
             '"I don\'t know how I\'m going to pay for all of these bills," {initiator} said,',
             '"It seems like every time I turn around, there\'s another bill to pay," {initiator} grumbled,',
@@ -12,16 +15,25 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_DiscussLatestGames_targeted_Friendly_alwaysOn_skills': {
+        'pre_actions': [
+            '{initiator} starts a conversation with {target} about video games.',
+        ],
         'actions': [
             '"Have you played that new video game?" {initator} asks.',
         ],
     },
     'mixer_social_CheerfulIntroduction_greetings_skills': {
+        'pre_actions': [
+            '{initiator} cheerfully introduces themselves to {target}.',
+        ],
         'actions': [
-            '"How are you?" {iniator} asks as they cheerfully introduce themselves,',
+            '"How are you?" {initiator} asks {target},',
         ],
     },
     'mixer_social_FlirtyIntroduction_greetings_skills': {
+        'pre_actions': [
+            '{initiator} introduces themselves to {target}.',
+        ],
         'actions': [
             'With a flirtatious smile, {initiator} strode over and extended their hand. "Hi there, I\'m {initiator}. What\'s your name?"',
             '{initiator} sauntered up with a charming grin. "Well hello there, I don\'t think we\'ve met yet. I\'m {initiator}."',
@@ -90,6 +102,9 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_FriendlyIntroduction_greetings': {
+        'pre_actions': [
+            '{initiator} starts a conversation with {target} and introduces themselves.',
+        ],
         'actions': [
             '"Hi there, I\'m {initiator}. What\'s your name?"',
             '"Hey, I\'m {initiator}. Nice to meet you!"',
@@ -132,6 +147,9 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_AskAboutCareer_friendly_STC': {
+        'pre_actions': [
+            '{initiator} starts a conversation with {target} and asks about their career.',
+        ],
         'actions': [
             '"So what kind of work are you doing these days?" {initiator} asks.',
             '"Do you still work " {initiator} asks.',
@@ -153,8 +171,10 @@ interaction_descriptions = {
             '"If you could meet your favorite author, {target}, what would you ask them?" {initiator} ponders aloud.'
         ],
     },
-    # TODO: Remake this one with simschain
     'mixer_social_AskAboutDay_targeted_Friendly_alwaysOn': {
+        'pre_actions': [
+            '{initiator} starts a conversation with {target} and asks about their day.',
+        ],
         'actions': [
             '"Hey {target}, how has your day been?"',
             '"Did you have a good day {target}?"',

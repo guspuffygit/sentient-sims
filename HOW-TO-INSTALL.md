@@ -63,7 +63,7 @@ OpenAI currently offers a free tier of $5 dollars in free credit the first 3 mon
 
 When you first start playing the mod, a window should pop up asking you to enter the OpenAI Key:
 
-![openai_message](assets/openai_popup.PNG)
+![openai_message](https://raw.githubusercontent.com/guspuffygit/sentient-sims/main/assets/openai_popup.PNG)
 
 Once you have entered your key, the mod should be ready.
 
@@ -77,9 +77,8 @@ Click the Do Something interaction to use it.
 
 With Do Something, you can enter in a custom action that you want your Sim to do. This allows you to push the story in anyway you would like!
 
-![do_something](assets/do_something.PNG)
-
-![do_something_result](assets/do_something_result.PNG)
+![do_something](https://raw.githubusercontent.com/guspuffygit/sentient-sims/main/assets/do_something.PNG)
+![do_something_result](https://raw.githubusercontent.com/guspuffygit/sentient-sims/main/assets/do_something_result.PNG)
 
 ## Edit Location and Sim Description
 

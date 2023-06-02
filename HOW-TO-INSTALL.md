@@ -17,9 +17,6 @@ Select the installer according to your PC and install it onto your computer.
 
 When you install or try to run on Windows, since I do not pay for a certificate license it will say it is coming from an Unknown Publisher. Follow the instructions here if needed to allow you to click ["Run Anyway"](https://www.addictivetips.com/windows-tips/fix-no-run-anyway-option-on-smartscreen-windows-10/)
 
-### Mac
-
-
 ## Extract Zip File to Mods Directory
 
 Unzip the file in the Sims 4 Mods directory.
@@ -64,4 +61,26 @@ OpenAI currently offers a free tier of $5 dollars in free credit the first 3 mon
 
 ## Playing the Mod
 
-When you first start playing the mod, a window should pop up asking you to enter the OpenAI Key
+When you first start playing the mod, a window should pop up asking you to enter the OpenAI Key:
+
+![openai_message](assets/openai_popup.PNG)
+
+Once you have entered your key, the mod should be ready.
+
+Start talking to other Sims using interactions, and you should begin to see interactions pop up.
+
+## Do Something
+
+There is a special feature in Sentient Sims that allows you to make your Sim say or do anything.
+
+Click the Do Something interaction to use it.
+
+With Do Something, you can enter in a custom action that you want your Sim to do. This allows you to push the story in anyway you would like!
+
+![do_something](assets/do_something.PNG)
+
+![do_something_result](assets/do_something_result.PNG)
+
+## Edit Location and Sim Description
+
+Use the Edit Location and Edit Sim Description to set "flavor" on a Sim or a location to help the AI understand the Sims better!

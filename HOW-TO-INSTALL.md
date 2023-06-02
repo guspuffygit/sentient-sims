@@ -4,7 +4,7 @@
 
 [See FAQ for why the Sentient Sims Companion App is neeeded.](https://www.sentientsimulations.com/faq)
 
-https://github.com/guspuffygit/sentient-sims-app/releases/latest
+[Download Sentient Sims Companion App](https://github.com/guspuffygit/sentient-sims-app/releases/latest)
 
 Select the installer according to your PC and install it onto your computer.
 

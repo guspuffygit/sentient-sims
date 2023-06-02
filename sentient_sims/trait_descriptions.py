@@ -32,6 +32,7 @@ trait_descriptions = {
     "Activities_Gardening": "gardening",
     "Activities_Fishing": "fishing",
     "Music_Lullabies": "lullabies",
+    "Color_Blue": "the color blue",
 
     # Personality Traits
     "HotHeaded": "is hot headed",
@@ -60,6 +61,8 @@ trait_descriptions = {
     "Cheerful": "is cheerful",
     "Foodie": "is a foodie",
     "Gloomy": "is gloomy",
+    "Creative": "is creative",
+    "Kleptomaniac": "is a kleptomaniac",
 
     # Moods
     "Flirty": "is in a flirty mood",

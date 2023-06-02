@@ -2391,5 +2391,8 @@ interaction_descriptions = {
             "\"I didn't plan for this, {target}, but I can't help it. I'm falling for you, and I needed you to know,\" {initiator} says, their heart pounding with anticipation."
         ]
     },
-
 }
+
+if __name__ == '__main__':
+    num_keys = len(interaction_descriptions)
+    print(num_keys)

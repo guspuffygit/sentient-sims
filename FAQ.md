@@ -14,12 +14,16 @@ Sentient Sims is a mod for The Sims 4 that brings AI-generated dialogue to your 
 
 ## Where can I download Sentient Sims?
 
-To download Sentient Sims, visit our website at [https://www.sentientsimulations.com/](https://www.sentientsimulations.com/). Follow the instructions provided to install the mod and start enjoying AI-generated dialogue in The Sims 4.
+To download Sentient Sims, visit our website at [https://www.sentientsimulations.com/](https://www.sentientsimulations.com/). Login and follow the instructions provided on the How To Install page to install the mod and start enjoying AI-generated dialogue in The Sims 4.
 
 ## What is Open AI API and the API key used for?
 
 Open AI is the service behind ChatGPT. The mod uses the Open AI API and uses the same model that runs ChatGPT (gpt-3.5-turbo).
+
+You will need to create or have an account with OpenAI in order to use the mod.
+
 Creating an API Key with Open AI allows the mod to use the API to generate just like ChatGPT but inside the Sims.
+
 Your API key is a secret and is never sent to Sentient Sims and stays local to your computer.
 
 ## How can I get support or report issues?
@@ -30,12 +34,16 @@ https://discord.com/invite/JTjbydmUAp
 
 ## Is Sentient Sims compatible with other mods?
 
-Sentient Sims might not be compatible with other mods, I haven't tested using any other mods at the same time. If a mod wants 
+Sentient Sims should be compatible with other mods, but I haven't yet tested this with any other mods.
 
 ## How do I make my interactions from my mod generate dialogue?
 
 [See main README.md for contributing](https://github.com/guspuffygit/sentient-sims)
 
-## What are the proxy files included with the mod?
+## What is the Sentient Sims Companion App?
 
-The proxy files included in the mod help keep your interactions with the Sentient Sims mod secure. They make sure that the communication between the mod and the OpenAI API is protected. Think of them as a special lock that keeps your information safe while it travels between the mod and the API. The developers of Sims 4 didn't include the necessary tools for this security, so the proxy is needed to make it work securely. In short, the proxy files make sure your requests to Open AI safe and private.
+The Sentient Sims Companion App runs in the background to keep your interactions with the OpenAI API secure. It makes sure that the communication between the mod and the OpenAI API is protected. 
+
+The developers of Sims 4 didn't include the necessary tools for secure requests, so the Sentient Sims Companion App is needed to make it work securely. In short, the app makes sure your requests to Open AI are safe and private.
+
+Think of them as a special lock that keeps your information safe while it travels between the mod and the API.

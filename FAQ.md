@@ -4,7 +4,7 @@
 
 Sentient Sims is a mod for The Sims 4 that brings AI-generated dialogue to your gameplay. It allows your Sims to engage in lifelike conversations, responding to their environment, relationships, and current moods.
 
-![Sentient Sims Example]([[assets/do_something_result.PNG]()](https://raw.githubusercontent.com/guspuffygit/sentient-sims/main/assets/do_something_result.PNG))
+![Sentient Sims Example](https://raw.githubusercontent.com/guspuffygit/sentient-sims/main/assets/do_something_result.PNG)
 
 ## What are the features of Sentient Sims?
 

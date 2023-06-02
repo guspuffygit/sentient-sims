@@ -1,5 +1,25 @@
 # How to install Sentient Sims
 
+## Download and install the Sentient Sims Companion App
+
+[See FAQ for why the Sentient Sims Companion App is neeeded.](https://www.sentientsimulations.com/faq)
+
+https://github.com/guspuffygit/sentient-sims-app/releases/latest
+
+Select the installer according to your PC and install it onto your computer.
+
+* M1 Mac (arm64) - Untested
+* Mac - Tested
+* Windows (exe) - Tested
+* Linux (AppImage) - Untested
+
+### Windows
+
+When you install or try to run on Windows, since I do not pay for a certificate license it will say it is coming from an Unknown Publisher. Follow the instructions here if needed to allow you to click ["Run Anyway"](https://www.addictivetips.com/windows-tips/fix-no-run-anyway-option-on-smartscreen-windows-10/)
+
+### Mac
+
+
 ## Extract Zip File to Mods Directory
 
 Unzip the file in the Sims 4 Mods directory.
@@ -42,3 +62,6 @@ This means that each request could cost a max of 4/10s of a single cent.
 
 OpenAI currently offers a free tier of $5 dollars in free credit the first 3 months.
 
+## Playing the Mod
+
+When you first start playing the mod, a window should pop up asking you to enter the OpenAI Key

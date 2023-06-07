@@ -28,15 +28,3 @@ jobs:
       run: |
         zip -r sentient-sims-descriptions.ts4script sentient_sims
         aws s3 cp sentient-sims-descriptions.ts4script s3://sentient-sims-artifacts/sentient-sims-descriptions.ts4script --only-show-errors --metadata version=$VERSION_TAG
-
-        aws s3 cp s3://sentient-sims-artifacts/sentient-sims-${GITHUB_REF##*/}.zip ./sentient-sims.zip
-
-        unzip sentient-sims.zip
-        rm -f sentient-sims.zip
-
-        cp sentient-sims-descriptions.ts4script sentient-sims
-
-        echo "{\"version\": \"${VERSION_TAG}\"}" > sentient-sims/mod-version.json
-
-        zip -r sentient-sims.zip sentient-sims
-        aws s3 cp sentient-sims.zip s3://sentient-sims-artifacts/sentient-sims-${GITHUB_REF##*/}.zip --only-show-errors --metadata version=$VERSION_TAG --acl public-read

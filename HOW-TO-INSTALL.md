@@ -17,22 +17,9 @@ Why is the Sentient Sims Companion App needed? [See FAQ for more information.](h
 
 When you install or try to run on Windows, since I do not pay for a certificate license it will say it is coming from an Unknown Publisher. Follow the instructions here if needed to allow you to click ["Run Anyway"](https://www.addictivetips.com/windows-tips/fix-no-run-anyway-option-on-smartscreen-windows-10/)
 
-## Extract Zip File to Mods Directory
+## Click Update to Install The Mod
 
-Unzip the file in the Sims 4 Mods directory.
-
-Mac:
-
-`~/Documents/Electronic Arts/The Sims 4/Mods`
-
-Windows:
-
-`%USERPROFILE%\Electronic Arts\The Sims 4\Mods`
-
-Once extracted, the Mods folder should contain the folder `sentient-sims`
-
-`Mods/sentient-sims`
-
+![Install](https://raw.githubusercontent.com/guspuffygit/sentient-sims/main/assets/update_button.PNG)
 
 ## Open AI API Key
 

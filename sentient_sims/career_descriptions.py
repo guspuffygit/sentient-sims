@@ -86,6 +86,7 @@ career_descriptions = {
                 "sentient_sims_description": "{sim_name} is working as sheriff of the stars, patrolling the galaxy and securing it from alien threats.",
             },
             10: {
+                "name": "Space Ranger",
                 "description": "When the universe is in danger, one {M0.man}{F0.woman} gets the call: {0.SimFirstName}, Space Ranger! With {M0.his}{F0.her} stout heart, keen wits, and a phozoplasmic Warp Pack strapped to {M0.his}{F0.her} back, Ranger {0.SimFirstName} defends the known galaxies from evil!",
                 "sentient_sims_description": "{sim_name} is working as THE space ranger, when the universe is in danger, only one person gets the call, {sim_name}, defends the known galaxies from evil.",
             }
@@ -211,6 +212,7 @@ career_descriptions = {
                 "sentient_sims_description": "{sim_name} just started working at starbucks part-time and is responsible for cleaning.",
             },
             2: {
+                "name": "Bean Blender",
                 "description": "At last, {0.SimFirstName} can drop the dishrags and become one with the art of fine coffee! Grinding together the finest organic beans from around the globe, {0.SimFirstName} is now a master bean blender, a true mixologist whose arresting combinations of aggressively bold aromas and subtly nutty undertones please every palate.",
                 "sentient_sims_description": "{sim_name} works at starbucks part-time and is responsible for helping prep drinks."
             },
@@ -261,6 +263,7 @@ career_descriptions = {
     "career_Adult_Writer": {
         "Writer_Track1": {
             1: {
+                "name": "Writer's Assistant",
                 "description": "{0.SimFirstName} is about to learn what it means to pay {M0.his}{F0.her} dues as an assistant-assistant coffee-getter, assistant fact-looker-upper, and assistant paperwork-filer. After a while, {M0.he}{F0.she} may even get to do some writing, although {M0.his}{F0.her} boss will take the credit.",
                 "sentient_sims_description": "{sim_name} works as writer intern, getting coffee and helping fill paperwork.",
             },
@@ -270,6 +273,7 @@ career_descriptions = {
                 "sentient_sims_description": "{sim_name} works as a blog writer, getting paid for clicks online.",
             },
             3: {
+                "name": "Freelance Article Writer",
                 "description": "Now {0.SimFirstName}\u00e2\u0080\u0099s working for {M0.himself}{F0.herself}, writing what {M0.he}{F0.she} wants\u00e2\u0080\u00a6or at least what paying clients want. Unfortunately, paying clients want articles about \u00e2\u0080\u009c10 Creative Ways to Eat Mushrooms\u00e2\u0080\u009d or \u00e2\u0080\u009cHot Tips to Drive Your Dog Wild.\u00e2\u0080\u009d It\u00e2\u0080\u0099s not glamorous, but it\u00e2\u0080\u0099s a living!",
                 "sentient_sims_description": "{sim_name} works as a writer, writing articles for websites online.",
             },
@@ -368,6 +372,7 @@ career_descriptions = {
                 "sentient_sims_description": "{sim_name} works as a minor leaguer in sports.",
             },
             6: {
+                "name": "Rookie",
                 "description": "{0.SimFirstName} is finally playing in the big leagues! Now {M0.he}{F0.she} is going to need to work harder than ever to stay there. {M0.He}{F0.She} needs to keep up on {M0.his}{F0.her} fitness and study the game tape. {0.SimFirstName} will get {M0.his}{F0.her} shot to make an impact!",
                 "sentient_sims_description": "{sim_name} works as a professional athlete in sports as a backup.",
             },
@@ -510,6 +515,7 @@ career_descriptions = {
                 "sentient_sims_description": "{sim_name} works as a live chat support agent.",
             },
             2: {
+                "name": "Quality Assurance",
                 "description": "{0.SimFirstName} has entered the exciting world of QA, the unsung heroes of software development. It\u00e2\u0080\u0099s the perfect job for people who feel like they break everything they touch! But hey, better they break it than the customer, right? Right??",
                 "sentient_sims_description": "{sim_name} works as a QA tested in software development.",
             },
@@ -581,7 +587,7 @@ career_descriptions = {
     "career_Deliveries_FoodDeliveryNPC": {
         "careerTrack_Deliveries_FoodDeliveryNPC": {
             1: {
-                "name": "Zoomers Food Delivery{M0.man}{F0.woman}",
+                "name": "Zoomers Food DeliveryPerson",
                 "sentient_sims_description": "{sim_name} works as a food delivery person.",
             }
         }
@@ -663,6 +669,7 @@ career_descriptions = {
                 "sentient_sims_description": "{sim_name} works as a standup comedian and roast master, reaching fame and participating in award ceremonies, roasts and other celebrity events.",
             },
             9: {
+                "name": "Stand up Star",
                 "description": "Just like that, {0.SimFirstName} is the big name on the marquee! Up-and-coming acts are excited to open for {0.SimPronounObjective}. The work is steady, pays well, and {0.SimFirstName} has even caught a few people on the street referencing {M0.his}{F0.her} material and cracking each other up. Not bad!",
                 "sentient_sims_description": "{sim_name} works as a big name famous comedian selling out shows across tours in the country.",
             },
@@ -741,6 +748,7 @@ career_descriptions = {
                 "sentient_sims_description": "{sim_name} works as the CEO in a business.",
             },
             10: {
+                "name": "Business Tycoon",
                 "description": "{0.SimFirstName} used to run a company, and now {0.SimFirstName} runs several. Fortunately, {M0.he}{F0.she}'s got smart folks in key positions, so {M0.he}{F0.she}'s got more free time to enjoy life... and the private jet.",
                 "sentient_sims_description": "{sim_name} works on the boards of multiple fortune 500 businesses.",
             }
@@ -942,6 +950,7 @@ career_descriptions = {
                 "sentient_sims_description": "{sim_name} just started working at starbucks and is responsible for cleaning.",
             },
             2: {
+                "name": "Bean Blender",
                 "description": "At last, {0.SimFirstName} can drop the dishrags and become one with the art of fine coffee! Grinding together the finest organic beans from around the globe, {0.SimFirstName} is now a master bean blender, a true mixologist whose arresting combinations of aggressively bold aromas and subtly nutty undertones please every palate.",
                 "sentient_sims_description": "{sim_name} works at starbucks and is responsible for helping prep drinks."
             },
@@ -1077,6 +1086,7 @@ career_descriptions = {
                 "sentient_sims_description": "{sim_name} works as the getaway driver for the local crime gang.",
             },
             8: {
+                "name": "Safe Cracker",
                 "description": "{0.SimFirstName} has proven {M0.his}{F0.her} strength and dexterity. Now, the big bosses have given {0.SimPronounObjective} a stethoscope, a drill, and a map of target banks. Doors are finally opening for {0.SimFirstName}. Literally.",
                 "sentient_sims_description": "{sim_name} works as the safe cracker for the local crime gang, helping to break into banks.",
             },
@@ -1255,6 +1265,7 @@ career_descriptions = {
     "career_Adult_NPC_RestaurantCritic": {
         "careerTrack_NPC_RestaurantCritic": {
             1: {
+                "name": "Restaurant Critic",
                 "sentient_sims_description": "{sim_name} works as a professional restaurant critic.",
             }
         }
@@ -1302,6 +1313,7 @@ career_descriptions = {
     "career_Adult_NPC_HomeChef": {
         "careerTrack_NPC_Chef": {
             1: {
+                "name": "Home Chef",
                 "sentient_sims_description": "{sim_name} works as a home chef.",
             },
         }
@@ -1309,18 +1321,23 @@ career_descriptions = {
     "career_Adult_NPC_OwnableRestaurant_Host": {
         "careerTrack_NPC_OwnableRestaurant_Host": {
             1: {
+                "name": "Restaurant Host",
                 "sentient_sims_description": "{sim_name} just started working as a host at a restaurant.",
             },
             2: {
+                "name": "Restaurant Host",
                 "sentient_sims_description": "{sim_name} works as a host at a restaurant.",
             },
             3: {
+                "name": "Restaurant Host",
                 "sentient_sims_description": "{sim_name} works as a host at a restaurant.",
             },
             4: {
+                "name": "Restaurant Host",
                 "sentient_sims_description": "{sim_name} works as a host at a restaurant.",
             },
             5: {
+                "name": "Head Restaurant Host",
                 "sentient_sims_description": "{sim_name} works as the head host at a restaurant.",
             }
         }
@@ -1328,18 +1345,23 @@ career_descriptions = {
     "career_Adult_NPC_OwnableRestaurant_Waiter": {
         "careerTrack_NPC_OwnableRestaurant_Waiter": {
             1: {
+                "name": "Restaurant Waiter",
                 "sentient_sims_description": "{sim_name} just started working as a waiter at a restaurant.",
             },
             2: {
+                "name": "Restaurant Waiter",
                 "sentient_sims_description": "{sim_name} works as a waiter at a restaurant.",
             },
             3: {
+                "name": "Restaurant Waiter",
                 "sentient_sims_description": "{sim_name} works as a waiter at a restaurant.",
             },
             4: {
+                "name": "Restaurant Waiter",
                 "sentient_sims_description": "{sim_name} works as a waiter at a restaurant.",
             },
             5: {
+                "name": "Head of Waitstaff",
                 "sentient_sims_description": "{sim_name} works as the head of waitstaff at a restaurant.",
             }
         }
@@ -1347,18 +1369,23 @@ career_descriptions = {
     "career_Adult_NPC_OwnableRestaurant_Chef": {
         "careerTrack_NPC_OwnableRestaurant_Chef": {
             1: {
+                "name": "Line Cook",
                 "sentient_sims_description": "{sim_name} works as a line cook at a restaurant.",
             },
             2: {
+                "name": "Demi Chef De Partie",
                 "sentient_sims_description": "{sim_name} works as a demi chef de partie at a restaurant.",
             },
             3: {
+                "name": "Demi Chef De Partie",
                 "sentient_sims_description": "{sim_name} works as a chef de partie at a restaurant.",
             },
             4: {
+                "name": "Sous Chef",
                 "sentient_sims_description": "{sim_name} works as a sous chef at a restaurant.",
             },
             5: {
+                "name": "Executive Chef",
                 "sentient_sims_description": "{sim_name} works as an executive chef at a restaurant.",
             }
         }
@@ -1373,16 +1400,3 @@ career_descriptions = {
     #     }
     # },
 }
-
-if __name__ == '__main__':
-    def count_nested_items(obj):
-        count = 0
-        if isinstance(obj, dict):
-            for key, value in obj.items():
-                if isinstance(key, int):
-                    count += 1
-                count += count_nested_items(value)
-        return count
-
-    num_items = count_nested_items(career_descriptions)
-    print("Number of items at the level of the numbers:", num_items)

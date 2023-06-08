@@ -152,9 +152,18 @@ interaction_descriptions = {
         ],
         'actions': [
             '"So what kind of work are you doing these days?" {initiator} asks.',
-            '"Do you still work " {initiator} asks.',
             '"So, what line of work are you in?" {initiator} asks.',
             '"What do you do for a living?" {initiator} asks.',
+            "\"{target}, I've always been curious about what you do for a living. Would you mind sharing more about it?\" {initiator} asks with genuine interest.",
+            "\"You know, {target}, we've never really talked about your career. What is it that you do, exactly?\" {initiator} inquires, trying to learn more about {target}'s life.",
+            "\"I've always admired your dedication to your work, {target}. Can you tell me more about your career and what drives you?\" {initiator} says, eager to understand {target}'s passion.",
+            "\"Hey, {target}, we've been friends for a while now but I realized I don't know much about your line of work. Could you tell me about it?\" {initiator} asks with a friendly smile.",
+            "\"{target}, I've noticed you're really passionate about your job. What do you do, and what makes you love it so much?\" {initiator} inquires, wanting to know more about {target}'s career.",
+            "\"Your job seems intriguing, {target}. Would you mind sharing more about what you do and how you got into that line of work?\" {initiator} asks, hoping to gain some insight into {target}'s life.",
+            "\"I've been meaning to ask you, {target}, what exactly is it that you do for a living? It seems like your work is really important to you,\" {initiator} says, trying to understand {target}'s world.",
+            "\"So, {target}, I've never gotten a clear answer from you about your career. What do you do, and how did you end up in that field?\" {initiator} asks, hoping to learn more about {target}'s professional life.",
+            "\"{target}, I've always wanted to know more about your line of work. What is it that you do, and what made you choose that career path?\" {initiator} inquires, looking for a deeper connection with {target}.",
+            "\"I was just thinking, {target}, we've never really discussed your profession. What do you do, and how did you find yourself in that career?\" {initiator} asks, seeking to gain a better understanding of {target}'s life."
         ],
     },
     'mixer_social_AskAboutFavoriteAuthor_targeted_Friendly_alwaysOn_skills': {
@@ -670,20 +679,6 @@ interaction_descriptions = {
             "\"{target}, I've been pondering your predicament and came up with a few logical approaches you could try. Would you like to hear them?\" {initiator} asks gently.",
             "\"Let's sit down and discuss your problem, {target}. I'm sure we can come up with some logical and effective solutions together,\" {initiator} proposes with a supportive tone.",
             "\"Listen, {target}, I think I have some ideas on how you can logically address your issue. Let's work through this together,\" {initiator} says, extending a helping hand."
-        ]
-    },
-    "mixer_social_TalkAboutBestsellers_targeted_Friendly_alwaysOn_career": {
-        "actions": [
-            "\"{target}, have you read any bestselling books lately? I'd love to hear your thoughts on them,\" {initiator} says, eager for conversation.",
-            "\"I just finished reading a bestselling book, {target}. Can we discuss it? I'm curious about your opinion,\" {initiator} says, holding the book in their hand.",
-            "\"{target}, I've noticed you're quite the bookworm. What do you think of the recent bestsellers? Are they worth the hype?\" {initiator} asks, looking for a genuine opinion.",
-            "\"You know, {target}, I've been trying to expand my reading list. Do you have any recommendations for bestselling books?\" {initiator} inquires, hoping for some suggestions.",
-            "\"I can't decide which bestselling book to read next, {target}. Can you help me choose?\" {initiator} asks, showing their list of options.",
-            "\"Hey {target}, I've been thinking about starting a book club. What do you say we begin with some bestsellers?\" {initiator} proposes, excited about the idea.",
-            "\"I've been comparing classic novels to recent bestsellers, {target}. I'd love to hear your thoughts on how they differ,\" {initiator} says, initiating a thoughtful discussion.",
-            "\"{target}, I know you're an avid reader. Which bestselling authors do you think are truly deserving of their success?\" {initiator} asks, genuinely curious.",
-            "\"Sometimes I wonder if bestselling books are really that good or if it's just marketing, {target}. What's your take on this?\" {initiator} questions, looking for an insightful conversation.",
-            "\"I'm planning on buying a few bestselling books as gifts, {target}. Do you have any personal favorites you'd recommend?\" {initiator} asks, hoping for a useful suggestion."
         ]
     },
     "mixer_social_TalkAboutBestBait_targeted_Friendly_alwaysOn_skills": {
@@ -1733,7 +1728,17 @@ interaction_descriptions = {
             "\"{target}, you're just the person to help me develop a new strategy for Dynamic Quantum Leap Synergy. Your expertise is crucial,\" {initiator} says, barely able to contain their laughter.",
             "\"Hey {target}, I think we should really focus on optimizing our Metaphysical Ambiguity Resolution. It's the key to our success!\" {initiator} jokes, nudging {target} playfully.",
             "\"{target}, I've got a new assignment for you: Integrative Quantum Flux Optimization. Don't worry, I'm sure you'll nail it,\" {initiator} says, laughing.",
-            "\"Let's not forget the importance of Advanced Heterogeneous Ambiguity Analysis, {target}. It's the future of corporate success!\" {initiator} says with a grin, making fun of the jargon."
+            "\"Let's not forget the importance of Advanced Heterogeneous Ambiguity Analysis, {target}. It's the future of corporate success!\" {initiator} says with a grin, making fun of the jargon.",
+            "\"{target}, have you ever noticed how corporate goons always seem to have a never-ending supply of buzzwords? It's like they're all reading from the same script,\" {initiator} chuckles.",
+            "\"{initiator} leans in and whispers to {target}, \"Do you think corporate goons practice their fake smiles and firm handshakes in front of the mirror every morning?\"",
+            "\"I wonder if corporate culture has a dress code for the soul, too,\" {initiator} muses, smirking at {target}.",
+            "\"Hey {target}, have you ever noticed that corporate goons can make a two-minute conversation take two hours with all their jargon and team-building exercises?\" {initiator} jokes.",
+            "\"{target}, let's play a game: Corporate Buzzword Bingo. Every time we hear a corporate goon say 'synergy,' 'innovation,' or 'value-added,' we take a sip of our coffee,\" {initiator} suggests, grinning.",
+            "\"{initiator} laughs and asks {target}, \"Do you think there's a secret competition among corporate goons to see who can use the most buzzwords in a single sentence?\"",
+            "\"Corporate culture is like a cult, {target}, but instead of chanting, they're spouting off empty slogans and talking about 'disrupting the industry,'\" {initiator} says with a grin.",
+            "\"Hey {target}, I bet corporate goons have a secret handshake, but it probably involves excessive eye contact and an awkwardly long grip,\" {initiator} teases.",
+            "\"{initiator} leans in and whispers to {target}, \"I'm convinced that corporate goons are actually robots, programmed to speak in buzzwords and networking lingo.\"",
+            "\"Corporate culture seems like one big game of 'Who Can Sound the Most Important?', don't you think, {target}?\" {initiator} chuckles.",
         ]
     },
     "mixer_socials_GoofAround_targeted_Funny_alwaysOn": {
@@ -2389,6 +2394,361 @@ interaction_descriptions = {
             "\"Can I be honest, {target}? I've been attracted to you for quite some time, and I think it's time I let you know,\" {initiator} admits, hesitatingly.",
             "\"{target}, I've tried to fight it, but I can't deny my feelings any longer. I'm attracted to you, and I hope you feel the same,\" {initiator} says, their voice filled with hope.",
             "\"I didn't plan for this, {target}, but I can't help it. I'm falling for you, and I needed you to know,\" {initiator} says, their heart pounding with anticipation."
+        ]
+    },
+    "CareerLeaveSchoolEarly": {
+        "observation": True,
+        "actions": [
+            "{initiator} leaves school early.",
+        ],
+    },
+    "CareerLeaveWorkEarly": {
+        "observation": True,
+        "actions": [
+            "{initiator} leaves work early.",
+        ],
+    },
+    "computer_Career_Business_FillOutReports": {
+        "observation": True,
+        "actions": [
+            "{initiator} fills out some business reports on the computer for work.",
+        ],
+    },
+    "computer_Career_Business_ResearchStocks": {
+        "observation": True,
+        "actions": [
+            "{initiator} researches stocks on the computer for work.",
+        ],
+    },
+    "computer_Career_Freelancer_Check_For_Gigs": {
+        "observation": True,
+        "actions": [
+            "{initiator} looks on the computer and checks for freelancer gigs.",
+        ],
+    },
+    "computer_JoinCareer": {
+        "observation": True,
+        "actions": [
+            # TODO: Pull career info and log it to memory as a special interaction
+            "{initiator} landed a new job.",
+        ],
+    },
+    "computer_QuitCareer": {
+        "observation": True,
+        "actions": [
+            # TODO: Pull career info and log it to memory as a special interaction
+            "{initiator} quit their job.",
+        ],
+    },
+    # TODO: Handle custom career
+    # "computer_RegisterCustomCareer": {
+    #     "observation": True,
+    #     "actions": [
+    #         # TODO: Pull career info and log it to memory as a special interaction
+    #         "{initiator} registered a custom career.",
+    #     ],
+    # },
+    # TODO: Handle custom career
+    # "computer_UnregisterCustomCareer": {
+    #     "observation": True,
+    #     "actions": [
+    #         # TODO: Pull career info and log it to memory as a special interaction
+    #         "{initiator} unregistered a custom career.",
+    #     ],
+    # },
+    # TODO: Check which interaction this comes from for more context
+    # "mixer_social_Threaten_targeted_mean_career": {}
+    "mixer_social_FightSupervillain_targeted_mean_career": {
+        "actions": [
+            "\"{target}, your reign of terror ends here and now!\" {initiator} shouts, fists clenched and ready to fight.",
+            "\"{target}, I've had enough of your evil ways. It's time to put a stop to this madness,\" {initiator} says, taking a determined stance.",
+            "\"You've caused enough suffering, {target}. I won't let you hurt anyone else,\" {initiator} says, stepping forward to confront the villain.",
+            "\"{initiator} faces {target} and proclaims, \"Your time is up, {target}. I won't let you continue down this path of destruction.\"",
+            "\"Enough is enough, {target}. I can't stand by and watch you harm innocent people any longer,\" {initiator} says, readying themselves for battle.",
+            "\"Your evil deeds come to an end today, {target}. I won't allow you to continue hurting others,\" {initiator} says bravely, preparing for the fight.",
+            "\"{target}, I've been waiting for the day I could finally put an end to your wickedness. That day has come,\" {initiator} announces, standing firm.",
+            "\"I'm not afraid of you anymore, {target}. I will fight to protect those you've threatened,\" {initiator} says, courage in their eyes.",
+            "\"Your power has been used for evil for far too long, {target}. I'm here to put a stop to your tyranny,\" {initiator} says with determination.",
+            "\"I've watched you hurt too many people, {target}. It's time for you to face some justice,\" {initiator} says, standing tall and ready to fight."
+        ]
+    },
+    "mixer_social_Pickpocket_targeted_mischief_career_household": {
+        "actions": [
+            "\"{initiator} slips into {target}'s house, their heart pounding, hoping not to get caught as they take the valuable object.\"",
+            "\"Feeling a rush of adrenaline, {initiator} quickly grabs the item from {target}'s home, hoping their absence goes unnoticed.\"",
+            "\"As {target} steps out of the room, {initiator} seizes the opportunity to swipe the treasured item from their home.\"",
+            "\"Waiting for the perfect moment, {initiator} swipes the precious item from {target}'s house, knowing the consequences if caught.\"",
+            "\"While visiting {target}'s home, {initiator} can't resist the urge to steal something, acting quickly and discreetly.\"",
+            "\"{initiator} feels a mix of excitement and guilt as they take the valuable object from {target}'s house, praying they won't be discovered.\"",
+            "\"In a moment of weakness, {initiator} succumbs to temptation and steals from {target}'s home, hoping to evade detection.\"",
+            "\"{initiator} carefully plans their move, waiting until {target} is preoccupied before stealing the item from their home.\"",
+            "\"Driven by need and desperation, {initiator} steals something from {target}'s house, hoping their friendship can withstand the betrayal.\"",
+            "\"With a sense of urgency, {initiator} swipes the valuable item from {target}'s home, knowing the risks involved but unable to resist the temptation.\""
+        ]
+    },
+    "mixer_social_Pickpocket_targeted_mischief_career": {
+        "actions": [
+            "\"{initiator} slyly approaches {target}, pretending to bump into them while skillfully slipping their hand into {target}'s pocket.\"",
+            "\"As {target} is distracted by a street performer, {initiator} sees an opportunity and discreetly reaches for {target}'s pocket.\"",
+            "\"{initiator} pretends to be a fan asking {target} for an autograph, using the distraction to pick {target}'s pocket without them realizing.\"",
+            "\"While {target} is engrossed in conversation, {initiator} carefully inches closer and slips their hand into {target}'s pocket, hoping to go unnoticed.\"",
+            "\"{initiator}, disguised as a waiter, approaches {target} with a tray of drinks, using the distraction to pick {target}'s pocket.\"",
+            "\"In the chaos of the crowded marketplace, {initiator} takes advantage of the situation and expertly picks {target}'s pocket.\"",
+            "\"As {target} tries to figure out which way to go, {initiator} approaches them under the guise of offering help, seizing the moment to pick {target}'s pocket.\"",
+            "\"{initiator} bumps into {target} in a crowded subway, using the close proximity to pick {target}'s pocket without raising suspicion.\"",
+            "\"While {target} is busy admiring a breathtaking view, {initiator} quietly approaches them from behind and picks their pocket.\"",
+            "\"{initiator} pretends to trip and fall onto {target}, and in the confusion, manages to pick {target}'s pocket without them noticing."
+        ]
+    },
+    "mixer_social_GiveFakeInvestmentTips_Targeted_Mischief_AlwaysOn_career": {
+        "actions": [
+            "\"{target}, I have a hot tip for you. This investment is going to skyrocket, trust me,\" {initiator} says with a grin.",
+            "\"Hey {target}, I overheard some people discussing a surefire investment opportunity. You should definitely get in on it,\" {initiator} suggests, feigning excitement.",
+            "\"Listen, {target}, I know a guy who knows a guy, and he's telling me this is the investment of the century. Don't miss out,\" {initiator} says, trying to sound convincing.",
+            "\"{target}, I have some insider information on a killer investment. I probably shouldn't be sharing it, but I think you'll want in on this,\" {initiator} says, acting secretive.",
+            "\"I just came across an amazing investment opportunity, {target}. You'd be crazy not to jump on this one,\" {initiator} says, attempting to sound enthusiastic.",
+            "\"Trust me, {target}, this is the kind of investment that only comes around once in a lifetime. You don't want to miss it,\" {initiator} insists, hoping to persuade {target}.",
+            "\"{target}, I've been doing some research and found a hidden gem of an investment. You should really consider it,\" {initiator} says, trying to sound knowledgeable.",
+            "\"Hey {target}, I've stumbled upon a surefire moneymaker, and I thought I'd share the wealth. You'll thank me later,\" {initiator} says, eager to deceive {target}.",
+            "\"{target}, I don't usually give out investment advice, but this one's too good not to share. You'll see the returns skyrocket in no time,\" {initiator} promises, hiding their true intentions.",
+            "\"I've got a little secret, {target}. I know about an investment that's about to explode in value. You should get in now while you still can,\" {initiator} says, trying to sound helpful while leading {target} astray."
+        ]
+    },
+    "mixer_social_BragAboutSkillz_targeted_Friendly_alwaysOn_career": {
+        "actions": [
+            "\"{target}, you won't believe the kind of work I can do. I'm practically a wizard at my job,\" {initiator} says, grinning proudly.",
+            "\"Have I ever told you about the time I saved my company from total disaster? I'm not saying I'm a hero, but I kind of am,\" {initiator} boasts to {target}.",
+            "\"{target}, my job skills are unparalleled. I'm always the go-to person when something needs to get done right,\" {initiator} says, puffing their chest out.",
+            "\"You know, {target}, I've been told I'm the best in my field. It's hard not to let it go to my head,\" {initiator} says, smirking confidently.",
+            "\"I don't like to brag, {target}, but my job skills are truly unmatched. No one can handle the pressure like I can,\" {initiator} claims, with a hint of arrogance.",
+            "\"{target}, have I ever mentioned that my boss thinks I'm a genius? It's true, they're always praising my incredible job skills,\" {initiator} says, clearly enjoying the attention.",
+            "\"Let me tell you, {target}, my job skills are so impressive that my coworkers are constantly asking for my help. It's almost exhausting being this good,\" {initiator} says with a cheeky grin.",
+            "\"I'm not one to brag, {target}, but I'm kind of a legend at work. My skills are just that extraordinary,\" {initiator} states, trying to sound humble.",
+            "\"Did you know, {target}, that I once completed a project in half the time it usually takes? My job skills are truly something to be admired,\" {initiator} declares, basking in the glory.",
+            "\"Sometimes, {target}, I can't believe how talented I am at my job. It's like everything I touch turns to gold,\" {initiator} says, with an air of self-satisfaction."
+        ]
+    },
+    "mixer_social_TranquilizingHandshake_targeted_mischief_alwaysOn_career": {
+        'pre_actions': [
+            "{initiator} uses a special device as a secret agent on {target}, once they shake hands it knocks {target} unconcious.",
+        ],
+        "actions": [
+            "{initiator} extends their hand for a handshake, their special device hidden from view.",
+            "\"{target}, I've been looking forward to this moment,\" {initiator} says, smiling as they reach out to shake {target}'s hand, the device discreetly concealed.",
+            "\"Hey, {target}, great to see you,\" {initiator} says, subtly activating the device as they extend their hand for a handshake.",
+            "\"{initiator} offers a friendly handshake to {target}, carefully concealing the secret agent device that would soon take effect.",
+            "\"{target}! Let's shake on it,\" {initiator} says, preparing to use the special device hidden in their hand.",
+        ]
+    },
+    "mixer_social_BragAboutStartup_targeted_Friendly_alwaysOn_career": {
+        "actions": [
+            "\"{target}, you won't believe the success of my startup! We've been growing exponentially,\" {initiator} boasts with a grin.",
+            "\"Hey, {target}, have I told you about my amazing startup? It's really taking off and everyone's talking about it,\" {initiator} says proudly.",
+            "\"{target}, did you know that my startup has been featured in major publications? I guess you could say we're kind of a big deal,\" {initiator} smirks.",
+            "\"I can't help but brag a little, {target}. My startup is absolutely killing it in the industry right now,\" {initiator} says with a confident smile.",
+            "\"Guess what, {target}? My startup just secured a huge investment! I knew we were destined for greatness,\" {initiator} exclaims, beaming with pride.",
+            "\"You know, {target}, not everyone can create a successful startup like I have. It takes talent and determination,\" {initiator} says, puffing out their chest.",
+            "\"{target}, my startup's success is beyond even my wildest dreams! We're really making an impact out there,\" {initiator} brags excitedly.",
+            "\"Hey, {target}, I don't mean to brag, but my startup is really changing the game. We're revolutionizing the industry,\" {initiator} says, unable to contain their excitement.",
+            "\"I'm so proud of my startup, {target}. We've accomplished so much in such a short time, and it's only the beginning,\" {initiator} gushes with enthusiasm.",
+            "\"Sometimes I can't believe how successful my startup has become, {target}. I guess I've just got a knack for this kind of thing,\" {initiator} says with a self-satisfied smile."
+        ]
+    },
+    "mixer_social_GossipAboutOfficeRomance_Targeted_Friendly_AlwaysOn_Career": {
+        "actions": [
+            "\"{target}, have you heard about the latest office romance? It's quite the scandal!\" {initiator} says with a mischievous grin.",
+            "\"Hey {target}, did you catch wind of the new couple in the office? I never saw that one coming!\" {initiator} says, raising their eyebrows.",
+            "\"Can you believe who's dating who in the office, {target}? I was shocked when I found out!\" {initiator} exclaims, eager to share the gossip.",
+            "\"Psst, {target}, there's a juicy piece of gossip floating around the office. Want to know who's involved in the latest office romance?\" {initiator} whispers, leaning in closer.",
+            "\"Guess what, {target}? I have some insider info on the recent office lovebirds. Care to take a guess?\" {initiator} asks, a playful smile on their face.",
+            "\"{target}, you won't believe who's been sneaking around together lately. Let's just say love is in the air at the office!\" {initiator} says with a wink.",
+            "\"Have you been keeping up with the office romance news, {target}? There's a new couple that's got everyone talking!\" {initiator} says excitedly.",
+            "\"So, {target}, I heard through the grapevine that there's a new office romance brewing. Want to know who's involved?\" {initiator} says, looking eager to spill the beans.",
+            "\"Word on the street is there's a new couple in the office. Can you guess who, {target}?\" {initiator} asks with a sly smile.",
+            "\"{target}, I can't keep this to myself any longer. There's a new office romance, and it's the talk of the town! You'll never guess who's involved!\" {initiator} says, barely able to contain their excitement."
+        ]
+    },
+    "mixer_social_PointOutConstellations_targeted_Friendly_alwaysOn_careers": {
+        "actions": [
+            "\"{target}, do you see that group of stars over there?\" {initiator} asks, pointing up at the night sky. \"That's the constellation I wanted to show you.\"",
+            "\"Hey {target}, have a look at this,\" {initiator} says, gesturing toward the sky. \"I just spotted Orion's Belt.\"",
+            "\"Look up, {target}. You see those stars in a line? That's the Big Dipper,\" {initiator} explains, pointing out the well-known constellation.",
+            "\"{target}, let me show you something fascinating,\" {initiator} says, guiding {target}'s gaze toward the stars. \"Right there is the constellation Cassiopeia.\"",
+            "\"Ever noticed that group of stars, {target}?\" {initiator} asks, pointing to the sky. \"That's Scorpius, one of my favorite constellations.\"",
+            "\"Come here, {target}. I want to show you something,\" {initiator} says, leading {target} to a spot with a clear view of the sky. \"You see that constellation up there? That's Ursa Major.\"",
+            "\"Check this out, {target}!\" {initiator} exclaims, grabbing {target}'s attention. \"That beautifully shaped constellation over there is called Lyra.\"",
+            "\"Hey {target}, have you ever seen the Pleiades?\" {initiator} asks, pointing to the cluster of stars in the sky.",
+            "\"{target}, look up there at that unique formation of stars. That's the constellation of Aquarius,\" {initiator} says, sharing their knowledge of the night sky.",
+            "\"Isn't it amazing, {target}? Right up there is the constellation Leo,\" {initiator} explains, pointing out the group of stars resembling a lion."
+        ]
+    },
+    "mixer_social_BragAboutJobTitle_Targeted_Friendly_AlwaysOn_career": {
+        "actions": [
+            "\"{target}, you know, I just can't help but feel proud of my job. I mean, not everyone gets to be in my position,\" {initiator} says, grinning confidently.",
+            "\"I don't mean to boast, {target}, but my job is pretty amazing. I'm kind of a big deal in my field,\" {initiator} shares with a smug smile.",
+            "\"Hey, {target}, did I ever tell you about my incredible job? I'm kind of a rock star at work,\" {initiator} brags, puffing out their chest.",
+            "\"{target}, I just have to mention how awesome my job is. I'm in charge of some really important projects,\" {initiator} says, trying to impress.",
+            "\"Sometimes I can't believe my luck, {target}, I have such a fantastic job. It's like I'm living the dream,\" {initiator} shares, their eyes shining with pride.",
+            "\"Have I ever told you about my job title, {target}? It's pretty impressive, if I do say so myself,\" {initiator} says, winking.",
+            "\"You know, {target}, not everyone can say they have a job like mine. I'm really proud of my accomplishments,\" {initiator} brags with a grin.",
+            "\"I don't mean to toot my own horn, {target}, but my job is pretty high-profile. People really respect me at work,\" {initiator} says, a hint of arrogance in their voice.",
+            "\"{target}, I can't help but feel a sense of pride when I tell people about my job. It's a pretty big deal, you know,\" {initiator} shares with a smirk.",
+            "\"Every time I walk into my office, {target}, I can't help but feel a sense of accomplishment. My job is truly something to be proud of,\" {initiator} says, basking in their own success."
+        ]
+    },
+    "mixer_social_InterviewForStory_targeted_Friendly_alwaysOn_career": {
+        "actions": [
+            "\"{target}, your story has been making headlines recently, and I'd like to get your perspective for our readers. Are you willing to share your experience?\" {initiator} asks.",
+            "\"Thank you for taking the time to speak with me today, {target}. Our audience is very interested in getting to know more about you and your journey,\" {initiator} says, starting the interview.",
+            "\"{target}, I've been following your story closely, and I'm excited for the opportunity to interview you. Let's start by discussing the events that led up to this moment,\" {initiator} suggests.",
+            "\"As a reporter, I've come across many fascinating stories, but yours has particularly caught my attention, {target}. I'm eager to learn more about your experiences,\" {initiator} says, preparing their questions.",
+            "\"Good morning, {target}. I'm {initiator}, a reporter for the local newspaper. I've been assigned to cover your story, and I'd be grateful for the chance to interview you,\" {initiator} introduces themselves.",
+            "\"Hello {target}, I'm {initiator}, and I'm here to interview you about your recent accomplishments. Our readers are eager to learn more about the person behind the headlines,\" {initiator} says with enthusiasm.",
+            "\"Your story has touched many of our readers, {target}. I'm {initiator}, a reporter for the local news, and I'd like to ask you a few questions about your experiences,\" {initiator} requests.",
+            "\"{target}, your story is truly inspiring, and I'm honored to have the opportunity to interview you today. Let's start by discussing your background and what led you to this point in your life,\" {initiator} proposes.",
+            "\"Welcome, {target}. I'm {initiator}, a reporter covering your story for our publication. I'm excited to hear about your journey and the impact it's had on those around you,\" {initiator} says, ready to begin the interview.",
+            "\"Today, I have the pleasure of interviewing {target}, whose story has captivated our community. {target}, can you please tell us about the challenges you've faced and the triumphs you've achieved?\" {initiator} asks."
+        ]
+    },
+    "mixer_social_LieAboutCareer_group_mischief_skills": {
+        'pre_actions': [
+            '{initiator} lies about their career to {target}.',
+        ],
+        "actions": [
+            "\"{target}, I've never told anyone this, but I'm actually a ",
+            "\"Guess what, {target}? I've been keeping something from you. I'm actually a ",
+            "\"I didn't want to tell you this at first, {target}, but I'm actually a ",
+            "\"You'll never believe this, {target}, but I'm not really an ",
+            "\"Okay, {target}, I'll be honest with you. I didn't want to tell you before, but I'm actually a ",
+            "\"I know this might be hard to believe, {target}, but I'm not really a ",
+            "\"Truth is, {target}, I've been hiding something from you. I'm not just a ",
+            "\"I didn't want to tell you this before, {target}, but I'm actually a "
+        ]
+    },
+    "mixer_social_TalkAboutBestsellers_targeted_Friendly_alwaysOn_career": {
+        "actions": [
+            "\"{target}, have I ever mentioned that I wrote a few bestsellers in my time?\" {initiator} asks, a hint of pride in their voice.",
+            "\"Do you know, {target}, that I'm the author of some of the bestsellers you might have come across? Quite an accomplishment, isn't it?\" {initiator} says with a smile.",
+            "\"{target}, I've been meaning to tell you about my success as a writer. I actually have a few bestsellers under my belt,\" {initiator} shares, looking for a reaction.",
+            "\"Guess what, {target}? I've written a couple of bestsellers! It's one of my proudest achievements,\" {initiator} says, waiting for {target}'s response.",
+            "\"You know, {target}, I've always had a passion for writing. In fact, I've even written a few bestsellers! Can you believe it?\" {initiator} asks, eager to share their accomplishments.",
+            "\"{target}, there's something you may not know about me. I've actually written a number of bestsellers. It's been an incredible journey,\" {initiator} says, reminiscing about their past.",
+            "\"Did you know, {target}, that I have a few bestsellers to my name? Writing has always been a passion of mine,\" {initiator} shares, hoping to find common ground.",
+            "\"I've been wanting to tell you this, {target}, but I wasn't sure how you'd react. I've written a few bestsellers, and I'm quite proud of them,\" {initiator} admits, looking for approval.",
+            "\"It's not every day you meet someone who's written bestsellers, is it, {target}? Well, now you have!\" {initiator} says, beaming with pride.",
+            "\"I've always enjoyed writing, {target}, and I've even had the fortune of penning a few bestsellers. It's a great feeling, knowing that people enjoy my work,\" {initiator} says, looking thoughtful."
+        ]
+    },
+    "mixer_social_SecretVillainHandshake_targeted_mean_alwaysOn_career": {
+        "actions": [
+            "\"{target}, I've been wanting to try this with someone I trust. Let's do the secret supervillain handshake,\" {initiator} says with excitement.",
+            "\"Hey {target}, I've got a fun idea. How about we try this secret handshake I learned? It's supposed to be for supervillains, but I think we can pull it off,\" {initiator} suggests with a grin.",
+            "\"{initiator} smirks at {target} and says, \"You seem like someone who would appreciate a good secret handshake. What do you say? Want to try this supervillain one I know?\"",
+            "\"With a mischievous glint in their eye, {initiator} asks {target}, \"Are you up for learning a secret handshake only known among supervillains? I think it'll be our little inside joke.\"",
+            "\"{target}, I bet you've never done a secret supervillain handshake before. Want to give it a try?\" {initiator} says, extending their hand.",
+            "\"Let's see if you can keep up with this secret handshake I learned, {target}. It's said to be used by supervillains,\" {initiator} says, challenging {target} playfully.",
+            "\"{initiator} playfully nudges {target} and says, \"I've got something fun for us to try. It's a secret supervillain handshake, but don't worry, I think we can handle it.\"",
+            "\"Hey {target}, I think we should have our own secret handshake. How about this one I found? They say it's a supervillain's handshake, but I think it suits us,\" {initiator} proposes with a wink.",
+            "\"I came across this secret supervillain handshake, {target}, and I thought of you immediately. Want to learn it together?\" {initiator} asks enthusiastically.",
+            "\"{initiator} looks at {target} and says, \"You know what we're missing? A secret handshake. I found this one that's supposedly a supervillain's secret. Let's try it!\""
+        ]
+    },
+    "mixer_social_ExposeSupervillain_targeted_mean_career": {
+        "actions": [
+            "\"{target}, I've discovered your secret identity. I know you're the infamous supervillain everyone's been talking about,\" {initiator} says, confronting them.",
+            "\"Did you really think you could hide your dark deeds from me, {target}? I know everything,\" {initiator} says, staring them down.",
+            "\"{target}, I never thought I'd say this, but I found evidence of your true identity. You're not the person I thought you were,\" {initiator} admits, looking betrayed.",
+            "\"I can't believe it, {target}. All this time, you've been leading a double life as a supervillain. How could you?\" {initiator} asks, hurt and angry.",
+            "\"{target}, I've pieced it all together. It's time to stop hiding. I know you're the one behind all the chaos in our city,\" {initiator} accuses, determined to expose them.",
+            "\"I've been watching you closely, {target}, and I've uncovered your secret. You can't hide your villainous actions from me any longer,\" {initiator} says, ready to confront them.",
+            "\"{target}, I had my suspicions, but now I'm certain. You're the one wreaking havoc as a supervillain. It's time to face the truth,\" {initiator} says, losing faith in their friend.",
+            "\"I thought I knew you, {target}, but I never imagined you were capable of being the supervillain terrorizing our city,\" {initiator} says, feeling betrayed.",
+            "\"{target}, your actions as a supervillain have caused so much pain and suffering. I can't let you hide behind your lies anymore,\" {initiator} says, determined to bring them to justice.",
+            "\"I trusted you, {target}, but now I see you for who you truly are – a supervillain. You can't hide from me any longer,\" {initiator} says, ready to confront the truth."
+        ]
+    },
+    "mixer_social_EnthuseAboutSpace_targeted_friendly_alwaysOn_career": {
+        "actions": [
+            "\"{target}, I can't begin to tell you how amazing it is to work in space. The views, the endless possibilities... It's a dream come true!\" {initiator} exclaims passionately.",
+            "\"Have I ever mentioned how incredible my career in space is, {target}? The things I've seen and experienced are beyond words,\" {initiator} says, eyes shining with excitement.",
+            "\"{target}, you wouldn't believe the wonders of space. My job has given me the opportunity to explore the cosmos, and it's breathtaking,\" {initiator} shares enthusiastically.",
+            "\"Working in space has been a life-changing experience, {target}. It's not every day you get to see Earth from above, and it's simply mesmerizing,\" {initiator} says with awe.",
+            "\"I have to tell you about my job in space, {target}. The stars, the planets, the sheer vastness... it's all so captivating,\" {initiator} gushes.",
+            "\"{target}, my career in space is like living in a dream. The universe is so vast and beautiful, and I'm grateful to be a part of it,\" {initiator} says, filled with admiration.",
+            "\"Every time I step out into space, {target}, I'm reminded of how small we are in the grand scheme of things. It's both humbling and inspiring,\" {initiator} shares with fervor.",
+            "\"There's nothing quite like floating among the stars, {target}. My career in space has given me a new perspective on life and our place in the universe,\" {initiator} says, lost in thought.",
+            "\"{target}, I wish I could show you the wonders of space. My job has opened my eyes to the beauty and mysteries of the cosmos,\" {initiator} says dreamily.",
+            "\"Being an astronaut has its challenges, {target}, but the rewards are immeasurable. The sense of awe and wonder it instills in you is something I'll cherish forever,\" {initiator} declares with passion."
+        ]
+    },
+    "mixer_social_InterviewAboutLife_targeted_Friendly_alwaysOn_career": {
+        "actions": [
+            "\"{target}, many people are curious about your life story. Would you mind sharing some details with me?\" {initiator} asks, holding a recorder.",
+            "\"{initiator} here, and today I have the pleasure of interviewing {target}. So, can you tell us about your journey so far?\" {initiator} begins the interview with a warm smile.",
+            "\"Welcome, {target}, and thank you for joining me today. I'd love to learn more about your experiences and the path that led you here,\" {initiator} says, ready to take notes.",
+            "\"Thank you for agreeing to this interview, {target}. Our readers are eager to know how you've achieved such success in your life. Please, share your story with us,\" {initiator} requests.",
+            "\"{target}, it's an honor to have you here today. I'm sure our audience is just as excited as I am to hear about your personal journey. Let's start from the beginning, shall we?\" {initiator} asks enthusiastically.",
+            "\"Hello, {target}. I'm {initiator}, and I'm here to learn more about your incredible life story. Can you tell us about the challenges you've faced and how you overcame them?\" {initiator} inquires.",
+            "\"{target}, your life is truly inspiring, and I'd love to know more about the events that shaped you. Can you walk me through your journey?\" {initiator} asks with genuine curiosity.",
+            "\"Good to meet you, {target}. Our readers are fascinated by your accomplishments and would love to know more about your life. Can you give us some insights?\" {initiator} questions, pen in hand.",
+            "\"{initiator} here, and I'm honored to have the opportunity to interview the incredible {target}. Let's dive into your life's story and learn about the experiences that molded you,\" {initiator} says with excitement.",
+            "\"Thank you for joining me today, {target}. As a reporter, I am eager to document your life story and share it with the world. Where would you like to begin?\" {initiator} asks, setting up the recorder."
+        ]
+    },
+    "mixer_social_ImitateBoss_Targeted_Funny_AlwaysOn_Career": {
+        "actions": [
+            "\"{target}, check this out,\" {initiator} says with a grin, \"This is our boss when he's giving a lecture.\" {initiator} proceeds to imitate their boss hilariously.",
+            "\"{initiator} leans in close to {target} and whispers, \"Watch this, I've been practicing my impression of the boss. What do you think?\" {initiator} then impersonates the boss, making {target} laugh.",
+            "\"Hey {target}, wanna see something funny?\" {initiator} asks, before launching into a spot-on imitation of their boss, causing both of them to giggle.",
+            "\"{initiator} suddenly adopts the boss's mannerisms and tone of voice, saying to {target}, \"I expect those reports on my desk by Friday!\" Both characters burst out laughing at the uncanny impression.",
+            "\"Remember when the boss said this?\" {initiator} asks {target}, before flawlessly imitating their boss's most memorable quote, making {target} chuckle.",
+            "\"{initiator} turns to {target} with a smirk and says, \"So, {target}, have I ever shown you my impression of the boss?\" {initiator} then proceeds to imitate the boss, leaving {target} in stitches.",
+            "\"Hey {target}, you know how our boss always says that one thing? Check this out,\" {initiator} says, before imitating the boss's catchphrase and mannerisms, making {target} laugh.",
+            "\"{initiator} casually says to {target}, \"I've been working on this for a while, tell me what you think,\" and then proceeds to hilariously mimic their boss, causing {target} to burst out laughing.",
+            "\"{initiator} catches {target}'s eye and, with a mischievous grin, starts imitating their boss's distinctive walk and speech, making {target} snicker.",
+            "\"Watch closely, {target}, this is my masterpiece,\" {initiator} announces, before launching into a hilarious imitation of their boss that leaves {target} doubled over with laughter."
+        ]
+    },
+    "mixer_social_OfferCareerAdvice_Targeted_Friendly_AlwaysOn_career": {
+        "actions": [
+            "\"{target}, I've been thinking about your career, and I have some ideas that I believe could really help you succeed,\" {initiator} says, looking eager to share their thoughts.",
+            "\"Hey {target}, I noticed you've been struggling with your career lately, and I wanted to offer some advice. I hope you don't mind,\" {initiator} says, trying not to pry.",
+            "\"{target}, I've been in a similar situation in my career, and I discovered some strategies that might help you as well. Would you like to hear them?\" {initiator} asks kindly.",
+            "\"You know, {target}, I've learned a lot throughout my career, and I'd be happy to share some insights with you if you're open to it,\" {initiator} says, hoping to provide some guidance.",
+            "\"I couldn't help but overhear your conversation about your career, {target}. I have some experience in that field, and I'd be more than willing to offer some advice if you'd like,\" {initiator} says, trying to be helpful.",
+            "\"{target}, I know you've been working hard on your career, and I wanted to share some tips that helped me along the way. Are you interested in hearing them?\" {initiator} asks, wanting to lend a hand.",
+            "\"Hey {target}, I was thinking about your career path, and I have a few suggestions that I believe could benefit you. Would you like to discuss them over coffee?\" {initiator} proposes, hoping to help their friend.",
+            "\"{target}, I've been in your shoes before, and I know how tough it can be. I'd love to share some career advice with you if you're open to it,\" {initiator} says, relating to their friend's struggles.",
+            "\"I know it's not my place to say, {target}, but I think I have some career advice that might really help you. Would you be willing to hear me out?\" {initiator} asks cautiously.",
+            "\"Hey {target}, I've been meaning to talk to you about your career. I've learned a lot in my own journey, and I think there are some things that could help you as well,\" {initiator} says, genuinely wanting to help."
+        ],
+    },
+    "Social_Trait_Ambitious_GiveCareerAdvice": {
+        "actions": [
+            "\"{target}, I've been thinking about your career, and I have some ideas that I believe could really help you succeed,\" {initiator} says, looking eager to share their thoughts.",
+            "\"Hey {target}, I noticed you've been struggling with your career lately, and I wanted to offer some advice. I hope you don't mind,\" {initiator} says, trying not to pry.",
+            "\"{target}, I've been in a similar situation in my career, and I discovered some strategies that might help you as well. Would you like to hear them?\" {initiator} asks kindly.",
+            "\"You know, {target}, I've learned a lot throughout my career, and I'd be happy to share some insights with you if you're open to it,\" {initiator} says, hoping to provide some guidance.",
+            "\"I couldn't help but overhear your conversation about your career, {target}. I have some experience in that field, and I'd be more than willing to offer some advice if you'd like,\" {initiator} says, trying to be helpful.",
+            "\"{target}, I know you've been working hard on your career, and I wanted to share some tips that helped me along the way. Are you interested in hearing them?\" {initiator} asks, wanting to lend a hand.",
+            "\"Hey {target}, I was thinking about your career path, and I have a few suggestions that I believe could benefit you. Would you like to discuss them over coffee?\" {initiator} proposes, hoping to help their friend.",
+            "\"{target}, I've been in your shoes before, and I know how tough it can be. I'd love to share some career advice with you if you're open to it,\" {initiator} says, relating to their friend's struggles.",
+            "\"I know it's not my place to say, {target}, but I think I have some career advice that might really help you. Would you be willing to hear me out?\" {initiator} asks cautiously.",
+            "\"Hey {target}, I've been meaning to talk to you about your career. I've learned a lot in my own journey, and I think there are some things that could help you as well,\" {initiator} says, genuinely wanting to help."
+        ],
+    },
+    "mixer_social_DontTalkAboutCrimeClub_targeted_Friendly_alwaysOn_career": {
+        "actions": [
+            "\"{target}, I need you to promise me something. Never bring up the crime club in public,\" {initiator} says in a serious tone.",
+            "\"Listen, {target}, it's really important that you never mention the crime club around others. We have to keep it a secret,\" {initiator} warns.",
+            "\"{target}, if there's one thing you must remember, it's that you cannot talk about crime club. It's for our own safety,\" {initiator} says urgently.",
+            "\"Please, {target}, be careful with your words. Don't ever let the crime club slip into any conversation,\" {initiator} pleads.",
+            "\"I can't stress this enough, {target}. Keep the crime club to yourself. No one else can know,\" {initiator} says, looking {target} in the eye.",
+            "\"Remember, {target}, the first rule of crime club is that you do not talk about crime club,\" {initiator} reminds with a stern expression.",
+            "\"Never let your guard down, {target}. We can't afford to have people find out about the crime club,\" {initiator} says firmly.",
+            "\"Talking about crime club could put us all in danger, {target}. Be cautious with what you say,\" {initiator} advises.",
+            "\"Keep this between us, {target}. The crime club stays a secret, no matter the circumstances,\" {initiator} insists.",
+            "\"I trust you, {target}, but I need you to understand the importance of not discussing the crime club with anyone. Can you promise me that?\" {initiator} asks earnestly."
         ]
     },
 }

@@ -16,29 +16,40 @@ interaction_descriptions = {
     },
     'mixer_social_DiscussLatestGames_targeted_Friendly_alwaysOn_skills': {
         'pre_actions': [
-            '{initiator} starts a conversation with {target} about video games.',
+            '{initiator} discusses the newly released video game with {target}.',
         ],
         'actions': [
-            '"Have you played that new video game?" {initator} asks.',
+            '"I heard that the new video game has some crazy new features that are going to blow everyone\'s mind. Have you seen the trailer, {target}?" {initiator} asks enthusiastically.',
+            "I'm so excited about the new game, I can hardly wait to get my hands on it. What about you, {target}?" '{initiator} asks, curious about {target}\'s level of enthusiasm.',
+            "I've been reading some reviews about the new game, and they're mixed. What's your take on it, {target}?" '{initiator} asks, wondering if {target} has any insights.',
+            "I know we have different gaming preferences, but I think you might be interested in this one," '{initiator} says, hoping to pique {target}\'s interest.',
+            "{target}, you're a gamer, right? I think you'll love this new game that's coming out," '{initiator} suggests.',
+            
         ],
     },
     'mixer_social_CheerfulIntroduction_greetings_skills': {
         'pre_actions': [
-            '{initiator} cheerfully introduces themselves to {target}.',
+            '{initiator}, positively radiating with glee, skips over to {target} and introduces themselves for the first time.',
         ],
         'actions': [
-            '"How are you?" {initiator} asks {target},',
+            '"Hi there! I love meeting new people! I\'m {initiator}. What\'s your name?" {initiator} says, beaming at {target} and eagerly awaiting their response.',
+            "I have to say, I love your style. And your energy is contagious!" '{initiator} says to {target}. "Great to meet you, I\'m {initiator}!',
+            "I hope you don't mind me introducing myself, but I couldn't resist. I'm {initiator}, and I felt like I needed to meet you," '{initiator} says, flashing a friendly smile.',
+            "You seem like a friendly face. Mind if I join you?" '{initiator} asks with a smile, gesturing to the empty seat next to {target}.',
+            "Hi there! My name is {initiator}. I don't think we've met before," '{initiator} says, shaking {target}\'s hand warmly.',
+            "Hello, {target}! You don't know me yet, but I'm {initiator}. Mind if I join you?" '{initiator} says, already sitting down.',
         ],
     },
     'mixer_social_FlirtyIntroduction_greetings_skills': {
         'pre_actions': [
-            '{initiator} introduces themselves to {target}.',
+            '{initiator} flirtatiously introduces themselves to {target}.',
         ],
         'actions': [
             'With a flirtatious smile, {initiator} strode over and extended their hand. "Hi there, I\'m {initiator}. What\'s your name?"',
             '{initiator} sauntered up with a charming grin. "Well hello there, I don\'t think we\'ve met yet. I\'m {initiator}."',
             'With a twinkle in their eye, {initiator} approached the other person and struck up a conversation. "Excuse me,',
             'With a playful wink, {initiator} sauntered up to the other person and introduced themselves. "Hi,',
+            '{initiator} catches {target}\'s gaze and saunters over with a mischievous grin. "Feeling bored? Don\'t worry, your day\'s about to get interesting. By the way, I\'m {initiator}." they say, their voice low and flirtatious.',
         ],
     },
     'mixer_social_ExpressFondness_targeted_Romance_alwaysOn': {

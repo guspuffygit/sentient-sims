@@ -107,39 +107,11 @@ Complete Example:
 },
 ```
 
-### actions
+### actions (Optional)
 
-One action will be randomly selected.
-
-### display_action
-
-'display_action': False can be used to not display any of the actions to the user.
-
-It is like pre_actions but for the whole interaction.
-
-There is no starter text that will be displayed to the user.
-
-Everything that the AI generates will be completely random based on the input.
-
-```
-# Prompt
-Gus Puffy introduces themselves to KT Puffz.
-
-# Output shown to player
-Gus cleared his throat, his palms growing clammy. "I... I wanted to express... my fondness for you," he confessed, his voice barely above a whisper.
-
-The words hung in the air, as if time itself had suspended its relentless march forward. Gus felt a swirl of emotions within him—a blend of hope and trepidation, desire and uncertainty. He wondered if he had said too much, if he had bared his soul too soon.
-```
-
-Complete example:
-```Python
-'mixer_social_ExpressFondness_targeted_Romance_alwaysOn': {
-    'display_action': False,
-    'actions': [
-        '{initiator} pauses before he expressing his fondness for {target}.',
-    ],
-},
-```
+* Always displayed to the user in the popup
+* One action will be randomly selected if it is set
+One action will be randomly selected if it is set. Optional. Always
 
 ### Text replacement
 

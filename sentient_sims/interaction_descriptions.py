@@ -1,4 +1,3 @@
-# display_action = True is default, use display_action = False to hide the prompt in the output
 # {initiator} and {target} will be replaced with the names of the sims in the interaction
 
 interaction_descriptions = {
@@ -38,7 +37,7 @@ interaction_descriptions = {
         'actions': [
             '"Hi there! I love meeting new people! I\'m {initiator}. What\'s your name?" {initiator} says, beaming at {target} and eagerly awaiting their response.',
             "I have to say, I love your style. And your energy is contagious!" '{initiator} says to {target}. "Great to meet you, I\'m {initiator}!',
-            
+
             "Hi there! My name is {initiator}. I don't think we've met before," '{initiator} says, shaking {target}\'s hand warmly.',
         ],
     },
@@ -95,8 +94,7 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_DiscussFavoriteBand_targeted_Friendly_alwaysOn': {
-        'display_action': False,
-        'actions': [
+        'pre_actions': [
             '{initiator} starts to talk about their favorite band,',
         ],
     },
@@ -113,14 +111,12 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_RudeIntroduction_greetings': {
-        'display_action': False,
-        'actions': [
+        'pre_actions': [
             '{initiator} begins to rudely introduces themselves to {target}.'
         ],
     },
     'mixer_social_Flirt_targeted_romance_alwaysOn': {
-        'display_action': False,
-        'actions': [
+        'pre_actions': [
             '{initiator} starts to flirt with {target}.',
         ],
     },

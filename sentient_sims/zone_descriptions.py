@@ -5,7 +5,7 @@ zone_descriptions = {
         'type': 'Bar',
         'description': ' '.join([
             'The Blue Velvet, nestled amidst the bustling city streets, stood as a sanctuary of refined indulgence.',
-            'Its two-story faÃ§ade exuded an air of timeless elegance.',
+            'Its two-story facade exuded an air of timeless elegance.',
             'The soulful melodies of a piano cascaded through the air, caressing the ears and soothing the senses.',
             'Guests gathered around the polished grand piano, their faces aglow with the soft flicker of candlelight, engaged in whispered conversations and laughter that mingled harmoniously with the music.',
             'To the left of the piano, a welcoming fireplace crackled with a gentle warmth, casting dancing shadows across the room and bathing the patrons in a cozy, amber embrace.',

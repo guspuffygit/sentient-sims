@@ -33,6 +33,7 @@ trait_descriptions = {
     "Activities_Fishing": "fishing",
     "Music_Lullabies": "lullabies",
     "Color_Blue": "the color blue",
+    "Trait_SimPreference_Likes_Activities_Dancing": "dancing",
 
     # Personality Traits
     "HotHeaded": "is hot headed",

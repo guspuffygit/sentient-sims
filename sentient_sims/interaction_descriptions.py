@@ -4,7 +4,7 @@
 interaction_descriptions = {
     'mixer_social_ComplainAboutBills_targeted_Friendly_alwaysOn_bills': {
         'pre_actions': [
-            '{initiator} starts a conversation with {target}.',
+            '{initiator} complains about their bills to {target}.',
         ],
         'actions': [
             '"I don\'t know how I\'m going to pay for all of these bills," {initiator} said,',
@@ -19,25 +19,27 @@ interaction_descriptions = {
             '{initiator} discusses the newly released video game with {target}.',
         ],
         'actions': [
-            '"I heard that the new video game has some crazy new features that are going to blow everyone\'s mind. Have you seen the trailer, {target}?" {initiator} asks enthusiastically.',
-            "I'm so excited about the new game, I can hardly wait to get my hands on it. What about you, {target}?" '{initiator} asks, curious about {target}\'s level of enthusiasm.',
-            "I've been reading some reviews about the new game, and they're mixed. What's your take on it, {target}?" '{initiator} asks, wondering if {target} has any insights.',
-            "I know we have different gaming preferences, but I think you might be interested in this one," '{initiator} says, hoping to pique {target}\'s interest.',
-            "{target}, you're a gamer, right? I think you'll love this new game that's coming out," '{initiator} suggests.',
-            
+            '"What do you think of the new video game, {target}? Have you had a chance to play it yet?\" {initiator} asks excitedly.',
+            '"I can\'t stop playing the new video game. Have you tried it yet, {target}?\" {initiator} says, grinning from ear to ear.",',
+            '"I\'ve been waiting for this video game for months, {target}, and I have to say, it\'s exceeded my expectations," {initiator} raves."',
+            '"Have you heard about the new video game? I think you\'d really like it, {target},\" {initiator} says, trying to pique {target}\'s interest."',
+            '"I\'m so glad I pre-ordered the new video game. It\'s all I can think about. What do you think, {target}?\" {initiator} asks, eagerly."',
+            '"You have to play the new video game, {target}. It\'s seriously the best game I\'ve played in years,\" {initiator} says, practically begging {target} to give it a try."',
+            '"I can\'t believe how good the graphics are in the new video game. It\'s like I\'m really in the game," {initiator} says, still in awe."',
+            '"Did you catch that Easter egg in the new video game? It\'s so cool. I wonder if there are any more,\" {initiator} muses, hoping to discuss details with {target}."',
+            '"I love how immersive the new video game is. It\'s like I\'m living in a completely different world," {initiator} says dreamily."',
+            "The new video game has been consuming all of my free time. Do you want to play together sometime, {target}?" '{initiator} suggests."',
         ],
     },
     'mixer_social_CheerfulIntroduction_greetings_skills': {
         'pre_actions': [
-            '{initiator}, positively radiating with glee, skips over to {target} and introduces themselves for the first time.',
+            '{initiator} cheerfully introduces themselves to {target} for the first time.',
         ],
         'actions': [
             '"Hi there! I love meeting new people! I\'m {initiator}. What\'s your name?" {initiator} says, beaming at {target} and eagerly awaiting their response.',
             "I have to say, I love your style. And your energy is contagious!" '{initiator} says to {target}. "Great to meet you, I\'m {initiator}!',
-            "I hope you don't mind me introducing myself, but I couldn't resist. I'm {initiator}, and I felt like I needed to meet you," '{initiator} says, flashing a friendly smile.',
-            "You seem like a friendly face. Mind if I join you?" '{initiator} asks with a smile, gesturing to the empty seat next to {target}.',
+            
             "Hi there! My name is {initiator}. I don't think we've met before," '{initiator} says, shaking {target}\'s hand warmly.',
-            "Hello, {target}! You don't know me yet, but I'm {initiator}. Mind if I join you?" '{initiator} says, already sitting down.',
         ],
     },
     'mixer_social_FlirtyIntroduction_greetings_skills': {
@@ -53,16 +55,26 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_ExpressFondness_targeted_Romance_alwaysOn': {
-        'display_action': False,
-        'actions': [
-            '{initiator} pauses before he expressing his fondness for {target}.',
+        'pre_actions': [
+            '{initiator} pauses thoughtfully before expressing their fondness for {target}.',
         ],
+        'actions': [
+        '"I\'ve been meaning to tell you this, {target}, but I never found the courage to say it until now," \'{initiator} says, looking down at his feet."',
+        '"I don\'t know how to say this, but I feel something for you, {target}. Something more than friendship," \'{initiator} confesses, looking up at {target} nervously."',
+        '"I hope this doesn\'t change anything between us, but I need to tell you how I feel. {target}, I have feelings for you,\" {initiator} says, biting his lip."',
+        '"I know this might come as a surprise, {target}, but I can\'t keep it inside any longer. I\'m in love with you,\" {initiator} says, his voice barely above a whisper."',
+        '"I don\'t know how you\'ll react to this, {target}, but I have to tell you. I have feelings for you that I can\'t ignore," {initiator} says, looking at {target} with a mix of fear and adoration."',
+        '"I know this might be inappropriate, {target}, but I can\'t help the way I feel. I\'m attracted to you,\" {initiator} says, looking ashamed."',
+        '"I hope you don\'t think less of me for saying this, {target}, but I feel like I need to be honest. I have a crush on you," {initiator} admits, looking at {target} with a hint of sadness."',
+        '"I know this might ruin our friendship, {target}, but I have to say it. I\'m in love with you," {initiator} says, bracing for the worst."',
+        '"I know we\'ve been friends for a long time, {target}, but I can\'t help how I feel. I think I\'m falling for you,\" {initiator} says, looking at {target} with a mixture of hope and trepidation."',
+        ]
     },
     'mixer_social_ExpressAdmiration_targeted_Friendly_MiddleScore': {
         'actions': [
-            '"I have to say, you never cease to amaze me," said {initiator}',
-            '"I\'m constantly in awe of your resilience," said {initiator},',
-            '"You have such an incredible way of seeing the world," said {initiator}, genuinely impressed.',
+        '"I have to say, you never cease to amaze me," said {initiator}',
+        '"I\'m constantly in awe of your resilience," said {initiator},',
+        '"You have such an incredible way of seeing the world," said {initiator}, genuinely impressed.',
         ],
     },
     'mixer_social_ComplainAboutProblems_targeted_friendly_emotionSpecific': {

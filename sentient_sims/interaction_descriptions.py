@@ -58,22 +58,22 @@ interaction_descriptions = {
             '{initiator} pauses thoughtfully before expressing their fondness for {target}.',
         ],
         'actions': [
-        '"I\'ve been meaning to tell you this, {target}, but I never found the courage to say it until now," \'{initiator} says, looking down at his feet."',
-        '"I don\'t know how to say this, but I feel something for you, {target}. Something more than friendship," \'{initiator} confesses, looking up at {target} nervously."',
-        '"I hope this doesn\'t change anything between us, but I need to tell you how I feel. {target}, I have feelings for you,\" {initiator} says, biting his lip."',
-        '"I know this might come as a surprise, {target}, but I can\'t keep it inside any longer. I\'m in love with you,\" {initiator} says, his voice barely above a whisper."',
-        '"I don\'t know how you\'ll react to this, {target}, but I have to tell you. I have feelings for you that I can\'t ignore," {initiator} says, looking at {target} with a mix of fear and adoration."',
-        '"I know this might be inappropriate, {target}, but I can\'t help the way I feel. I\'m attracted to you,\" {initiator} says, looking ashamed."',
-        '"I hope you don\'t think less of me for saying this, {target}, but I feel like I need to be honest. I have a crush on you," {initiator} admits, looking at {target} with a hint of sadness."',
-        '"I know this might ruin our friendship, {target}, but I have to say it. I\'m in love with you," {initiator} says, bracing for the worst."',
-        '"I know we\'ve been friends for a long time, {target}, but I can\'t help how I feel. I think I\'m falling for you,\" {initiator} says, looking at {target} with a mixture of hope and trepidation."',
+            '"I\'ve been meaning to tell you this, {target}, but I never found the courage to say it until now," \'{initiator} says, looking down at his feet."',
+            '"I don\'t know how to say this, but I feel something for you, {target}. Something more than friendship," \'{initiator} confesses, looking up at {target} nervously."',
+            '"I hope this doesn\'t change anything between us, but I need to tell you how I feel. {target}, I have feelings for you,\" {initiator} says, biting his lip."',
+            '"I know this might come as a surprise, {target}, but I can\'t keep it inside any longer. I\'m in love with you,\" {initiator} says, his voice barely above a whisper."',
+            '"I don\'t know how you\'ll react to this, {target}, but I have to tell you. I have feelings for you that I can\'t ignore," {initiator} says, looking at {target} with a mix of fear and adoration."',
+            '"I know this might be inappropriate, {target}, but I can\'t help the way I feel. I\'m attracted to you,\" {initiator} says, looking ashamed."',
+            '"I hope you don\'t think less of me for saying this, {target}, but I feel like I need to be honest. I have a crush on you," {initiator} admits, looking at {target} with a hint of sadness."',
+            '"I know this might ruin our friendship, {target}, but I have to say it. I\'m in love with you," {initiator} says, bracing for the worst."',
+            '"I know we\'ve been friends for a long time, {target}, but I can\'t help how I feel. I think I\'m falling for you,\" {initiator} says, looking at {target} with a mixture of hope and trepidation."',
         ]
     },
     'mixer_social_ExpressAdmiration_targeted_Friendly_MiddleScore': {
         'actions': [
-        '"I have to say, you never cease to amaze me," said {initiator}',
-        '"I\'m constantly in awe of your resilience," said {initiator},',
-        '"You have such an incredible way of seeing the world," said {initiator}, genuinely impressed.',
+            '"I have to say, you never cease to amaze me," said {initiator}',
+            '"I\'m constantly in awe of your resilience," said {initiator},',
+            '"You have such an incredible way of seeing the world," said {initiator}, genuinely impressed.',
         ],
     },
     'mixer_social_ComplainAboutProblems_targeted_friendly_emotionSpecific': {
@@ -2222,7 +2222,7 @@ interaction_descriptions = {
             "\"Please don't take this the wrong way, {target}, but I've come to the conclusion that we're better as friends. I hope we can maintain our amazing friendship,\" {initiator} says, hoping for understanding."
         ]
     },
-        "mixer_social_PickupLine_targeted_romance_alwaysOn": {
+    "mixer_social_PickupLine_targeted_romance_alwaysOn": {
         "actions": [
             "\"{target}, are you a magician? Because whenever I look at you, everyone else disappears,\" {initiator} says with a playful smile.",
             "\"Is your name Google, {target}? Because you have everything I've been searching for,\" {initiator} says, trying to impress {target}.",

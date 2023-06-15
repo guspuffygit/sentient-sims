@@ -2770,6 +2770,20 @@ interaction_descriptions = {
             "\"I trust you, {target}, but I need you to understand the importance of not discussing the crime club with anyone. Can you promise me that?\" {initiator} asks earnestly."
         ]
     },
+    "NPCLeaveLotNow_NPC_WaveGoodBye": {
+        'observation': True,
+        "actions": [
+            "After spending a delightful time together, {initiator} bid everyone farewell and left.",
+            "{initiator} wrapped up their visit and headed back to their own corner of the world.",
+            "{initiator} gently excused themselves from the gathering, leaving behind a lingering sense of their presence.",
+            "{initiator} discreetly slipped away, leaving an empty space where their vibrant energy once filled the room.",
+            "With a fond smile and a wave of goodbye, {initiator} stepped out into the world beyond, their presence fading from the immediate surroundings.",
+            "{initiator} seized the opportunity to make a graceful exit, their absence quickly becoming apparent to those left behind.",
+            "Amidst the laughter and chatter, {initiator} gracefully extracted themselves from the group and left.",
+            "With a final glance backward, {initiator} silently slipped away, their figure gradually receding into the distance, leaving the area.",
+            "With a sense of contentment, {initiator} concluded their visit, and left the area.",
+        ],
+    },
 }
 
 if __name__ == '__main__':

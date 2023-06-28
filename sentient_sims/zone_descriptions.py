@@ -29,7 +29,7 @@ zone_descriptions = {
             'Ascending the stairs, the atmosphere shifted to one of conviviality.',
             'The inviting lounge area embraced weary bodies, offering solace on plush couches.',
             'Sweaty patrons shared tales of triumph, forming a community bound by their quest for physical mastery.',
-            'Movers & Shakers transcended mere exercise; it was a sanctuary of metamorphosisâa place where dreams were realized and resilience triumphed.',
+            'Movers & Shakers transcended mere exercise; it was a sanctuary of metamorphosis, place where dreams were realized and resilience triumphed.',
 
         ]),
     },

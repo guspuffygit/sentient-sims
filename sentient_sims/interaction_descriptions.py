@@ -1,33 +1,36 @@
 # {initiator} and {target} will be replaced with the names of the sims in the interaction
+from sentient_sims_code.filters.has_not_happened import HasNotHappened
+from sentient_sims_code.filters.initiator_is_active_sim import InitiatorIsActiveSim
+from sentient_sims_code.filters.sim_in_memories import SimInMemories
 
 interaction_descriptions = {
     'mixer_social_ComplainAboutBills_targeted_Friendly_alwaysOn_bills': {
         "pre_actions": [
             '{initiator} complains about their bills to {target}.',
         ],
-        'actions': [
-            '"I don\'t know how I\'m going to pay for all of these bills," {initiator} said,',
-            '"It seems like every time I turn around, there\'s another bill to pay," {initiator} grumbled,',
-            '"I can\'t believe how much money I have to spend on bills every month," grumbled {initiator},',
-            '"I can\'t believe how much money I have to spend on bills every month," grumbled {initiator},',
-            '"I\'m so sick of living paycheck to paycheck just to keep up with these bills," complained {initiator},',
+        "actions": [
+            "\"I don\'t know how I\'m going to pay for all of these bills,\" {initiator} said.",
+            "\"It seems like every time I turn around, there\'s another bill to pay,\" {initiator} grumbled.",
+            "\"I can\'t believe how much money I have to spend on bills every month,\" grumbled {initiator.",
+            "\"I can\'t believe how much money I have to spend on bills every month,\" grumbled {initiator}.",
+            "\"I\'m so sick of living paycheck to paycheck just to keep up with these bills,\" complained {initiator}.",
         ],
     },
     'mixer_social_DiscussLatestGames_targeted_Friendly_alwaysOn_skills': {
         "pre_actions": [
             '{initiator} discusses the newly released video game with {target}.',
         ],
-        'actions': [
-            '"What do you think of the new video game, {target}? Have you had a chance to play it yet?\" {initiator} asks excitedly.',
-            '"I can\'t stop playing the new video game. Have you tried it yet, {target}?\" {initiator} says, grinning from ear to ear.",',
-            '"I\'ve been waiting for this video game for months, {target}, and I have to say, it\'s exceeded my expectations," {initiator} raves."',
-            '"Have you heard about the new video game? I think you\'d really like it, {target},\" {initiator} says, trying to pique {target}\'s interest."',
-            '"I\'m so glad I pre-ordered the new video game. It\'s all I can think about. What do you think, {target}?\" {initiator} asks, eagerly."',
-            '"You have to play the new video game, {target}. It\'s seriously the best game I\'ve played in years,\" {initiator} says, practically begging {target} to give it a try."',
-            '"I can\'t believe how good the graphics are in the new video game. It\'s like I\'m really in the game," {initiator} says, still in awe."',
-            '"Did you catch that Easter egg in the new video game? It\'s so cool. I wonder if there are any more,\" {initiator} muses, hoping to discuss details with {target}."',
-            '"I love how immersive the new video game is. It\'s like I\'m living in a completely different world," {initiator} says dreamily."',
-            "The new video game has been consuming all of my free time. Do you want to play together sometime, {target}?" '{initiator} suggests."',
+        "actions": [
+            "\"What do you think of the new video game, {target}? Have you had a chance to play it yet?\" {initiator} asks excitedly.",
+            "\"I can\'t stop playing the new video game. Have you tried it yet, {target}?\" {initiator} says, grinning from ear to ear.",
+            "\"I\'ve been waiting for this video game for months, {target}, and I have to say, it\'s exceeded my expectations,\" {initiator} raves.",
+            "\"Have you heard about the new video game? I think you\'d really like it, {target},\" {initiator} says, trying to pique {target}\'s interest.",
+            "\"I\'m so glad I pre-ordered the new video game. It\'s all I can think about. What do you think, {target}?\" {initiator} asks, eagerly.",
+            "\"You have to play the new video game, {target}. It\'s seriously the best game I\'ve played in years,\" {initiator} says, practically begging {target} to give it a try.",
+            "\"I can\'t believe how good the graphics are in the new video game. It\'s like I\'m really in the game,\" {initiator} says, still in awe.",
+            "\"Did you catch that Easter egg in the new video game? It\'s so cool. I wonder if there are any more,\" {initiator} muses, hoping to discuss details with {target}.",
+            "\"I love how immersive the new video game is. It\'s like I\'m living in a completely different world,\" {initiator} says dreamily.",
+            "\"The new video game has been consuming all of my free time. Do you want to play together sometime, {target}?\" {initiator} suggests.",
         ],
     },
     'mixer_social_CheerfulIntroduction_greetings_skills': {
@@ -51,12 +54,22 @@ interaction_descriptions = {
         "pre_actions": [
             '{initiator} flirtatiously introduces themselves to {target}.',
         ],
-        'actions': [
-            'With a flirtatious smile, {initiator} strode over and extended their hand. "Hi there, I\'m {initiator}. What\'s your name?"',
-            '{initiator} sauntered up with a charming grin. "Well hello there, I don\'t think we\'ve met yet. I\'m {initiator}."',
-            'With a twinkle in their eye, {initiator} approached the other person and struck up a conversation. "Excuse me,',
-            'With a playful wink, {initiator} sauntered up to the other person and introduced themselves. "Hi,',
-            '{initiator} catches {target}\'s gaze and saunters over with a mischievous grin. "Feeling bored? Don\'t worry, your day\'s about to get interesting. By the way, I\'m {initiator}." they say, their voice low and flirtatious.',
+        "actions": [
+            "With a flirtatious smile, {initiator} strode over and extended their hand. \"Hi there, I'm {initiator}. What's your name?",
+            "{initiator} sauntered up with a charming grin. \"Well hello there, I don't think we've met yet. I'm {initiator}.",
+            "With a twinkle in their eye, {initiator} approached the other person and struck up a conversation. \"Excuse me,",
+            "With a playful wink, {initiator} sauntered up to the other person and introduced themselves. \"Hi,",
+            "{initiator} catches {target}\'s gaze and saunters over with a mischievous grin. \"Feeling bored? Don\'t worry, your day\'s about to get interesting. By the way, I\'m {initiator}.\" they say, their voice low and flirtatious.",
+            "\"{target}, I must say, you have caught my eye. Allow me to formally introduce myself,\" {initiator} says with a charming smile.",
+            "\"Well, hello there, {target}. I couldn't resist the opportunity to come and introduce myself,\" {initiator} says, their voice filled with playful confidence.",
+            "\"You must be {target}, the person everyone is talking about. I couldn't resist the chance to introduce myself,\" {initiator} says, a mischievous glint in their eyes.",
+            "\"Excuse me, but I couldn't help but notice how captivating you are, {target}. Mind if I introduce myself?\" {initiator} says, leaning in closer.",
+            "\"I couldn't resist the temptation any longer, {target}. Allow me to introduce myself in the most flirtatious way possible,\" {initiator} says, their voice dripping with seduction.",
+            "\"Is it fate or luck that brought us together, {target}? Either way, I couldn't pass up the chance to introduce myself properly,\" {initiator} says, their voice filled with intrigue.",
+            "\"I must admit, {target}, you have a certain allure that I couldn't ignore. Allow me to introduce myself and see where it leads,\" {initiator} says, a playful smirk on their face.",
+            "\"Forgive me for interrupting your day, {target}, but I couldn't resist the opportunity to introduce myself. I couldn't bear the thought of missing out on getting to know you,\" {initiator} says, their voice filled with genuine interest.",
+            "\"I hope you don't mind a bold approach, {target}, because I couldn't resist coming over to introduce myself. I have a feeling we could have some fun,\" {initiator} says, a hint of excitement in their voice.",
+            "\"Pardon the interruption, {target}, but I couldn't help but be drawn to you. Allow me to introduce myself and see where this connection takes us,\" {initiator} says, their eyes locked with {target}'s."
         ],
     },
     'mixer_social_ExpressFondness_targeted_Romance_alwaysOn': {
@@ -64,35 +77,45 @@ interaction_descriptions = {
             '{initiator} pauses thoughtfully before expressing their fondness for {target}.',
         ],
         'actions': [
-            '"I\'ve been meaning to tell you this, {target}, but I never found the courage to say it until now," \'{initiator} says, looking down at his feet."',
-            '"I don\'t know how to say this, but I feel something for you, {target}. Something more than friendship," \'{initiator} confesses, looking up at {target} nervously."',
-            '"I hope this doesn\'t change anything between us, but I need to tell you how I feel. {target}, I have feelings for you,\" {initiator} says, biting his lip."',
-            '"I know this might come as a surprise, {target}, but I can\'t keep it inside any longer. I\'m in love with you,\" {initiator} says, his voice barely above a whisper."',
-            '"I don\'t know how you\'ll react to this, {target}, but I have to tell you. I have feelings for you that I can\'t ignore," {initiator} says, looking at {target} with a mix of fear and adoration."',
-            '"I know this might be inappropriate, {target}, but I can\'t help the way I feel. I\'m attracted to you,\" {initiator} says, looking ashamed."',
-            '"I hope you don\'t think less of me for saying this, {target}, but I feel like I need to be honest. I have a crush on you," {initiator} admits, looking at {target} with a hint of sadness."',
-            '"I know this might ruin our friendship, {target}, but I have to say it. I\'m in love with you," {initiator} says, bracing for the worst."',
-            '"I know we\'ve been friends for a long time, {target}, but I can\'t help how I feel. I think I\'m falling for you,\" {initiator} says, looking at {target} with a mixture of hope and trepidation."',
+            "\"I\'ve been meaning to tell you this, {target}, but I never found the courage to say it until now,\" {initiator} says, looking down at his feet.",
+            "\"I don\'t know how to say this, but I feel something for you, {target}. Something more than friendship,\" {initiator} confesses, looking up at {target} nervously.",
+            "\"I hope this doesn\'t change anything between us, but I need to tell you how I feel. {target}, I have feelings for you,\" {initiator} says, biting his lip.",
+            "\"I know this might come as a surprise, {target}, but I can\'t keep it inside any longer. I\'m in love with you,\" {initiator} says, his voice barely above a whisper.",
+            "\"I don\'t know how you\'ll react to this, {target}, but I have to tell you. I have feelings for you that I can\'t ignore,\" {initiator} says, looking at {target} with a mix of fear and adoration.",
+            "\"I know this might be inappropriate, {target}, but I can\'t help the way I feel. I\'m attracted to you,\" {initiator} says, looking ashamed.",
+            "\"I hope you don\'t think less of me for saying this, {target}, but I feel like I need to be honest. I have a crush on you,\" {initiator} admits, looking at {target} with a hint of sadness.",
+            "\"I know this might ruin our friendship, {target}, but I have to say it. I\'m in love with you,\" {initiator} says, bracing for the worst.",
+            "\"I know we\'ve been friends for a long time, {target}, but I can\'t help how I feel. I think I\'m falling for you,\" {initiator} says, looking at {target} with a mixture of hope and trepidation.",
         ]
     },
     'mixer_social_ExpressAdmiration_targeted_Friendly_MiddleScore': {
         "pre_actions": [
             "{initiator} expresses their deep admiration for {target}.",
         ],
-        'actions': [
-            '"I have to say, you never cease to amaze me," said {initiator}',
-            '"I\'m constantly in awe of your resilience," said {initiator},',
-            '"You have such an incredible way of seeing the world," said {initiator}, genuinely impressed.',
+        "actions": [
+            "\"I have to say, you never cease to amaze me,\" said {initiator}.",
+            "\"I'm constantly in awe of your resilience,\" said {initiator}.",
+            "\"You have such an incredible way of seeing the world,\" said {initiator}, genuinely impressed.",
+            "\"{target}, I have to tell you something. You have no idea how much I admire you,\" {initiator} says with a hint of awe in their voice.",
+            "\"I've always looked up to you, {target}. Your strength and determination inspire me,\" {initiator} confesses, their eyes shining.",
+            "\"Can I just say how much I admire you, {target}? Your kindness and compassion never cease to amaze me,\" {initiator} says, smiling genuinely.",
+            "\"I hope you know how much I admire you, {target}. Your intelligence and creativity are truly remarkable,\" {initiator} says, their voice filled with sincerity.",
+            "\"{target}, there's something I've been meaning to tell you. I have the utmost admiration for you and everything you've achieved,\" {initiator} says, their admiration evident in their eyes.",
+            "\"I don't think I've ever told you this, {target}, but I admire you more than you can imagine. Your courage and resilience are extraordinary,\" {initiator} says, their voice filled with reverence.",
+            "\"I've always wanted to express how much I admire you, {target}. Your talent and dedication are truly inspiring,\" {initiator} says, unable to hide their admiration.",
+            "\"{target}, I have to be honest with you. I admire you so much, it's almost intimidating. Your determination and work ethic are unmatched,\" {initiator} says, their voice filled with admiration.",
+            "\"I hope you don't mind me saying this, {target}, but I have immense admiration for you. Your generosity and selflessness make you an incredible person,\" {initiator} says, their admiration evident in their tone.",
+            "\"I've been wanting to tell you this for a while, {target}. I truly admire you, not just for your achievements, but for the person you are,\" {initiator} says, their voice filled with genuine admiration."
         ],
     },
     'mixer_social_ComplainAboutProblems_targeted_friendly_emotionSpecific': {
         "pre_actions": [
             "{initiator} complains to {target} about their mundane problems.",
         ],
-        'actions': [
-            '{initiator} sighed heavily, "My job sucks," they began,',
-            '"I hate doing laundry. It\'s such a chore, and I never seem to have enough time for it.", {initiator} began,',
-            '"I\'ve been trying to eat healthier, but all the healthy food is so expensive.", {initiator} began,',
+        "actions": [
+            "{initiator} sighed heavily, \"My job sucks,\" they began,",
+            "\"I hate doing laundry. It\'s such a chore, and I never seem to have enough time for it.\", {initiator} began,",
+            "\"I\'ve been trying to eat healthier, but all the healthy food is so expensive.\", {initiator} began,",
             "\"{target}, I can't believe I have to deal with this again. My coffee machine broke this morning, and it ruined my entire day,\" {initiator} vents, frustrated.",
             "\"I know it's such a small thing, but I just need to vent. My phone battery died right before an important call, and it's driving me crazy,\" {initiator} complains, seeking empathy.",
             "\"{target}, I feel like everything is falling apart. First, I missed the bus, and now I spilled coffee all over my new shirt,\" {initiator} grumbles, feeling overwhelmed.",
@@ -123,9 +146,9 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_DiscussFavoriteAuthors_targeted_Friendly_alwaysOn': {
-         "pre_actions": [
+        "pre_actions": [
             "{initiator} discusses their favorite authors with {target}.",
-         ],
+        ],
         'actions': [
             "\"I just finished reading a book by my favorite author, and I can't wait to share it with you,\" {initiator} says excitedly.",
             "\"I've been meaning to ask you, {target}, who is your favorite author?\" {initiator} asks curiously.",
@@ -153,52 +176,98 @@ interaction_descriptions = {
             "\"I believe that music can say a lot about a person, {target}. What are some of your favorite bands? I'd love to get to know you better through your taste in music,\" {initiator} says, hoping for a deeper connection.",
             "\"Music has this incredible ability to transport you to another place, don't you think, {target}? I'd love to know what bands have that effect on you,\" {initiator} says, reminiscing about their favorite bands.",
             "\"I've recently discovered this hidden gem of a band, {target}, and I think you might appreciate their unique sound. Can I tell you more about them?\" {initiator} asks, eager to share their musical discovery.",
-            "\"I've been reflecting on the power of music lately, {target}, and I'm curious to know what bands have had a significant impact on your life. Care to share?\" {initiator} asks, ready for a meaningful conversation about music." 
+            "\"I've been reflecting on the power of music lately, {target}, and I'm curious to know what bands have had a significant impact on your life. Care to share?\" {initiator} asks, ready for a meaningful conversation about music."
         ],
     },
     'mixer_social_DiscussFavoriteRecipes_targeted_Friendly_MiddleScore': {
-        "pre_action": [
+        "pre_actions": [
             "{initiator} discusses their favorite recipes with {target}.",
         ],
-        'actions': [
-            '"What kind of food do you like to cook?" {initiator} asks.',
-            "I know you like to cook, what is your favorite recipe?\" {initiator} asks.",
+        "actions": [
+            "\"I just discovered this amazing recipe, {target}, and I couldn't wait to share it with you,\" {initiator} says excitedly.",
+            "\"You've always been a food lover, {target}, so I thought you might appreciate this recipe I found,\" {initiator} says with a smile.",
+            "\"I've been experimenting in the kitchen lately, {target}, and I think I've finally perfected my favorite recipe. Want to hear about it?\" {initiator} asks eagerly.",
+            "\"I know you enjoy cooking, {target}, so I thought we could exchange our favorite recipes. I'll go first,\" {initiator} suggests.",
+            "\"Food has always been a passion of mine, {target}, and I've been dying to share my favorite recipe with someone. Are you interested?\" {initiator} asks curiously.",
+            "\"You're the only person I know who appreciates good food as much as I do, {target}. Can I share my favorite recipe with you?\" {initiator} asks with anticipation.",
+            "\"I recently discovered a recipe that has become my absolute favorite, {target}, and I thought you might be interested in trying it too,\" {initiator} says with enthusiasm.",
+            "\"I've been thinking about starting a cooking blog, {target}, and I wanted to bounce some recipe ideas off you. What do you think?\" {initiator} asks, seeking {target}'s opinion.",
+            "\"I've been craving this particular dish lately, {target}, and I just had to tell someone about it. Can I share the recipe with you?\" {initiator} asks, unable to contain their excitement.",
+            "\"I've been exploring different cuisines lately, {target}, and I've stumbled upon this incredible recipe. Mind if I share it with you?\" {initiator} asks, hoping {target} will be as intrigued as they are.",
         ],
     },
     'mixer_social_DiscussFineCuisine_targeted_Friendly_MiddleScore': {
-        'actions': [
-            '"I went to this fancy restaurant a couple weeks ago and let me tell you about the food,',
-            '"There is this fancy restaurant in Vegas I love named ',
+        "pre_actions": [
+            "{initiator} begins a conversation with {target} about fine cuisine.",
+        ],
+        "actions": [
+            "\"{target}, have you ever tried a Michelin-starred restaurant? I've been dying to discuss fine cuisine with someone who appreciates it,\" {initiator} says excitedly.",
+            "\"I've recently discovered this amazing French bistro in town, {target}. I thought you might be interested in hearing about it,\" {initiator} suggests with a smile.",
+            "\"{target}, I've been experimenting with cooking lately and I've come across some extraordinary recipes. I thought you might want to exchange some ideas,\" {initiator} says, hoping to spark a conversation about fine cuisine.",
+            "\"I've been reading a book about the history of gastronomy, {target}, and I can't help but share some fascinating facts with you,\" {initiator} begins the conversation, eager to discuss fine cuisine.",
+            "\"{target}, I've just returned from a trip to Italy where I had the most amazing food. I can't stop raving about it. Care to hear more?\" {initiator} asks, hoping to engage {target} in a conversation about fine cuisine.",
+            "\"I'm planning to host a dinner party and I want to create a menu that will blow everyone away. {target}, do you have any suggestions for a gourmet meal?\" {initiator} asks, seeking {target}'s expertise in fine cuisine.",
+            "\"{target}, I recently tried this incredible fusion restaurant that combines different culinary traditions. I thought you might find it intriguing,\" {initiator} says, initiating a conversation about fine cuisine.",
+            "\"{target}, I've been watching this cooking show that features world-renowned chefs. I can't get enough of it. Do you have any favorite chefs?\" {initiator} asks, hoping to discuss fine cuisine with {target}.",
+            "\"I've been researching the art of wine pairing, {target}, and I'd love to share my findings with you. Are you interested in exploring the world of fine cuisine?\" {initiator} asks, eager to discuss the topic with {target}.",
+            "\"{target}, I've always been fascinated by the artistry behind creating a perfect dish. Would you be interested in delving into the world of fine cuisine with me?\" {initiator} asks, hoping to engage {target} in a conversation about gourmet food."
         ],
     },
     'mixer_social_RudeIntroduction_greetings': {
         "pre_actions": [
-            '{initiator} begins to rudely introduce themselves to {target}.',
+            "{initiator} begins to rudely introduce themselves to {target}.",
+        ],
+        'actions': [
+            "\"{target}, prepare yourself for the most unpleasant introduction you've ever experienced,\" {initiator} says with a smug grin.",
+            "\"I hope you're ready to be insulted, {target}, because that's exactly what I'm about to do,\" {initiator} says, rolling their eyes.",
+            "\"Listen up, {target}, because I'm about to give you a taste of my signature rudeness,\" {initiator} declares, crossing their arms.",
+            "\"{target}, I'm about to show you just how rude I can be. Brace yourself,\" {initiator} warns, with a mocking tone.",
+            "\"I apologize in advance, {target}, but I have a knack for making introductions as rude as possible,\" {initiator} says, not sounding apologetic at all.",
+            "\"Prepare to be offended, {target}, because I'm about to unleash my rudeness upon you,\" {initiator} says, enjoying their own audacity.",
+            "\"{target}, get ready for the most obnoxious introduction of your life,\" {initiator} says, smirking as if they were proud of their rudeness.",
+            "\"I'm about to break every rule of politeness, {target}, so consider yourself warned,\" {initiator} says, with a mischievous glint in their eyes.",
+            "\"{target}, you're about to witness the epitome of rudeness. Don't say I didn't warn you,\" {initiator} says, with a hint of amusement.",
+            "\"{target}, I must warn you, my introduction is going to be incredibly rude. Brace yourself,\" {initiator} says, with a wicked grin."
         ],
     },
     'mixer_social_Flirt_targeted_romance_alwaysOn': {
         "pre_actions": [
-            '{initiator} starts to flirt with {target}.',
+            "{initiator} starts to flirt with {target}.",
+        ],
+        'actions': [
+            "\"{target}, you know, I've always found you incredibly attractive,\" {initiator} says, flashing a playful smile.",
+            "\"Has anyone ever told you how captivating your smile is, {target}? It's impossible not to be drawn to you,\" {initiator} says, their voice filled with admiration.",
+            "\"You must have a secret potion, {target}, because every time I see you, my heart skips a beat,\" {initiator} says, flirtingly.",
+            "\"Is it just me, or is it getting hotter in here, {target}? Your presence has this effect on me,\" {initiator} says, playfully fanning themselves.",
+            "\"I have a confession to make, {target}. I can't help but be enchanted by your charm and charisma,\" {initiator} says, their eyes twinkling with mischief.",
+            "\"Are you a magician, {target}? Because whenever you're around, everything else disappears, and it's just you and me,\" {initiator} says, flirtatiously.",
+            "\"You have this magnetic energy, {target}, that pulls me towards you. I can't help but be drawn to you,\" {initiator} says, their voice filled with fascination.",
+            "\"I hope you don't mind me saying this, {target}, but you have the most captivating eyes I've ever seen. They're impossible to resist,\" {initiator} says, their gaze fixed on {target}'s eyes.",
+            "\"Can I be honest with you, {target}? Your smile has the power to brighten up even the darkest of days,\" {initiator} says, their voice filled with sincerity.",
+            "\"I couldn't help but notice, {target}, that you possess a certain charm that makes it impossible for me to resist your company,\" {initiator} says, flirtatiously."
         ],
     },
     'mixer_social_FriendlyIntroduction_greetings': {
         "pre_actions": [
-            '{initiator} starts a conversation with {target} and introduces themselves.',
+            '{initiator} starts a friendly conversation with {target} and introduces themselves.',
         ],
-        'actions': [
-            '"Hi there, I\'m {initiator}. What\'s your name?"',
-            '"Hey, I\'m {initiator}. Nice to meet you!"',
-            '"Hello, I don\'t think we\'ve met. I\'m {initiator}. And you are?"',
-            '"Nice to see a new face! I\'m {initiator}. What\'s your name?"',
-            '"Hey, I\'m {initiator}. Mind if I join you?"',
-            '"Hi, I\'m {initiator}. I\'ve been meaning to introduce myself. What\'s your name?"',
-            '"Hey, how\'s it going? I\'m {initiator}. What\'s your name?"',
-            '"Hello, I\'m {initiator}. It\'s a pleasure to make your acquaintance!"',
-            '"Hi there, I\'m {initiator}. Just wanted to say hello!"',
-            '"Hey, I\'m {initiator}. Care to chat?"',
+        "actions": [
+            "\"Hi there, I\'m {initiator}. What\'s your name?",
+            "\"Hey, I\'m {initiator}. Nice to meet you!",
+            "\"Hello, I don\'t think we\'ve met. I\'m {initiator}. And you are?",
+            "\"Nice to see a new face! I\'m {initiator}. What\'s your name?",
+            "\"Hey, I\'m {initiator}. Mind if I join you?",
+            "\"Hi, I\'m {initiator}. I\'ve been meaning to introduce myself. What\'s your name?",
+            "\"Hey, how\'s it going? I\'m {initiator}. What\'s your name?",
+            "\"Hello, I\'m {initiator}. It\'s a pleasure to make your acquaintance!",
+            "\"Hi there, I\'m {initiator}. Just wanted to say hello!",
+            "\"Hey, I\'m {initiator}. Care to chat?",
         ],
     },
     "mixer_social_FunnyIntroduction_greetings": {
+        "pre_actions": [
+            "{initiator} humorously introduces themselves to {target}. "
+        ],
         "actions": [
             "\"{target}, I heard you needed a daily dose of laughter. Well, here I am, your personal joke doctor!\" {initiator} says with a wide grin.",
             "\"Hey {target}, they say laughter is the best medicine, so I guess I'm a licensed pharmacist!\" {initiator} quips, as they introduce themself.",
@@ -213,126 +282,141 @@ interaction_descriptions = {
         ]
     },
     'mixer_social_EnchantingIntroduction_greetings_skills': {
-        'actions': [
-            '"Greetings, {target}. I am {initiator}, the master of captivating tales and the weaver of dreams. It is an honor to make your acquaintance."',
-            '"Ah, fair {target}, allow me to introduce myself. I am {initiator}, a soul enchanted by the mysteries of the world. May our encounter be as magical as the moonlit night."',
-            '"In the realm of enchantment, where whispers become melodies and dreams come alive, I am known as {initiator}. And you, dear {target}, what name graces your existence?"',
-            '"Behold, {target}, for I am {initiator}, a conjurer of words and a guardian of imagination. Brace yourself, for the allure of my introduction shall transport you to realms yet unexplored."',
-            '"With a touch of whimsy and a dash of intrigue, I present myself before you, {target}, as {initiator}, a wanderer of realms unseen and a collector of tales untold. How does your spirit respond to such enchantment?"',
-            '"In the realm of wonder, where reality intertwines with dreams, I am {initiator}, a custodian of curiosity and an emissary of imagination. And you, {target}, what treasures lie within your name?"',
-            '"Listen, {target}, as the wind carries my words to your ears. I am {initiator}, a weaver of stories and a guardian of secrets. Dare you venture into the depths of my enchanting introduction?"',
-            '"Ah, {target}, behold the enchantment that unfolds before you. I am {initiator}, a conjurer of wonder and a purveyor of dreams. Allow yourself to be swept away by the magic of our introduction."',
-            '"Step closer, {target}, and let me grace your senses with an introduction like no other. I am {initiator}, a whisper in the night and a sparkle in the twilight, forever enchanted by the possibilities that lie within our encounter."',
-            '"In a world where reality dances with fantasy, I emerge as {initiator}, a seeker of extraordinary tales and a harbinger of delight. And you, dear {target}, what wonders lie within your story?"',
+        "pre_actions": [
+            "{initiator} meets {target} for the first time, and gives them an enchanting introduction."
+        ],
+        "actions": [
+            "\"Greetings, {target}. I am {initiator}, the master of captivating tales and the weaver of dreams. It is an honor to make your acquaintance.",
+            "\"Ah, fair {target}, allow me to introduce myself. I am {initiator}, a soul enchanted by the mysteries of the world. May our encounter be as magical as the moonlit night.",
+            "\"In the realm of enchantment, where whispers become melodies and dreams come alive, I am known as {initiator}. And you, dear {target}, what name graces your existence?",
+            "\"Behold, {target}, for I am {initiator}, a conjurer of words and a guardian of imagination. Brace yourself, for the allure of my introduction shall transport you to realms yet unexplored.",
+            "\"With a touch of whimsy and a dash of intrigue, I present myself before you, {target}, as {initiator}, a wanderer of realms unseen and a collector of tales untold. How does your spirit respond to such enchantment?",
+            "\"In the realm of wonder, where reality intertwines with dreams, I am {initiator}, a custodian of curiosity and an emissary of imagination. And you, {target}, what treasures lie within your name?",
+            "\"Listen, {target}, as the wind carries my words to your ears. I am {initiator}, a weaver of stories and a guardian of secrets. Dare you venture into the depths of my enchanting introduction?",
+            "\"Ah, {target}, behold the enchantment that unfolds before you. I am {initiator}, a conjurer of wonder and a purveyor of dreams. Allow yourself to be swept away by the magic of our introduction.",
+            "\"Step closer, {target}, and let me grace your senses with an introduction like no other. I am {initiator}, a whisper in the night and a sparkle in the twilight, forever enchanted by the possibilities that lie within our encounter.",
+            "\"In a world where reality dances with fantasy, I emerge as {initiator}, a seeker of extraordinary tales and a harbinger of delight. And you, dear {target}, what wonders lie within your story?",
         ],
     },
     'mixer_social_AskAboutCareer_friendly_STC': {
         "pre_actions": [
-            '{initiator} starts a conversation with {target} and asks about their career.',
+            "{initiator} starts a conversation with {target} and asks about their career.",
         ],
-        'actions': [
-            '"Hey {target}, I\'ve been meaning to ask you, how\'s your career going?\" {initiator} asks with genuine interest.',
-            '"I\'ve always admired your dedication to your career, {target}. Mind if I ask how it\'s been going lately?\" {initiator} inquires.',
-            '"Career talk time! I\'m curious, {target}, how\'s everything going in your professional life?\" {initiator} asks, leaning in.',
-            '"Can I pick your brain for a moment, {target}? How\'s your career shaping up these days?\" {initiator} asks, raising an eyebrow.',
-            '"I\'ve been curious about your career path, {target}. Mind if I ask how things are going on that front?\" {initiator} asks, sipping their coffee.',
-            '"Let\'s talk about work for a bit, {target}. How\'s your career treating you these days?\" {initiator} asks, leaning back in their chair.',
-            '"{target}, I\'ve been meaning to ask you about your career. Any exciting updates or challenges you\'d like to share?\" {initiator} asks, genuinely intrigued.',
-            '"I\'ve been thinking about our careers lately, {target}. Mind if we have a little chat about how things are going for you?\" {initiator} asks, smiling warmly.',
-            '"Tell me, {target}, how\'s your career journey been so far? Any interesting stories or milestones?\" {initiator} asks, leaning forward with anticipation.',
-            '"I\'ve been curious about your career lately, {target}. Mind if I ask how you\'ve been navigating the professional world?\" {initiator} asks, with a hint of curiosity in their voice.'
+        "actions": [
+            "\"Hey {target}, I\'ve been meaning to ask you, how\'s your career going?\" {initiator} asks with genuine interest.",
+            "\"I\'ve always admired your dedication to your career, {target}. Mind if I ask how it\'s been going lately?\" {initiator} inquires.",
+            "\"Career talk time! I\'m curious, {target}, how\'s everything going in your professional life?\" {initiator} asks, leaning in.",
+            "\"Can I pick your brain for a moment, {target}? How\'s your career shaping up these days?\" {initiator} asks, raising an eyebrow.",
+            "\"I\'ve been curious about your career path, {target}. Mind if I ask how things are going on that front?\" {initiator} asks, sipping their coffee.",
+            "\"Let\'s talk about work for a bit, {target}. How\'s your career treating you these days?\" {initiator} asks, leaning back in their chair.",
+            "\"{target}, I\'ve been meaning to ask you about your career. Any exciting updates or challenges you\'d like to share?\" {initiator} asks, genuinely intrigued.",
+            "\"I\'ve been thinking about our careers lately, {target}. Mind if we have a little chat about how things are going for you?\" {initiator} asks, smiling warmly.",
+            "\"Tell me, {target}, how\'s your career journey been so far? Any interesting stories or milestones?\" {initiator} asks, leaning forward with anticipation.",
+            "\"I\'ve been curious about your career lately, {target}. Mind if I ask how you\'ve been navigating the professional world?\" {initiator} asks, with a hint of curiosity in their voice."
         ],
     },
     'mixer_social_AskAboutFavoriteAuthor_targeted_Friendly_alwaysOn_skills': {
         "pre_actions": [
-            '{initiator} asks {target} about their favorite author.',
+            "{initiator} asks {target} about their favorite author.",
         ],
         'actions': [
-            '"Who is your favorite author, {target}?" {initiator} asks.',
-            '"I\'m curious, {target}, who is your favorite author?" {initiator} asks.',
-            '"If you had to pick one, who would you say is your favorite author?" {initiator} asks {target}.',
-            '"Have you read any books by your favorite author lately, {target}?" {initiator} asks.',
-            '"I\'ve been meaning to ask, {target}, who is your go-to author?" {initiator} asks.',
-            '"Do you have a favorite author, {target}?" {initiator} asks with a smile.',
-            '"What book made you fall in love with your favorite author, {target}?" {initiator} asks curiously.',
-            '"I\'m in the mood for a good read. Any recommendations from your favorite author, {target}?" {initiator} asks enthusiastically.',
-            '"Tell me about the first time you discovered your favorite author, {target}." {initiator} leans in, interested.',
-            '"If you could meet your favorite author, {target}, what would you ask them?" {initiator} ponders aloud.'
+            "\"Who is your favorite author, {target}?\" {initiator} asks.",
+            "\"I'm curious, {target}, who is your favorite author?\" {initiator} asks.",
+            "\"If you had to pick one, who would you say is your favorite author?\" {initiator} asks {target}.",
+            "\"Have you read any books by your favorite author lately, {target}?\" {initiator} asks.",
+            "\"I've been meaning to ask, {target}, who is your go-to author?\" {initiator} asks.",
+            "\"Do you have a favorite author, {target}?\" {initiator} asks with a smile.",
+            "\"What book made you fall in love with your favorite author, {target}?\" {initiator} asks curiously.",
+            "\"I'm in the mood for a good read. Any recommendations from your favorite author, {target}?\" {initiator} asks enthusiastically.",
+            "\"Tell me about the first time you discovered your favorite author, {target}.\" {initiator} leans in, interested.",
+            "\"If you could meet your favorite author, {target}, what would you ask them?\" {initiator} ponders aloud."
         ],
     },
     'mixer_social_AskAboutDay_targeted_Friendly_alwaysOn': {
         "pre_actions": [
-            '{initiator} asks {target} about their day in a friendly manner.',
+            "{initiator} asks {target} about their day in a friendly manner.",
         ],
-        'actions': [
-            '"Hey {target}, how has your day been?" {initiator} asks.',
-            '"Did you have a good day {target}?"'
-            '"What did you do today?" {initiator} asks.',
-            '"Anything interesting happen today?" {initiator} asks.',
-            '"How\'s your day been so far?" {initiator} asks.',
-            '"How did your day go?" {initiator} asks.',
-            '"What\'s been going on with you today?" {initiator} asks.',
-            '"Tell me about your day!" {initiator} exclaims.',
-            '"Have you had a productive day?" {initiator} asks.',
+        "actions": [
+            "\"Hey {target}, how has your day been?\" {initiator} asks.",
+            "\"Did you have a good day {target}?",
+            "\"What did you do today?\" {initiator} asks.",
+            "\"Anything interesting happen today?\" {initiator} asks.",
+            "\"How\'s your day been so far?\" {initiator} asks.",
+            "\"How did your day go?\" {initiator} asks.",
+            "\"What\'s been going on with you today?\" {initiator} asks.",
+            "\"Tell me about your day!\" {initiator} exclaims.",
+            "\"Have you had a productive day?\" {initiator} asks.",
         ],
     },
     'mixer_social_HeartfeltCompliment_targeted_friendly_emotionSpecific': {
-        'actions': [
-            '"You look absolutely stunning today," {initiator} compliments {target}.',
-            '"I just wanted to say, you\'re incredibly talented," {initiator} praises {target}.',
-            '"I can\'t help but admire your determination and hard work," {initiator} tells {target}.',
-            '"You have such a kind and caring heart," {initiator} compliments {target}.',
-            '"Your creativity never ceases to amaze me," {initiator} tells {target} with admiration.',
-            '"I wanted to let you know that you inspire me," {initiator} expresses to {target}.',
-            '"You have a way with words that captivates everyone around you," {initiator} praises {target}.',
-            '"Your generosity and selflessness are truly remarkable," {initiator} acknowledges {target}.',
-            '"I wanted to say that you\'re an extraordinary person," {initiator} tells {target} sincerely.',
-            '"You have a beautiful soul," {initiator} compliments {target} genuinely.',
+        "pre_actions": [
+            "{initiator} gives {target} a heartfelt compliment.",
+        ],
+        "actions": [
+            "\"You look absolutely stunning today,\" {initiator} compliments {target}.",
+            "\"I just wanted to say, you\'re incredibly talented,\" {initiator} praises {target}.",
+            "\"I can\'t help but admire your determination and hard work,\" {initiator} tells {target}.",
+            "\"You have such a kind and caring heart,\" {initiator} compliments {target}.",
+            "\"Your creativity never ceases to amaze me,\" {initiator} tells {target} with admiration.",
+            "\"I wanted to let you know that you inspire me,\" {initiator} expresses to {target}.",
+            "\"You have a way with words that captivates everyone around you,\" {initiator} praises {target}.",
+            "\"Your generosity and selflessness are truly remarkable,\" {initiator} acknowledges {target}.",
+            "\"I wanted to say that you\'re an extraordinary person,\" {initiator} tells {target} sincerely.",
+            "\"You have a beautiful soul,\" {initiator} compliments {target} genuinely."
         ],
     },
     'mixer_social_Hug_Friendly_Middlescore_NoMoodTest': {
-        'actions': [
-            '{initiator} gives {target} a hug.',
-            '{initiator} gives {target} a friendly hug.',
-            '{initiator} gives {target} a big hug.',
+        "actions": [
+            "{initiator} gives {target} a hug.",
+            "{initiator} gives {target} a friendly hug.",
+            "{initiator} gives {target} a big hug.",
         ],
     },
     'mixer_social_Hug_targeted_Friendly_MiddleScore': {
         'actions': [
-            '{initiator} gives {target} a hug.',
-            '{initiator} gives {target} a friendly hug.',
-            '{initiator} gives {target} a big hug.',
+            "{initiator} gives {target} a hug.",
+            "{initiator} gives {target} a friendly hug.",
+            "{initiator} gives {target} a big hug.",
         ],
     },
     'mixer_social_SayGoodbye_targeted_Friendly_alwaysOn': {
-        'actions': [
-            '"Goodbye, {target}! Take care!" {initiator} waves.',
-            '"It was great seeing you, {target}. Goodbye!" {initiator} smiles.',
-            '"Until next time, {target}. Goodbye!" {initiator} says with a nod.',
-            '"Farewell, {target}. Have a wonderful day!" {initiator} bids farewell.',
-            '"Goodbye, {target}! See you soon!" {initiator} waves goodbye.',
-            '"Take care, {target}. Goodbye!" {initiator} says warmly.',
-            '"Until we meet again, {target}. Goodbye!" {initiator} gives a friendly wave.',
-            '"Have a safe journey, {target}. Goodbye!" {initiator} offers their well wishes.',
-            '"Goodbye, {target}. It was nice spending time with you!" {initiator} smiles warmly.',
-            '"Wishing you the best, {target}. Goodbye!" {initiator} says with a hint of nostalgia.',
+        "pre_actions": [
+            "{initiator} says goodbye to {target}, who is leaving."
+        ],
+        "actions": [
+            "\"Goodbye, {target}! Take care!\" {initiator} waves.",
+            "\"It was great seeing you, {target}. Goodbye!\" {initiator} smiles.",
+            "\"Until next time, {target}. Goodbye!\" {initiator} says with a nod.",
+            "\"Farewell, {target}. Have a wonderful day!\" {initiator} bids farewell.",
+            "\"Goodbye, {target}! See you soon!\" {initiator} waves goodbye.",
+            "\"Take care, {target}. Goodbye!\" {initiator} says warmly.",
+            "\"Until we meet again, {target}. Goodbye!\" {initiator} gives a friendly wave.",
+            "\"Have a safe journey, {target}. Goodbye!\" {initiator} offers their well wishes.",
+            "\"Goodbye, {target}. It was nice spending time with you!\" {initiator} smiles warmly.",
+            "\"Wishing you the best, {target}. Goodbye!\" {initiator} says with a hint of nostalgia.",
         ],
     },
     'mixer_social_ShareFishingTips_targeted_Friendly_alwaysOn_skills': {
-        'actions': [
-            '"Hey {target}, I have some fishing tips for you," {initiator} says.',
-            '"I\'ve been fishing for years, {target}, let me share some tips with you," {initiator} offers.',
-            '"Are you interested in fishing, {target}? I can give you some valuable tips," {initiator} suggests.',
-            '"I heard you want to go fishing, {target}. Let me give you some advice," {initiator} offers kindly.',
-            '"\'ve discovered some great fishing techniques, {target}. Would you like me to share them with you?" {initiator} asks with a smile.',
-            '"If you\'re planning to go fishing, {target}, I have some tips that might help you catch more fish," {initiator} offers eagerly.',
-            '"Fishing can be tricky, {target}, but I can give you some tips to make it easier," {initiator} says confidently.',
-            '"I\'ve learned a few tricks that might improve your fishing experience, {target}. Would you like to hear them?" {initiator} asks curiously.',
-            '"I noticed you\'re interested in fishing, {target}. How about I give you some pointers to get started?" {initiator} suggests warmly.',
-            '"I\'ve been studying different fishing techniques, {target}, and I think I have some valuable tips to share with you," {initiator} says excitedly.',
+        "pre_actions": [
+            "{initiator} shares fishing tips with {target}."
+        ],
+        "actions": [
+            "\"Hey {target}, I have some fishing tips for you,\" {initiator} says.",
+            "\"I\'ve been fishing for years, {target}, let me share some tips with you,\" {initiator} offers.",
+            "\"Are you interested in fishing, {target}? I can give you some valuable tips,\" {initiator} suggests.",
+            "\"I heard you want to go fishing, {target}. Let me give you some advice,\" {initiator} offers kindly.",
+            "\"\'ve discovered some great fishing techniques, {target}. Would you like me to share them with you?\" {initiator} asks with a smile.",
+            "\"If you\'re planning to go fishing, {target}, I have some tips that might help you catch more fish,\" {initiator} offers eagerly.",
+            "\"Fishing can be tricky, {target}, but I can give you some tips to make it easier,\" {initiator} says confidently.",
+            "\"I\'ve learned a few tricks that might improve your fishing experience, {target}. Would you like to hear them?\" {initiator} asks curiously.",
+            "\"I noticed you\'re interested in fishing, {target}. How about I give you some pointers to get started?\" {initiator} suggests warmly.",
+            "\"I\'ve been studying different fishing techniques, {target}, and I think I have some valuable tips to share with you,\" {initiator} says excitedly.",
         ],
     },
     'mixer_social_GiveCookingTips_targeted_Friendly_alwaysOn_skills': {
+        "pre_actions": [
+            "{initiator} gives cooking tips to {target}."
+        ],
         'actions': [
             '"Hey {target}, I\'ve got some cooking tips for you!" {initiator} says excitedly.',
             '"I\'ve learned a few tricks in the kitchen. Mind if I share some cooking tips with you?" {initiator} asks {target}.',
@@ -347,6 +431,9 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_ShareCookingSecrets_targeted_Friendly_alwaysOn_skills': {
+        "pre_actions": [
+            "{initiator} shares their cooking secrets with {target}."
+        ],
         'actions': [
             '"You know, {target}, I have this amazing recipe I want to share with you," {initiator} says enthusiastically.',
             '"I\'ve been experimenting in the kitchen lately, and I\'ve discovered some fantastic cooking secrets. Would you like me to share them with you, {target}?" {initiator} suggests.',
@@ -361,6 +448,9 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_EvangelizeGrilledCheese_Friendly_alwaysOn_Trait': {
+        "pre_actions": [
+            "{initiator} extolls the virtues of grilled cheese to {target}."
+        ],
         'actions': [
             '"You won\'t believe the amazingness of grilled cheese, {target}!" {initiator} exclaims.',
             '"Have you ever experienced the pure delight of a perfectly grilled cheese sandwich?" {initiator} asks {target}.',
@@ -375,6 +465,9 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_Flatter_targeted_Friendly_alwaysOn': {
+          "pre_actions": [
+            "{initiator} flatters {target} by boosting their ego."
+          ],
         'actions': [
             '"You look absolutely stunning today, {target}," {initiator} compliments.',
             '"I must say, {target}, your talent never ceases to amaze me," {initiator} says with admiration.',
@@ -389,6 +482,9 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_GiveRelationshipAdvice_targeted_friendly_emotionSpecific': {
+        "pre_actions": [
+            "{initiator} gives relationship advice to {target}, in a friendly way."
+        ],
         'actions': [
             '"You know, {target}, I\'ve been thinking about your relationship..."',
             '"I have some relationship advice for you, {target}."',
@@ -402,11 +498,27 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_NoxiousCloud_targeted_mischief_skills': {
-        'actions': [
-            '{initiator} rips a big nasty fart.',
+        "pre_actions": [
+            "{initiator} purposefully rips a big nasty fart.",
+        ],
+        "actions": [
+            "\"{target}, prepare yourself for the most disgusting thing you've ever experienced,\" {initiator} says mischievously, before letting out a loud and noxious fart.",
+            "{initiator} lets out a repulsive fart, grinning at {target} with satisfaction.",
+            "\"{target}, I have a surprise for you. Brace yourself for the foulest smell known to man,\" {initiator} says, before releasing a fart that fills the air with a putrid stench.",
+            "{initiator} lets out a fart so repugnant that it lingers in the room, making {target} gag.",
+            "\"{target}, I apologize in advance for what you're about to witness,\" {initiator} says, before ripping a fart that can only be described as revolting.",
+            "{initiator} lets out a disgusting fart, laughing as {target} recoils in disgust.",
+            "\"{target}, I have a special gift for you,\" {initiator} says mischievously, before farting loudly and laughing.",
+            "{initiator} breaks wind with a vengeance, smirking as {target} looks on in utter disgust.",
+            "\"{target}, you won't believe what I can do,\" {initiator} says with a wicked grin, before releasing a fart that could clear a room.",
+            "{initiator} lets out a fart so foul that it causes {target} to wrinkle their nose in disgust."
+            
         ],
     },
     'mixer_social_RevealDeepSecret_targeted_Friendly_HighScore': {
+        "pre_actions": [
+            "{Initiator} confesses a profound, deeply-held secret to {target}."
+        ],
         'actions': [
             '"{target}, I need to tell you something. Promise me you won\'t judge," {initiator} says nervously.',
             '"I have been keeping a secret for so long, but I trust you enough to share it with you," {initiator} says, looking into {target}\'s eyes.',
@@ -421,20 +533,26 @@ interaction_descriptions = {
         ],
     },
     'mixer_social_RevealEvilPlans_targeted_mischief_traits': {
-        'actions': [
-            '"{target}, I have a confession to make. Brace yourself, for what I\'m about to reveal is truly sinister," {initiator} says with a wicked grin.',
-            '"I\'ve been living a double life, {target}, and i\'s time you know the truth. Prepare yourself for the darkness that lies within me," {initiator} says, their voice dripping with malevolence.',
-            '"You thought you knew me, {target}, but you were wrong. The truth is, I\'ve been plotting something truly diabolical, and now it\'s time to involve you," {initiator} says, eyes gleaming with mischief.',
-            '"Listen carefully, {target}, for the secrets I\'m about to share will change everything. I\'ve been working on a plan, a plan so evil that it will shake the very foundations of this world," {initiator} whispers ominously.',
-            '"I\'ve always been envious of your innocence, {target}, but no more. Today, I reveal my true nature, and you\'ll witness the depths of my malevolence firsthand," {initiator} declares, a twisted smile forming on their lips.',
-            '"Prepare to be shocked, {target}, for the darkness that resides within me is about to be unleashed. My evil plans will leave a trail of chaos and destruction," {initiator} says, their voice laced with anticipation.',
-            '"You see, {target}, I\'ve been biding my time, waiting for the perfect moment to reveal my evil plans. And that moment is now," {initiator} says, a wicked glint in their eyes.',
-            '"I hope you\'re ready for this, {target}, because what I\'m about to disclose will shatter your perception of me. My evil schemes are far more intricate than you could have ever imagined," {initiator} says, relishing the impending revelation."',
-            '"There\'s a darkness inside me, {target}, and it\'s time you witness it. My evil plans are nearing fruition, and you\'re about to become an integral part of them," {initiator} says, a sinister chuckle escaping their lips.',
-            '"I\'ve kept my true intentions hidden for far too long, {target}. Today, I lay bare my evil plans before you, and together, we shall conquer this world," {initiator} proclaims, their voice filled with twisted ambition.',
+        "pre_actions": [
+            "{initiator} reveals their evil plans to {target}."
+        ],
+        "actions": [
+            "\"{target}, I have a confession to make. Brace yourself, for what I\'m about to reveal is truly sinister,\" {initiator} says with a wicked grin.",
+            "\"I\'ve been living a double life, {target}, and i\'s time you know the truth. Prepare yourself for the darkness that lies within me,\" {initiator} says, their voice dripping with malevolence.",
+            "\"You thought you knew me, {target}, but you were wrong. The truth is, I\'ve been plotting something truly diabolical, and now it\'s time to involve you,\" {initiator} says, eyes gleaming with mischief.",
+            "\"Listen carefully, {target}, for the secrets I\'m about to share will change everything. I\'ve been working on a plan, a plan so evil that it will shake the very foundations of this world,\" {initiator} whispers ominously.",
+            "\"I\'ve always been envious of your innocence, {target}, but no more. Today, I reveal my true nature, and you\'ll witness the depths of my malevolence firsthand,\" {initiator} declares, a twisted smile forming on their lips.",
+            "\"Prepare to be shocked, {target}, for the darkness that resides within me is about to be unleashed. My evil plans will leave a trail of chaos and destruction,\" {initiator} says, their voice laced with anticipation.",
+            "\"You see, {target}, I\'ve been biding my time, waiting for the perfect moment to reveal my evil plans. And that moment is now,\" {initiator} says, a wicked glint in their eyes.",
+            "\"I hope you\'re ready for this, {target}, because what I\'m about to disclose will shatter your perception of me. My evil schemes are far more intricate than you could have ever imagined,\" {initiator} says, relishing the impending revelation.",
+            "\"There\'s a darkness inside me, {target}, and it\'s time you witness it. My evil plans are nearing fruition, and you\'re about to become an integral part of them,\" {initiator} says, a sinister chuckle escaping their lips.",
+            "\"I\'ve kept my true intentions hidden for far too long, {target}. Today, I lay bare my evil plans before you, and together, we shall conquer this world,\" {initiator} proclaims, their voice filled with twisted ambition.",
         ],
     },
     "mixer_social_RevealBrilliantInvention_targeted_Friendly_alwaysOn": {
+        "pre_actions": [
+            "{initiator} reveals their brilliant invention to {target}."
+        ],
         "actions": [
             "\"{target}, I've been working on something incredible, and I can't wait to show you,\" {initiator} says, barely containing their excitement.",
             "\"I've finally completed my latest invention, {target}. I believe it will change everything,\" {initiator} says with pride, eager to share their creation.",
@@ -453,11 +571,11 @@ interaction_descriptions = {
             "{initiator} attempts to scare {target}.",
         ],
         "actions": [
-            "\"{initiator} sneaks up behind {target} and whispers, \"Boo!\" before bursting into laughter.",
+            "{initiator} sneaks up behind {target} and whispers, \"Boo!\" before bursting into laughter.",
             "\"{target}, did you know there's a legend about a ghost around here?\" {initiator} says, trying to spook {target}.",
             "\"Watch out, {target}! Something's right behind you!\" {initiator} exclaims, trying to startle {target}.",
-            "\"{initiator} pretends to see something terrifying in the distance and shouts, \"{target}, look out!\"",
-            "\"{initiator} decides to hide and jump out at {target} as they walk by, hoping to scare them.",
+            "{initiator} pretends to see something terrifying in the distance and shouts, \"{target}, look out!\"",
+            "{initiator} decides to hide and jump out at {target} as they walk by, hoping to scare them.",
             "\"Be careful, {target}. I've heard strange noises around here lately. It sends shivers down my spine,\" {initiator} says, attempting to unnerve {target}."
         ]
     },
@@ -536,12 +654,12 @@ interaction_descriptions = {
         "actions": [
             "\"{target}, do you remember the time we first met? I can't believe it's been so long!\" {initiator} says, laughing and reminiscing about the past.",
             "\"Hey {target}, I bet you still can't make a decent cup of coffee after all these years!\" {initiator} teases, smirking playfully.",
-            "\"{initiator} grins at {target} and says, \"Remember when we used to argue about who was the better singer? I still think you owe me a rematch!\"",
+            "{initiator} grins at {target} and says, \"Remember when we used to argue about who was the better singer? I still think you owe me a rematch!\"",
             "\"After all this time, {target}, I still can't believe you're such a terrible dancer!\" {initiator} chuckles, poking fun at their friend.",
-            "\"{initiator} playfully nudges {target} and says, \"So, have you finally learned how to cook something other than instant noodles?\"",
+            "{initiator} playfully nudges {target} and says, \"So, have you finally learned how to cook something other than instant noodles?\"",
             "\"Remember that time you got us lost on our way to the concert, {target}? I'm amazed we're still friends after that fiasco!\" {initiator} says, laughing heartily.",
             "\"I still can't believe you used to wear those ridiculous outfits, {target}. How did we ever let you leave the house like that?\" {initiator} teases, chuckling.",
-            "\"{initiator} grins at {target} and says, \"You know, I still owe you for that prank you pulled on me years ago. Watch your back, my friend!\"",
+            "{initiator} grins at {target} and says, \"You know, I still owe you for that prank you pulled on me years ago. Watch your back, my friend!\"",
             "\"Hey {target}, do you still have that hideous painting you insisted on hanging in your living room? I can't believe you ever thought it was a good idea!\" {initiator} laughs, reminiscing about old times.",
             "\"It's hard to believe we've come so far, {target}. Remember when we used to dream about where we'd be now? I think we've done pretty well for ourselves!\" {initiator} says, smiling fondly at their friend."
         ]
@@ -556,6 +674,16 @@ interaction_descriptions = {
             "\"Hey {target}, I know you're going through a lot right now, but remember that I'm always here for you. Let's talk about it,\" {initiator} suggests kindly.",
             "\"Sometimes, all it takes is a hug to make things better. Come here, {target},\" {initiator} says, opening their arms for a warm embrace.",
             "\"Let's get out of this rut, {target}. What can we do today to turn things around and make you feel better?\" {initiator} asks, ready to help in any way possible.",
+            "\"{target}, I have something that might make you smile. Are you ready?\" {initiator} says with a mischievous grin.",
+            "\"I know you've been feeling down lately, {target}, but I have just the thing to lift your spirits,\" {initiator} says, excitement in their voice.",
+            "\"{target}, I've been thinking about what I could do to make you feel better, and I think I've come up with something,\" {initiator} says with a twinkle in their eye.",
+            "\"Hey {target}, I've got a surprise for you. It's something that I hope will brighten your day,\" {initiator} says, unable to contain their excitement.",
+            "\"I know you've been going through a rough patch, {target}, but I've got a little something that might bring a smile to your face,\" {initiator} says, a hint of anticipation in their voice.",
+            "\"{target}, I've been racking my brain trying to think of something that would turn your day around. And I think I've finally found it,\" {initiator} says, a mixture of determination and hope in their tone.",
+            "\"You deserve a little pick-me-up, {target}, so I've come up with something that I hope will make you feel better,\" {initiator} says, a warm smile on their face.",
+            "\"I couldn't stand to see you sad, {target}, so I've decided to do something special just for you. Brace yourself,\" {initiator} says, their eyes sparkling with excitement.",
+            "\"{target}, I have a surprise for you. It's something that I hope will bring some sunshine to your day,\" {initiator} says, unable to hide their enthusiasm.",
+            "\"I've been thinking about you, {target}, and it hit me. I know exactly what would make you feel better. Are you ready?\" {initiator} says, anticipation evident in their voice."
         ]
     },
     "mixer_social_ComplainAboutLackofLoveLife_Targeted_Friendly_AlwaysOn_Jealous_Trait": {
@@ -593,18 +721,20 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_HorrifyingJoke_targeted_funny_alwaysOn": {
+        "pre_actions": [
+            "{initiator} begins sharing a horrifying joke with {target}."
+        ],
         "actions": [
             "\"{target}, I heard this joke the other day, and I just have to share it with you. It's a bit twisted, though,\" {initiator} says, grinning mischievously.",
             "\"Hey {target}, I've got a dark sense of humor, and I think this joke might be right up your alley. Can you handle it?\" {initiator} asks, raising an eyebrow.",
-            "\"{initiator} leans in close to {target} and whispers, \"I've got a joke that might give you the creeps. Are you ready?\"",
+            "{initiator} leans in close to {target} and whispers, \"I've got a joke that might give you the creeps. Are you ready?\"",
             "\"Okay, {target}, brace yourself. I've got a joke that's not for the faint of heart,\" {initiator} says, a wicked smile on their face.",
             "\"Be warned, {target}, this joke is not for everyone. But I think you've got the stomach for it,\" {initiator} says, their eyes gleaming with anticipation.",
             "\"{target}, I've got a horrifying joke that I think you'll appreciate. Get ready to laugh and cringe at the same time,\" {initiator} says, rubbing their hands together in excitement.",
             "\"Alright, {target}, I've got a joke that's twisted and hilarious, but it's not for everyone. Are you in?\" {initiator} asks, a devilish grin on their face.",
-            "\"{initiator} chuckles darkly and says to {target}, \"I've got a joke that might make your skin crawl. Do you want to hear it?\"",
+            "{initiator} chuckles darkly and says to {target}, \"I've got a joke that might make your skin crawl. Do you want to hear it?\"",
             "\"Hey {target}, I've got a joke that's a little... morbid. But I think you'll like it,\" {initiator} says, a mischievous glint in their eye.",
-            "\"{initiator} smirks and says to {target}, \"This joke is definitely not for the easily scared, but I think you can handle it. Are you ready for a horrifying laugh?\""
-        ]
+        ],
     },
     "mixer_social_AskForAdvice_targeted_friendly_emotionSpecific_Scared": {
         "pre_actions": [
@@ -642,7 +772,7 @@ interaction_descriptions = {
     },
     "mixer_social_ComplainAboutLackOfWater_targeted_friendly_alwaysOn_bills": {
         "pre_actions": [
-            "{initiator} complains to {target} about their water being shut off due to not paying their water bill.",
+            "{initiator} begins complaining to {target} about their water being shut off as a consequence of not paying their water bill.",
         ],
         "actions": [
             "\"{target}, I can't believe this! I didn't pay my water bill, and now I don't have any water at home,\" {initiator} grumbles in frustration.",
@@ -709,7 +839,7 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_HilariousIcebreaker_greetings": {
-        "pre-actions": [
+        "pre_actions": [
             "{initiator} introduces themselves to {target} by using a hilarious joke to break the ice."
         ],
         "actions": [
@@ -743,17 +873,20 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_ThrowDrink_targeted_mean_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} throws their drink at {target} in anger."
+        ],
         "actions": [
-            "\"{initiator} watches {target} closely, anger boiling up inside, before suddenly splashing a drink in {target}'s face without warning.\"",
-            "\"Without hesitation, {initiator} grabs a nearby drink and throws it in {target}'s face.\"",
-            "\"{initiator} can't take it anymore and, in a fit of rage, hurls a drink at {target}'s face, leaving them dripping and stunned.\"",
-            "\"As {target} continues to speak, {initiator} seethes with anger before finally snapping and throwing the contents of their glass into {target}'s face.\"",
-            "\"{initiator}, unable to contain their anger any longer, grabs the nearest beverage and splashes it all over {target}'s face, silencing them mid-sentence.\"",
-            "\"With a sudden burst of fury, {initiator} picks up their drink and hurls it right into {target}'s unsuspecting face.\"",
-            "\"{initiator} reaches their breaking point and, without a word, throws their drink directly at {target}'s face, shocking the entire room.\"",
-            "\"Enraged by {target}'s words, {initiator} impulsively grabs a drink and drenches {target}'s face, instantly stopping their speech.\"",
-            "\"{initiator} narrows their eyes at {target}, then suddenly flings the contents of their glass right into {target}'s face, leaving them speechless.\"",
-            "\"Overcome with anger, {initiator} snatches up a drink and tosses it all over {target}'s face, causing gasps from everyone around them.\""
+            "{initiator} watches {target} closely, anger boiling up inside, before suddenly splashing a drink in {target}'s face without warning.",
+            "Without hesitation, {initiator} grabs a nearby drink and throws it in {target}'s face.",
+            "{initiator} can't take it anymore and, in a fit of rage, hurls a drink at {target}'s face, leaving them dripping and stunned.",
+            "As {target} continues to speak, {initiator} seethes with anger before finally snapping and throwing the contents of their glass into {target}'s face.",
+            "{initiator}, unable to contain their anger any longer, grabs the nearest beverage and splashes it all over {target}'s face, silencing them mid-sentence.",
+            "With a sudden burst of fury, {initiator} picks up their drink and hurls it right into {target}'s unsuspecting face.",
+            "{initiator} reaches their breaking point and, without a word, throws their drink directly at {target}'s face, shocking the entire room.",
+            "Enraged by {target}'s words, {initiator} impulsively grabs a drink and drenches {target}'s face, instantly stopping their speech.",
+            "{initiator} narrows their eyes at {target}, then suddenly flings the contents of their glass right into {target}'s face, leaving them speechless.",
+            "Overcome with anger, {initiator} snatches up a drink and tosses it all over {target}'s face, causing gasps from everyone around them.",
         ]
     },
     "mixer_social_TakePictureTogether_targeted_Friendly_alwaysOn": {
@@ -839,16 +972,17 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_TalkAboutCooking_targeted_Friendly_alwaysOn_skills": {
+        "pre_actions": [
+            "{initiator} starts a friendly conversation about cooking with {target}."
+        ],
         "actions": [
             "\"{target}, I've been thinking about trying out a new recipe. Any suggestions?\" {initiator} asks curiously.",
-            "\"{initiator} to {target}, what's your favorite dish to cook? I need some inspiration.\"",
             "\"I've been wanting to get better at cooking, {target}. Could you share some of your culinary secrets with me?\" {initiator} inquires.",
             "\"Hey, {target}, I was wondering if you could teach me how to make that amazing dish you prepared last time,\" {initiator} says with excitement.",
             "\"I've been trying to expand my cooking skills, {target}. What do you think is a must-try recipe?\" {initiator} asks enthusiastically.",
             "\"Last night I tried my hand at a new recipe, {target}. Have you ever had a cooking disaster?\" {initiator} asks, chuckling.",
             "\"{target}, I've heard you're quite the chef. I'd love to learn some tips and tricks from you,\" {initiator} says, admiringly.",
             "\"You always seem to know your way around the kitchen, {target}. How did you learn to cook so well?\" {initiator} asks, genuinely curious.",
-            "\"{initiator} to {target}, I've been craving some comfort food lately. What's your go-to dish when you need something warm and satisfying?\"",
             "\"I'm planning a dinner party, {target}, and I could use some advice on what to cook. Can you help me come up with a menu?\" {initiator} asks hopefully."
         ]
     },
@@ -881,6 +1015,9 @@ interaction_descriptions = {
     #     ]
     # },
     "mixer_social_TalkAboutGrilledCheese_targeted_Friendly_alwaysOn_aspiration": {
+        "pre_actions": [
+            "{initiator} starts a conversation about grilled cheese with {target}."
+        ],
         "actions": [
             "\"{target}, have you ever tried a grilled cheese sandwich with a twist? I experimented with some ingredients the other day,\" {initiator} says enthusiastically.",
             "\"Hey {target}, do you know the secret to making the perfect grilled cheese sandwich? I've been trying to master it,\" {initiator} asks, looking for advice.",
@@ -895,6 +1032,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_ShareSecret_targeted_Friendly_HighScore": {
+        "pre_actions": [
+            "{initiator} shares a secret with {target}, their trusted friend."
+        ],
         "actions": [
             "\"{target}, can I tell you something? I know it's a bit out of the blue, but I feel like I can trust you,\" {initiator} says timidly.",
             "\"Hey, {target}, there's something I've been wanting to share with you. I think you're the right person to confide in,\" {initiator} says, taking a deep breath.",
@@ -909,6 +1049,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_SharePhoto": {
+        "pre_actions": [
+            "{initiator} shares a photo with {target}."
+        ],
         "actions": [
             "\"{target}, check this out! I've got a really cool photo on my phone I want to show you,\" {initiator} says excitedly.",
             "\"{target}, I came across this photo and I think you'll find it interesting. Take a look,\" {initiator} suggests, offering their phone to {target}.",
@@ -921,6 +1064,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_TalkAboutNewApp_targeted_Friendly_alwaysOn_career": {
+        "pre_actions": [
+            "{initiator} begins a conversation with {target} about the new app they are developing."
+        ],
         "actions": [
             "\"{target}, I've been working on this new app, and I think it could really change things. Can I share it with you?\" {initiator} asks excitedly.",
             "\"Hey {target}, I've got this great idea for an app I've been developing. Mind if I run it by you?\" {initiator} inquires, eager for input.",
@@ -935,6 +1081,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_ThankForComing_targeted_Friendly_alwaysOn_Event": {
+        "pre_actions": [
+            "{initiator} thanks {target} for attending their event."
+        ],
         "actions": [
             "\"{target}, I just wanted to take a moment to thank you for coming to the event. It means a lot to me,\" {initiator} says with a warm smile.",
             "\"{target}, I can't express how grateful I am for your presence at the event. Your support means the world to me,\" {initiator} says sincerely.",
@@ -949,6 +1098,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_TellDirtyJoke_targeted_funny_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} tells a dirty joke to {target}."
+        ],
         "actions": [
             "\"{target}, I just heard the most hilarious dirty joke. You've got to listen to this one,\" {initiator} says with a mischievous grin.",
             "\"Hey {target}, you've got a good sense of humor, right? Check out this dirty joke I just heard,\" {initiator} says, laughing in anticipation.",
@@ -1022,6 +1174,9 @@ interaction_descriptions = {
     #     ]
     # },
     "mixer_social_SelfDeprecatingJoke_group_funny_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} makes a self-deprecating joke about themselves to {target}."
+        ],
         "actions": [
             "\"{target}, you know what's funny about me? I'm the kind of person who...\" {initiator} starts, chuckling at their own expense.",
             "\"{target}, have you heard this one about me? It's hilarious, but a little embarrassing,\" {initiator} says with a grin.",
@@ -1042,13 +1197,13 @@ interaction_descriptions = {
         "actions": [
             "\"{target}, that was awesome! Bring it in for a bro bump,\" {initiator} says, grinning and raising their fist.",
             "\"Hey {target}, let's celebrate with a bro bump!\" {initiator} says, extending their fist towards {target}.",
-            "\"{initiator} smiles at {target} and says, \"We make a great team! Bro bump?\"",
+            "{initiator} smiles at {target} and says, \"We make a great team! Bro bump?\"",
             "\"Nice one, {target}! Fist bump to celebrate?\" {initiator} suggests, holding out their fist.",
-            "\"{initiator} looks at {target} and says, \"You've earned yourself a bro bump for that one, my friend!\"",
+            "{initiator} looks at {target} and says, \"You've earned yourself a bro bump for that one, my friend!\"",
             "\"Hey {target}, that deserves a bro bump! Bump it, buddy!\" {initiator} says, enthusiastically offering their fist.",
-            "\"{initiator} laughs and says, \"{target}, that was epic! Let's seal the deal with a bro bump.\"",
+            "{initiator} laughs and says, \"{target}, that was epic! Let's seal the deal with a bro bump.\"",
             "\"Great job, {target}! Let's do a bro bump for our success,\" {initiator} says, raising their fist with a smile.",
-            "\"{initiator} nods approvingly at {target} and says, \"I like your style. Bro bump?\"",
+            "{initiator} nods approvingly at {target} and says, \"I like your style. Bro bump?\"",
             "\"Way to go, {target}! How about a bro bump to commemorate this moment?\" {initiator} asks, holding out their fist."
         ]
     },
@@ -1059,17 +1214,20 @@ interaction_descriptions = {
         "actions": [
             "\"{target}, it's been a rough day, man. Come here,\" {initiator} says, opening their arms for a bro hug.",
             "\"Hey, {target}, I know things have been tough lately. Bring it in, buddy,\" {initiator} says, offering a comforting bro hug.",
-            "\"{initiator} smiles at {target} and says, \"You did great today, man. Let's hug it out.\"",
+            "{initiator} smiles at {target} and says, \"You did great today, man. Let's hug it out.\"",
             "\"{target}, I'm really proud of you, man. Let's celebrate with a bro hug,\" {initiator} suggests, extending their arms.",
             "\"Come on, {target}, don't be shy. We're friends, right? Let's have a bro hug,\" {initiator} says, encouragingly.",
-            "\"{initiator} walks up to {target} and says, \"You know what this moment calls for? A solid bro hug.\"",
+            "{initiator} walks up to {target} and says, \"You know what this moment calls for? A solid bro hug.\"",
             "\"Hey, {target}, it's been a while since we've seen each other! Let's have a proper bro hug,\" {initiator} says, happily.",
             "\"Nothing like a good old-fashioned bro hug to show our appreciation for each other, right {target}?\" {initiator} says, grinning.",
-            "\"{initiator} pats {target} on the back and says, \"You've been a real friend, {target}. Let's seal it with a bro hug.\"",
+            "{initiator} pats {target} on the back and says, \"You've been a real friend, {target}. Let's seal it with a bro hug.\"",
             "\"Sometimes, words just aren't enough, {target}. Let's hug it out, man,\" {initiator} says, opening their arms for a bro hug."
         ]
     },
     "mixer_social_DoAnImpression_targeted_funny_alwaysOn": {
+        "pre_actions": [
+            "{initiator} does an impression of someone, in order to make {target} laugh."
+        ],
         "actions": [
             "\"{target}, check this out! I've been working on this impression, and I think I've finally nailed it,\" {initiator} says, excitement in their eyes.",
             "\"Hey {target}, you know who this is?\" {initiator} asks, their voice and demeanor changing as they launch into their impression.",
@@ -1084,6 +1242,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_KnockKnockJoke_targeted_funny_alwaysOn_skills": {
+        "pre_actions": [
+            "{initiator} initiates a knock knock joke with {target}."
+        ],
         "actions": [
             "\"{target}, I've got a funny one for you. Knock knock,\" {initiator} says with a grin.",
             "\"Hey {target}, I heard this hilarious knock knock joke. Want to hear it?\" {initiator} asks excitedly.",
@@ -1098,6 +1259,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_DiscussInterests_friendly_STC": {
+        "pre_actions": [
+            "{initiator} discusses their interests with {target}, in a friendly way."
+        ],
         "actions": [
             "\"{target}, I've been wondering what you're passionate about. Care to share?\" {initiator} asks with genuine curiosity.",
             "\"Hey {target}, you know, we've never really talked about our hobbies and interests. What do you enjoy doing in your free time?\" {initiator} inquires.",
@@ -1167,16 +1331,16 @@ interaction_descriptions = {
             "{initiator} playfully reminisces about past fashion trends with {target}.",
         ],
         "actions": [
-            "\"{initiator} looks at {target} and chuckles, \"Can you believe people actually used to wear those ridiculously oversized shoulder pads?\"",
+            "{initiator} looks at {target} and chuckles, \"Can you believe people actually used to wear those ridiculously oversized shoulder pads?\"",
             "\"Hey, {target}, remember when wearing socks with sandals was considered a fashion statement?\" {initiator} teases, laughing.",
-            "\"{initiator} smirks at {target} and says, \"Did you ever try those low-rise jeans? I don't know how anyone thought they were comfortable!\"",
+            "{initiator} smirks at {target} and says, \"Did you ever try those low-rise jeans? I don't know how anyone thought they were comfortable!\"",
             "\"{target}, have you seen those pictures of people wearing neon-colored windbreakers in the '90s? What were they thinking?\" {initiator} asks, giggling.",
             "\"Remember when people used to wear turtlenecks under everything, {target}? What a funny fashion choice,\" {initiator} says, grinning.",
             "\"Hey, {target}, do you recall the time when people would wear sweaters tied around their necks? It's hilarious to think about now,\" {initiator} laughs.",
-            "\"{initiator} chuckles at {target} and says, \"Did you ever own a pair of those massive platform shoes? I can't believe we thought those were stylish!\"",
+            "{initiator} chuckles at {target} and says, \"Did you ever own a pair of those massive platform shoes? I can't believe we thought those were stylish!\"",
             "\"{target}, can you imagine wearing a tracksuit to a fancy dinner? I bet people in the 2000s never thought that would be a thing!\" {initiator} jokes, smirking.",
             "\"Hey, {target}, what do you think about bringing back the mullet? It's about time for a revival, don't you think?\" {initiator} says, laughing.",
-            "\"{initiator} snickers and asks {target}, \"Do you remember when people used to wear skirts over pants? What an odd combination, right?\""
+            "{initiator} snickers and asks {target}, \"Do you remember when people used to wear skirts over pants? What an odd combination, right?\""
         ]
     },
     "mixer_social_BragAboutHandiness_targeted_Friendly_alwaysOn_skills": {
@@ -1214,6 +1378,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_Fight_targeted_mean_Ghost": {
+        "pre_actions": [
+            "{initiator} angrily starts a fight with {target}, who is a ghost."
+        ],
         "actions": [
             "\"{target}, I can feel your presence here, but I don't understand why you're haunting me,\" {initiator} says, frustration creeping into their voice.",
             "\"{target}, I know you're here, and I'm tired of your ghostly antics. Show yourself and let's talk about this,\" {initiator} demands, clenching their fists.",
@@ -1245,6 +1412,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_HoldHands_targeted_romance_middleScore": {
+        "pre_actions": [
+            "{initiator} begins holding {target}'s hand romantically."
+        ],
         "actions": [
             "\"{target}, can I hold your hand? There's just something about the way our fingers intertwine that feels so right,\" {initiator} says softly.",
             "\"Your hands are so warm, {target}. I feel a connection every time we touch,\" {initiator} says, gently taking {target}'s hands in theirs.",
@@ -1276,6 +1446,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_Fight_targeted_mean": {
+        "pre_actions": [
+            "{initiator} angrily starts a fight with {target}."
+        ],
         "actions": [
             "\"{target}, I can't believe you would do something like that! You've really crossed the line this time,\" {initiator} says angrily, clenching their fists.",
             "\"Enough is enough, {target}! I'm tired of you always trying to control everything. We need to settle this,\" {initiator} shouts, their patience wearing thin.",
@@ -1290,6 +1463,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_GossipAboutVideoGamePros_targeted_friendly_alwaysOn_skills": {
+        "pre_actions": [
+            "{initiator} gossips about video game professionals with {target}." 
+        ],
         "actions": [
             "\"{target}, have you seen that new Twitch streamer that everyone's talking about?\" {initiator} asks, clearly excited to share some gossip.",
             "\"Hey, {target}, did you hear what happened on {streamer}'s stream yesterday? Let me fill you in,\" {initiator} says with a grin.",
@@ -1304,13 +1480,16 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_EnhuseAboutNewAlbums_targeted_Friendly_alwaysOn": {
+        "pre_actions": [
+            "{initiator} enthuses about new music albums to {target}."
+        ],
         "actions": [
             "\"{target}, have you heard about the new albums that just dropped? I'm really excited to discuss them with you,\" {initiator} says enthusiastically.",
             "\"Hey {target}, there are a few new albums out now that I think you'd be interested in. Let's chat about them!\" {initiator} suggests with a smile.",
-            "\"{initiator} excitedly approaches {target} and says, \"I've been listening to some newly released albums, and I can't wait to hear your thoughts on them!\"",
+            "{initiator} excitedly approaches {target} and says, \"I've been listening to some newly released albums, and I can't wait to hear your thoughts on them!\"",
             "\"So, {target}, I've been checking out some fresh music releases, and I really want to know what you think of them,\" {initiator} says, eager for a conversation.",
             "\"Hey {target}, I was just listening to a couple of new albums and thought you'd be the perfect person to discuss them with. What do you say?\" {initiator} asks.",
-            "\"{initiator} leans in and asks {target}, \"Did you get a chance to listen to the latest albums that just came out? I'd love to hear your opinions on them.\"",
+            "{initiator} leans in and asks {target}, \"Did you get a chance to listen to the latest albums that just came out? I'd love to hear your opinions on them.\"",
             "\"{target}, I just came across some amazing new music releases, and I'm dying to know if you've heard them and what you think!\" {initiator} says with excitement.",
             "\"Have you been keeping up with the new albums that just hit the scene, {target}? I'd love to get your take on them,\" {initiator} inquires with genuine interest.",
             "\"I can't help but think of you when I listen to these new albums, {target}. Let's talk about them and see if we share the same opinions,\" {initiator} suggests.",
@@ -1318,20 +1497,26 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_DiscussWorldPeace_targeted_Friendly_alwaysOn": {
+        "pre_actions": [
+            "{initiator} begins a friendly discussion about world piece with {target}."
+        ],
         "actions": [
             "\"{target}, have you ever thought about what it would take to achieve world peace?\" {initiator} asks, genuinely curious.",
             "\"{initiator}, do you think it's even possible for us to reach a point where there's peace across the globe?\" {target} wonders, as they begin a deep conversation.",
             "\"World peace seems like a distant dream, {target}, but I believe it's worth striving for. What's your take on it?\" {initiator} inquires, looking for insights.",
             "\"Sometimes I imagine a world without war or conflict, {target}. Do you think humanity can one day achieve that?\" {initiator} asks thoughtfully.",
-            "\"{initiator} and {target} sit down and begin discussing the concept of world peace, exploring various ideas and opinions on how to make it a reality.\"",
+            "{initiator} and {target} sit down and begin discussing the concept of world peace, exploring various ideas and opinions on how to make it a reality.",
             "\"You know, {target}, I've always wondered if peace can truly exist in a world as diverse as ours. What do you think?\" {initiator} starts the conversation, hoping for a meaningful exchange.",
             "\"{target}, considering all the conflicts and struggles in the world, do you believe there's a way to reach a state of global harmony?\" {initiator} asks, seeking {target}'s perspective.",
             "\"I've been pondering the idea of world peace lately, {target}. Can you share your thoughts on the topic?\" {initiator} requests, eager to hear a different viewpoint.",
-            "\"{initiator} brings up the topic of world peace, asking {target} to share their thoughts on the possibility of achieving it and the challenges they might face.\"",
+            "{initiator} brings up the topic of world peace, asking {target} to share their thoughts on the possibility of achieving it and the challenges they might face.",
             "\"World peace is an ideal that many strive for, {target}. In your opinion, can it ever become a reality?\" {initiator} asks, hoping to spark a thought-provoking conversation."
         ]
     },
     "mixer_social_EnthuseAboutNewShow_targeted_Friendly_MiddleScore": {
+         "pre_actions": [
+            "{initiator} enthuses about a new television show to {target}."
+         ],
         "actions": [
             "\"{target}, have you seen that new show everyone's been talking about? I just started watching it and it's amazing!\" {initiator} says excitedly.",
             "\"Hey, {target}, I just started watching this new show on TV and I think you'll love it! Want to know more about it?\" {initiator} asks with enthusiasm.",
@@ -1363,6 +1548,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_EnthuseAboutGuitarSolos_targeted_Friendly_alwaysOn_skills": {
+        "pre_actions": [
+            "{initiator} starts an enthusiastic conversation about guitar solos to {target}."
+        ],
         "actions": [
             "\"{target}, have you ever heard that epic guitar solo in 'Stairway to Heaven'? It's mind-blowing!\" {initiator} exclaims excitedly.",
             "\"Hey {target}, I just listened to this amazing guitar solo, and I couldn't wait to share it with you. You've got to hear it!\" {initiator} says, grinning from ear to ear.",
@@ -1394,6 +1582,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_GoAway_targeted_mean_alwaysOn": {
+        "pre_actions": [
+            "{initiator} rudely tells {target} to go away and leave them alone."
+        ],
         "actions": [
             "\"{target}, I need some space right now. Can you please just go away?\" {initiator} asks, looking frustrated.",
             "\"Look, {target}, I just can't deal with this right now. I need you to leave me alone,\" {initiator} says, trying to hold back their emotions.",
@@ -1408,6 +1599,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_DiscusssSportsStatistics_targeted_Friendly_Athlete_AlwaysOn_STC": {
+        "pre_actions": [
+            "{initiator} discusses sports statistics with {target}."
+        ],
         "actions": [
             "\"{target}, did you know that the highest-scoring basketball game in history had a combined total of 370 points?\" {initiator} asks with enthusiasm.",
             "\"Hey {target}, I came across this interesting stat - a soccer player runs about 7 miles on average during a match. What do you think of that?\" {initiator} inquires, looking for {target}'s opinion.",
@@ -1487,20 +1681,26 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_HipBump_targeted_friendly_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} gives {target} a friendly hip bump."
+        ],
         "actions": [
-            "\"{initiator} playfully bumps their hip into {target}, catching them off guard and eliciting a laugh.\"",
-            "\"Without warning, {initiator} casually hip bumps {target}, sparking a friendly interaction between the two.\"",
-            "\"{initiator} gives {target} a light hip bump, a sign of camaraderie as they share a moment together.\"",
-            "\"With a mischievous grin, {initiator} sidles up to {target} and delivers a friendly hip bump, inviting a playful response.\"",
-            "\"Feeling a burst of energy, {initiator} gently hip bumps {target}, hoping to brighten their day and initiate a lighthearted conversation.\"",
-            "\"As {initiator} walks past {target}, they give a playful hip bump, signaling the beginning of some friendly banter.\"",
-            "\"{initiator} surprises {target} with a sudden hip bump, trying to break the ice and start an amusing interaction.\"",
-            "\"Looking for a fun way to engage {target}, {initiator} gently bumps hips with them, eliciting a surprised yet amused reaction.\"",
-            "\"With a twinkle in their eye, {initiator} approaches {target} and playfully hip bumps them, hoping to create a lively exchange.\"",
-            "\"{initiator} decides to hip bump {target} as a way to break the tension and initiate a more lighthearted conversation.\""
+            "{initiator} playfully bumps their hip into {target}, catching them off guard and eliciting a laugh.",
+            "Without warning, {initiator} casually hip bumps {target}, sparking a friendly interaction between the two.",
+            "{initiator} gives {target} a light hip bump, a sign of camaraderie as they share a moment together.",
+            "With a mischievous grin, {initiator} sidles up to {target} and delivers a friendly hip bump, inviting a playful response.",
+            "Feeling a burst of energy, {initiator} gently hip bumps {target}, hoping to brighten their day and initiate a lighthearted conversation.",
+            "As {initiator} walks past {target}, they give a playful hip bump, signaling the beginning of some friendly banter.",
+            "{initiator} surprises {target} with a sudden hip bump, trying to break the ice and start an amusing interaction.",
+            "Looking for a fun way to engage {target}, {initiator} gently bumps hips with them, eliciting a surprised yet amused reaction.",
+            "With a twinkle in their eye, {initiator} approaches {target} and playfully hip bumps them, hoping to create a lively exchange.",
+            "{initiator} decides to hip bump {target} as a way to break the tension and initiate a more lighthearted conversation."
         ]
     },
     "mixer_social_Jeer_targeted_mean_middleScore": {
+        "pre_actions": [
+            "{initiator} makes hurtful, personal comments towards {target}."
+        ], 
         "actions": [
             "\"{target}, do you really think you're capable of doing that?\" {initiator} sneers mockingly.",
             "\"Is it hard being as clueless as you, {target}?\" {initiator} taunts with a cruel grin.",
@@ -1515,34 +1715,43 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_Intimidate_targeted_mean_middleScore": {
+        "pre_actions": [
+            "{initiator} attempts to intimidate {target}."
+        ],
         "actions": [
             "\"{target}, do you really think you can stand up to me?\" {initiator} says, smirking and crossing their arms.",
-            "\"{initiator} leans in closer to {target}, their eyes narrowing. \"You should be careful who you mess with,\" they warn.",
+            "{initiator} leans in closer to {target}, their eyes narrowing. \"You should be careful who you mess with,\" they warn.",
             "\"I hope you're aware of what you're getting yourself into, {target},\" {initiator} says, their voice cold and menacing.",
-            "\"{initiator} towers over {target}, staring them down. \"You might want to reconsider your actions, buddy,\" they suggest darkly.",
+            "{initiator} towers over {target}, staring them down. \"You might want to reconsider your actions, buddy,\" they suggest darkly.",
             "\"You have no idea who you're dealing with, {target},\" {initiator} says, their tone dripping with venom.",
             "\"Do you really want to test me, {target}?\" {initiator} asks, raising an eyebrow and cracking their knuckles.",
             "\"Be careful, {target}. I have a way of making problems... disappear,\" {initiator} says ominously.",
-            "\"{initiator} leans in and whispers menacingly in {target}'s ear, \"You don't want to see me angry.\"",
-            "\"{initiator} fixes {target} with a cold stare. \"You should know better than to challenge me,\" they say icily.",
+            "{initiator} leans in and whispers menacingly in {target}'s ear, \"You don't want to see me angry.\"",
+            "{initiator} fixes {target} with a cold stare. \"You should know better than to challenge me,\" they say icily.",
             "\"Keep pushing me, {target}, and you'll see what happens,\" {initiator} warns, their voice low and dangerous."
         ]
     },
     "mixer_social_KissHands_targeted_romance_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} kisses {target}'s hands romantically."
+        ],
         "actions": [
-            "\"{initiator} leans in slowly and gently places a tender kiss on {target}'s hand, conveying their admiration.\"",
-            "\"Without a word, {initiator} takes {target}'s hand and softly kisses it, locking their eyes together.\"",
-            "\"Feeling a sudden rush of affection, {initiator} gently lifts {target}'s hand and presses a warm kiss upon it.\"",
-            "\"In a moment of pure emotion, {initiator} tenderly kisses {target}'s hand, expressing their deep connection.\"",
-            "\"{initiator} takes {target}'s hand in theirs, their eyes meeting as they gently press their lips to {target}'s hand.\"",
-            "\"With a gaze full of tenderness, {initiator} brings {target}'s hand to their lips and plants a gentle kiss.\"",
-            "\"In a spontaneous gesture, {initiator} reaches for {target}'s hand and lovingly kisses it, causing {target} to blush.\"",
-            "\"As {initiator} grasps {target}'s hand, they gently place a kiss on it, their eyes never leaving {target}'s face.\"",
-            "\"Moved by the moment, {initiator} softly takes {target}'s hand and plants a sweet kiss upon it, conveying their feelings.\"",
-            "\"With a meaningful look, {initiator} delicately kisses {target}'s hand, displaying their deep affection and admiration.\""
+            "{initiator} leans in slowly and gently places a tender kiss on {target}'s hand, conveying their admiration.",
+            "Without a word, {initiator} takes {target}'s hand and softly kisses it, locking their eyes together.",
+            "Feeling a sudden rush of affection, {initiator} gently lifts {target}'s hand and presses a warm kiss upon it.",
+            "In a moment of pure emotion, {initiator} tenderly kisses {target}'s hand, expressing their deep connection.",
+            "{initiator} takes {target}'s hand in theirs, their eyes meeting as they gently press their lips to {target}'s hand.",
+            "With a gaze full of tenderness, {initiator} brings {target}'s hand to their lips and plants a gentle kiss.",
+            "In a spontaneous gesture, {initiator} reaches for {target}'s hand and lovingly kisses it, causing {target} to blush.",
+            "As {initiator} grasps {target}'s hand, they gently place a kiss on it, their eyes never leaving {target}'s face.",
+            "Moved by the moment, {initiator} softly takes {target}'s hand and plants a sweet kiss upon it, conveying their feelings.",
+            "With a meaningful look, {initiator} delicately kisses {target}'s hand, displaying their deep affection and admiration."
         ]
     },
     "mixer_social_InsultFace_targeted_mean_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} cruelly insults {target}'s face."
+        ],
         "actions": [
             "\"{target}, has anyone ever told you that your face looks like someone tried to solve a Rubik's Cube but gave up halfway?\" {initiator} smirks.",
             "\"Wow, {target}, it must be hard to look in the mirror every day with a face like that,\" {initiator} says mockingly.",
@@ -1557,28 +1766,31 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_Kiss_targeted_romance_middleScore": {
+        "pre_actions": [
+            "{initiator} kisses {target}'s hands romantically."
+        ],
         "actions": [
-            "\"{initiator} leans in close, their eyes meeting {target}'s before softly pressing their lips together in a tender kiss.\"",
-            "\"Without warning, {initiator} gently grabs {target}'s face and plants a passionate kiss on their lips, catching them by surprise.\"",
-            "\"As the conversation between {initiator} and {target} fades, their faces inch closer, finally sharing a long-awaited kiss.\"",
-            "\"{initiator} hesitates for a moment before closing the gap between them, placing a sweet, lingering kiss on {target}'s lips.\"",
-            "\"With a mixture of courage and desire, {initiator} takes {target}'s hand, leans in, and shares a breathtaking kiss.\"",
-            "\"Unable to resist any longer, {initiator} pulls {target} close and captures their lips in a passionate embrace.\"",
-            "\"During a moment of quiet intimacy, {initiator} slowly leans in and brushes their lips against {target}'s, igniting a spark between them.\"",
-            "\"As they gaze into each other's eyes, {initiator} gently cups {target}'s face and presses their lips together in a tender, loving kiss.\"",
-            "\"Feeling a surge of emotion, {initiator} leans in and kisses {target} with a passion that takes both of them by surprise.\"",
-            "\"Captivated by the moment, {initiator} closes the distance between them and seals their connection with a sweet, heartfelt kiss.\""
+            "{initiator} leans in close, their eyes meeting {target}'s before softly pressing their lips together in a tender kiss.",
+            "Without warning, {initiator} gently grabs {target}'s face and plants a passionate kiss on their lips, catching them by surprise.",
+            "As the conversation between {initiator} and {target} fades, their faces inch closer, finally sharing a long-awaited kiss.",
+            "{initiator} hesitates for a moment before closing the gap between them, placing a sweet, lingering kiss on {target}'s lips.",
+            "With a mixture of courage and desire, {initiator} takes {target}'s hand, leans in, and shares a breathtaking kiss.",
+            "Unable to resist any longer, {initiator} pulls {target} close and captures their lips in a passionate embrace.",
+            "During a moment of quiet intimacy, {initiator} slowly leans in and brushes their lips against {target}'s, igniting a spark between them.",
+            "As they gaze into each other's eyes, {initiator} gently cups {target}'s face and presses their lips together in a tender, loving kiss.",
+            "Feeling a surge of emotion, {initiator} leans in and kisses {target} with a passion that takes both of them by surprise.",
+            "Captivated by the moment, {initiator} closes the distance between them and seals their connection with a sweet, heartfelt kiss."
         ]
     },
     "mixer_social_Insult_Mean_STC": {
         "actions": [
             "\"{target}, I've always wondered how you manage to be so consistently clueless,\" {initiator} says with a mocking tone.",
             "\"Hey {target}, did you get dressed in the dark today? Because that outfit is just... wow,\" {initiator} smirks, looking {target} up and down.",
-            "\"{initiator} rolls their eyes at {target} and says, \"You really are a special kind of stupid, aren't you?\"",
+            "{initiator} rolls their eyes at {target} and says, \"You really are a special kind of stupid, aren't you?\"",
             "\"Wow, {target}, your inability to understand even the simplest things never ceases to amaze me,\" {initiator} says with a sarcastic laugh.",
             "\"Did it hurt when you fell from heaven, {target}? Because you must have landed on your head to be so dense,\" {initiator} snickers.",
             "\"{target}, I would insult your intelligence, but I'm afraid you wouldn't understand,\" {initiator} says with a condescending smile.",
-            "\"{initiator} shakes their head and says, \"Honestly, {target}, every time you speak, it's like a fresh reminder of why I avoid talking to you.\"",
+            "{initiator} shakes their head and says, \"Honestly, {target}, every time you speak, it's like a fresh reminder of why I avoid talking to you.\"",
             "\"You know, {target}, it's really impressive how you can make everything you do look so incredibly difficult,\" {initiator} teases.",
             "\"{target}, if you were any less competent, you'd be a houseplant,\" {initiator} says, rolling their eyes.",
             "\"Sometimes I wonder if you're actually trying to be this annoying, {target}, or if it just comes naturally to you,\" {initiator} says with an exasperated sigh."
@@ -1676,17 +1888,20 @@ interaction_descriptions = {
             "{initiator} tenderly kisses {target}'s cheek.",
         ],
         "actions": [
-            "\"{initiator} leans in closer to {target}, their eyes meeting for a brief moment before gently pressing their lips to {target}'s cheek.\"",
-            "\"Without a word, {initiator} reaches up and tenderly places a soft kiss on {target}'s cheek, causing a blush to spread across their face.\"",
-            "\"Feeling a sudden surge of affection, {initiator} gently cups {target}'s face and plants a sweet kiss on their cheek.\"",
-            "\"{initiator} smiles warmly at {target} before suddenly leaning in and placing a light kiss on their cheek, catching them off guard.\"",
-            "\"With a playful grin, {initiator} leans in and brushes their lips against {target}'s cheek, leaving a lingering sensation.\"",
-            "\"{initiator} takes {target}'s hand, looks into their eyes, and then gently kisses their cheek, making {target}'s heart race.\"",
-            "\"Caught up in the moment, {initiator} impulsively leans forward and leaves a light, affectionate kiss on {target}'s cheek.\"",
-            "\"{initiator} suddenly leans in and surprises {target} with a quick peck on the cheek.\""
+            "{initiator} leans in closer to {target}, their eyes meeting for a brief moment before gently pressing their lips to {target}'s cheek.",
+            "Without a word, {initiator} reaches up and tenderly places a soft kiss on {target}'s cheek, causing a blush to spread across their face.",
+            "Feeling a sudden surge of affection, {initiator} gently cups {target}'s face and plants a sweet kiss on their cheek.",
+            "{initiator} smiles warmly at {target} before suddenly leaning in and placing a light kiss on their cheek, catching them off guard.",
+            "With a playful grin, {initiator} leans in and brushes their lips against {target}'s cheek, leaving a lingering sensation.",
+            "{initiator} takes {target}'s hand, looks into their eyes, and then gently kisses their cheek, making {target}'s heart race.",
+            "Caught up in the moment, {initiator} impulsively leans forward and leaves a light, affectionate kiss on {target}'s cheek.",
+            "{initiator} suddenly leans in and surprises {target} with a quick peck on the cheek."
         ]
     },
     "mixer_social_ShareConspiracyTheory_targeted_mischief_alwaysOn": {
+        "pre_actions": [
+            "{initiator} shares a conspiracy theory with {target}."
+        ],
         "actions": [
             "\"{target}, have you ever heard of this conspiracy theory? I came across it recently, and I just can't stop thinking about it,\" {initiator} says, excitedly.",
             "\"{target}, I know this might sound crazy, but I stumbled upon a conspiracy theory that actually makes a lot of sense. Can I share it with you?\" {initiator} asks, looking eager.",
@@ -1718,20 +1933,26 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_JokeAboutPenguins_targeted_Friendly_alwaysOn_situation_Day1DLC": {
+        "pre_actions": [
+            "{initiator} tells {target} a joke about penguins."
+        ],
         "actions": [
             "\"{target}, did you hear about the penguin who wanted to be friends? He just needed someone to break the ice!\" {initiator} chuckles.",
-            "\"{initiator} asks {target}, \"Why don't you ever see penguins in the UK? Because they're afraid of Wales!\"",
+            "{initiator} asks {target}, \"Why don't you ever see penguins in the UK? Because they're afraid of Wales!\"",
             "\"Hey {target}, what do penguins wear on their heads? Ice caps!\" {initiator} laughs, trying to lighten the mood.",
-            "\"{initiator} grins at {target} and asks, \"Why don't penguins like talking to strangers at parties? They find it hard to break the ice!\"",
-            "\"{initiator} smirks at {target} and says, \"Do you know what a penguin's favorite relative is? Aunt Arctica!\"",
+            "{initiator} grins at {target} and asks, \"Why don't penguins like talking to strangers at parties? They find it hard to break the ice!\"",
+            "{initiator} smirks at {target} and says, \"Do you know what a penguin's favorite relative is? Aunt Arctica!\"",
             "\"Hey {target}, why are penguins such good race car drivers? Because they're always in the pole position!\" {initiator} jokes, hoping to make {target} laugh.",
-            "\"{initiator} asks {target} with a grin, \"What's a penguin's favorite movie? Frozen!\"",
+            "{initiator} asks {target} with a grin, \"What's a penguin's favorite movie? Frozen!\"",
             "\"Did you hear about the penguin who went to the beach, {target}? He wore a beak-ini!\" {initiator} giggles at their own joke.",
             "\"Hey {target}, do you know what a penguin's favorite snack is? Ice Krispies!\" {initiator} shares, hoping to bring a smile to {target}'s face.",
-            "\"{initiator} looks at {target} and says, \"What do you call a penguin in the desert? Lost!\" hoping to get a laugh."
+            "{initiator} looks at {target} and says, \"What do you call a penguin in the desert? Lost!\" hoping to get a laugh."
         ]
     },
     "mixer_social_DiscussTheBestViolinist_targeted_Friendly_alwaysOn_skills": {
+        "pre_actions": [
+            "{initiator} begins a debate with {target} regarding who is the best violin player in the world."
+        ],
         "actions": [
             "\"{target}, have you ever wondered who the best violinist in the world might be?\" {initiator} asks, striking up a conversation about music.",
             "\"I was listening to some violin music earlier, {target}, and it got me thinking - who do you believe is the most talented violinist out there?\" {initiator} inquires with curiosity.",
@@ -1746,6 +1967,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_ShareBurden_targeted_Friendly_alwaysOn_trait": {
+        "pre_actions": [
+            "{initiator} confides in {target} and shares their emotional burden with them."
+        ],
         "actions": [
             "\"{target}, I've been struggling with something my whole life, and I think it's time I share it with you,\" {initiator} says, weariness in their eyes.",
             "\"I've been carrying this burden for so long, and I need someone to understand. Can you lend me a sympathetic ear, {target}?\" {initiator} asks hesitantly.",
@@ -1760,20 +1984,26 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_SuaveKiss_targeted_romance_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} gives {target} a suave, romantic kiss."
+        ],
         "actions": [
-            "\"{initiator} leans in and gently presses their lips against {target}'s, creating a moment of passion and tenderness.\"",
-            "\"With a charming smile, {initiator} takes {target}'s hand, pulls them closer, and plants a suave kiss on their lips.\"",
-            "\"{initiator} looks deep into {target}'s eyes, brushing their hair back before delivering a smooth, intoxicating kiss.\"",
-            "\"Capturing the perfect moment, {initiator} leans in and sweeps {target} off their feet with a suave, unforgettable kiss.\"",
-            "\"{initiator} cups {target}'s face, their fingers lightly tracing the outline of their jaw before sealing the moment with a stylish kiss.\"",
-            "\"Under the moonlit sky, {initiator} pulls {target} close and shares a suave, dreamlike kiss, taking their breath away.\"",
-            "\"With a mischievous glint in their eye, {initiator} places a finger under {target}'s chin, lifting their gaze before delivering a charming, suave kiss.\"",
-            "\"In a bold move, {initiator} grabs {target}'s waist, pulling them closer and surprising them with a debonair, sensual kiss.\"",
-            "\"{initiator} gently touches {target}'s cheek, letting their eyes lock for a moment before leaning in for a smooth, enchanting kiss.\"",
-            "\"As their eyes meet, {initiator} wraps an arm around {target}'s waist and pulls them in for a suave, heart-stopping kiss.\""
+            "{initiator} leans in and gently presses their lips against {target}'s, creating a moment of passion and tenderness.",
+            "With a charming smile, {initiator} takes {target}'s hand, pulls them closer, and plants a suave kiss on their lips.",
+            "{initiator} looks deep into {target}'s eyes, brushing their hair back before delivering a smooth, intoxicating kiss.",
+            "Capturing the perfect moment, {initiator} leans in and sweeps {target} off their feet with a suave, unforgettable kiss.",
+            "{initiator} cups {target}'s face, their fingers lightly tracing the outline of their jaw before sealing the moment with a stylish kiss.",
+            "Under the moonlit sky, {initiator} pulls {target} close and shares a suave, dreamlike kiss, taking their breath away.",
+            "With a mischievous glint in their eye, {initiator} places a finger under {target}'s chin, lifting their gaze before delivering a charming, suave kiss.",
+            "In a bold move, {initiator} grabs {target}'s waist, pulling them closer and surprising them with a debonair, sensual kiss.",
+            "{initiator} gently touches {target}'s cheek, letting their eyes lock for a moment before leaning in for a smooth, enchanting kiss.",
+            "As their eyes meet, {initiator} wraps an arm around {target}'s waist and pulls them in for a suave, heart-stopping kiss."
         ]
     },
     "mixer_social_RileUp_targeted_mean_alwaysOn": {
+        "pre_actions": [
+            "{initiator} intentionally agitates {target}."
+        ],
         "actions": [
             "\"{target}, I've always wondered how someone like you can be so clueless,\" {initiator} says, smirking maliciously.",
             "\"{target}, has anyone ever told you how infuriatingly slow you are?\" {initiator} asks with a sly grin.",
@@ -1788,6 +2018,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_WhisperSeductively_targeted_romance_middleScore": {
+        "pre_actions": [
+            "{initiator} whispers seductively to {target}."
+        ],
         "actions": [
             "\"{target}, can I tell you a secret?\" {initiator} whispers seductively, a playful glint in their eye.",
             "\"Lean in closer, {target}, I have something enticing to share,\" {initiator} murmurs, their breath warm on {target}'s ear.",
@@ -1802,6 +2035,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_YellAT_targeted_mean": {
+        "pre_actions": [
+            "{initiator} yells at {target} in anger."
+        ],
         "actions": [
             "\"{target}, you're absolutely infuriating! Can't you do anything right?\" {initiator} yells, anger in their voice.",
             "\"Are you really this incompetent, {target}? I can't believe I have to put up with your stupidity!\" {initiator} shouts, losing their patience.",
@@ -1816,6 +2052,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_MakeFunOfNoobs_targeted_funny_alwaysOn_skills": {
+        "pre_actions": [
+            "{initiator} makes fun of noobs in the online game they're playing with {target}."
+        ], 
         "actions": [
             "\"{target}, have you seen these new players trying to learn the game? It's hilarious,\" {initiator} laughs, watching their screens.",
             "\"Hey {target}, check this out. This noob is struggling to even find the start button!\" {initiator} jokes, pointing at the screen.",
@@ -1830,6 +2069,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_socials_EnthuseAboutExperimentalFood_Targeted_Friendly_AlwaysOn_DiningSocials": {
+        "pre_actions": [
+            "{initiator} enthuses about experimental food with their friend, {target}."
+        ],
         "actions": [
             "\"{target}, you have to try this! It's unlike anything I've ever tasted before,\" {initiator} says excitedly, taking another bite.",
             "\"Wow, this experimental dish is amazing! Don't you think so, {target}?\" {initiator} asks, grinning from ear to ear.",
@@ -1844,6 +2086,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_ProfessUndyingLove_targeted_romance_highScore": {
+        "pre_actions": [
+            "{initiator} professes their undying love for {target}."
+        ],
         "actions": [
             "\"{target}, I need to tell you something important. My love for you is undying, and I can't keep it to myself any longer,\" {initiator} says, their heart pounding.",
             "\"I've been holding this in for too long, {target}. I am completely and utterly in love with you,\" {initiator} confesses, looking deeply into {target}'s eyes.",
@@ -1858,6 +2103,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_MockMusicTaste_targeted_mean_trait": {
+        "pre_actions": [
+            "{initiator} mocks {target}'s musical tastes, in order to hurt their feelings."
+        ],
         "actions": [
             "\"{target}, I can't believe you actually enjoy listening to that noise. What do you even see in it?\" {initiator} teases with a grin.",
             "\"Really, {target}? That's the kind of music you're into? I thought you had better taste than that,\" {initiator} says, smirking.",
@@ -1872,9 +2120,12 @@ interaction_descriptions = {
         ]
     },
     "mixer_socials_EnthuseAboutMeal_Targeted_Friendly_AlwaysOn_DiningSocials": {
+        "pre_actions": [
+            "{initiator} enthuses about the meal they are eating to their friend, {target}."
+        ],
         "actions": [
             "\"{target}, have you ever tasted anything as delicious as this before? It's absolutely amazing!\" {initiator} exclaims, savoring every bite.",
-            "\"{initiator} leans toward {target} and says, \"Wow, this meal is truly exceptional! You have to try some of this!\"",
+            "{initiator} leans toward {target} and says, \"Wow, this meal is truly exceptional! You have to try some of this!\"",
             "\"Can you believe how incredible this food tastes, {target}?\" {initiator} asks, eyes wide in delight and excitement.",
             "\"I can't get over how delicious this is, {target}! I think I've found my new favorite dish,\" {initiator} says, beaming with joy.",
             "\"{target}, I don't think I've ever been this excited about a meal before. Isn't it just divine?\" {initiator} says, practically dancing in their seat.",
@@ -1886,20 +2137,26 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_PracticeFighting_targeted_Friendly_alwaysOn_skills": {
+        "pre_actions": [
+            "{initiator} practices fighting with their friend, {target}."
+        ],
         "actions": [
             "\"{target}, I've been working on my fighting skills lately. Would you mind practicing with me?\" {initiator} asks eagerly.",
             "\"Hey {target}, I could use a sparring partner to help me improve my combat skills. Are you up for the challenge?\" {initiator} inquires with a grin.",
-            "\"{initiator} stretches their arms and says, \"Alright, {target}, it's time for some friendly combat practice. Let's see what you've got!\"",
+            "{initiator} stretches their arms and says, \"Alright, {target}, it's time for some friendly combat practice. Let's see what you've got!\"",
             "\"Ever since I started learning to fight, I've wanted to test my skills against you, {target}. Care to join me for a sparring session?\" {initiator} suggests enthusiastically.",
             "\"Let's have a little friendly competition, {target}. How about a practice fight to see who's got the better moves?\" {initiator} proposes with a smirk.",
             "\"Hey {target}, I've been meaning to ask if you'd like to practice some self-defense techniques with me. It's always good to stay sharp,\" {initiator} says, gesturing toward an open space.",
             "\"I've learned some new fighting techniques, {target}, and I could use your help to practice. Are you in?\" {initiator} asks, bouncing on the balls of their feet.",
-            "\"{initiator} cracks their knuckles and says, \"It's been too long since we've had a good sparring session, {target}. Let's see if you can keep up with my new moves!\"",
+            "{initiator} cracks their knuckles and says, \"It's been too long since we've had a good sparring session, {target}. Let's see if you can keep up with my new moves!\"",
             "\"I think it's time we tested our strengths against each other, {target}. A friendly sparring match, what do you say?\" {initiator} asks, eager to learn from the experience.",
             "\"Practicing fighting techniques is always more fun with a partner, {target}. Would you mind joining me for a session?\" {initiator} asks, hoping to improve their skills."
         ]
     },
     "mixer_social_MakeFunOfCorporateGoons_Targeted_Funny_AlwaysOn_Career": {
+        "pre_actions": [
+            "{initiator} makes fun of corporate goons in a joking way with {target}."
+        ],
         "actions": [
             "\"{target}, have you heard about the new Synergistic Paradigm-Enhancing Dynamic? It's the latest in corporate jargon!\" {initiator} teases with a grin.",
             "\"{target}, I think you'd excel at Synchronized Hyperbolic Resource Optimization. It's right up your alley,\" {initiator} jokes, winking.",
@@ -1912,46 +2169,55 @@ interaction_descriptions = {
             "\"{target}, I've got a new assignment for you: Integrative Quantum Flux Optimization. Don't worry, I'm sure you'll nail it,\" {initiator} says, laughing.",
             "\"Let's not forget the importance of Advanced Heterogeneous Ambiguity Analysis, {target}. It's the future of corporate success!\" {initiator} says with a grin, making fun of the jargon.",
             "\"{target}, have you ever noticed how corporate goons always seem to have a never-ending supply of buzzwords? It's like they're all reading from the same script,\" {initiator} chuckles.",
-            "\"{initiator} leans in and whispers to {target}, \"Do you think corporate goons practice their fake smiles and firm handshakes in front of the mirror every morning?\"",
+            "{initiator} leans in and whispers to {target}, \"Do you think corporate goons practice their fake smiles and firm handshakes in front of the mirror every morning?\"",
             "\"I wonder if corporate culture has a dress code for the soul, too,\" {initiator} muses, smirking at {target}.",
             "\"Hey {target}, have you ever noticed that corporate goons can make a two-minute conversation take two hours with all their jargon and team-building exercises?\" {initiator} jokes.",
             "\"{target}, let's play a game: Corporate Buzzword Bingo. Every time we hear a corporate goon say 'synergy,' 'innovation,' or 'value-added,' we take a sip of our coffee,\" {initiator} suggests, grinning.",
-            "\"{initiator} laughs and asks {target}, \"Do you think there's a secret competition among corporate goons to see who can use the most buzzwords in a single sentence?\"",
+            "{initiator} laughs and asks {target}, \"Do you think there's a secret competition among corporate goons to see who can use the most buzzwords in a single sentence?\"",
             "\"Corporate culture is like a cult, {target}, but instead of chanting, they're spouting off empty slogans and talking about 'disrupting the industry,'\" {initiator} says with a grin.",
             "\"Hey {target}, I bet corporate goons have a secret handshake, but it probably involves excessive eye contact and an awkwardly long grip,\" {initiator} teases.",
-            "\"{initiator} leans in and whispers to {target}, \"I'm convinced that corporate goons are actually robots, programmed to speak in buzzwords and networking lingo.\"",
+            "{initiator} leans in and whispers to {target}, \"I'm convinced that corporate goons are actually robots, programmed to speak in buzzwords and networking lingo.",
             "\"Corporate culture seems like one big game of 'Who Can Sound the Most Important?', don't you think, {target}?\" {initiator} chuckles.",
         ]
     },
     "mixer_socials_GoofAround_targeted_Funny_alwaysOn": {
+        "pre_actions": [
+            "{initiator} goofs around with {target}."
+        ],
         "actions": [
-            "\"{initiator} sneaks up behind {target} and places their hands over {target}'s eyes. \"Guess who?\" {initiator} says, giggling.",
-            "\"{initiator} playfully tosses a crumpled piece of paper at {target}, trying to get their attention. \"Hey, {target}, catch!\"",
-            "\"{initiator} starts making silly faces at {target} from across the room, hoping to get a laugh out of them.",
-            "\"While {target} is sitting down, {initiator} comes up from behind and tickles them, causing {target} to burst into laughter.",
-            "\"{initiator} challenges {target} to a playful thumb war, grinning mischievously as they lock hands.",
-            "\"{initiator} steals {target}'s hat and starts running around, playfully taunting, \"You'll never catch me, {target}!\"",
-            "\"{initiator} jokingly mimics {target}'s voice and mannerisms, making both of them laugh at the light-hearted impersonation.",
-            "\"{initiator} pretends to trip and fall in front of {target}, then quickly jumps up and exclaims, \"Gotcha, {target}!\"",
-            "\"{initiator} playfully pokes {target} repeatedly, trying to get a rise out of them. \"Hey, {target}, are you ticklish?\"",
-            "\"{initiator} and {target} engage in a spontaneous and lighthearted play-fight, laughing as they gently push each other around."
+            "{initiator} sneaks up behind {target} and places their hands over {target}'s eyes. \"Guess who?\" {initiator} says, giggling.",
+            "{initiator} playfully tosses a crumpled piece of paper at {target}, trying to get their attention. \"Hey, {target}, catch!\"",
+            "{initiator} starts making silly faces at {target} from across the room, hoping to get a laugh out of them.",
+            "While {target} is sitting down, {initiator} comes up from behind and tickles them, causing {target} to burst into laughter.",
+            "{initiator} challenges {target} to a playful thumb war, grinning mischievously as they lock hands.",
+            "{initiator} steals {target}'s hat and starts running around, playfully taunting, \"You'll never catch me, {target}!\"",
+            "{initiator} jokingly mimics {target}'s voice and mannerisms, making both of them laugh at the light-hearted impersonation.",
+            "{initiator} pretends to trip and fall in front of {target}, then quickly jumps up and exclaims, \"Gotcha, {target}!\"",
+            "{initiator} playfully pokes {target} repeatedly, trying to get a rise out of them. \"Hey, {target}, are you ticklish?\"",
+            "{initiator} and {target} engage in a spontaneous and lighthearted play-fight, laughing as they gently push each other around."
         ]
     },
     "mixer_social_RantAndRave_targeted_friendly_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} vehemently expresses their frustration with {target}."
+        ],
         "actions": [
-            "\"{target}, I just can't take it anymore! I need to vent to you about what's been bothering me,\" {initiator} says, visibly frustrated.",
-            "\"Listen, {target}, I've got to get this off my chest. I'm going to rant for a bit, and I need you to just hear me out,\" {initiator} pleads, their voice rising in irritation.",
-            "\"I've been holding back for so long, {target}, but I can't keep it in anymore. I need to let it all out,\" {initiator} exclaims, their anger evident.",
-            "\"{target}, I've had enough of this situation, and I need someone to listen to me. Can you handle my rant right now?\" {initiator} asks, their emotions boiling over.",
-            "\"Sometimes, I just need to let loose, {target}. Can you bear with me while I let off some steam?\" {initiator} requests, their voice filled with tension.",
-            "\"I'm so fed up with everything, {target}. I just need to rant for a minute, and I hope you'll understand,\" {initiator} says, their face red with anger.",
-            "\"Enough is enough, {target}. I need to express my frustration, and I trust you enough to let it all out,\" {initiator} says, their voice shaking with emotion.",
-            "\"I've reached my breaking point, {target}, and I need your help to process it all. Just let me rant for a while, please,\" {initiator} begs, their voice cracking.",
-            "\"Today has just been too much, {target}. I need to vent, and I hope you won't mind listening to me rant,\" {initiator} says, their emotions spilling over.",
-            "\"{target}, I don't know who else I can talk to about this. I need to rant, and I hope you'll be patient with me,\" {initiator} says, their voice filled with desperation."
+            "\"I can't believe you did that, {target}! How could you be so thoughtless?\" {initiator} exclaims, their voice filled with anger.",
+            "\"You always do this, {target}! It's like you never listen to me!\" {initiator} shouts, frustration evident in their voice.",
+            "\"I've had enough of your nonsense, {target}! I can't keep tolerating your behavior!\" {initiator} yells, their face turning red.",
+            "\"You think you can just get away with everything, don't you, {target}? Well, not this time!\" {initiator} snaps, their voice laced with bitterness.",
+            "\"I've had it up to here with your constant mistakes, {target}! When will you ever learn?\" {initiator} vents, their tone dripping with annoyance.",
+            "\"Enough is enough, {target}! I can't stand by and watch you ruin everything anymore!\" {initiator} declares, their voice filled with determination.",
+            "\"I can't believe you would betray my trust like this, {target}! I thought we were friends!\" {initiator} accuses, their voice filled with hurt.",
+            "\"You think you're so clever, don't you, {target}? Well, let me tell you, your actions have consequences!\" {initiator} warns, their voice tinged with menace.",
+            "\"I've tried to be patient with you, {target}, but now I've reached my limit! Prepare yourself for the truth!\" {initiator} warns, their voice filled with frustration.",
+            "\"I'm tired of your excuses, {target}! It's time you face the consequences of your actions!\" {initiator} declares, their voice filled with righteous anger."
         ]
     },
     "mixer_Social_Sim_Ghost_Ask_About_Being_Dead": {
+        "pre_actions": [
+            "{initiator} asks {target}, who is a ghost, what it is like to be dead."
+        ],
         "actions": [
             "\"{target}, I've always been curious about the afterlife. Can you tell me what it's like to be a ghost?\" {initiator} asks cautiously.",
             "\"Hey {target}, I know it might be a sensitive topic, but I'm really interested in knowing what being dead feels like. Can you share your experience?\" {initiator} inquires gently.",
@@ -1966,6 +2232,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_Social_Targeted_Romance_Loyal_ConfessCheating": {
+        "pre_actions": [
+            "{initiator} confesses that they have been cheating on their romantic partner, {target}."
+        ],
         "actions": [
             "\"{target}, I can't keep this from you any longer. I've been unfaithful in our relationship,\" {initiator} admits, guilt heavy in their voice.",
             "\"I never wanted to hurt you, {target}, but I have to be honest with you. I've been cheating on you,\" {initiator} says, struggling to meet {target}'s eyes.",
@@ -1980,6 +2249,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_Provoke_targeted_mean_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} intentionally provokes {target}."
+        ],
         "actions": [
             "\"{target}, I've heard people say you're not very bright, but I didn't think it was this bad,\" {initiator} sneers, trying to provoke a reaction.",
             "\"I'm surprised you even made it this far, {target}. Did someone carry you here?\" {initiator} says mockingly, hoping to get under {target}'s skin.",
@@ -1994,6 +2266,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_Social_Targeted_Romance_Loyal_RebuildTrust": {
+        "pre_actions": [
+            "{initiator} seeks to rebuild the trust they once had with {target}."
+        ],
         "actions": [
             "\"{target}, I know I've made mistakes in the past, but I want to make it right. Can we start over?\" {initiator} asks with hope in their eyes.",
             "\"Remember the good times we had, {target}? I want to create more of those memories with you, but first we need to rebuild our trust,\" {initiator} says sincerely.",
@@ -2008,6 +2283,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_ShareMelancholyThoughts_tag_Friendly_alwaysOn": {
+        "pre_actions": [
+            "{initiator} shares their melancholy thoughts with {target}."
+        ],
         "actions": [
             "\"{target}, I've been feeling really down lately, and I don't know who else to talk to,\" {initiator} says, with sadness in their eyes.",
             "\"Sometimes, I feel like I'm drowning in my own thoughts, and I just need someone to listen. Can I share them with you, {target}?\" {initiator} asks hesitantly.",
@@ -2022,6 +2300,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_SweetTalk_targeted_romance_skills": {
+        "pre_actions": [
+            "{initiator} sweet talks {target}."
+        ],
         "actions": [
             "\"{target}, every time I look into your eyes, I feel like I'm getting lost in a beautiful, endless ocean,\" {initiator} says with a warm smile.",
             "\"You have no idea how much my heart races when I'm around you, {target}. It's like you've cast a magical spell on me,\" {initiator} says, gazing at {target} adoringly.",
@@ -2036,6 +2317,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_PitchStoryIdea_targeted_friendly_emotionSpecific": {
+        "pre_actions": [
+            "{initiator} pitches their story idea to their friend, {target}."
+        ],
         "actions": [
             "\"{target}, I had this amazing story idea, and I wanted to share it with you. Let me know what you think,\" {initiator} says excitedly.",
             "\"Hey, {target}, I've been thinking about writing a novel, and I have this incredible idea. Can I run it by you?\" {initiator} asks, eager for feedback.",
@@ -2050,6 +2334,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_RekindleTheRomance_targeted_romance_lowScore": {
+        "pre_actions": [
+            "{initiator} attempts to rekindle the romance between them and their partner, {target}."
+        ],
         "actions": [
             "\"{target}, I've been thinking a lot lately about the times we shared together. Can we give it another try?\" {initiator} asks, hope in their eyes.",
             "\"Remember the good days, {target}? I miss them. I miss us. What do you say we try to rekindle the flame?\" {initiator} suggests, a nostalgic smile on their face.",
@@ -2064,6 +2351,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_Social_Targeted_Mean_Loyal_ConfrontAboutBullying": {
+        "pre_actions": [
+            "{initiator} confronts {target} about their bullying behavior."
+        ],
         "actions": [
             "\"{target}, I've had enough of your bullying. It's time we talked about it,\" {initiator} says, gathering the courage to stand up for themselves.",
             "\"I can't keep ignoring the way you treat me, {target}. We need to address this bullying situation,\" {initiator} says, looking determined.",
@@ -2078,6 +2368,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_WeaponizedJoke_targeted_funny_alwaysOn": {
+        "pre_actions": [
+            "{initiator} makes a weaponized joke at {target}'s expense."
+        ],
         "actions": [
             "\"{target}, I heard this joke the other day, but it's a bit edgy. Are you up for it?\" {initiator} asks, grinning mischievously.",
             "\"Hey, {target}, brace yourself. I've got a joke that might just cross the line, but I think you'll love it,\" {initiator} says with a sly smile.",
@@ -2092,6 +2385,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_socials_DiscussFoodFlavors_Targeted_Friendly_AlwaysOn_DiningSocials": {
+        "pre_actions": [
+            "{initiator} discusses food flavors with {target}."
+        ],
         "actions": [
             "\"{target}, have you ever wondered why some flavors just seem to go well together?\" {initiator} asks, looking genuinely curious.",
             "\"Do you have a favorite flavor combination, {target}? I've been experimenting with some new recipes and I'd love to hear your thoughts,\" {initiator} says, smiling.",
@@ -2140,6 +2436,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_DiscussLackOfNewspapers_targeted_Friendly_alwysOn_situation_Day1DLC": {
+        "pre_actions": [
+            "{initiator} discusses their frustration with the lack of newspapers with {target}."
+        ],
         "actions": [
             "\"{target}, have you noticed that there aren't many newspapers around anymore? It's quite frustrating,\" {initiator} says, clearly annoyed.",
             "\"I can't believe how hard it is to find a decent newspaper these days, {target}. What's going on?\" {initiator} complains, shaking their head.",
@@ -2172,7 +2471,7 @@ interaction_descriptions = {
     },
     "mixer_social_ComplainAboutTvSize_targeted_Friendly_alwaysOn": {
         "pre_actions": [
-            "{initiator} complains to {target} about the size of their TV.",
+            "{initiator} complains to {target} about the small size of their TV.",
         ],
         "actions": [
             "\"{target}, I can't believe how small this TV is! How can anyone watch anything on this?\" {initiator} says, squinting at the screen.",
@@ -2222,6 +2521,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_DiscussFitnessTechniques_targeted_Friendly_alwaysOn_skills": {
+        "pre_actions": [
+            "{initiator} discusses fitness techniques with their friend, {target}."
+        ],
         "actions": [
             "\"{target}, I've been trying out this new workout routine, and I'd love to hear your thoughts on it,\" {initiator} says enthusiastically.",
             "\"Hey {target}, you seem to be in great shape. Can you share some fitness tips with me?\" {initiator} asks, genuinely interested.",
@@ -2232,10 +2534,13 @@ interaction_descriptions = {
             "\"I've been struggling with my workout routine recently, {target}. Do you have any fitness techniques that could help me get back on track?\" {initiator} says, feeling a bit discouraged.",
             "\"{target}, I heard about this interesting fitness technique that's supposed to be really effective. Have you tried anything like that before?\" {initiator} asks, eager for information.",
             "\"I'm thinking of incorporating some new fitness techniques into my routine, {target}. Any suggestions on where to start?\" {initiator} asks, seeking advice.",
-            "\"{initiator} approaches {target} at the gym and asks, \"Hey, I noticed you were doing a unique exercise. Can you explain the technique behind it? It looks really effective.\""
+            "{initiator} approaches {target} at the gym and asks, \"Hey, I noticed you were doing a unique exercise. Can you explain the technique behind it? It looks really effective.\""
         ]
     },
     "mixer_social_DiscussLocalFishingSpots_targeted_friendly_alwaysOn_neighbor": {
+        "pre_actions": [
+            "{initiator} discusses local fishing spots with their friend, {target}."
+        ],
         "actions": [
             "\"{target}, have you heard about that hidden fishing spot near the old bridge? I've heard the fish are biting like crazy there,\" {initiator} says with excitement.",
             "\"Hey {target}, I was thinking of trying out a new fishing spot this weekend. Any recommendations?\" {initiator} asks, hoping for some insider tips.",
@@ -2250,6 +2555,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_DiscussZebras_targeted_Friendly_alwaysOn_situation_Day1DLC": {
+        "pre_actions": [
+            "{initiator} discusses zebras with {target}."
+        ],
         "actions": [
             "\"{target}, have you ever wondered about the unique stripes of zebras and their purpose?\" {initiator} asks curiously.",
             "\"{target}, did you know that no two zebras have the same pattern of stripes? It's like their own personal fingerprint,\" {initiator} shares excitedly.",
@@ -2319,15 +2627,15 @@ interaction_descriptions = {
             "{initiator} micheviously dares {target} to streak naked.",
         ],
         "actions": [
-            "\"{target}, I bet you don't have the guts to do something crazy. How about streaking naked for a dare?\" {initiator} says with a mischievous grin. ",
-            "\"I've got a challenge for you, {target}. I dare you to streak naked and show the world your fearless side!\" {initiator} exclaims, a daring look in their eyes. ",
-            "\"Hey {target}, let's spice things up a bit! I dare you to streak naked. Are you brave enough?\" {initiator} asks, raising an eyebrow. ",
-            "\"Alright, {target}, it's time to test your limits! I dare you to run through this place naked. What do you say?\" {initiator} says, a smirk appearing on their face. ",
-            "\"{target}, I've got the ultimate dare for you. I challenge you to strip down and streak naked. Can you handle it?\" {initiator} questions, playfully. ",
-            "\"Let's see how daring you truly are, {target}. I dare you to streak naked right now!\" {initiator} says, laughing. ",
-            "\"Okay, {target}, I've got a dare that'll really push your boundaries. Are you up for streaking naked?\" {initiator} asks, a wicked smile on their lips. ",
-            "\"Hey {target}, since we're all about taking risks, how about I dare you to streak naked? Do you accept the challenge?\" {initiator} queries, gleefully. ",
-            "\"{initiator} looks at {target} and says, \"You think you're so daring, huh? Let's see if you've got what it takes to streak naked.\" ",
+            "\"{target}, I bet you don't have the guts to do something crazy. How about streaking naked for a dare?\" {initiator} says with a mischievous grin.",
+            "\"I've got a challenge for you, {target}. I dare you to streak naked and show the world your fearless side!\" {initiator} exclaims, a daring look in their eyes.",
+            "\"Hey {target}, let's spice things up a bit! I dare you to streak naked. Are you brave enough?\" {initiator} asks, raising an eyebrow.",
+            "\"Alright, {target}, it's time to test your limits! I dare you to run through this place naked. What do you say?\" {initiator} says, a smirk appearing on their face.",
+            "\"{target}, I've got the ultimate dare for you. I challenge you to strip down and streak naked. Can you handle it?\" {initiator} questions, playfully.",
+            "\"Let's see how daring you truly are, {target}. I dare you to streak naked right now!\" {initiator} says, laughing.",
+            "\"Okay, {target}, I've got a dare that'll really push your boundaries. Are you up for streaking naked?\" {initiator} asks, a wicked smile on their lips.",
+            "\"Hey {target}, since we're all about taking risks, how about I dare you to streak naked? Do you accept the challenge?\" {initiator} queries, gleefully.",
+            "{initiator} looks at {target} and says, \"You think you're so daring, huh? Let's see if you've got what it takes to streak naked.\"",
             "\"Here's a dare for you, {target}. Prove your fearlessness by streaking naked right now!\" {initiator} says, their eyes full of excitement."
         ]
     },
@@ -2349,6 +2657,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_DiscussColorTheory_targeted_Friendly_alwaysOn_skills": {
+        "pre_actions": [
+            "{initiator} discusses color theory with {target}."
+        ],
         "actions": [
             "\"{target}, have you ever thought about how colors can affect our mood and emotions? Let's dive into color theory,\" {initiator} suggests with enthusiasm.",
             "\"Hey {target}, I came across an interesting article on color theory recently, want to discuss it together?\" {initiator} asks, excited to share their newfound knowledge.",
@@ -2415,7 +2726,7 @@ interaction_descriptions = {
     },
     "mixer_social_AskToJustBeFriends_Targeted_Friendly_alwaysOn": {
         "pre_actions": [
-          "{initiator} asks {target} to just be friends.",
+            "{initiator} asks {target} to just be friends.",
         ],
         "actions": [
             "\"{target}, I've been thinking a lot lately, and I really value our friendship. I hope we can continue being just friends,\" {initiator} says sincerely.",
@@ -2448,6 +2759,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_SmoothRecovery_targeted_romance_alwaysOn_topic": {
+        "pre_actions": [
+            "After a slip-up with {target}, {initiator} deftly makes a smooth recovery."
+        ], 
         "actions": [
             "\"{target}, I must have tripped over my words because I'm falling for you,\" {initiator} says with a wink, trying to recover from their slipup.",
             "\"I guess I got tongue-tied because you're just too stunning, {target},\" {initiator} says, attempting to cover up their flub.",
@@ -2462,6 +2776,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_StartPreposterousRumor_group_mischief_skills": {
+        "pre_actions": [
+            "{initiator} starts a preposterous rumor with {target}."
+        ],
         "actions": [
             "\"{target}, you won't believe the crazy rumor I heard today. You've got to hear this!\" {initiator} says, grinning mischievously.",
             "\"I came across this wild piece of gossip, {target}, and I just can't keep it to myself,\" {initiator} says with a smirk.",
@@ -2477,71 +2794,71 @@ interaction_descriptions = {
     },
     "sim_Kiss_QuickSocial": {
         "actions": [
-            "\"{initiator} looks deeply into {target}'s eyes, leans in, and gently plants a kiss on their lips.\"",
-            "\"Without any warning, {initiator} takes {target}'s face in their hands and softly kisses them.\"",
-            "\"Feeling a surge of emotion, {initiator} impulsively leans forward and kisses {target} passionately.\"",
-            "\"In an intimate moment, {initiator} tenderly moves closer to {target} and presses their lips together.\"",
-            "\"As {initiator} and {target} share a heartfelt conversation, {initiator} leans in and gives {target} a loving kiss.\"",
-            "\"{initiator} suddenly takes {target}'s hand, pulls them close, and surprises them with a kiss.\"",
-            "\"Overwhelmed by emotions, {initiator} closes the distance between them and kisses {target} with all their heart.\"",
-            "\"With a soft smile, {initiator} cups {target}'s cheek and gently brings their lips together.\"",
-            "\"Feeling a strong connection, {initiator} can no longer resist the temptation and kisses {target} passionately.\"",
-            "\"As they gaze into each other's eyes, {initiator} tilts their head, leans in, and kisses {target} tenderly.\""
+            "{initiator} looks deeply into {target}'s eyes, leans in, and gently plants a kiss on their lips.",
+            "Without any warning, {initiator} takes {target}'s face in their hands and softly kisses them.",
+            "Feeling a surge of emotion, {initiator} impulsively leans forward and kisses {target} passionately.",
+            "In an intimate moment, {initiator} tenderly moves closer to {target} and presses their lips together.",
+            "As {initiator} and {target} share a heartfelt conversation, {initiator} leans in and gives {target} a loving kiss.",
+            "{initiator} suddenly takes {target}'s hand, pulls them close, and surprises them with a kiss.",
+            "Overwhelmed by emotions, {initiator} closes the distance between them and kisses {target} with all their heart.",
+            "With a soft smile, {initiator} cups {target}'s cheek and gently brings their lips together.",
+            "Feeling a strong connection, {initiator} can no longer resist the temptation and kisses {target} passionately.",
+            "As they gaze into each other's eyes, {initiator} tilts their head, leans in, and kisses {target} tenderly."
         ]
     },
     "mixer_social_SexyPose_targeted_romance_emotionSpecific": {
         "actions": [
             "\"{target}, I've been practicing this pose just for you. Are you ready for it?\" {initiator} says with a sly wink, before striking the pose.",
             "\"Hey {target}, I've got a surprise for you. Check out this pose,\" {initiator} says, confidently striking a seductive pose.",
-            "\"Feeling playful, {initiator} decides to surprise {target} with a sexy pose, hoping to make them blush.\"",
-            "\"{initiator} leans against the wall, striking a sultry pose for {target}, curious to see their reaction.\"",
-            "\"Wanting to spice things up, {initiator} strikes a sexy pose in front of {target}, raising an eyebrow suggestively.\"",
-            "\"{initiator} looks {target} in the eye, flashing a flirtatious smile before striking a seductive pose that leaves them speechless.\"",
+            "Feeling playful, {initiator} decides to surprise {target} with a sexy pose, hoping to make them blush.",
+            "{initiator} leans against the wall, striking a sultry pose for {target}, curious to see their reaction.",
+            "Wanting to spice things up, {initiator} strikes a sexy pose in front of {target}, raising an eyebrow suggestively.",
+            "{initiator} looks {target} in the eye, flashing a flirtatious smile before striking a seductive pose that leaves them speechless.",
             "\"{target}, I bet you didn't expect this,\" {initiator} says playfully, before surprising them with a sexy pose.",
-            "\"Feeling confident, {initiator} decides to strike a sexy pose in front of {target}, hoping to get a positive reaction.\"",
-            "\"{initiator} catches {target}'s eye and, with a mischievous grin, strikes a sultry pose just for them, waiting to see their response.\""
+            "Feeling confident, {initiator} decides to strike a sexy pose in front of {target}, hoping to get a positive reaction.",
+            "{initiator} catches {target}'s eye and, with a mischievous grin, strikes a sultry pose just for them, waiting to see their response."
         ]
     },
     "mixer_social_SitIntimate_Kiss_targeted_romance_emotionSpecific": {
         "actions": [
-            "\"{initiator} leans in closer to {target}, their eyes locked, and gently places a tender kiss on {target}'s lips.\"",
-            "\"Without a word, {initiator} takes {target}'s hand, pulls them in close, and surprises {target} with a soft, unexpected kiss.\"",
-            "\"With a sudden surge of courage, {initiator} moves closer to {target} and lovingly presses their lips against {target}'s.\"",
-            "\"As they sit together, {initiator} can't help but feel the magnetic pull towards {target}, and finally gives in to the urge to plant a sweet kiss on {target}'s lips.\"",
-            "\"{initiator}'s heart races as they muster the bravery to lean in and gently place a kiss on {target}'s lips, hoping it will be well received.\"",
-            "\"In a moment of pure emotion, {initiator} leans towards {target} and lets their lips meet in a warm, gentle kiss.\"",
-            "\"With their faces just inches apart, {initiator} can no longer resist the temptation to press their lips against {target}'s in a tender, passionate kiss.\"",
-            "\"As they sit side by side, {initiator} gazes deeply into {target}'s eyes and decides to softly kiss {target}.\"",
-            "\"Feeling a strong connection to {target}, {initiator} leans in and shares a tender, loving kiss.\"",
-            "\"{initiator}, overwhelmed by their feelings for {target}, gently cups {target}'s face in their hands and slowly moves in for a heartfelt, lingering kiss.\""
+            "{initiator} leans in closer to {target}, their eyes locked, and gently places a tender kiss on {target}'s lips.",
+            "Without a word, {initiator} takes {target}'s hand, pulls them in close, and surprises {target} with a soft, unexpected kiss.",
+            "With a sudden surge of courage, {initiator} moves closer to {target} and lovingly presses their lips against {target}'s.",
+            "As they sit together, {initiator} can't help but feel the magnetic pull towards {target}, and finally gives in to the urge to plant a sweet kiss on {target}'s lips.",
+            "{initiator}'s heart races as they muster the bravery to lean in and gently place a kiss on {target}'s lips, hoping it will be well received.",
+            "In a moment of pure emotion, {initiator} leans towards {target} and lets their lips meet in a warm, gentle kiss.",
+            "With their faces just inches apart, {initiator} can no longer resist the temptation to press their lips against {target}'s in a tender, passionate kiss.",
+            "As they sit side by side, {initiator} gazes deeply into {target}'s eyes and decides to softly kiss {target}.",
+            "Feeling a strong connection to {target}, {initiator} leans in and shares a tender, loving kiss.",
+            "{initiator}, overwhelmed by their feelings for {target}, gently cups {target}'s face in their hands and slowly moves in for a heartfelt, lingering kiss."
         ]
     },
     "mixer_social_PassionateKiss_targeted_romance_emotionSpecific": {
         "actions": [
-            "\"{initiator} looks deeply into {target}'s eyes, leans in, and plants a passionate kiss on their lips, taking them by surprise.\"",
-            "\"Without saying a word, {initiator} reaches out, gently cups {target}'s face, and kisses them passionately, leaving them both breathless.\"",
-            "\"With a sudden surge of emotion, {initiator} pulls {target} close and kisses them deeply, their hearts racing together.\"",
-            "\"{initiator} takes a step closer to {target}, brings their lips together in a passionate embrace, and kisses them like they've never been kissed before.\"",
-            "\"Overwhelmed with feelings for {target}, {initiator} tenderly places a hand on their cheek and kisses them with a passion that sends shivers down their spine.\"",
-            "\"As {initiator} gazes into {target}'s eyes, they can't resist any longer and pull {target} into a passionate, electrifying kiss.\"",
-            "\"In a moment of unspoken desire, {initiator} leans in and gives {target} the most passionate, breathtaking kiss they've ever experienced.\"",
-            "\"Unable to contain their feelings any longer, {initiator} sweeps {target} off their feet and delivers a soul-stirring, passionate kiss.\"",
-            "\"{initiator} gently grabs {target} by the hand, draws them near, and kisses them with a passion that leaves them both weak in the knees.\"",
-            "\"Feeling a magnetic pull toward each other, {initiator} and {target} come together in a passionate, unforgettable kiss that leaves them both wanting more.\""
+            "{initiator} looks deeply into {target}'s eyes, leans in, and plants a passionate kiss on their lips, taking them by surprise.",
+            "Without saying a word, {initiator} reaches out, gently cups {target}'s face, and kisses them passionately, leaving them both breathless.",
+            "With a sudden surge of emotion, {initiator} pulls {target} close and kisses them deeply, their hearts racing together.",
+            "{initiator} takes a step closer to {target}, brings their lips together in a passionate embrace, and kisses them like they've never been kissed before.",
+            "Overwhelmed with feelings for {target}, {initiator} tenderly places a hand on their cheek and kisses them with a passion that sends shivers down their spine.",
+            "As {initiator} gazes into {target}'s eyes, they can't resist any longer and pull {target} into a passionate, electrifying kiss.",
+            "In a moment of unspoken desire, {initiator} leans in and gives {target} the most passionate, breathtaking kiss they've ever experienced.",
+            "Unable to contain their feelings any longer, {initiator} sweeps {target} off their feet and delivers a soul-stirring, passionate kiss.",
+            "{initiator} gently grabs {target} by the hand, draws them near, and kisses them with a passion that leaves them both weak in the knees.",
+            "Feeling a magnetic pull toward each other, {initiator} and {target} come together in a passionate, unforgettable kiss that leaves them both wanting more."
         ]
     },
     "mixer_social_FirstKiss_targeted_romance_STC": {
         "actions": [
-            "\"{initiator} leans in closer, their eyes locked with {target}'s, and gently presses their lips together in a tender first kiss.\"",
-            "\"With a sudden surge of courage, {initiator} takes {target}'s hand, looks deeply into their eyes, and softly plants a kiss on their lips.\"",
-            "\"As their faces draw near, {initiator} hesitates for a moment, then closes the distance, capturing {target}'s lips in a sweet, memorable first kiss.\"",
-            "\"{initiator} gazes into {target}'s eyes, leans in, and shares a gentle, loving first kiss.\"",
-            "\"{initiator} takes a deep breath, draws {target} closer, and with a mix of excitement and nervousness, kisses them for the first time.\"",
-            "\"While laughing together, {initiator} suddenly stops and, with a tender look, leans in to give {target} a soft, unexpected first kiss.\"",
-            "\"Surrounded by a romantic ambiance, {initiator} reaches out, cradles {target}'s face, and plants a slow, passionate first kiss on their lips.\"",
-            "\"In the midst of an emotional conversation, {initiator} tenderly touches {target}'s face and leans in to share a heartfelt first kiss.\"",
-            "\"{initiator} pulls {target} close, and shares a warm, comforting first kiss.\"",
-            "\"{initiator} gently grabs {target}'s arm, pulls them closer, and surprises them with a soft, lingering first kiss.\""
+            "{initiator} leans in closer, their eyes locked with {target}'s, and gently presses their lips together in a tender first kiss.",
+            "With a sudden surge of courage, {initiator} takes {target}'s hand, looks deeply into their eyes, and softly plants a kiss on their lips.",
+            "As their faces draw near, {initiator} hesitates for a moment, then closes the distance, capturing {target}'s lips in a sweet, memorable first kiss.",
+            "{initiator} gazes into {target}'s eyes, leans in, and shares a gentle, loving first kiss.",
+            "{initiator} takes a deep breath, draws {target} closer, and with a mix of excitement and nervousness, kisses them for the first time.",
+            "While laughing together, {initiator} suddenly stops and, with a tender look, leans in to give {target} a soft, unexpected first kiss.",
+            "Surrounded by a romantic ambiance, {initiator} reaches out, cradles {target}'s face, and plants a slow, passionate first kiss on their lips.",
+            "In the midst of an emotional conversation, {initiator} tenderly touches {target}'s face and leans in to share a heartfelt first kiss.",
+            "{initiator} pulls {target} close, and shares a warm, comforting first kiss.",
+            "{initiator} gently grabs {target}'s arm, pulls them closer, and surprises them with a soft, lingering first kiss."
         ]
     },
     "mixer_social_BlowAKiss_targeted_romance_highScore": {
@@ -2551,12 +2868,12 @@ interaction_descriptions = {
         "actions": [
             "\"{target}, this one's for you,\" {initiator} says playfully, blowing a kiss in {target}'s direction.",
             "With a sly grin, {initiator} catches {target}'s eye and gently sends a blown kiss their way.",
-            "\"{initiator} leans in close to {target} and whispers, \"Watch closely,\" before pulling away and blowing a delicate kiss in their direction.",
-            "\"{initiator} looks at {target} from across the room, and with a mischievous smile, they pucker their lips and blow a subtle kiss.",
+            "{initiator} leans in close to {target} and whispers, \"Watch closely,\" before pulling away and blowing a delicate kiss in their direction.",
+            "{initiator} looks at {target} from across the room, and with a mischievous smile, they pucker their lips and blow a subtle kiss.",
             "With a coy smile, {initiator} locks eyes with {target} and playfully blows a kiss, hoping to catch their attention.",
-            "\"{initiator} gently taps {target}'s shoulder to get their attention, and once their eyes meet, {initiator} blows a soft, teasing kiss.",
-            "\"{initiator} pretends to pluck something from the air, and as they present it to {target}, they blow a tender kiss their way.",
-            "\"{initiator} catches {target} by surprise, leaning in as if to whisper a secret, but instead, they blow a warm kiss near {target}'s ear.",
+            "{initiator} gently taps {target}'s shoulder to get their attention, and once their eyes meet, {initiator} blows a soft, teasing kiss.",
+            "{initiator} pretends to pluck something from the air, and as they present it to {target}, they blow a tender kiss their way.",
+            "{initiator} catches {target} by surprise, leaning in as if to whisper a secret, but instead, they blow a warm kiss near {target}'s ear.",
         ]
     },
     "mixer_social_Embrace_targeted_romance_middleScore_STC": {
@@ -2635,74 +2952,15 @@ interaction_descriptions = {
             "\"I didn't plan for this, {target}, but I can't help it. I'm falling for you, and I needed you to know,\" {initiator} says, their heart pounding with anticipation."
         ]
     },
-    "CareerLeaveSchoolEarly": {
-        "observation": True,
-        "actions": [
-            "{initiator} leaves school early.",
-        ],
-    },
-    "CareerLeaveWorkEarly": {
-        "observation": True,
-        "actions": [
-            "{initiator} leaves work early.",
-        ],
-    },
-    "computer_Career_Business_FillOutReports": {
-        "observation": True,
-        "actions": [
-            "{initiator} fills out some business reports on the computer for work.",
-        ],
-    },
-    "computer_Career_Business_ResearchStocks": {
-        "observation": True,
-        "actions": [
-            "{initiator} researches stocks on the computer for work.",
-        ],
-    },
-    "computer_Career_Freelancer_Check_For_Gigs": {
-        "observation": True,
-        "actions": [
-            "{initiator} looks on the computer and checks for freelancer gigs.",
-        ],
-    },
-    "computer_JoinCareer": {
-        "observation": True,
-        "actions": [
-            # TODO: Pull career info and log it to memory as a special interaction
-            "{initiator} landed a new job.",
-        ],
-    },
-    "computer_QuitCareer": {
-        "observation": True,
-        "actions": [
-            # TODO: Pull career info and log it to memory as a special interaction
-            "{initiator} quit their job.",
-        ],
-    },
-    # TODO: Handle custom career
-    # "computer_RegisterCustomCareer": {
-    #     "observation": True,
-    #     "actions": [
-    #         # TODO: Pull career info and log it to memory as a special interaction
-    #         "{initiator} registered a custom career.",
-    #     ],
-    # },
-    # TODO: Handle custom career
-    # "computer_UnregisterCustomCareer": {
-    #     "observation": True,
-    #     "actions": [
-    #         # TODO: Pull career info and log it to memory as a special interaction
-    #         "{initiator} unregistered a custom career.",
-    #     ],
-    # },
-    # TODO: Check which interaction this comes from for more context
-    # "mixer_social_Threaten_targeted_mean_career": {}
     "mixer_social_FightSupervillain_targeted_mean_career": {
+        "pre_actions": [
+            "{initiator} fights {target}, who is a super villain."
+        ],
         "actions": [
             "\"{target}, your reign of terror ends here and now!\" {initiator} shouts, fists clenched and ready to fight.",
             "\"{target}, I've had enough of your evil ways. It's time to put a stop to this madness,\" {initiator} says, taking a determined stance.",
             "\"You've caused enough suffering, {target}. I won't let you hurt anyone else,\" {initiator} says, stepping forward to confront the villain.",
-            "\"{initiator} faces {target} and proclaims, \"Your time is up, {target}. I won't let you continue down this path of destruction.\"",
+            "{initiator} faces {target} and proclaims, \"Your time is up, {target}. I won't let you continue down this path of destruction.\"",
             "\"Enough is enough, {target}. I can't stand by and watch you harm innocent people any longer,\" {initiator} says, readying themselves for battle.",
             "\"Your evil deeds come to an end today, {target}. I won't allow you to continue hurting others,\" {initiator} says bravely, preparing for the fight.",
             "\"{target}, I've been waiting for the day I could finally put an end to your wickedness. That day has come,\" {initiator} announces, standing firm.",
@@ -2711,35 +2969,38 @@ interaction_descriptions = {
             "\"I've watched you hurt too many people, {target}. It's time for you to face some justice,\" {initiator} says, standing tall and ready to fight."
         ]
     },
-    "mixer_social_Pickpocket_targeted_mischief_career_household": {
+    "mixer_social_Pickpocket_targeted_mischief_career_household": { #J: I Need to see animation in the game before context - current actions sound more like robbing. Also, what is the distinction between 'career_household" and "career?" (3020 and 3034)
         "actions": [
-            "\"{initiator} slips into {target}'s house, their heart pounding, hoping not to get caught as they take the valuable object.\"",
-            "\"Feeling a rush of adrenaline, {initiator} quickly grabs the item from {target}'s home, hoping their absence goes unnoticed.\"",
-            "\"As {target} steps out of the room, {initiator} seizes the opportunity to swipe the treasured item from their home.\"",
-            "\"Waiting for the perfect moment, {initiator} swipes the precious item from {target}'s house, knowing the consequences if caught.\"",
-            "\"While visiting {target}'s home, {initiator} can't resist the urge to steal something, acting quickly and discreetly.\"",
-            "\"{initiator} feels a mix of excitement and guilt as they take the valuable object from {target}'s house, praying they won't be discovered.\"",
-            "\"In a moment of weakness, {initiator} succumbs to temptation and steals from {target}'s home, hoping to evade detection.\"",
-            "\"{initiator} carefully plans their move, waiting until {target} is preoccupied before stealing the item from their home.\"",
-            "\"Driven by need and desperation, {initiator} steals something from {target}'s house, hoping their friendship can withstand the betrayal.\"",
-            "\"With a sense of urgency, {initiator} swipes the valuable item from {target}'s home, knowing the risks involved but unable to resist the temptation.\""
+            "{initiator} slips into {target}'s house, their heart pounding, hoping not to get caught as they take the valuable object.",
+            "Feeling a rush of adrenaline, {initiator} quickly grabs the item from {target}'s home, hoping their absence goes unnoticed.",
+            "As {target} steps out of the room, {initiator} seizes the opportunity to swipe the treasured item from their home.",
+            "Waiting for the perfect moment, {initiator} swipes the precious item from {target}'s house, knowing the consequences if caught.",
+            "While visiting {target}'s home, {initiator} can't resist the urge to steal something, acting quickly and discreetly.",
+            "{initiator} feels a mix of excitement and guilt as they take the valuable object from {target}'s house, praying they won't be discovered.",
+            "In a moment of weakness, {initiator} succumbs to temptation and steals from {target}'s home, hoping to evade detection.",
+            "{initiator} carefully plans their move, waiting until {target} is preoccupied before stealing the item from their home.",
+            "Driven by need and desperation, {initiator} steals something from {target}'s house, hoping their friendship can withstand the betrayal.",
+            "With a sense of urgency, {initiator} swipes the valuable item from {target}'s home, knowing the risks involved but unable to resist the temptation."
         ]
     },
     "mixer_social_Pickpocket_targeted_mischief_career": {
         "actions": [
-            "\"{initiator} slyly approaches {target}, pretending to bump into them while skillfully slipping their hand into {target}'s pocket.\"",
-            "\"As {target} is distracted by a street performer, {initiator} sees an opportunity and discreetly reaches for {target}'s pocket.\"",
-            "\"{initiator} pretends to be a fan asking {target} for an autograph, using the distraction to pick {target}'s pocket without them realizing.\"",
-            "\"While {target} is engrossed in conversation, {initiator} carefully inches closer and slips their hand into {target}'s pocket, hoping to go unnoticed.\"",
-            "\"{initiator}, disguised as a waiter, approaches {target} with a tray of drinks, using the distraction to pick {target}'s pocket.\"",
-            "\"In the chaos of the crowded marketplace, {initiator} takes advantage of the situation and expertly picks {target}'s pocket.\"",
-            "\"As {target} tries to figure out which way to go, {initiator} approaches them under the guise of offering help, seizing the moment to pick {target}'s pocket.\"",
-            "\"{initiator} bumps into {target} in a crowded subway, using the close proximity to pick {target}'s pocket without raising suspicion.\"",
-            "\"While {target} is busy admiring a breathtaking view, {initiator} quietly approaches them from behind and picks their pocket.\"",
-            "\"{initiator} pretends to trip and fall onto {target}, and in the confusion, manages to pick {target}'s pocket without them noticing."
+            "{initiator} slyly approaches {target}, pretending to bump into them while skillfully slipping their hand into {target}'s pocket.",
+            "As {target} is distracted by a street performer, {initiator} sees an opportunity and discreetly reaches for {target}'s pocket.",
+            "{initiator} pretends to be a fan asking {target} for an autograph, using the distraction to pick {target}'s pocket without them realizing.",
+            "While {target} is engrossed in conversation, {initiator} carefully inches closer and slips their hand into {target}'s pocket, hoping to go unnoticed.",
+            "{initiator}, disguised as a waiter, approaches {target} with a tray of drinks, using the distraction to pick {target}'s pocket.",
+            "In the chaos of the crowded marketplace, {initiator} takes advantage of the situation and expertly picks {target}'s pocket.",
+            "As {target} tries to figure out which way to go, {initiator} approaches them under the guise of offering help, seizing the moment to pick {target}'s pocket.",
+            "{initiator} bumps into {target} in a crowded subway, using the close proximity to pick {target}'s pocket without raising suspicion.",
+            "While {target} is busy admiring a breathtaking view, {initiator} quietly approaches them from behind and picks their pocket.",
+            "{initiator} pretends to trip and fall onto {target}, and in the confusion, manages to pick {target}'s pocket without them noticing."
         ]
     },
     "mixer_social_GiveFakeInvestmentTips_Targeted_Mischief_AlwaysOn_career": {
+        "pre_actions": [
+            "{initiator} gives fake investment tips to {target}."
+        ],
         "actions": [
             "\"{target}, I have a hot tip for you. This investment is going to skyrocket, trust me,\" {initiator} says with a grin.",
             "\"Hey {target}, I overheard some people discussing a surefire investment opportunity. You should definitely get in on it,\" {initiator} suggests, feigning excitement.",
@@ -2778,7 +3039,7 @@ interaction_descriptions = {
             "{initiator} extends their hand for a handshake, their special device hidden from view.",
             "\"{target}, I've been looking forward to this moment,\" {initiator} says, smiling as they reach out to shake {target}'s hand, the device discreetly concealed.",
             "\"Hey, {target}, great to see you,\" {initiator} says, subtly activating the device as they extend their hand for a handshake.",
-            "\"{initiator} offers a friendly handshake to {target}, carefully concealing the secret agent device that would soon take effect.",
+            "{initiator} offers a friendly handshake to {target}, carefully concealing the secret agent device that would soon take effect.",
             "\"{target}! Let's shake on it,\" {initiator} says, preparing to use the special device hidden in their hand.",
         ]
     },
@@ -2800,6 +3061,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_GossipAboutOfficeRomance_Targeted_Friendly_AlwaysOn_Career": {
+        "pre_actions": [
+            "{initiator} gossips about the office romance with {target}, their coworker."
+        ],
         "actions": [
             "\"{target}, have you heard about the latest office romance? It's quite the scandal!\" {initiator} says with a mischievous grin.",
             "\"Hey {target}, did you catch wind of the new couple in the office? I never saw that one coming!\" {initiator} says, raising their eyebrows.",
@@ -2814,6 +3078,9 @@ interaction_descriptions = {
         ]
     },
     "mixer_social_PointOutConstellations_targeted_Friendly_alwaysOn_careers": {
+        "pre_actions": [
+            "{initiator} points out constellations to {target}." #J: What career? Need to check.
+        ],
         "actions": [
             "\"{target}, do you see that group of stars over there?\" {initiator} asks, pointing up at the night sky. \"That's the constellation I wanted to show you.\"",
             "\"Hey {target}, have a look at this,\" {initiator} says, gesturing toward the sky. \"I just spotted Orion's Belt.\"",
@@ -2891,14 +3158,14 @@ interaction_descriptions = {
         "actions": [
             "\"{target}, I've been wanting to try this with someone I trust. Let's do the secret supervillain handshake,\" {initiator} says with excitement.",
             "\"Hey {target}, I've got a fun idea. How about we try this secret handshake I learned? It's supposed to be for supervillains, but I think we can pull it off,\" {initiator} suggests with a grin.",
-            "\"{initiator} smirks at {target} and says, \"You seem like someone who would appreciate a good secret handshake. What do you say? Want to try this supervillain one I know?\"",
-            "\"With a mischievous glint in their eye, {initiator} asks {target}, \"Are you up for learning a secret handshake only known among supervillains? I think it'll be our little inside joke.\"",
+            "{initiator} smirks at {target} and says, \"You seem like someone who would appreciate a good secret handshake. What do you say? Want to try this supervillain one I know?\"",
+            "With a mischievous glint in their eye, {initiator} asks {target}, \"Are you up for learning a secret handshake only known among supervillains? I think it'll be our little inside joke.\"",
             "\"{target}, I bet you've never done a secret supervillain handshake before. Want to give it a try?\" {initiator} says, extending their hand.",
             "\"Let's see if you can keep up with this secret handshake I learned, {target}. It's said to be used by supervillains,\" {initiator} says, challenging {target} playfully.",
-            "\"{initiator} playfully nudges {target} and says, \"I've got something fun for us to try. It's a secret supervillain handshake, but don't worry, I think we can handle it.\"",
+            "{initiator} playfully nudges {target} and says, \"I've got something fun for us to try. It's a secret supervillain handshake, but don't worry, I think we can handle it.\"",
             "\"Hey {target}, I think we should have our own secret handshake. How about this one I found? They say it's a supervillain's handshake, but I think it suits us,\" {initiator} proposes with a wink.",
             "\"I came across this secret supervillain handshake, {target}, and I thought of you immediately. Want to learn it together?\" {initiator} asks enthusiastically.",
-            "\"{initiator} looks at {target} and says, \"You know what we're missing? A secret handshake. I found this one that's supposedly a supervillain's secret. Let's try it!\""
+            "{initiator} looks at {target} and says, \"You know what we're missing? A secret handshake. I found this one that's supposedly a supervillain's secret. Let's try it!\""
         ]
     },
     "mixer_social_ExposeSupervillain_targeted_mean_career": {
@@ -2946,14 +3213,14 @@ interaction_descriptions = {
     "mixer_social_ImitateBoss_Targeted_Funny_AlwaysOn_Career": {
         "actions": [
             "\"{target}, check this out,\" {initiator} says with a grin, \"This is our boss when he's giving a lecture.\" {initiator} proceeds to imitate their boss hilariously.",
-            "\"{initiator} leans in close to {target} and whispers, \"Watch this, I've been practicing my impression of the boss. What do you think?\" {initiator} then impersonates the boss, making {target} laugh.",
+            "{initiator} leans in close to {target} and whispers, \"Watch this, I've been practicing my impression of the boss. What do you think?\" {initiator} then impersonates the boss, making {target} laugh.",
             "\"Hey {target}, wanna see something funny?\" {initiator} asks, before launching into a spot-on imitation of their boss, causing both of them to giggle.",
-            "\"{initiator} suddenly adopts the boss's mannerisms and tone of voice, saying to {target}, \"I expect those reports on my desk by Friday!\" Both characters burst out laughing at the uncanny impression.",
+            "{initiator} suddenly adopts the boss's mannerisms and tone of voice, saying to {target}, \"I expect those reports on my desk by Friday!\" Both characters burst out laughing at the uncanny impression.",
             "\"Remember when the boss said this?\" {initiator} asks {target}, before flawlessly imitating their boss's most memorable quote, making {target} chuckle.",
-            "\"{initiator} turns to {target} with a smirk and says, \"So, {target}, have I ever shown you my impression of the boss?\" {initiator} then proceeds to imitate the boss, leaving {target} in stitches.",
+            "{initiator} turns to {target} with a smirk and says, \"So, {target}, have I ever shown you my impression of the boss?\" {initiator} then proceeds to imitate the boss, leaving {target} in stitches.",
             "\"Hey {target}, you know how our boss always says that one thing? Check this out,\" {initiator} says, before imitating the boss's catchphrase and mannerisms, making {target} laugh.",
-            "\"{initiator} casually says to {target}, \"I've been working on this for a while, tell me what you think,\" and then proceeds to hilariously mimic their boss, causing {target} to burst out laughing.",
-            "\"{initiator} catches {target}'s eye and, with a mischievous grin, starts imitating their boss's distinctive walk and speech, making {target} snicker.",
+            "{initiator} casually says to {target}, \"I've been working on this for a while, tell me what you think,\" and then proceeds to hilariously mimic their boss, causing {target} to burst out laughing.",
+            "{initiator} catches {target}'s eye and, with a mischievous grin, starts imitating their boss's distinctive walk and speech, making {target} snicker.",
             "\"Watch closely, {target}, this is my masterpiece,\" {initiator} announces, before launching into a hilarious imitation of their boss that leaves {target} doubled over with laughter."
         ]
     },
@@ -2999,22 +3266,1196 @@ interaction_descriptions = {
             "\"I trust you, {target}, but I need you to understand the importance of not discussing the crime club with anyone. Can you promise me that?\" {initiator} asks earnestly."
         ],
     },
-    "mixer_social_AskAbout_PrizedPossessions_mischief_alwaysOn_trait"
-        "pre_actions":[
-           '{initiator} mischievously asks {target} about their prized possessions.',
+    "mixer_social_AskAbout_PrizedPossessions_mischief_alwaysOn_trait": {
+        "pre_actions": [
+            '{initiator} mischievously asks {target} about their prized possessions.',
         ],
         'actions': [
-            '"So, {target}, what are your most prized possessions?\" {initiator} asks with a mischievous grin.',
+            '"So, {target}, what are your most prized possessions?" {initiator} asks with a mischievous grin.',
             '{initiator} playfully nudges {target} and says, "Come on, spill the beans! What are your most treasured belongings?',
-            'With a twinkle in their eye, {initiator} leans in and whispers, \"Tell me, {target}, what do you hold most dear in this world?"',
+            'With a twinkle in their eye, {initiator} leans in and whispers, "Tell me, {target}, what do you hold most dear in this world?"',
             '{initiator} smirks and teases, "You know, {target}, I\'m dying to know what you value the most. Care to share?',
             'Curiosity piqued, {initiator} leans closer to {target} and inquires, "So, what\'s the one thing you can\'t live without, {target}?',
-            '{initiator} playfully prods {target} and asks, \"Hey, {target}, what\'s your secret stash of prized possessions?",'
-            'Eagerly, {initiator} asks {target}, \"Do you have any special items that hold a special place in your heart?"',
+            '{initiator} playfully prods {target} and asks, "Hey, {target}, what\'s your secret stash of prized possessions?",'
+            'Eagerly, {initiator} asks {target}, "Do you have any special items that hold a special place in your heart?"',
             'With a sly grin, {initiator} challenges {target}, "I bet you have some hidden treasures. Care to divulge?',
-            '{initiator} raises an eyebrow and says, \"I have a feeling you\'ve got some interesting prized possessions. Care to enlighten me, {target}?',
+            '{initiator} raises an eyebrow and says, "I have a feeling you\'ve got some interesting prized possessions. Care to enlighten me, {target}?',
             '{initiator} leans back, smirking, and says, "Okay, {target}, spill the beans. What\'s your most prized possession?"',
         ],
+    },
+    # This is the interaction that runs right when a Sim starts to walk away towards an exit
+    "NPCLeaveLotNow_NPC_WaveGoodBye": {
+        "observations": [
+            "{initiator} waves goodbye and leaves.",
+        ],
+        "filters": [
+            SimInMemories(memory_depth=30),
+            HasNotHappened(memory_depth=5),
+        ],
+    },
+    # This is the interaction that runs right when a Sim leaves a lot
+    "NPCLeaveLot_Player_WaveGoodBye": {
+        "ignored": True,
+    },
+    "npc_leave_lot_now": {
+        "ignored": True,
+    },
+    "bar_OrderDrink": {
+        "observations": [
+            "{initiator} orders a drink from {target} at the bar.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim-stand": {
+        "observations": [
+            "{initiator} stands up.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "seating_sit_CTYAE": {
+        "observations": [
+            "{initiator} sits down.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Drink_Active": {
+        "observations": [
+            "{initiator} takes a swig their drink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Drink_Passive": {
+        "observations": [
+            "{initiator} takes a swig their drink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "bar_OrderChips": {
+        "observations": [
+            "{initiator} orders some chips from {target} at the bar.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=2),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "toilet-use-sitting": {
+        "observations": [
+            "{initiator} uses the toilet.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Toilet_Use_Action": {
+        "observations": [
+            "{initiator} uses the toilet.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_TalkToSelf": {
+        "observations": [
+            "{initiator} talks to themself.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "autonomous_ObjectPicker_Insane_TalkToObjects": {
+        "observations": [
+            "{initiator} talks to objects in the room like a crazy person.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sink_washHands": {
+        "observations": [
+            "{initiator} washes their hands in the sink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=2),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sink_create": {
+        "observations": [
+            "{initiator} grabs some water from the sink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=2),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sink_BrushTeeth": {
+        "observations": [
+            "{initiator} brushes their teeth in the sink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mirror_GussyUp": {
+        "observations": [
+            "{initiator} freshens up in the mirror.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=2),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "toilet-use-standing": {
+        "observations": [
+            "{initiator} uses the toilet while standing up.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "super_SitOnGround_CrossLegged": {
+        "observations": [
+            "{initiator} sits on the ground cross legged.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=2),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Collect_Dish": {
+        "observations": [
+            "{initiator} picks up a dish.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sink_washDishes": {
+        "observations": [
+            "{initiator} washes a dish in the sink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "coffeeMaker_MakeRecipe_Start_OneShot_Basic": {
+        "observations": [
+            "{initiator} starts to a make a single serve cup of coffee.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "brew_WaitFor_Pot": {
+        "observations": [
+            "{initiator} waits for the coffee to brew.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "coffeeMaker_Grab": {
+        "observations": [
+            "{initiator} grabs a cup of coffee.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "drink_Coffee_Generic_Consume": {
+        "observations": [
+            "{initiator} takes a sip from their coffee.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "stereo_danceActive": {
+        "observations": [
+            "{initiator} dances.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "stereo_Dance": {
+        "observations": [
+            "{initiator} dances.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "generic_Dance": {
+        "observations": [
+            "{initiator} dances.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "stereo_dancePassive": {
+        "observations": [
+            "{initiator} dances.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "stereo_Dance_WallSpeaker": {
+        "observations": [
+            "{initiator} dances.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "terrain-jog": {
+        "observations": [
+            "{initiator} starts jogging around.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "WorkoutMachine_legLifts": {
+        "observations": [
+            "{initiator} does leg lifts on the workout machine.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=2),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "WorkoutMachine_pullDowns": {
+        "observations": [
+            "{initiator} does some pulldowns on the workout machine.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=2),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "WorkoutMachine_flys": {
+        "observations": [
+            "{initiator} does some flys on the workout machine.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=2),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_DrinkEnergyJuice": {
+        "observations": [
+            "{initiator} takes a sip of energy juice.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=2),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "treadmill_action1": {
+        "observations": [
+            "{initiator} runs on the treadmill.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "treadmill_action2": {
+        "observations": [
+            "{initiator} runs on the treadmill.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_HygieneDistress": {
+        "observations": [
+            "{initiator} starts to feel uncomfortable because they haven't showered and they are stinky.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "punchingBag_Passive": {
+        "observations": [
+            "{initiator} punches the punching bag.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "dresser_ChangeIntoTowel": {
+        "observations": [
+            "{initiator} removes their clothes and wraps a towel around their waist.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "dresser_ChangeOutOfTowel": {
+        "observations": [
+            "{initiator} removes the towel from their waist and changes back into their clothes.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "shower_TakeShower_Steamy": {
+        "observations": [
+            "{initiator} takes a steamy shower and feels flirty when they get out.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "object_Repair_Shower": {
+        "observations": [
+            "{initiator} grabs some tools and fixes the issue with the shower.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "trash_salvage_scavenge": {
+        "observations": [
+            "{initiator} scavanges the trash pile looking for parts.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "shower_TakeShower_ColdShower": {
+        "observations": [
+            "{initiator} takes a cold shower.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "shower_TakeShower_Brisk": {
+        "observations": [
+            "{initiator} takes a brisk shower.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "shower_TakeShower_Energized": {
+        "observations": [
+            "{initiator} takes a speedy energizing shower.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "shower_TakeShower_Thoughtful": {
+        "observations": [
+            "{initiator} takes a thoughtful shower and feels inspired when they get out.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "seating_Sit": {
+        "observations": [
+            "{initiator} sits down.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_doSitUpsAutonomously": {
+        "observations": [
+            "{initiator} does situps.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_doPushUpsAutonomously": {
+        "observations": [
+            "{initiator} does pushups.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_doPushUps_NPCSituation": {
+        "observations": [
+            "{initiator} does pushups.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "socialMixer_Greetings_Wave": {
+        "observations": [
+            "{initiator} waves at {target}.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mixer_Fireplace_WarmSelf": {
+        "observations": [
+            "{initiator} warms themself by the fireplace.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=8),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Idle_Chatting_STC": {
+        "observations": [
+            "{initiator} idly chats with {target}.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=8),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Emotion_Idle": {
+        "ignored": True,
+    },
+    "SocialPickerSI": {
+        "ignored": True,
+    },
+    "social_adjustment": {
+        "ignored": True,
+    },
+    "mixer_social_NPC_greetings": {
+        "observations": [
+            "{initiator} greets {target}.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "idle_Buff_EnvironmentScore_Positive": {
+        "observations": [
+            "{initiator} is enjoying themselves being here.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_Chat": {
+        "observations": [
+            "{initiator} chats with {target}.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "idle_Chatting_ListenWithPhone_STC": {
+        "observations": [
+            "{initiator} messes with their phone while idly chatting with {target}.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_doStretching": {
+        "observations": [
+            "{initiator} stretches.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "phone_BrowseWebsites": {
+        "observations": [
+            "{initiator} browses the internet on their phone.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "phone_BrowseWebsites_AutonomousOnly": {
+        "observations": [
+            "{initiator} browses the internet on their phone.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "bar_StartPracticeTricks_CreateShaker": {
+        "observations": [
+            "{initiator} grabs a cocktail shaker to practice bar tricks.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "si_touching_Greeting_Handshake": {
+        "observations": [
+            "{initiator} shakes hands with {target}.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sit_Passive": {
+        "ignored": True,
+    },
+    "bar_Tend_Passive": {
+        "ignored": True,
+    },
+    "bar_Tend_Active": {
+        "ignored": True,
+    },
+    "bar_CreateGlass": {
+        "observations": [
+            "{initiator} grabs a glass to make a drink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=3),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Bar_Pour_Basic": {
+        "observations": [
+            "{initiator} pours some liquid in the glass.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=3),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Bar_Add_Ice": {
+        "observations": [
+            "{initiator} adds ice to the glass.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=3),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Bar_Crafting_MakeDrink_Idles": {
+        "ignored": True,
+    },
+    "Bar_EmotionResponse": {
+        "ignored": True,
+    },
+    "Bar_Stir_Basic": {
+        "observations": [
+            "{initiator} stirs the drink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=3),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "bar_ServerToSitDrinkSlot": {
+        "observations": [
+            "{initiator} sets the drink on the counter to serve it.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=3),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "bar_WaitForDrink": {
+        "observations": [
+            "{initiator} waits for their drink to be made.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=3),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mirror_SelfPepTalk": {
+        "observations": [
+            "{initiator} gives themselves a pep talk in the mirror.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mirror_SelfPepTalk1": {
+        "observations": [
+            "{initiator} gives themselves a pep talk in the mirror.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mirror_SelfPepTalk2": {
+        "observations": [
+            "{initiator} gives themselves a pep talk in the mirror.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mirror_SelfPepTalk3": {
+        "observations": [
+            "{initiator} gives themselves a pep talk in the mirror.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mirror_SelfPepTalk4": {
+        "observations": [
+            "{initiator} gives themselves a pep talk in the mirror.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mirror_SelfPepTalk5": {
+        "observations": [
+            "{initiator} gives themselves a pep talk in the mirror.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "bar_NonCrafting_Passive": {
+        "ignored": True,
+    },
+    "generic_BarMakeDrink": {
+        "ignored": True,
+    },
+    "GoHomeAndAttendWork": {
+        "observations": [
+            "{initiator} leaves to go home to attend work.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "phone_PlayGames_AutonomousOnly": {
+        "observations": [
+            "{initiator} idly plays a game on their phone.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "stand_Passive": {
+        "ignored": True,
+    },
+    "bar_PushOrderDrink_Autonomous": {
+        "observations": [
+            "{initiator} walks to the bar and orders a drink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Bar_BottleStack_Basic": {
+        "observations": [
+            "{initiator} does a bar trick stacking multiple bottles on top of each other.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "socials_Romance_AutonomousOnly_STC": {
+        "observations": [
+            "{initiator} romantically chats with {target}.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "bar_ChooseDelivery": {
+        "ignored": True,
+    },
+    "generic_consume_drink_bar": {
+        "observations": [
+            "{initiator} sitting at the bar takes a swig of their drink.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "NPC_WalkBys_LeaveArea": {
+        "observations": [
+            "{initiator} walks by as they leave the area.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_Carry_Object_Book": {
+        "observations": [
+            "{initiator} picks up a book.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "GoHomeAndAttendSchool": {
+        "observations": [
+            "{initiator} heads home so they can attend school.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mixer_AtWork_SocializeWithCoworkers": {
+        "observations": [
+            "{initiator} socializes with some coworkers at work.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mixer_AtWork_EatMeal": {
+        "observations": [
+            "{initiator} eats a meal at work.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "bed_Autonomous_SingleBed_Nap": {
+        "observations": [
+            "{initiator} jumps in the narrow single bed to take a nap.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "npc_leave_lot_now_must_run_ss3_request": {
+        "ignored": True,
+    },
+    "bed_Nap": {
+        "observations": [
+            "{initiator} continues to nap on the bed.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "fridge_CookAutonomously": {
+        "observations": [
+            "{initiator} opens the fridge to make something.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "fridge_CreateTray": {
+        "observations": [
+            "{initiator} creates a tray of items from the fridge.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Counter_CuttingBoard_Chop_Tomato": {
+        "observations": [
+            "{initiator} chops up a tomato.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Counter_MixingBowl_Toss_Basic": {
+        "observations": [
+            "{initiator} tosses the food in the mixing bowl.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "counter_MakeFood_Staging_Basic": {
+        "observations": [
+            "{initiator} tosses the food in the mixing bowl.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Food_Eat_Active": {
+        "observations": [
+            "{initiator} eats their food.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Food_Eat_Passive": {
+        "observations": [
+            "{initiator} eats their food.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Cooking_Shared_Passive_Basic": {
+        "ignored": True,
+    },
+    "generic_cook": {
+        "ignored": True,
+    },
+    "generic_consume_food": {
+        "ignored": True,
+    },
+    "SleepMixer_Dream": {
+        "observations": [
+            "{initiator} has a dream while they are sleeping.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sleep_Passive": {
+        "ignored": True,
+    },
+    "generic_Bed_Sleep": {
+        "ignored": True,
+    },
+    "bed_sleep": {
+        "ignored": True,
+    },
+    "generic_ToiletSit": {
+        "ignored": True,
+    },
+    "autonomous_ObjectPicker_CollectDishes": {
+        "observations": [
+            "{initiator} picks up the dishes left out.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "fridge_GrabSnackAutonomously": {
+        "observations": [
+            "{initiator} grabs a snack out of the fridge.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "fridge_CreateSnackAndConsume_Generic": {
+        "observations": [
+            "{initiator} eats their snack out of the fridge.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "reaction_SmellBad": {
+        "observations": [
+            "{initiator} smells a bad smell.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "autonomous_bookshelf_read_picker": {
+        "observations": [
+            "{initiator} grabs a book off the bookshelf to read.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Book_Read_Active": {
+        "observations": [
+            "{initiator} reads a book.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Book_Read_Passive": {
+        "observations": [
+            "{initiator} reads a book.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Autonomous_Generic_Book_Read_TYAE": {
+        "observations": [
+            "{initiator} reads a book.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "mixer_AtWork_Default": {
+        "ignored": True,
+    },
+    "npc_leave_lot_now_must_run": {
+        "ignored": True,
+    },
+    "si_Career_Astronaut": {
+        "observations": [
+            "{initiator} finishes their day at work.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim-standExclusive": {
+        "ignored": True,
+    },
+    "idle_Fun": {
+        "observations": [
+            "{initiator} feels like they could use some fun.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "idle_Hygiene": {
+        "observations": [
+            "{initiator} feels dirty and wants to freshen up.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "autonomous_Bookshelf_Browse_Picker": {
+        "ignored": True,
+    },
+    "FishingLocation_Cast_Dock": {
+        "observations": [
+            "{initiator} is on the dock and casts their fishing line.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Idle_Age_Teen": {
+        "ignored": True,
+    },
+    # TODO: Special consideration here
+    # "door_RingDoorbell": {
+    #     "observations": [
+    #         "{initiator} rings the doorbell.",
+    #     ],
+    #     "filters": [
+    #         HasNotHappened(memory_depth=10),
+    #         InitiatorIsActiveSim(),
+    #     ],
+    # },
+    "Put_Away_Books": {
+        "observations": [
+            "{initiator} puts away the books.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "book_read_browse": {
+        "observations": [
+            "{initiator} flips through the book quickly and skims the pages.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "idle_Buff_SimPreference_Likes_Activities_Cooking": {
+        "observations": [
+            "{initiator} is enjoying cooking.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "seating_sit_Bed_SitOnly_NotVisible": {
+        "observations": [
+            "{initiator} sits down on the bed.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "seating_Sit_Bed_YAE": {
+        "observations": [
+            "{initiator} sits down on the bed.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "sim_BeAffectionate": {
+        "observations": [
+            "{initiator} is affectionate to {target}.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Collect_Dish_As_Trash": {
+        "observations": [
+            "{initiator} picks up a dish and throws it in the trash.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Collect_Dish_As_Trash_Continuation": {
+        "observations": [
+            "{initiator} picks up a dish and throws it in the trash.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "autonomous_ObjectPicker_CollectDishesAsTrash": {
+        "observations": [
+            "{initiator} picks up a dish and throws it in the trash.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Throw_Away_Indoor": {
+        "observations": [
+            "{initiator} throws the trash in the wastebasket.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=5),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Idle_Trait_Romantic": {
+        "observations": [
+            "{initiator} is enjoying being romantic.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Empty_Trash": {
+        "observations": [
+            "{initiator} empties the wastebasket.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
+    "Throw_Away_Outdoor": {
+        "observations": [
+            "{initiator} throws the trash in the outdoor garbage bin.",
+        ],
+        "filters": [
+            HasNotHappened(memory_depth=10),
+            InitiatorIsActiveSim(),
+        ],
+    },
 }
 
 if __name__ == '__main__':

@@ -3281,6 +3281,7 @@ interaction_descriptions = {
             "{initiator} raises an eyebrow and says, \"I have a feeling you've got some interesting prized possessions. Care to enlighten me, {target}?\"",
             "{initiator} leans back, smirking, and says, \"Okay, {target}, spill the beans. What's your most prized possession?\"",
         ],
+    },
     # This is the interaction that runs right when a Sim starts to walk away towards an exit
     "NPCLeaveLotNow_NPC_WaveGoodBye": {
         "observations": [

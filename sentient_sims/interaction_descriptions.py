@@ -111,7 +111,7 @@ interaction_descriptions = {
         "pre_actions": [
             "{initiator} complains to {target} about their mundane problems.",
         ],
-        "actions": [
+        "actions": [ #J: consider removing actions
             "{initiator} sighed heavily, \"My job sucks,\" they began,\"",
             "\"I hate doing laundry. It's such a chore, and I never seem to have enough time for it.\", {initiator} began,\"",
             "\"I've been trying to eat healthier, but all the healthy food is so expensive.\", {initiator} began,\"",
@@ -204,7 +204,7 @@ interaction_descriptions = {
             "\"I've recently discovered this amazing French bistro in town, {target}. I thought you might be interested in hearing about it,\" {initiator} suggests with a smile.",
             "\"{target}, I've been experimenting with cooking lately and I've come across some extraordinary recipes. I thought you might want to exchange some ideas,\" {initiator} says, hoping to spark a conversation about fine cuisine.",
             "\"I've been reading a book about the history of gastronomy, {target}, and I can't help but share some fascinating facts with you,\" {initiator} begins the conversation, eager to discuss fine cuisine.",
-            "\"{target}, I've just returned from a trip to Italy where I had the most amazing food. I can't stop raving about it. Care to hear more?\" {initiator} asks, hoping to engage {target} in a conversation about fine cuisine.",
+            "\"{target}, I've just returned from a trip to Italy where I had the most amazing food. I can't stop raving about it. Care to hear more?\" {initiator} asks, eager to share.",
             "\"I'm planning to host a dinner party and I want to create a menu that will blow everyone away. {target}, do you have any suggestions for a gourmet meal?\" {initiator} asks, seeking {target}'s expertise in fine cuisine.",
             "\"{target}, I recently tried this incredible fusion restaurant that combines different culinary traditions. I thought you might find it intriguing,\" {initiator} says, initiating a conversation about fine cuisine.",
             "\"{target}, I've been watching this cooking show that features world-renowned chefs. I can't get enough of it. Do you have any favorite chefs?\" {initiator} asks, hoping to discuss fine cuisine with {target}.",
@@ -217,16 +217,17 @@ interaction_descriptions = {
             "{initiator} begins to rudely introduce themselves to {target}.",
         ],
         "actions": [
-            "\"{target}, prepare yourself for the most unpleasant introduction you've ever experienced,\" {initiator} says with a smug grin.",
-            "\"I hope you're ready to be insulted, {target}, because that's exactly what I'm about to do,\" {initiator} says, rolling their eyes.",
-            "\"Listen up, {target}, because I'm about to give you a taste of my signature rudeness,\" {initiator} declares, crossing their arms.",
-            "\"{target}, I'm about to show you just how rude I can be. Brace yourself,\" {initiator} warns, with a mocking tone.",
-            "\"I apologize in advance, {target}, but I have a knack for making introductions as rude as possible,\" {initiator} says, not sounding apologetic at all.",
-            "\"Prepare to be offended, {target}, because I'm about to unleash my rudeness upon you,\" {initiator} says, enjoying their own audacity.",
-            "\"{target}, get ready for the most obnoxious introduction of your life,\" {initiator} says, smirking as if they were proud of their rudeness.",
-            "\"I'm about to break every rule of politeness, {target}, so consider yourself warned,\" {initiator} says, with a mischievous glint in their eyes.",
-            "\"{target}, you're about to witness the epitome of rudeness. Don't say I didn't warn you,\" {initiator} says, with a hint of amusement.",
-            "\"{target}, I must warn you, my introduction is going to be incredibly rude. Brace yourself,\" {initiator} says, with a wicked grin."
+            "\"Well, look at you, the very embodiment of unexceptional. I'm {initiator}, an entity so extraordinary, I might as well be from a different planet.\"",
+            "\"Hope you have a sturdy ego, {target}. I'm {initiator}, and you've just stepped into the orbit of a someone with enough charisma to make Casanova look like an awkward teenager.\"",
+            "\"Try not to pass out from excitement, I'm {initiator}. Compared to me, even interesting people seem boring.\"",
+            "\"Oh great, another interaction. Well, I'm {initiator} and, in case you're wondering, yes, my company is as delightful as my sarcasm.\"",
+            "\"Here's a warning: your mundane life is about to get a reality check. I'm {initiator}, and I'm about as cheerful as a migraine at a concert.\"",
+            "\"Brace yourself. You're talking to {initiator}, the person your parents warned you about.\"",
+            "\"Welcome to the most scintillating conversation of your day. I'm {initiator}, the one person in this town who knows how to hold a thought.\"",
+            "\"I see you're enjoying mediocrity. Allow me to introduce myself, I'm {initiator}. Yes, I'm as delightful as I sound.\"",
+            "\"Try not to look too starstruck. I'm {initiator}, the person whose worst day would be the highlight of your week.\"",
+            "\"Boring person, rejoice! I'm here. I'm {initiator}, the most interesting thing to happen to this place since, well, ever.\"",
+            "\"Well, isn't this underwhelming? You get to meet me, and I get... you. I'm {initiator}, by the way, the person who's already regretting this conversation.\"",
         ],
     },
     'mixer_social_Flirt_targeted_romance_alwaysOn': {
@@ -3425,7 +3426,7 @@ interaction_descriptions = {
             "\"{target}, you always manage to look so put-together and fashionable. Your outfit today is no exception. You look absolutely fabulous,\" {initiator} compliments, genuinely."
         ]
     },
-    "mixer_Social_GetToKnow_Friendly_STC": {
+    "mixer_Social_GetToKnow_Friendly_STC": { #J: Having issue where {target}'s name does not pop up
         "pre_actions": [
             "{initiator} starts a conversation with {target}, in order to get to know them better."
         ],
@@ -4919,7 +4920,7 @@ interaction_descriptions = {
             "\"{target}, life is an incredible journey, and I want to walk it hand in hand with you. Will you marry me and embark on this adventure together?\" {initiator} asks, their heart full of love."
         ]
     },
-    "mixer_social_ProposeCrazyScheme_targeted_friendly_emotionSpecific": {
+    "mixer_social_ProposeCrazyScheme_targeted_friendly_emotionSpecific": { #J: Having issue where {target}'s name does not pop up
         "pre_actions": [
             "{initiator} proposes a crazy scheme to {target}."
         ],
@@ -5942,6 +5943,961 @@ interaction_descriptions = {
             "\"{target}, I've been feeling so sore lately. Do you think you could give me a Swedish massage?\" {initiator} asks, rubbing their shoulders.",
             "\"You seem to have magical hands, {target}. Would you mind giving me a Swedish massage?\" {initiator} asks, looking hopeful.",
             "\"{target}, I've been hearing great things about your massage skills. Would you be willing to give me a Swedish massage?\" {initiator} asks, trying to hide their nervousness."
+        ]
+    },
+    "mixer_social_AskAboutDay_targeted_Friendly_alwaysOn_Toddler": {
+        "pre_actions": [
+            "{initiator} asks {target}, who is a toddler, about their day."
+        ],
+        "actions": [
+            "\"Hey there, little one! How was your day?\" {initiator} asks, crouching down to {target}'s level.",
+            "\"Did you have a fun day, {target}? Tell me all about it!\" {initiator} says, smiling warmly.",
+            "\"Hey buddy, what did you do today? I'm so curious!\" {initiator} asks, with genuine interest in {target}'s response.",
+            "\"Hey cutie, did you have a good day? I want to hear all the details!\" {initiator} says, playfully.",
+            "\"Hey {target}, what exciting things happened today? I can't wait to hear!\" {initiator} asks, eagerly.",
+            "\"Did you have a busy day, {target}? I can't wait to hear about all the things you did!\" {initiator} says, encouragingly.",
+            "\"Hey champ, how was your day? I bet it was full of adventure!\" {initiator} says, giving {target} a wink.",
+            "\"Hey little one, tell me, what was the best part of your day today?\" {initiator} asks, patiently waiting for {target}'s response.",
+            "\"Hey {target}, did anything funny happen today? I'm all ears!\" {initiator} says, chuckling softly.",
+            "\"Hey buddy, I missed you today! What did you do while I was away?\" {initiator} asks, excitedly."
+        ]
+    },
+    "mixer_social_AskAboutSchool_targeted_friendly_alwaysOn_child": {
+        "pre_actions": [
+            "{initiator} asks {target}, who is a child, about how school is going."
+        ],
+        "actions": [
+            "\"So, {target}, how's school going? Making lots of friends?\" {initiator} asks with a warm smile.",
+            "\"I'm curious, {target}, how are you finding school? Is it everything you expected?\" {initiator} inquires kindly.",
+            "\"Hey {target}, can you tell me about your school? I want to know all about it!\" {initiator} asks excitedly.",
+            "\"I hope school is treating you well, {target}. How are your classes going?\" {initiator} asks with genuine interest.",
+            "\"Tell me, {target}, what's your favorite subject in school? I'm really curious,\" {initiator} asks, leaning in attentively.",
+            "\"Hey {target}, I've been meaning to ask you this - how's school been treating you? Any favorite teachers?\" {initiator} asks, curious to know more.",
+            "\"School can be a little overwhelming sometimes, but I'm here if you ever need someone to talk to, {target}. How's it going for you?\" {initiator} asks, offering support.",
+            "\"{target}, I'm really interested to know - what's your favorite part about going to school?\" {initiator} asks, eager to hear their response.",
+            "\"School can be a rollercoaster, {target}. Care to share any funny or interesting stories with me?\" {initiator} asks, a mischievous twinkle in their eyes.",
+            "\"I know school can be tough, {target}, but remember that you're doing great. Anything you want to talk about?\" {initiator} asks, ready to listen."
+        ]
+    },
+        "mixer_social_AskAboutWooHoo_targeted_Friendly_alwaysOn_teen": {
+            "pre_actions": [
+                "{initiator}, speaking as a teen asks {target}, an adult, about sex."
+            ],
+        "actions": [
+            "\"Um, excuse me, {target}, can I ask you something about... um... sex?\" {initiator} asks nervously, avoiding eye contact.",
+            "\"I've been curious about something, {target}, and I thought you might be able to help me understand. Can we talk about sex?\" {initiator} asks tentatively.",
+            "\"I know this might be awkward, but as a teenager, I have a lot of questions about sex. Can we have a conversation about it, {target}?\" {initiator} says, blushing.",
+            "\"I hope you don't mind me asking, {target}, but I've been wondering about sex lately. Can you share your knowledge with me?\" {initiator} says, feeling a mix of embarrassment and curiosity.",
+            "\"{target}, as an adult, I trust your judgment and knowledge. Can we have an open discussion about sex? I have some questions I'd like to ask,\" {initiator} says, trying to sound mature.",
+            "\"I know this is a sensitive topic, but I feel comfortable talking to you, {target}. Can we discuss sex and the things I should know?\" {initiator} asks, slightly anxious.",
+            "\"Sex is often portrayed differently in the media, {target}, and I'm curious to learn the reality behind it. Can we talk about sex openly?\" {initiator} asks, seeking guidance.",
+            "\"I've been hearing a lot of things about sex from friends, {target}, but I want to know the truth. Can you help me navigate through this topic?\" {initiator} asks, looking for guidance.",
+            "\"Talking about sex can be uncomfortable, {target}, but as a teenager, I want to be informed. Can we have an honest conversation about it?\" {initiator} says, hoping for understanding.",
+            "\"{target}, I feel a bit clueless about sex, but I trust you enough to guide me. Can we have a conversation about it, without any judgment?\" {initiator} asks, seeking guidance."
+        ]
+    },
+    "mixer_social_AskForTypingTips_targeted_Friendly_alwaysOn_child_skill": {
+        "pre_actions": [
+            "{initiator}, speaking as a child, asks {target}, an adult, for typing tips."
+        ],
+        "actions": [
+            "\"{target}, can you show me how to type properly? I want to be as fast as you!\" {initiator} asks excitedly, holding up their tiny fingers.",
+            "\"I wish I could type like you, {target}. Can you teach me the secrets of typing?\" {initiator} asks innocently, looking up at {target}.",
+            "\"{target}, do you think you could give me some tips on typing? I want to impress everyone with my skills!\" {initiator} asks, bouncing with enthusiasm.",
+            "\"Hey {target}, I noticed you type really fast. Can you teach me how to do it too?\" {initiator} asks, looking up at {target} with admiration.",
+            "\"Can you believe it, {target}? I'm just starting to learn how to type. Can you give me some pointers?\" {initiator} asks, eagerly awaiting {target}'s response.",
+            "\"{target}, I heard you're the best at typing. Can you share some of your secrets with me?\" {initiator} asks, trying to mimic {target}'s typing posture.",
+            "\"{target}, could you do me a favor? Can you teach me how to type like a pro?\" {initiator} asks earnestly, hoping {target} will agree.",
+            "\"I want to improve my typing skills, {target}, and I thought maybe you could give me some tips. What do you think?\" {initiator} asks, looking hopeful.",
+            "\"{target}, I've been struggling with typing lately. Do you have any suggestions or tips that could help me?\" {initiator} asks, looking for guidance.",
+            "\"Hey {target}, do you mind showing me some typing tricks? I want to become a typing wizard!\" {initiator} asks with a mischievous smile."
+        ]
+    },
+    "mixer_social_AskImpossibleRiddle_targeted_mischief_alwaysOn_child_skills": {
+        "pre_actions": [
+            "{initiator}, speaking as a mischevious child, asks {target}, an adult, to solve an impossible riddle."
+        ],
+        "actions": [
+            "\"Hey {target}, I've got a riddle for you. I bet you can't solve it,\" {initiator} says with a mischievous glint in their eye.",
+            "\"Psst, {target}, can you do the impossible? I've got a riddle that will stump even the smartest adults,\" {initiator} whispers excitedly.",
+            "\"{target}, I challenge you to solve this riddle. But don't get your hopes up, I've stumped all the adults so far,\" {initiator} taunts playfully.",
+            "\"Hey {target}, I've got a riddle that's been puzzling everyone. Wanna give it a try? Think carefully,\" {initiator} suggests, a mischievous smile lingering on their lips.",
+            "\"Hey, hey {target}! Can you solve this riddle? I've been asking everyone, but so far no one has cracked it,\" {initiator} says, bouncing on their toes with excitement.",
+            "\"Watch out, {target}, I've got a brain teaser that's going to blow your mind! Any takers?\" {initiator} challenges, grinning mischievously.",
+            "\"Hey {target}, I've got an impossible riddle for you. Care to take a shot? Be warned, it's left everyone scratching their heads,\" {initiator} teases, eyes twinkling with mischief.",
+            "\"Psst, {target}, you want to prove your smarts? I've got a riddle that's practically unsolvable. Think you're up for the challenge?\" {initiator} asks, a sly smirk on their face.",
+            "\"Hey {target}, I've got a riddle that's got everyone stumped. But you know, maybe you're different. Wanna give it a go?\" {initiator} challenges, a mischievous glimmer in their eyes.",
+            "\"Think you're up for a challenge, {target}? I've got a riddle that's driven grown-ups crazy. Care to test your skills?\" {initiator} asks, barely able to conceal their amusement."
+        ]
+    },
+    "mixer_social_AskToSprayForMonsterUnderBed_Friendly_AlwaysOn_Child": {
+        "pre_actions": [
+            "{initiator}, speaking as a scared child, asks {target}, an adult, to spray for the monster under their bed."
+        ],
+        "actions": [
+            "\"{target}, can you please, please, spray for the monster under my bed? I'm so scared,\" {initiator} pleads, their voice quivering.",
+            "\"I know it sounds silly, but I'm really scared of the monster under my bed. {target}, can you help me?\" {initiator} asks, their eyes wide with fear.",
+            "\"Please, {target}, can you spray for the monster under my bed? I can't sleep at night,\" {initiator} says, clutching onto {target}'s arm.",
+            "\"I'm too scared to sleep, {target}. Will you please spray for the monster under my bed?\" {initiator} asks, tears welling up in their eyes.",
+            "\"{target}, I need your help. There's a monster under my bed, and I'm terrified. Can you spray for it?\" {initiator} asks, their voice trembling.",
+            "\"I know it's silly, but I can't shake this fear of the monster under my bed. {target}, can you spray for it?\" {initiator} pleads, looking vulnerable.",
+            "\"{target}, I can't sleep because I'm convinced there's a monster under my bed. Can you please spray for it?\" {initiator} asks, their voice shaky.",
+            "\"I feel silly asking, but I'm really scared of the monster under my bed. {target}, can you spray for it, please?\" {initiator} asks, biting their lip nervously.",
+            "\"Please, {target}, I can't take it anymore. The monster under my bed scares me so much. Will you spray for it?\" {initiator} pleads, their voice filled with desperation.",
+            "\"I'm scared to go to sleep, {target}, because of the monster under my bed. Can you spray for it and make it go away?\" {initiator} asks, holding back tears."
+        ]
+    },
+    "mixer_social_BegForNewToys_targeted_friendly_alwaysOn_child": {
+        "actions": [
+            "\"{Target}, can we go to the store and get me some new toys, please?\" {Initiator} asks, looking up at {target} with big pleading eyes.",
+            "\"I've been really good lately, {target}, can you buy me new toys as a reward?\" {Initiator} asks, trying to be persuasive.",
+            "\"{Target}, my old toys are so boring. Can we go shopping together and find something fun to play with?\" {Initiator} asks with excitement.",
+            "\"{Target}, I saw a commercial on TV for this amazing toy. Can we go to the store and get it?\" {Initiator} asks, jumping up and down in anticipation.",
+            "\"I really want some new toys, {target}. Can you take me to the toy store and help me pick them out?\" {Initiator} asks, hoping for a positive response.",
+            "\"Hey {target}, I've been thinking. I haven't gotten new toys in a long time. Can we fix that?\" {Initiator} asks, trying to sound casual but also desperate.",
+            "\"{Target}, I've been doing all my chores without complaining. Can we go to the toy store as a special treat?\" {Initiator} asks, hoping to leverage their good behavior.",
+            "\"I've been saving up my pocket money, {target}. Can we go to the toy store so I can buy something really cool?\" {Initiator} asks, proud of their saving efforts.",
+            "\"{Target}, can you please buy me some new toys? My friends have been showing off their new stuff and I feel left out,\" {Initiator} asks, with a hint of sadness in their voice.",
+            "\"{Target}, I've been growing so much, and my old toys are all for babies. Can we go get some 'big kid' toys?\" {Initiator} asks, emphasizing their desire to feel more grown up."
+        ]
+    },
+    "mixer_social_BragAboutGrades_targeted_Friendly_alwaysOn_child_teen": {
+        "pre_actions": [
+            "{initiator}, speaking as a self-absorbed teen, brags to {target}, an adult, about their good grades."
+        ],
+        "actions": [
+            "\"You know, {target}, I've been acing all my exams lately. It's like my brain is just on another level,\" {initiator} boasts, rolling their eyes.",
+            "\"I don't mean to brag, but my report card is basically a work of art. Straight A's, baby,\" {initiator} says with a smug grin.",
+            "\"Hey {target}, guess who's at the top of the class? That's right, yours truly,\" {initiator} boasts, crossing their arms confidently.",
+            "\"I bet you'll never guess what my GPA is. Well, let me enlighten you. It's a perfect 4.0,\" {initiator} says, a hint of arrogance in their voice.",
+            "\"I know it sounds unbelievable, {target}, but I've managed to maintain a flawless academic record. Not everyone can say that,\" {initiator} says, smirking.",
+            "\"You wouldn't believe the grades I've been pulling off, {target}. I'm like a walking academic prodigy,\" {initiator} brags, flipping their hair dismissively.",
+            "\"I'm not trying to show off or anything, but let's just say my teachers are always in awe of my academic prowess,\" {initiator} says, shrugging nonchalantly.",
+            "\"Can you imagine being as smart as me, {target}? I mean, it's pretty impressive to consistently be at the top of the class,\" {initiator} boasts with a cocky smile.",
+            "\"I don't want to make you feel bad or anything, {target}, but my grades are seriously top-notch. It's like I was born to excel academically,\" {initiator} says, feigning modesty.",
+            "\"I'm not one to brag, but I'm pretty much the Einstein of our school. My grades speak for themselves,\" {initiator} boasts, raising an eyebrow."
+        ]
+    },
+    "mixer_social_BrightenDay_targeted_friendly_emotionSpecific_toddlerOnly": {
+        "pre_actions": [
+            "{initiator}, an adult, speaks with {target}, who is a todddler, and brightens their day."
+        ],
+        "actions": [
+            "\"Hey there, little one! How about we play a game together?\" {initiator} says, crouching down to the toddler's level.",
+            "\"You have the biggest smile, kiddo! Wanna hear a funny joke?\" {initiator} asks, grinning.",
+            "\"Look at those sparkly eyes! How about we go on an adventure together?\" {initiator} suggests, holding out their hand.",
+            "\"Guess what? I brought you a surprise! Would you like to see what it is?\" {initiator} says, pulling out a small toy from their pocket.",
+            "\"Hi there, cutie pie! How about we build a tower with these colorful blocks?\" {initiator} suggests, pointing at a stack of blocks nearby.",
+            "\"You have the most contagious laughter! How about we have a tickle fight?\" {initiator} says, wiggling their fingers playfully.",
+            "\"Hey little buddy, how about we read a story together? I have a book full of fun pictures,\" {initiator} says, showing the toddler a colorful book.",
+            "\"Look at those adorable little shoes! How about we go for a walk outside and explore the world?\" {initiator} suggests, holding out their hand.",
+            "\"You have the sweetest giggle! How about we make silly faces in the mirror?\" {initiator} says, making funny expressions.",
+            "\"Hi there, sunshine! How about we have a dance party? I'll put on your favorite song,\" {initiator} suggests, swaying to an imaginary beat."
+        ]
+    },
+    "mixer_social_CallNames_targeted_mean_child": {
+        "pre_actions": [
+            "{initiator}, speaking as a child, calls {target} mean names."
+        ],
+        "actions": [
+            "\"{target}, you're so stupid!\" {initiator} shouts, crossing their arms and sticking out their tongue.",
+            "\"I don't like you, {target}! You're a big meanie!\" {initiator} yells, stamping their foot in frustration.",
+            "\"Nobody wants to be friends with you, {target}! You're the worst!\" {initiator} taunts, giving {target} an angry glare.",
+            "\"You're a big fat loser, {target}! Nobody likes you!\" {initiator} sneers, making an ugly face.",
+            "\"{target}, you're such a crybaby! You always ruin everything!\" {initiator} mocks, laughing cruelly.",
+            "\"I hate you, {target}! You're dumb and ugly!\" {initiator} spits out, their voice full of venom.",
+            "\"Go away, {target}! Nobody wants you here!\" {initiator} yells, pushing {target} away.",
+            "\"{target}, you're a mean, mean person! I wish you were never here!\" {initiator} declares, tears welling up in their eyes.",
+            "\"I don't want to be around you, {target}! You're a horrible person!\" {initiator} screams, covering their ears.",
+            "\"You're the worst friend ever, {target}! I wish I never met you!\" {initiator} shouts, their voice filled with anger."
+        ]
+    },
+    "mixer_social_ComplainAboutClasses_targeted_Friendly_alwaysOn_child_teen": {
+        "pre_actions": [
+            "{initiator}, speaking as a petulant teen, complains about their classes to {target}."
+        ],
+        "actions": [
+            "\"{target}, I can't believe how boring my classes are. It's like they're purposely trying to make me hate school,\" {initiator} whines, rolling their eyes.",
+            "\"Ugh, {target}, you won't believe the torture I have to endure in my classes. It's a never-ending cycle of monotony,\" {initiator} complains, crossing their arms.",
+            "\"I swear, {target}, my classes are the absolute worst. It's like they want to suck the life out of me,\" {initiator} grumbles, slumping in their seat.",
+            "\"School is such a waste of time, {target}. I can't believe I have to sit through all these mind-numbing classes,\" {initiator} gripes, letting out an exaggerated sigh.",
+            "\"{target}, do you ever feel like school is just a big joke? Because that's exactly how I feel. These classes are a complete joke,\" {initiator} vents, frustration evident in their voice.",
+            "\"I'm so fed up with my classes, {target}. It feels like they're designed to make me miserable. Who even comes up with this stuff?\" {initiator} complains, shaking their head.",
+            "\"{target}, I can't take it anymore. These classes are sucking the life out of me. It's like they're intentionally trying to make me hate learning,\" {initiator} laments, looking exasperated.",
+            "\"{target}, I'm seriously considering dropping out of school. These classes are driving me insane. I can't handle it anymore,\" {initiator} confesses, frustration seeping into their words.",
+            "\"I'm surrounded by idiots in my classes, {target}. It's like nobody takes anything seriously. I can't stand it,\" {initiator} vents, throwing their hands up in exasperation.",
+            "\"{target}, I feel like I'm wasting my potential in these classes. They're so unchallenging and uninspiring. I need something more,\" {initiator} expresses, a hint of longing in their voice."
+        ]
+    },
+    "mixer_social_ComplainAboutEverything_targeted_Friendly_alwaysOn_teen": {
+        "pre_actions": [
+            "{initiator}, speaking as a petulant teen, complains about everything that\'s bothering them to {target}."
+        ],
+        "actions": [
+            "\"{target}, I can't believe how unfair everything is right now. It's like the universe is against me,\" {initiator} grumbles, crossing their arms.",
+            "\"I swear, {target}, nobody understands me. It's like I'm living in a different world,\" {initiator} complains, rolling their eyes.",
+            "\"Ugh, {target}, I can't handle this anymore. Everything is just so frustrating and annoying,\" {initiator} vents, exasperatedly.",
+            "\"You know what, {target}? Life just sucks. Nothing ever goes my way,\" {initiator} grumbles, slumping down in their seat.",
+            "\"Nobody listens to me, {target}. It's like my opinions don't even matter,\" {initiator} complains, their voice filled with frustration.",
+            "\"I'm so tired of all the drama, {target}. Can't we just have one peaceful day?\" {initiator} laments, looking exhausted.",
+            "\"Sometimes, {target}, I feel like I'm the only one who sees how messed up everything is,\" {initiator} complains, shaking their head.",
+            "\"{target}, I can't stand it when people don't take me seriously. It's like they think I'm a joke,\" {initiator} grumbles, crossing their arms.",
+            "\"I hate how everyone expects me to be perfect, {target}. It's like they forget I'm just a human too,\" {initiator} vents, frustration evident in their voice.",
+            "\"{target}, I just need someone to understand me. Is that too much to ask for?\" {initiator} complains, looking for validation."
+        ]
+    },
+    "mixer_social_ComplainAboutParents_targeted_Friendly_alwaysOn_teen": {
+        "pre_actions": [
+            "{initiator}, speaking as a petulant teen, complains about their parents to {target}."
+        ],
+        "actions": [
+            "\"{target}, you won't believe what my parents did this time. They just don't get me,\" {initiator} grumbles, crossing their arms.",
+            "\"I swear, {target}, my parents are from another planet. They never listen to me,\" {initiator} complains, rolling their eyes.",
+            "\"You know, {target}, sometimes I think my parents are trying to ruin my life. They just don't understand,\" {initiator} vents, frustration evident in their voice.",
+            "\"I can't stand my parents, {target}. They're so unreasonable, it's like they enjoy making my life difficult,\" {initiator} complains with a huff.",
+            "\"I wish I had different parents, {target}. Mine just don't get me at all,\" {initiator} sighs, looking exasperated.",
+            "\"Sometimes I feel like my parents are out to get me, {target}. They're always picking on me for no reason,\" {initiator} grumbles, scowling.",
+            "\"Ugh, {target}, my parents are so unfair. They never let me do anything I want,\" {initiator} whines, throwing their hands up in frustration.",
+            "\"I'm so fed up with my parents, {target}. They never listen to me and they treat me like a child,\" {initiator} complains, rolling their eyes.",
+            "\"{target}, my parents just don't understand me. They're completely clueless about who I am,\" {initiator} laments, shaking their head in disbelief.",
+            "\"I don't know how much longer I can handle my parents, {target}. They're always on my case about everything,\" {initiator} grumbles, looking irritated."
+        ]
+    },
+    "mixer_social_DemandIndependence_targeted_mean_teen": {
+        "pre_actions": [
+            "{initiator}, speaking as a disgruntled angry teen, demands independence from their parent, {target}."
+            ],
+        "actions": [
+            "\"{target}, I'm tired of being treated like a child. I demand to be treated as an independent person,\" {initiator} says, crossing their arms defiantly.",
+            "\"I've had enough of your control, {target}. I'm old enough to make my own decisions,\" {initiator} declares, their voice filled with frustration.",
+            "\"{target}, I can't live under your rules anymore. I need my independence,\" {initiator} asserts, looking {target} in the eyes.",
+            "\"I'm done living by your expectations, {target}. It's time for me to have the freedom to make my own choices,\" {initiator} states, their tone filled with determination.",
+            "\"{target}, I'm not a child anymore. I deserve the right to be independent and make my own mistakes,\" {initiator} insists, their voice laced with rebellion.",
+            "\"I'm tired of being controlled, {target}. I want the freedom to live my life on my own terms,\" {initiator} says, their frustration evident in their tone.",
+            "\"{target}, I need you to understand that I'm capable of taking care of myself. I need my independence,\" {initiator} pleads, their voice tinged with desperation.",
+            "\"I can't continue living under your shadow, {target}. I need to break free and find my own path,\" {initiator} expresses, their words filled with determination.",
+            "\"{target}, I can't grow and learn if you keep holding me back. I need my independence,\" {initiator} argues, their voice filled with conviction.",
+            "\"I'm tired of being treated like a child, {target}. It's time for me to assert my independence and take charge of my own life,\" {initiator} declares, their tone filled with defiance."
+        ]
+    },
+    "mixer_social_DescribeImaginayFriend_Friendly_alwaysOn_child_skills": {
+        "pre_actions": [
+            "{initiator}, speaking as a young child, describes their current imaginary friend to {target}."
+        ],
+        "actions": [
+            "\"{target}, guess what? I have a secret friend that no one else can see!\" {initiator} exclaims with excitement.",
+            "\"I have this amazing friend, {target}, but they're not real. They're just in my imagination,\" {initiator} says, looking at {target} with wide eyes.",
+            "\"You know, {target}, I have a special friend who only exists in my mind. They're my best friend,\" {initiator} says, smiling shyly.",
+            "\"I have this imaginary friend, {target}, and they're the coolest person I know. They're always there for me,\" {initiator} says, giggling.",
+            "\"Can I tell you a secret, {target}? I have this friend who only exists in my imagination. They're like a superhero!\" {initiator} whispers excitedly.",
+            "\"You won't believe it, {target}, but I have a secret friend who is invisible. They're my playmate whenever I want,\" {initiator} says, looking around as if searching for their imaginary friend.",
+            "\"I have this imaginary friend, {target}, and they're like a magical creature. I wish they were real!\" {initiator} says, dreaming with a wistful look in their eyes.",
+            "\"Guess what, {target}? I have a secret friend, and they're like a fairy. They make everything more fun,\" {initiator} says, twirling around with joy.",
+            "\"You know, {target}, I have this imaginary friend who is like a talking animal. They're my partner in crime!\" {initiator} says, grinning mischievously.",
+            "\"I have a secret friend, {target}, and they're like a ghost. They can go anywhere and do anything!\" {initiator} says, whispering as if sharing a thrilling secret."
+        ]
+    },
+    "mixer_social_EnthuseAboutCandy_targeted_Friendly_alwaysOn_child": {
+        "pre_actions": [
+            "{initiator}, speaking as a young child, obsessively enthuses about their love for candy to {target}."
+        ],
+        "actions": [
+            "\"{target}, you won't believe how much I love candy! It's like my favorite thing in the whole world,\" {initiator} exclaims excitedly.",
+            "\"I have a secret, {target}, and it's about my love for candy. I can't stop thinking about it!\" {initiator} says, unable to contain their enthusiasm.",
+            "\"You know what, {target}? Candy is the best thing ever! I could eat it all day, every day,\" {initiator} says, eyes shining with excitement.",
+            "\"I have a confession to make, {target}. I'm absolutely obsessed with candy! It's like my own little world of sweetness,\" {initiator} confesses with a wide grin.",
+            "\"{target}, do you know what makes me the happiest? Candy! I can talk about it for hours and never get tired,\" {initiator} says, bouncing with excitement.",
+            "\"I have a secret addiction, {target}, and it's called candy. I just can't resist its sugary goodness,\" {initiator} admits with a mischievous smile.",
+            "\"You're my best friend, {target}, so I have to tell you something. I'm head over heels in love with candy!\" {initiator} declares passionately.",
+            "\"I have a special bond with candy, {target}. It's like we were meant to be together. I can't help but gush about it,\" {initiator} says, eyes sparkling with joy.",
+            "\"{target}, I have a confession to make. Candy is my weakness. It's like a magical spell that I can't resist,\" {initiator} admits, blushing slightly.",
+            "\"You know what, {target}? Candy is my ultimate happiness. Just thinking about it brings a smile to my face,\" {initiator} says, unable to hide their delight."
+        ]
+    },
+    "mixer_social_ExchangePromiseRings_targeted_romance_relationship_teen": {
+        "pre_actions": [
+            "{initiator}, a teen, exchanges promise rings with {target}, who is also a teen."
+        ],
+        "actions": [
+            "\"Hey {target}, I brought something special for us. Promise rings,\" {initiator} says, holding out two small boxes.",
+            "\"I've been thinking a lot about us lately, and I wanted to give you something to show how much you mean to me,\" {initiator} says, nervously handing {target} the box.",
+            "\"I know we're young, but I believe in us. These promise rings are a symbol of my commitment to you,\" {initiator} says, blushing.",
+            "\"I've been saving up for a while to get these promise rings. I want us to have something tangible to remind us of our love,\" {initiator} explains, eagerly opening the box.",
+            "\"I hope you like it, {target}. I got us matching promise rings as a token of my love and devotion to you,\" {initiator} says, smiling shyly.",
+            "\"I know it might seem cheesy, but I couldn't help myself. These promise rings are a way for me to show you how serious I am about our relationship,\" {initiator} says, biting their lip.",
+            "\"I've been thinking about our future together, and I wanted to take the next step. These promise rings symbolize my commitment to you,\" {initiator} says, holding {target}'s hand.",
+            "\"I know we're still young, but I believe in us. These promise rings are a promise that I'll always be there for you,\" {initiator} says, looking into {target}'s eyes.",
+            "\"I wanted to give you something that would remind you of my love even when we're apart. These promise rings are my way of doing that,\" {initiator} says, nervously twisting the ring in their hand.",
+            "\"I hope you like it, {target}. This promise ring is a symbol of my love for you. It's a promise that I'll always be faithful and true,\" {initiator} says, blushing."
+        ]
+    },
+    "mixer_social_Flirt_targeted_romance_alwaysOn_teen": {
+        "pre_actions": [
+            "{initiator}, speaking as a teen, flirts with {target}, who is also a teen."
+        ],
+        "actions": [
+            "\"Hey {target}, I couldn't help but notice how amazing you look today,\" {initiator} says with a playful smile.",
+            "\"You know, {target}, we make a pretty great team. Maybe we should consider being more than just friends,\" {initiator} suggests, winking.",
+            "\"I've been meaning to ask you, {target}, are you a magician? Because whenever I'm around you, everyone else disappears,\" {initiator} says, blushing.",
+            "\"Hey {target}, do you believe in love at first sight? Or should I walk by again?\" {initiator} says, trying to be smooth.",
+            "\"I must be a snowflake, because I've fallen for you, {target},\" {initiator} says, trying to impress.",
+            "\"Is it hot in here or is it just you, {target}?\" {initiator} asks flirtatiously, making {target} blush.",
+            "\"Hey {target}, do you have a map? Because I just got lost in your eyes,\" {initiator} says with a flirty grin.",
+            "\"You know, {target}, they say beauty is in the eye of the beholder, and I must say, you're the most beautiful person I've ever seen,\" {initiator} compliments, blushing.",
+            "\"I can't help but feel a spark between us, {target}. Is it just me, or do you feel it too?\" {initiator} asks, leaning in closer.",
+            "\"Hey {target}, I have a secret to share with you. I think I might be falling for you,\" {initiator} confesses with a shy smile."
+        ]
+    },
+    "mixer_Social_GetToKnow_Friendly_STC_TargetToddler": {
+        "pre_actions": [
+            "{initiator} attempts to get to know {target}, who is a toddler."
+        ],
+        "actions": [
+            "\"Hi there, little one! My name is {initiator}. What's your name?\" {initiator} asks, crouching down to the toddler's level.",
+            "\"Hey, kiddo! Do you want to play with me?\" {initiator} asks, holding out a toy.",
+            "\"Wow, you're so cute! Can you show me your favorite toy?\" {initiator} says, smiling warmly at the toddler.",
+            "\"Hey, buddy! How about we go on an adventure together? Where should we explore?\" {initiator} asks, gesturing for the toddler to come closer.",
+            "\"Hi, sweetie! I heard you like animals. Want to tell me about your favorite animal?\" {initiator} asks, making animal noises to grab the toddler's attention.",
+            "\"Hey there, little buddy! Can you teach me how to play this game?\" {initiator} asks, pointing to a game the toddler is playing with.",
+            "\"Hi, cutie! I love your outfit. Can you show me your favorite toy?\" {initiator} says, complimenting the toddler and extending a hand.",
+            "\"Hello, little one! I heard you're really good at building blocks. Can you show me how you do it?\" {initiator} asks, pointing to a stack of blocks nearby.",
+            "\"Hey, champ! I bet you're great at hide-and-seek. Do you want to play with me?\" {initiator} asks, peeking behind furniture playfully.",
+            "\"Hey, little buddy! I've got a surprise for you. Can you come over here and see what it is?\" {initiator} says, holding a small gift for the toddler."
+        ]
+    },
+    "mixer_social_GiveTheWooHooTalk_targeted_friendly_alwaysOn_teen": {
+        "pre_actions": [
+            "{initiator} talks to teenage {target} about sex for the first time."
+        ],
+        "actions": [
+            "\"So, {target}, I think it's time we have a serious conversation about a topic that may make us both feel a bit uncomfortable,\" {initiator} says, sitting down next to {target} with hesitation.",
+            "\"I know this might be a difficult subject to discuss, {target}, but it's important that we talk about it. Are you ready?\" {initiator} asks, looking at {target} with concern.",
+            "\"You're growing up, {target}, and there's something I think we need to discuss. It's about sex,\" {initiator} says, choosing their words carefully.",
+            "\"I've been thinking a lot about how much you're growing up, {target}. And I think it's time we had a conversation about a crucial topic: sex,\" {initiator} says, trying to sound calm.",
+            "\"I know it might be awkward, {target}, but we need to talk about sex. It's an important part of life, and I want you to be informed,\" {initiator} says, mustering up the courage.",
+            "\"You're reaching an age where it's important for us to have a conversation about sex, {target}. It might be a bit uncomfortable, but it's necessary,\" {initiator} says, trying to sound reassuring.",
+            "\"Hey, {target}, I've been doing a lot of thinking lately, and I think it's time we address the elephant in the room: sex,\" {initiator} says, looking slightly embarrassed.",
+            "\"I've been meaning to talk to you about this for a while, {target}, but I didn't know how to approach it. Let's have a conversation about sex,\" {initiator} says, taking a deep breath.",
+            "\"{target}, I think it's time we had a serious talk. It's about a topic that might make both of us uncomfortable, but it's necessary: sex,\" {initiator} says, trying to sound gentle.",
+            "\"I hope you're open to having an honest conversation, {target}, because today we're going to talk about something that can be quite sensitive: sex,\" {initiator} says, looking {target} in the eye."
+        ]
+    },
+    "mixer_social_HackIntoCoworkersEmail_targeted_friendly_alwaysOn_prank": {
+        "pre_actions": [
+            "{initiator} pranks hacks {target} by hacking into their e-mail."
+        ],
+        "actions": [
+            "\"{target}, you'll never believe what I just did. Check your e-mail,\" {initiator} chuckles mischievously.",
+            "\"Hey {target}, I may have done something a little sneaky. Can you please check your e-mail?\" {initiator} says with a grin.",
+            "\"Guess what, {target}? I managed to hack into your e-mail. You might want to take a look,\" {initiator} says, barely containing their excitement.",
+            "\"I couldn't resist pulling a little prank on you, {target}. Check your e-mail, and you'll see what I mean,\" {initiator} says, unable to hide their amusement.",
+            "\"Remember that time you pranked me? Well, consider this payback. Check your e-mail now,\" {initiator} says, a mischievous glint in their eyes.",
+            "\"I may have played a little trick on you, {target}. Check your e-mail and see what I did,\" {initiator} says, grinning from ear to ear.",
+            "\"Wanna know what I just did, {target}? Check your e-mail, and prepare to be surprised,\" {initiator} says, unable to contain their laughter.",
+            "\"{target}, I couldn't resist pulling off a little stunt. Go check your e-mail, and you'll understand,\" {initiator} says, a playful tone in their voice.",
+            "\"Hey, {target}, did you see your e-mail yet? I may have gotten a little creative,\" {initiator} says, trying to hide their amusement.",
+            "\"You won't believe what I did, {target}. Check your e-mail, and you'll see the aftermath of my prank,\" {initiator} says, chuckling softly."
+        ]
+    },
+     "mixer_social_HighFive_targeted_friendly_alwaysOn_teen": {
+        "pre_actions": [
+            "{initiator}, a teen, gives a high five to {target}."
+        ],
+        "actions": [
+            "{initiator} excitedly jumps up and slaps a high five with {target}.",
+            "\"Wow, {target}, that was an incredible move! High five!\" {initiator} exclaims with a grin.",
+            "As {target} looks surprised, {initiator} throws their hand up in the air and says, \"Come on, give me a high five! That was awesome!\"",
+            "{initiator} gives {target} a high five, a huge smile spreading across their face.",
+            "With a burst of energy, {initiator} extends their hand towards {target}, saying, \"Nice job! Give me a high five!\"",
+            "Feeling accomplished, {initiator} slaps a high five with {target} and says, \"We make a great team!\"",
+            "{initiator} looks at {target} and extends their hand, waiting for a high five.",
+            "Filled with enthusiasm, {initiator} raises their hand towards {target} and says, \"Let's celebrate with a high five!\"",
+            "Seeing {target}'s impressive achievement, {initiator} quickly offers a high five, saying, \"That was incredible!\"",
+            "With a sense of camaraderie, {initiator} taps their hand against {target}'s hand, saying, \"You're amazing! High five!\""
+        ]
+    },
+     "mixer_social_IsTheMoonABanana_targeted_Friendly_alwaysOn_child_skills": {
+        "pre_actions": [
+            "{initiator}, being a silly young child, asks {target} if the moon is a banana."
+        ],
+        "actions": [
+            "\"Hey {target}, do you think the moon is actually a giant banana?\" {initiator} asks with a mischievous grin.",
+            "\"I've been thinking about this for a while now, {target}, and I need your opinion. Is it possible that the moon is just a really big banana?\" {initiator} wonders aloud.",
+            "\"You know, {target}, I had the craziest idea today. What if the moon is secretly a banana in disguise?\" {initiator} suggests with a giggle.",
+            "\"{target}, I have a silly question for you. Have you ever considered the possibility that the moon might actually be a banana?\" {initiator} asks, unable to contain their curiosity.",
+            "\"Okay, hear me out, {target}. What if, just what if, the moon is not a moon at all but a gigantic banana floating in space?\" {initiator} proposes, looking expectantly at {target}.",
+            "\"I know this sounds ridiculous, {target}, but I can't help but wonder if the moon is a banana. What do you think?\" {initiator} asks, looking genuinely intrigued.",
+            "\"So, {target}, I had this wild thought. What if the moon is a banana, and we just haven't discovered it yet?\" {initiator} ponders, eyes wide with excitement.",
+            "\"Hey {target}, I need your input on something. What are the chances that the moon is secretly a massive banana?\" {initiator} questions with a playful tone.",
+            "\"I bet you've never heard this theory before, {target}, but what if the moon is actually a banana that's been orbiting the Earth all this time?\" {initiator} suggests, unable to contain their enthusiasm.",
+            "\"{target}, this might sound silly, but have you ever considered the possibility that the moon is a banana? I can't get the idea out of my head,\" {initiator} confesses, looking slightly embarrassed."
+        ]
+    },
+     "mixer_social_IsTheMoonAnEgg_Friendly_alwaysOn_child_skills": {
+        "pre_actions": [
+            "{initiator}, being a silly young child, asks {target} if the moon is an egg."
+        ],
+        "actions": [
+            "\"{target}, I have a really important question for you. Do you think the moon is actually an egg?\" {initiator} asks, wide-eyed with curiosity.",
+            "\"I've been thinking about this for a while now, {target}, and I need your opinion. What if the moon is secretly an egg?\" {initiator} ponders, looking at {target} with anticipation.",
+            "\"{target}, I have a crazy theory. What if the moon is not just a celestial body, but actually a giant egg? Can you imagine?\" {initiator} asks, giggling with excitement.",
+            "\"{target}, I have a question that might sound silly, but I can't help but wonder. Do you think it's possible that the moon is an egg?\" {initiator} asks, raising an eyebrow and waiting for a response.",
+            "\"I've been watching the moon lately, {target}, and I can't shake this idea. What if the moon is actually an egg about to hatch?\" {initiator} wonders aloud, looking at {target} with curiosity.",
+            "\"{target}, I know this might sound strange, but bear with me. Have you ever considered the possibility that the moon is an egg waiting to hatch?\" {initiator} asks, biting their lip nervously.",
+            "\"Hey {target}, random question. Do you think the moon could be an egg? I've been thinking about it a lot, and I'm curious about your thoughts,\" {initiator} asks, unable to contain their excitement.",
+            "\"{target}, I have this wild theory, and I need to share it with someone. What if the moon is actually a giant egg? Do you think it's possible?\" {initiator} asks, eyes shining with anticipation.",
+            "\"Okay, {target}, I have a question that might make you laugh. But seriously, what if the moon is an egg? Just imagine,\" {initiator} says with a mischievous grin, waiting for {target}'s reaction.",
+            "\"{target}, I have this crazy idea that's been bugging me. What if the moon is not a moon at all, but an enormous egg? Can you imagine the possibilities?\" {initiator} asks, excitement bubbling in their voice."
+        ]
+    },
+     "mixer_social_IsTheMoonASponge_targeted_Friendly_alwaysOn_child_skills": {
+        "pre_actions": [
+            "{initiator}, being a silly young child, asks {target} if the moon is actually a sponge."
+        ],
+        "actions": [
+            "\"{target}, I have a really important question for you. Is the moon actually a sponge?\" {initiator} asks, looking up at {target} with wide eyes.",
+            "\"I've been thinking about this for a while, {target}. Do you think the moon is secretly a giant sponge?\" {initiator} wonders aloud, looking curious.",
+            "\"You know, {target}, I've been pondering something. What if the moon is just a really big sponge? What do you think?\" {initiator} asks, tilting their head.",
+            "\"I have a theory, {target}. What if the moon is actually a sponge? It would explain so much,\" {initiator} says, looking excited to share their idea.",
+            "\"Hey {target}, I have a question that's been bugging me. Is it possible that the moon is a massive sponge?\" {initiator} asks, looking genuinely curious.",
+            "\"{target}, I need your expertise on this matter. Could the moon be a sponge? It's been on my mind lately,\" {initiator} says, scratching their head.",
+            "\"I've been wondering about something, {target}. Do you think the moon could be made of sponge? It sounds crazy, but hear me out,\" {initiator} suggests, looking earnest.",
+            "\"{target}, I have a silly question for you. Is it just me, or does the moon look like a giant sponge sometimes?\" {initiator} asks with a mischievous grin.",
+            "\"Okay, {target}, I have a wild idea. What if the moon is secretly a sponge that absorbs all the light?\" {initiator} suggests, looking excited to hear {target}'s thoughts.",
+            "\"{target}, I can't help but wonder. Is it possible that the moon is actually a massive sponge floating in space?\" {initiator} asks, looking both curious and amused."
+        ]
+    },
+     "mixer_social_IsTheMoonCheese_targeted_Friendly_alwaysOn_child_skills": {
+        "pre_actions": [
+            "{initiator}, being a silly young child, asks {target} if the moon is actually cheese."
+        ],
+        "actions": [
+            "\"Hey {target}, I have a really important question for you. Is the moon made of cheese?\" {initiator} asks with wide-eyed curiosity.",
+            "\"I've been wondering about this for so long, {target}. Do you think the moon is actually made of cheese?\" {initiator} asks, looking at {target} expectantly.",
+            "\"Mom told me it's just a saying, but I can't help but wonder, {target}. Is it possible that the moon is made of cheese?\" {initiator} asks, tilting their head to the side.",
+            "\"I know it sounds silly, but I can't stop thinking about it. {target}, do you think there's a chance the moon could be made of cheese?\" {initiator} asks, unable to contain their excitement.",
+            "\"I've been reading this book about the moon, and it got me thinking, {target}. Could it be true that the moon is actually made of cheese?\" {initiator} asks, their voice filled with wonder.",
+            "\"I asked my teacher, but she just laughed. {target}, do you think it's possible that the moon is secretly made of cheese?\" {initiator} asks, looking for reassurance.",
+            "\"{target}, I need your help settling a debate. Some kids at school say the moon is made of cheese. What do you think?\" {initiator} asks, eager to hear {target}'s opinion.",
+            "\"I know it's a silly question, but it's been bugging me for days. {target}, do you think there's any chance the moon could be made of cheese?\" {initiator} asks, hoping for an answer.",
+            "\"I've been watching documentaries about space, and now I can't stop wondering. {target}, what if the moon is secretly made of cheese?\" {initiator} asks, their imagination running wild.",
+            "\"I know it sounds ridiculous, but I can't help but wonder. {target}, have you ever thought about the possibility that the moon might be made of cheese?\" {initiator} asks, looking for someone to share their curiosity."
+        ]
+    },
+     "mixer_social_KissNeck_targeted_romance_relationship_teen": {
+        "pre_actions": [
+            "{initiator}, a teen, silently kisses teenage {target}'s neck sensually."
+        ],
+        "actions": [
+            "\"{Target}, I've been wanting to do this for a while now,\" {initiator} says, their voice barely a whisper, as they gently kiss {target}'s neck.",
+            "The atmosphere becomes charged as {initiator} leans in and plants a soft, lingering kiss on {target}'s neck, sending shivers down their spine.",
+            "In that moment, {initiator} musters up the courage to lean in and kiss {target}'s neck, their lips leaving a trail of warmth behind.",
+            "As {initiator} places a delicate, sensual kiss on {target}'s neck, a rush of emotions fills the air between them.",
+            "With a mix of nervousness and longing, {initiator} leans closer and presses their lips against {target}'s neck, their heart pounding in their chest.",
+            "The touch of {initiator}'s lips against {target}'s neck sends a jolt of electricity through both of them, a silent confession of desire.",
+            "In the quiet intimacy of the moment, {initiator} surprises {target} by softly kissing their neck, their heart racing with anticipation.",
+            "As {initiator} leans in to kiss {target}'s neck, a flicker of vulnerability crosses their face, uncertain of how {target} will react.",
+            "With a bold yet gentle move, {initiator} brings their lips to {target}'s neck, silently expressing a depth of affection that words cannot capture.",
+            "The world around them fades away as {initiator} leans in and kisses {target}'s neck, a secret moment shared between two hearts."
+        ]
+    },
+     "mixer_social_LectureAboutGrades_targeted_Friendly_alwaysOn_child_teen": {
+        "pre_actions": [
+            "{initiator} sternly lectures their child, {target} about their grades."
+        ],
+        "actions": [
+            "\"{target}, we need to have a serious talk about your grades. Sit down,\" {initiator} says, their voice firm.",
+            "\"I've been looking at your report card, {target}, and we need to address your grades immediately,\" {initiator} says with a concerned expression.",
+            "\"Your grades have been slipping, {target}, and it's about time we had a serious discussion about it,\" {initiator} says, crossing their arms.",
+            "\"I've been patient, {target}, but your grades are unacceptable. We need to discuss this right now,\" {initiator} says, their voice strict.",
+            "\"It's time we had a serious conversation about your academic performance, {target}. I expect better from you,\" {initiator} says, their tone serious.",
+            "\"We have a problem, {target}, and it's your grades. Let's sit down and figure out a solution,\" {initiator} says, motioning for {target} to join them.",
+            "\"It's time to address the elephant in the room, {target}, your grades. Let's talk,\" {initiator} says, their voice firm.",
+            "\"We need to talk about your grades, {target}, and come up with a plan to improve them. Sit down,\" {initiator} says, gesturing towards a chair.",
+            "\"I've noticed a decline in your academic performance, {target}, and it's time we discuss the consequences,\" {initiator} says, their expression serious.",
+            "\"The time for excuses is over, {target}. We need to have a serious conversation about your plummeting grades,\" {initiator} says sternly."
+        ]
+    },
+     "mixer_social_LectureAboutMisbehavior_mean_targeted_alwaysOn_child": {
+        "pre_actions": [
+            "{initiator} spitefully lectures their child, {target} about their misbehavior."
+        ],
+        "actions": [
+            "\"{target}, we need to have a serious talk about your behavior. Sit down,\" {initiator} says sternly.",
+            "\"I've had enough of your constant misbehavior, {target}. It's time for us to address it,\" {initiator} says with a firm voice.",
+            "\"I can't believe you would act like this, {target}. We need to have a serious conversation about your actions,\" {initiator} says, anger evident in their voice.",
+            "\"{target}, I've been noticing a pattern of misbehavior from you, and it's time we discuss it,\" {initiator} says, their voice tinged with disappointment.",
+            "\"I've been meaning to talk to you about your recent behavior, {target}. It's important that we address it,\" {initiator} says, trying to keep their frustration in check.",
+            "\"{target}, your behavior has been unacceptable, and I can't let it slide anymore. We need to talk,\" {initiator} says, their tone indicating their seriousness.",
+            "\"I've been patient with you for a long time, {target}, but your misbehavior has reached its limit. We need to have a serious conversation,\" {initiator} says, their voice filled with frustration.",
+            "\"{target}, I've been observing your actions and I can't stay silent anymore. We need to discuss your misbehavior,\" {initiator} says, their tone strict.",
+            "\"I've seen how you've been acting lately, {target}, and it's time we have a conversation about your misbehavior,\" {initiator} says, their voice laced with concern.",
+            "\"{target}, we need to address your misbehavior. It's time for us to have a serious talk,\" {initiator} says, their voice firm and determined."
+        ]
+    },
+     "mixer_social_LectureAboutResponsibilities_targeted_Friendly_alwaysOn_teen": {
+        "pre_actions": [
+            "{initiator} sternly lectures their child, {target} about their responsibilities."
+        ],
+        "actions": [
+            "\"{target}, we need to have a serious talk about your responsibilities. Sit down, please,\" {initiator} says with a stern tone.",
+            "\"I've noticed that you've been slacking off on your responsibilities lately, {target}. We need to address this,\" {initiator} says firmly.",
+            "\"Listen up, {target}. It's time we have a serious discussion about your responsibilities. This is important,\" {initiator} says, looking directly into {target}'s eyes.",
+            "\"Enough is enough, {target}. I can't let you continue neglecting your responsibilities. We need to talk about this,\" {initiator} says with a stern expression.",
+            "\"You may not like what I'm about to say, {target}, but it's time for a lecture on your responsibilities. This is non-negotiable,\" {initiator} says, crossing their arms.",
+            "\"I hope you're ready for a serious conversation, {target}, because we need to address your lack of responsibility,\" {initiator} says, their voice firm.",
+            "\"Sit down, {target}. We need to have a talk about your responsibilities. This is not up for discussion,\" {initiator} says, gesturing for {target} to take a seat.",
+            "\"Listen carefully, {target}. I'm about to lay out your responsibilities, and I expect you to take them seriously,\" {initiator} says, their tone strict.",
+            "\"I've been patient for long enough, {target}, but now it's time for a lecture on your responsibilities. This is for your own good,\" {initiator} says, looking determined.",
+            "\"I'm disappointed in your lack of responsibility, {target}. We need to have a serious discussion about this, right now,\" {initiator} says, their voice tinged with frustration."
+        ]
+    },
+     "mixer_social_MakeBelieve_targeted_friendly_alwaysOn_child": {
+        "pre_actions": [
+            "{initiator}, speaking as a young child, plays make believe with {target}."
+        ],
+        "actions": [
+            "\"Hey {target}, let's pretend we're astronauts exploring a distant galaxy!\" {initiator} exclaims, excitement sparkling in their eyes.",
+            "\"I have an idea, {target}! Let's pretend we're pirates searching for buried treasure on a desert island,\" {initiator} suggests, a mischievous grin on their face.",
+            "\"Look, {target}! I found a magic wand! Let's pretend we're wizards and cast spells on everything around us,\" {initiator} says, waving an imaginary wand in the air.",
+            "\"I want to be a superhero, {target}! Let's pretend we have special powers and save the world from evil villains,\" {initiator} declares, striking a superhero pose.",
+            "\"Let's pretend we're in a fairytale, {target}! I'll be the brave knight and you can be the princess we need to rescue,\" {initiator} suggests, twirling around in excitement.",
+            "\"Can we pretend to be animals, {target}? I'll be a lion and you can be a monkey swinging from tree to tree,\" {initiator} suggests, crawling on all fours.",
+            "\"Let's play pretend, {target}! I'll be a famous chef and you can be my sous chef helping me cook delicious meals,\" {initiator} says, wearing an imaginary chef's hat.",
+            "\"Look, {target}! I found a magical portal. Let's pretend we're traveling through time and visiting different historical eras,\" {initiator} suggests, pointing at an imaginary portal.",
+            "\"I want to be a famous rock star, {target}! Let's pretend we're performing on a big stage with thousands of fans cheering for us,\" {initiator} says, grabbing an imaginary microphone.",
+            "\"Let's pretend we're in a world of dinosaurs, {target}! I'll be a fearless paleontologist and you can be my trusty dinosaur companion,\" {initiator} suggests, mimicking dinosaur roars."
+        ]
+    },
+     "mixer_social_MakeFunOfAdults_targeted_funny_alwaysOn_child": {
+        "pre_actions": [
+            "{initiator}, speaking as a young child, makes fun of adults with {target}, who is also a child."
+        ],
+        "actions": [
+            "\"{target}, look at them! They're so boring and serious all the time,\" {initiator} giggles, pointing at the adults.",
+            "\"Do you think they even remember what it's like to have fun?\" {initiator} asks, nudging {target} playfully.",
+            "\"{target}, let's pretend to be grown-ups and act all serious. Watch how silly we can make it,\" {initiator} suggests mischievously.",
+            "\"I bet we could come up with way cooler ideas than they ever could,\" {initiator} says confidently, rolling their eyes at the adults.",
+            "\"{target}, let's make up funny names for all the adults. I'll start with Mr. Grumpy Pants over there,\" {initiator} whispers, trying not to burst into laughter.",
+            "\"{target}, do you think the adults even remember what it's like to laugh and play like we do?\" {initiator} wonders out loud.",
+            "\"Hey {target}, let's show the adults how to have real fun. They could use a lesson or two,\" {initiator} suggests, grinning mischievously.",
+            "\"Do you think the adults ever wish they could be kids again? I know I do,\" {initiator} says, looking at {target} with curiosity.",
+            "\"{target}, I bet we could come up with a game that's way more fun than anything the adults could think of,\" {initiator} says excitedly.",
+            "\"Hey {target}, let's pretend to be adults and see if we can do a better job at being serious,\" {initiator} suggests, trying hard not to burst into laughter."
+        ]
+    },
+     "mixer_social_MeetInfant_Child_Greetings": {
+        "pre_actions": [
+            "{initiator}, speaking as a young child, meets infant {target} for the first time."
+        ],
+        "actions": [
+            "\"{target}, are you my new baby brother/sister? Wow, you're so tiny!\" {initiator} exclaims with wide eyes.",
+            "\"Mommy/Daddy, who is this little baby? Can I hold him/her?\" {initiator} asks, looking at {target} curiously.",
+            "\"{target}, you're so small and cute! I promise to protect you and be the best big sibling ever,\" {initiator} says, gently touching {target}'s tiny hand.",
+            "\"{target}, can you understand me? I'm {initiator}, your big brother/sister. We're going to have so much fun together!\" {initiator} says, grinning from ear to ear.",
+            "\"{target}, I can't believe you're finally here! I've been waiting for you for so long. Let's be best friends, okay?\" {initiator} says, reaching out to touch {target}'s cheek.",
+            "\"{target}, you're such a tiny baby. Do you want to play with my toys? I'll share them with you,\" {initiator} offers, showing {target} their favorite toys.",
+            "\"{target}, I think you're the cutest baby I've ever seen. Can I give you a hug?\" {initiator} asks, leaning in with arms open wide.",
+            "\"{target}, I'm {initiator}, and I'm going to be your big brother/sister. I'll teach you everything I know and protect you always,\" {initiator} says, looking determined.",
+            "\"{target}, you're so little! Can I help take care of you? I promise to be gentle,\" {initiator} says, looking at {target} with a caring expression.",
+            "\"{target}, I'm so excited to meet you! Can we be best friends forever?\" {initiator} asks, looking at {target} with anticipation."
+        ]
+    },
+     "mixer_social_MockSimsMood_targeted_mean_alwaysOn_child_skills": {
+        "pre_actions": [
+            "{initiator}, speaking as a young child, mocks {target}'s mood."
+        ],
+        "actions": [
+            "\"Hey {target}, why are you so grumpy?\" {initiator} says with a mischievous grin.",
+            "\"You look like a sad puppy, {target}! What's wrong?\" {initiator} teases, giggling.",
+            "\"You're so boring, {target}! Lighten up and have some fun,\" {initiator} says, imitating {target}'s serious expression.",
+            "\"Is someone in a bad mood today? {target}, you're acting like a grumpy old man,\" {initiator} says, laughing playfully.",
+            "\"Cheer up, {target}! You're bringing down the whole room with your gloomy face,\" {initiator} says, pretending to pout.",
+            "\"I bet I can make you smile, {target}. You look like you need it,\" {initiator} says, attempting to imitate {target}'s mood.",
+            "\"Wow, {target}, you're the moodiest person I know. What's got your panties in a twist?\" {initiator} says, unable to contain their laughter.",
+            "\"Why so serious, {target}? It's not the end of the world,\" {initiator} says, mimicking {target}'s serious tone.",
+            "\"Look at you, {target}, with that grumpy face. Did you wake up on the wrong side of the bed?\" {initiator} says, teasingly.",
+            "\"Hey {target}, what's with the long face? Did someone steal your smile?\" {initiator} says, trying to provoke a reaction."
+        ]
+    },
+    "mixer_social_MonkeyAround_targeted_mischief_alwaysOn_child": {
+        "pre_actions": [
+            "{initiator}, speaking as a young child, monkeys around with {target}."
+        ],
+        "actions": [
+            "\"{target}, come play with me! Let's pretend to be monkeys swinging from trees!\" {initiator} giggles, reaching out to grab {target}'s hand.",
+            "\"Look, {target}! I can climb this tree just like a monkey! Watch me!\" {initiator} exclaims, scrambling up a low-hanging branch.",
+            "\"Hey {target}, let's have a monkey race! Whoever reaches that tree first wins!\" {initiator} challenges, pointing to a tree in the distance.",
+            "\"{target}, do you want to be the mama monkey or the baby monkey? Let's play pretend!\" {initiator} asks, bouncing up and down with excitement.",
+            "\"Watch this, {target}! I can swing from this branch just like a monkey! Wheee!\" {initiator} shouts, swinging back and forth.",
+            "\"Let's make monkey noises together, {target}! Ooh ooh ah ah!\" {initiator} says, imitating the sound of a monkey and waiting for {target} to join in.",
+            "\"Look, {target}! I found a banana! Let's pretend to be monkeys and eat it together!\" {initiator} suggests, holding up a pretend banana.",
+            "\"Hey {target}, do you think monkeys can do cartwheels? Let's try it together!\" {initiator} suggests, attempting to do a cartwheel and stumbling.",
+            "\"Come on, {target}! Let's see who can hang from the monkey bars the longest! Ready, set, go!\" {initiator} challenges, running towards the playground.",
+            "\"Let's play a game of monkey see, monkey do, {target}! I'll go first, and then you have to copy me!\" {initiator} says, striking a silly pose."
+        ]
+    },
+    "mixer_social_NPC_AskToHangOut_targeted_Friendly_alwaysOn": {
+        "pre_actions": [
+            "{initiator} asks {target} to hang out with them."
+        ],
+        "actions": [
+            "\"Hey {target}, I was wondering if you wanted to hang out sometime?\" {initiator} asks, a hint of excitement in their voice.",
+            "\"I've been wanting to do something fun, and I thought it would be great to hang out with you. What do you say, {target}?\" {initiator} suggests, looking hopeful.",
+            "\"I know we don't really know each other that well, but I thought it would be cool if we could hang out sometime. What do you think, {target}?\" {initiator} asks, a little nervous.",
+            "\"I've been looking for someone to go to this event with me, and I thought you might be interested. Would you like to hang out, {target}?\" {initiator} proposes, keeping their fingers crossed.",
+            "\"I've heard about this new place in town, and I thought it would be fun to check it out together. Are you up for hanging out, {target}?\" {initiator} suggests, trying to sound casual.",
+            "\"I've been feeling a bit bored lately, and I thought it would be great to have some company. Would you be interested in hanging out, {target}?\" {initiator} asks, hoping for a positive response.",
+            "\"I know we haven't really had the chance to spend much time together, but I thought it would be nice to hang out. What do you say, {target}?\" {initiator} asks, trying to sound inviting.",
+            "\"I've got tickets to this concert and I was wondering if you'd like to come with me. It'll be a lot more fun if we hang out, don't you think, {target}?\" {initiator} suggests, a smile on their face.",
+            "\"I've been craving some good company, and I immediately thought of you. Would you be interested in hanging out sometime, {target}?\" {initiator} asks, hoping for a positive response.",
+            "\"I've been wanting to explore this new hiking trail, and I thought it would be great if we could hang out and do it together. Are you up for it, {target}?\" {initiator} proposes, sounding enthusiastic."
+        ]
+    },
+    "mixer_social_PopCultureReference_tareted_Friendly_alwaysOn_child_skills": {
+        "pre_actions": [
+            "{initiator}, a young child, makes a pop culture reference to {target}."
+        ],
+        "actions": [
+            "\"{target}, have you seen that new movie everyone's talking about? It's so cool!\" {initiator} says with excitement, hoping {target} will share their enthusiasm.",
+            "\"I heard this song on the radio, {target}, and it made me think of you. Do you know it?\" {initiator} asks, eager to discuss the latest hit with {target}.",
+            "\"Hey {target}, have you read that book series everyone's obsessed with? I can't wait to talk to someone about it!\" {initiator} exclaims, hoping {target} is a fellow fan.",
+            "\"{target}, I have to ask, have you seen that show that everyone's binge-watching? I want to know what you think!\" {initiator} says, hoping to bond with {target} over their shared interest.",
+            "\"I can't stop playing this new video game, {target}. Have you played it too? We should team up!\" {initiator} suggests, hoping {target} is into gaming as well.",
+            "\"{target}, do you know that famous superhero? They remind me so much of you!\" {initiator} says, hoping to make {target} feel special with the comparison.",
+            "\"Have you seen the latest viral meme, {target}? I couldn't stop laughing and thought you might enjoy it too,\" {initiator} says, hoping to share a funny moment with {target}.",
+            "\"I can't get this catchy jingle out of my head, {target}. Do you know what I'm talking about?\" {initiator} asks, hoping {target} is familiar with the popular tune.",
+            "\"Guess what, {target}! I just finished reading this incredible graphic novel. You have to check it out!\" {initiator} says, hoping {target} shares their love for graphic novels.",
+            "\"{target}, have you seen that dance challenge going around? I'm so tempted to give it a try! What do you think?\" {initiator} asks, hoping to engage {target} in a fun and trendy activity."
+        ]
+    },
+    "mixer_social_PraiseForGoodGrades_targeted_Friendly_alwaysOn_child_teen": {
+        "pre_actions": [
+            "{initiator} praises {target}, a young child, for their good grades."
+        ],
+        "actions": [
+            "\"{target}, I am so proud of you! Your hard work and dedication really paid off,\" {initiator} says with a big smile.",
+            "\"Wow, {target}, you did amazing on your exams! You're such a smart and talented kid,\" {initiator} exclaims, giving them a high-five.",
+            "\"I've been hearing great things about your grades, {target}. You should be really proud of yourself,\" {initiator} says, beaming with admiration.",
+            "\"Congratulations, {target}! Your good grades show how committed you are to your studies. Keep up the fantastic work,\" {initiator} praises, patting them on the back.",
+            "\"{target}, your parents must be so proud of you. Your good grades are a testament to your intelligence and determination,\" {initiator} commends, giving them a thumbs up.",
+            "\"I knew you had it in you, {target}! Your good grades are a reflection of your effort and ability. Keep up the great work,\" {initiator} encourages, with a warm smile.",
+            "\"Your good grades are truly impressive, {target}. It's clear that you have a bright future ahead of you,\" {initiator} says, genuinely impressed.",
+            "\"{target}, you are setting such a great example for your classmates with your exceptional grades. Keep up the good work,\" {initiator} praises, nodding approvingly.",
+            "\"You worked so hard for those good grades, {target}, and it definitely paid off. Well done!\" {initiator} says, clapping for them.",
+            "\"{target}, your good grades are a testament to your dedication and intelligence. You should be really proud of yourself,\" {initiator} says, giving them a warm hug."
+        ]
+    },
+    "mixer_social_QuoteCartoonCharacter_targeted_Funny_alwaysOn_child": {
+        "pre_actions": [
+            "{initiator}, a young child, quotes a cartoon character to {target}."
+        ],
+        "actions": [
+            "\"{target}, did you know that as Spongebob Squarepants once said, 'I'm ready, I'm ready, I'm ready'?\" {initiator} says with excitement.",
+            "\"I learned something cool from my favorite cartoon character, {target}. As Mickey Mouse always says, 'Oh boy!'\" {initiator} exclaims.",
+            "\"{target}, I have a joke for you! What did Bugs Bunny say to Elmer Fudd? 'What's up, doc?'\" {initiator} giggles mischievously.",
+            "\"{target}, I've been watching this amazing cartoon and I can't stop saying, 'To infinity and beyond!' just like Buzz Lightyear,\" {initiator} says, imitating the character's voice.",
+            "\"I've got a question for you, {target}. Can you guess which cartoon character says, 'I love you, you love me, we're a happy family'?\" {initiator} asks, a big smile on their face.",
+            "\"{target}, guess what? I've been practicing my best impression of Dory from Finding Nemo. 'Just keep swimming, just keep swimming!'\" {initiator} says, swimming imaginary strokes in the air.",
+            "\"{target}, I know a catchy song from my favorite cartoon. It goes like this: 'Who lives in a pineapple under the sea?' Can you guess?\" {initiator} hums, waiting for {target} to join in.",
+            "\"I have a riddle for you, {target}. What cartoon character says, 'What's up, Doc?' and loves carrots?\" {initiator} asks, eager to test {target}'s knowledge.",
+            "\"{target}, have you ever heard the saying, 'I'm not bad, I'm just drawn that way'? It's from a cartoon character I really like,\" {initiator} says, trying to mimic the character's seductive voice.",
+            "\"Hey {target}, do you know what cartoon character says, 'Cowabunga!'\"? {initiator} asks, pretending to surf on an imaginary wave."
+        ]
+    },
+    "mixer_social_ShowOffOutfit_targeted_friendly_alwaysOn_teen": {
+        "pre_actions": [
+            "{initiator}, a teen, shows off their outfit to {target}."
+        ],
+        "actions": [
+            "\"{Target}, check out this outfit I put together! What do you think?\" {Initiator} twirls around, excitedly showing off their ensemble.",
+            "\"I spent hours picking out the perfect pieces for this outfit, {target}. Do you like it?\" {Initiator} asks, striking a pose.",
+            "\"Hey {target}, I've been experimenting with my style lately. Take a look at what I came up with,\" {Initiator} says, gesturing towards their outfit.",
+            "\"I wanted to show you my new look, {target}. What do you think? Do you think it suits me?\" {Initiator} asks, eagerly awaiting {target}'s opinion.",
+            "\"Guess what, {target}? I've discovered a new fashion trend, and I decided to try it out. Do you think I pulled it off?\" {Initiator} asks, hoping for {target}'s approval.",
+            "\"{Target}, I've been trying to step up my fashion game. Check out this outfit I put together,\" {Initiator} says, striking a confident pose.",
+            "\"{Target}, I need your honest opinion. What do you think of my outfit? Is it a hit or a miss?\" {Initiator} asks, looking for {target}'s fashion expertise.",
+            "\"I've been experimenting with different styles lately, {target}. Take a look at what I've come up with,\" {Initiator} says, eagerly awaiting {target}'s reaction.",
+            "\"I've been inspired by a fashion influencer, and I decided to recreate one of their looks. What do you think, {target}?\" {Initiator} asks, seeking {target}'s validation.",
+            "\"{Target}, I've been working on my personal style. Check out this outfit and let me know what you think,\" {Initiator} says, nervously anticipating {target}'s response."
+        ]
+    },
+    "mixer_social_TalkAboutFavoriteAnimal_targeted_Friendly_alwaysOn_child": {
+        "pre_actions": [
+            "{initiator}, a young child, talks about their favorite animal to {target}."
+        ],
+        "actions": [
+            "\"I saw the coolest animal at the zoo today, {target}! It had stripes and big sharp teeth,\" {initiator} exclaims excitedly.",
+            "\"I have a new favorite animal, {target}! It's the fastest animal in the world and it can run so, so fast,\" {initiator} tells with wide eyes.",
+            "\"Guess what, {target}? I learned about an amazing animal in school today. It's really big and it lives in the ocean,\" {initiator} shares eagerly.",
+            "\"You know, {target}, I have the best animal toy. It's my favorite because it can fly high up in the sky and see everything,\" {initiator} says, showing enthusiasm.",
+            "\"I want to tell you about this animal that I think is so cool, {target}. It has a long neck and it can reach leaves at the top of trees,\" {initiator} explains, mimicking a giraffe.",
+            "\"You'll never guess what my favorite animal is, {target}! It's this cute little creature that lives in the forest and eats lots of bamboo,\" {initiator} giggles.",
+            "\"There's this animal that everyone is scared of, but I think it's really awesome, {target}. It has a mane and it roars really loudly,\" {initiator} shares with excitement.",
+            "\"Today, {target}, my teacher told us about an animal that can change its colors. I think it's the coolest thing ever,\" {initiator} says, demonstrating how it could blend in with its surroundings.",
+            "\"I'm so happy, {target}! I finally saw my favorite animal at the zoo. It's really big and has a really long trunk,\" {initiator} exclaims, unable to contain their joy.",
+            "\"I have a book about animals, {target}, and I found my favorite in it. It has big antlers and lives in snowy places,\" {initiator} says, holding up the book to show the picture."
+        ]
+    },
+    "mixer_social_TalkAboutFractions_targeted_Friendly_alwaysOn_child_skills": {
+        "pre_actions": [
+            "{initiator}, a young child, talks about fractions with {target}."
+        ],
+        "actions": [
+            "\"Hey {target}, do you know what fractions are?\" {initiator} asks, looking curious.",
+            "\"I learned something really cool in school today. It's called fractions. Have you heard of them, {target}?\" {initiator} asks, eager to share their newfound knowledge.",
+            "\"I've been learning about fractions in math class, {target}, and I wanted to show you what I've learned,\" {initiator} says, pulling out a notebook filled with colorful illustrations.",
+            "\"{target}, can you help me understand fractions? My teacher said you're really good at math,\" {initiator} asks, looking up at {target} with hopeful eyes.",
+            "\"I'm a bit confused about fractions, {target}. Can you explain them to me?\" {initiator} asks, scratching their head in puzzlement.",
+            "\"I've been practicing fractions at home, {target}, and I think I finally understand them. Want me to show you?\" {initiator} says, beaming with confidence.",
+            "\"{target}, do you know how fractions work? I'm trying to figure it out, but it's a bit tricky,\" {initiator} admits, looking a bit frustrated.",
+            "\"I can't believe how interesting fractions are, {target}. Let me explain what I've learned so far,\" {initiator} says, excitement evident in their voice.",
+            "\"Math class today was all about fractions, {target}, and I thought it was so fascinating. Can I teach you what I learned?\" {initiator} asks, eager to share their knowledge.",
+            "\"{target}, can you help me solve this fraction problem? I'm stuck and I know you're really smart,\" {initiator} says, holding up a worksheet with a challenging question."
+        ]
+    },
+    "mixer_social_TalkAboutToys_targeted_Friendly_alwaysOn_child": {
+        "pre_actions": [
+            "{initiator}, a young child, talks about their toys to {target}."
+        ],
+        "actions": [
+            "\"I have so many toys, {target}! Let me show you my favorite ones,\" {initiator} says excitedly.",
+            "\"Do you like toys, {target}? I have a whole bunch of them. Can I tell you about them?\" {initiator} asks, looking at {target} with anticipation.",
+            "\"You won't believe all the toys I have, {target}! Let me tell you about them,\" {initiator} says, bouncing up and down with excitement.",
+            "\"I love playing with my toys, {target}. Can I tell you all about them?\" {initiator} asks, holding a toy tightly in their hands.",
+            "\"I have this amazing collection of toys, {target}. Can I show them to you and tell you their stories?\" {initiator} asks, gesturing towards a shelf filled with toys.",
+            "\"Playing with toys is so much fun, {target}. Let me tell you about my favorites,\" {initiator} says, eagerly waiting for {target}'s response.",
+            "\"I have this really cool toy that I want to tell you about, {target}. Can I show it to you?\" {initiator} asks, holding a toy up for {target} to see.",
+            "\"Sometimes I imagine that my toys come to life, {target}. Do you ever do that? Let me tell you about my adventures with them,\" {initiator} says, a twinkle in their eyes.",
+            "\"Sometimes I talk to my toys as if they can hear me, {target}. Is that weird? Let me tell you what we talk about,\" {initiator} says, looking at {target} with curiosity.",
+            "\"I have a secret hideout for my toys, {target}. Do you want to come see it? I'll show you all the cool things I have,\" {initiator} says, inviting {target} to join their imaginative world."
+        ]
+    },
+    "mixer_social_Targeted_Mean_AlwaysOn_STC_Toddler_CrushDreams": {
+        "pre_actions": [
+            "{initiator} angrily crushes toddler {target}'s dreams."
+        ],
+        "actions": [
+            "\"{Target}, you need to wake up and face reality. Your dreams are nothing but illusions,\" {initiator} says, their voice filled with anger.",
+            "\"I'm tired of watching you chase after something that will never come true, {target}. It's time to face the harsh truth,\" {initiator} says, their tone filled with frustration.",
+            "\"I can't stand seeing you live in this fantasy world, {target}. It's time for me to burst your bubble,\" {initiator} says, their voice laced with annoyance.",
+            "\"{Target}, you need to stop dreaming and start focusing on what's practical. Your dreams are holding you back,\" {initiator} declares, their anger evident.",
+            "\"I've had enough of your unrealistic dreams, {target}. It's time someone brought you back down to earth,\" {initiator} says, their words sharp and cutting.",
+            "\"I can't believe you still believe in your childish dreams, {target}. It's time for a reality check,\" {initiator} says, their voice dripping with contempt.",
+            "\"{Target}, it's about time someone shattered your dreams and made you face the truth. Consider me your wake-up call,\" {initiator} says, their anger palpable.",
+            "\"Your dreams are nothing more than a waste of time, {target}. It's time I opened your eyes to reality,\" {initiator} says, their tone filled with bitterness.",
+            "\"I can't stand how you cling to your dreams, {target}, as if they actually matter. It's time for a harsh dose of reality,\" {initiator} says, their frustration evident.",
+            "\"{Target}, I've had enough of your foolish dreams. It's time I crushed them once and for all,\" {initiator} says, their anger seeping through their words."
+        ]
+    },
+    "mixer_social_Targeted_Mean_AlwaysOn_STC_Toddler_Scold": {
+        "pre_actions": [
+            "{initiator} angrily scolds {target}, who is a toddler."
+        ],
+        "actions": [
+            "\"{Target}, how many times do I have to tell you not to touch that?! You never listen!\" {Initiator} scolds, frustration evident in their voice.",
+            "\"I can't believe you spilled your juice all over the floor again! Will you ever learn, {target}?\" {Initiator} reprimands, hands on their hips.",
+            "\"Enough is enough, {target}! You can't just throw your toys around like that. It's not funny!\" {Initiator} scolds, their voice stern.",
+            "\"{Target}, we've talked about this. No hitting! How many more times do I have to say it?\" {Initiator} says, their tone laced with anger.",
+            "\"You're testing my patience, {target}. How many times do I have to tell you not to run away like that?\" {Initiator} scolds, taking a deep breath to calm themselves.",
+            "\"Stop screaming, {target}! You're giving me a headache. Can't you be quiet for once?\" {Initiator} says, their voice filled with frustration.",
+            "\"I told you not to touch the stove, {target}. Now look what you've done! I can't believe you!\" {Initiator} scolds, a mix of anger and concern in their eyes.",
+            "\"Enough with the tantrums, {target}! You need to start behaving. It's time to learn some discipline,\" {Initiator} scolds, their voice firm.",
+            "\"{Target}, we've talked about this a hundred times. No throwing food! Clean it up right now!\" {Initiator} reprimands, pointing to the mess.",
+            "\"I don't want to hear any more excuses, {target}. You need to take responsibility for your actions,\" {Initiator} scolds, their tone stern."
+        ]
+    },
+    "mixer_social_Targeted_Mean_AlwaysOn_STC_Toddler_YellAt": {
+        "pre_actions": [
+            "{initiator} angrily yells at {target}, who is a toddler."
+        ],
+        "actions": [
+            "\"{Target}, stop! No! Bad!\" {Initiator} shouts in frustration, trying to get through to the toddler.",
+            "\"Toddler, you're driving me crazy! Just listen to me for once!\" {Initiator} exclaims, growing more irritated.",
+            "\"I can't believe you're behaving like this, {Target}! Do you have any idea how much you're testing my patience?\" {Initiator} yells, feeling their anger rise.",
+            "\"Enough is enough, {Target}! I will not tolerate this behavior anymore!\" {Initiator} shouts, their face turning red.",
+            "\"I've had it with you, {Target}! You need to start behaving or there will be consequences!\" {Initiator} scolds, their voice filled with anger.",
+            "\"{Target}, I'm so fed up with you right now! Can't you just listen and do as I say?\" {Initiator} yells, their frustration evident in their tone.",
+            "\"Stop it right now, {Target}! You're being absolutely infuriating!\" {Initiator} snaps, trying to keep their temper in check.",
+            "\"I can't handle this anymore, {Target}! Your behavior is driving me insane!\" {Initiator} shouts in exasperation.",
+            "\"{Target}, you're pushing me to my limits! Stop it!\" {Initiator} yells, struggling to control their anger.",
+            "\"This is unacceptable, {Target}! I will not tolerate this kind of behavior from you!\" {Initiator} raises their voice, their words sharp and stern."
+        ]
+    },
+    "mixer_social_TeaseMercilessly_targeted_mean_teen": {
+        "pre_actions": [
+            "{initiator}, a mean teenager, teases {target} mercilessly."
+        ],
+        "actions": [
+            "\"{Target}, you really are pathetic. I don't know why you even bother trying,\" {initiator} sneers, a cruel smirk on their face.",
+            "\"Look who decided to show up, {target}. Are you ready for another round of humiliation?\" {initiator} taunts, their voice dripping with malice.",
+            "\"You know, {target}, it's almost impressive how easily you become the laughingstock of every situation,\" {initiator} jeers, enjoying their own cruelty.",
+            "\"I hope you enjoy being everyone's punching bag, {target}, because that's all you'll ever be,\" {initiator} mocks, their words like daggers.",
+            "\"Do you ever get tired of being an embarrassment, {target}? It's like you were born to fail,\" {initiator} says, laughing mockingly.",
+            "\"{Target}, you really need to stop pretending like people actually like you. It's getting sad,\" {initiator} taunts, relishing in their power over {target}.",
+            "\"{Initiator}, can't you find someone else to torment? {Target} has suffered enough,\" a voice finally speaks up, defending {target}.",
+            "\"You're pathetic, {target}. I can't believe anyone could ever like you,\" {initiator} says, their words laced with venom.",
+            "\"Hey, {target}, have you thought about just giving up? It would save us all a lot of time,\" {initiator} teases, a cruel smile on their face.",
+            "\"Just admit it, {target}, you're a loser. And everyone knows it,\" {initiator} jeers, their voice loud and mocking."
+        ]
+    },
+    "mixer_social_Toddler_Friendly_TalkTo_Stranger": {
+        "pre_actions": [
+            "{initiator}, an innocent toddler, talks to {target}, who is a stranger."
+        ],
+        "actions": [
+            "\"Hi there! My name is {initiator}, what's your name?\" the toddler asks with a wide-eyed curiosity.",
+            "{initiator} tugs at {target}'s shirt, saying \"Do you wanna be friends? I like playing with new friends!\"",
+            "With a bright smile, {initiator} babbles excitedly, as if sharing a secret with {target}, \"Guess what? I just learned how to walk all by myself!\"",
+            "Wide-eyed, {initiator} points at {target}'s shoes and asks, \"Are those magic shoes? Can you teach me how to fly?\"",
+            "Curiously, {initiator} Studies {target} for a moment, then asks innocently, \"Why do you look different than the other grown-ups?\"",
+            "Innocently, {initiator} asks, \"Can you tell me a story? I love stories!\"",
+            "Giggling uncontrollably, {initiator} asks {target} to play peek-a-boo, saying, \"I bet you can't find me!\"",
+            "With a hint of shyness, {initiator} asks {target}, \"Are you nice? My mommy told me to only talk to nice people.\"",
+            "Dreamily, {initiator} points at a butterfly and says, \"Look, it's dancing in the sky! Do you like butterflies too?\"",
+            "With a mischievous smile, {initiator} pulls out a toy car and offers it to {target}, saying, \"Want to race with me?\""
+        ]
+    },
+    "mixer_social_toddler_Funny_JokeAboutChickenButt": {
+        "pre_actions": [
+            "{initiator}, an innocent toddler, makes a chicken butt joke to {target}."
+        ],
+        "actions": [
+            "\"{target}, guess what? Chicken butt,\" {initiator}, the innocent toddler, giggles mischievously.",
+            "\"Hey {target}, wanna hear a silly joke? Chicken butt!\" {initiator} bursts into laughter.",
+            "{initiator} tugs on {target}'s sleeve and whispers, \"I have a secret joke just for you. Ready? Chicken butt!\" They break into giggles together.",
+            "With a cheeky grin, {initiator} looks up at {target} and says, \"I know a funny joke. Chicken butt! Isn't it silly?\"",
+            "\"{target}! {target}! I have a funny joke to tell you. Chicken butt!\" {initiator} exclaims, unable to contain their excitement.",
+            "{initiator} runs up to {target} and says, \"I learned a new joke. Ready? Chicken butt!\" They giggle with delight.",
+            "With a twinkle in their eyes, {initiator} looks up at {target} and whispers, \"I know a super silly joke. It goes like this: chicken butt!\"",
+            "Grinning mischievously, {initiator} approaches {target} and says, \"Can I tell you a joke? Get ready for it... Chicken butt!\"",
+            "{initiator} points at {target} and blurts out, \"Chicken butt! Herh herh herh!\" before bursting into infectious laughter.",
+            "Looking up at {target} with wide eyes, {initiator} says, \"I have a really funny joke to tell you. Ready? Chicken butt!\""
+        ]
+    },
+    "mixer_social_Toddler_Funny_Say_NonSense": {
+        "pre_actions": [
+            "{initiator}, an innocent toddler, babbles nonsense to {target}."
+        ],
+        "actions": [
+            "The toddler looks at {target} and babbles excitedly, as if trying to engage in a conversation.",
+            "{initiator} points at an object and tries to name it, giggling as {target} listens attentively.",
+            "Out of nowhere, the toddler blurts out a string of gibberish to {target}, expecting a response.",
+            "{initiator} looks up at {target} with big curious eyes and starts copying the sounds he/she makes.",
+            "Seeing {target} nearby, the toddler decides to approach, babbling contently.",
+            "The toddler reaches out to {target} with a toy and begins babbling incoherent words with a big smile.",
+            "{initiator} contemplates {target} zealously, uttering a series of nonsensical sounds.",
+            "The toddler tugs at {target}'s clothes, repetitively  mumbling buzzwords, seeking attention.",
+            "Realizing {target} is paying attention, the toddler squeals happily and babbles animatedly.",
+            "Attempting to figure out the basics of conversation, {initiator} babbles playfully to {target}."
+        ]
+    },
+    "mixer_social_Toddler_Funny_Tell_Knock_Knock_Joke": {
+        "pre_actions": [
+            "{initiator}, an innocent toddler, tells a knock knock joke to {target}."
+        ],
+         "actions": [
+            "{initiator} toddles up to {target} with a mischievous smile on their face.",
+            "\"Knock, knock,\" {initiator} says, giggling.",
+         ]
+    },
+    "mixer_social_Toddler_Mean_Yell_At": {
+        "pre_actions": [
+            "{initiator}, a cranky toddler, yells at {target}."
+        ],
+        "actions": [
+            "\"No, {target}, no! I don't like you!\" {initiator} yells with crossed arms.",
+            "\"Go away, {target}! I don't want to play with you!\" {initiator} shouts, stomping their feet in frustration.",
+            "\"Leave me alone, {target}! I'm busy and I don't want to talk to you!\" {initiator} screams, scowling.",
+            "\"{target}! Stop it! I don't want to listen to you!\" {initiator} yells, covering their ears.",
+            "\"I hate you, {target}! Go away and never come back!\" {initiator} shouts angrily, face turning red.",
+            "\"{target}, stop it! I want my mommy, not you!\" {initiator} screams, tears streaming down their face.",
+            "\"Get out of my face, {target}! I don't want to see you anymore!\" {initiator} yells, pushing {target} away.",
+            "\"{target}, you're mean! I don't want to be friends with you!\" {initiator} yells, sticking out their tongue.",
+            "\"{target}! You ruined everything! Now I'm mad at you!\" {initiator} shouts, pouting with crossed arms.",
+            "\"I'm telling! {target} is being mean to me!\" {initiator} yells, running to find an adult."
+        ]
+    },
+    "mixer_social_Toddler_TalkAbout_Art": {
+        "pre_actions": [
+            "{initiator}, a babbling toddler, talks about art with {target}."
+        ],
+        "actions": [
+            "\"{target}, look at this paint I made! Colors everywhere!\" the toddler says excitedly, showing off their finger-painted masterpiece. ",
+            "\"I'm trying to create a [specific animal] out of clay. What do you think, {target}?\" the toddler asks, molding the clay passionately. ",
+            "\"Can you teach me how to draw, {target}? I want to make pretty pictures like you,\" the toddler asks with wide eyes. ",
+            "\"{target}, do you like my picture? I put hearts and stars because they're pretty,\" the toddler says, hands covered in paint. ",
+            "\"{target}! Look at this funny sculpture I made. It's like a bumpy monster,\" the toddler giggles, holding their work up for {initiator} to see. ",
+            "\"I have so many colors of crayons. Which do you like best, {target}?\" the toddler asks, holding out a box of crayons. ",
+            "\"{target}, guess what! I learned how to scribble today. Look at my beautiful masterpiece,\" the toddler says proudly, showing off their scrawled lines. ",
+            "\"{target}, will you help me finger paint? I promise I won't make a mess... well, not too much of a mess,\" the toddler pleads, eyes sparkling. ",
+            "\"{target}, did you know that blue and yellow make green? I'm an artist, I know these things,\" the toddler says confidently, holding up a crayon. ",
+            "\"Drawing is so much fun, {target}! Will you draw with me and make magical worlds come to life?\" the toddler asks, holding a sketchpad."
+        ]
+    },
+    "mixer_social_Toddler_TalkAbout_Day": {
+        "pre_actions": [
+            "{initiator}, a babbling toddler, talks about their day with {target}."
+        ],
+        "actions": [
+            "\"{target}, guess what?! I painted a picture today! It was so fun!\" {initiator} exclaims, beaming with excitement.",
+            "\"Somebody pushed me on the swings at the park, {target}, and I went really high!\" {initiator} says, their voice filled with excitement.",
+            "\"I found a bug outside and I showed it to Miss Johnson, {target}. She said it was a ladybug!\" {initiator} says, their eyes wide with wonder.",
+            "\"I saw a doggy today, {target}, and I asked it if I could pet it. It was so fluffy!\" {initiator} says, giggling.",
+            "\"{target}, I went to story time at the library today, and I made a new friend! Her name is Emily and we read so many books!\" {initiator} says, enthusiasm lacing their words.",
+            "\"Guess what, {target}! I ate the biggest ice cream cone today, and it had sprinkles! It was the best thing ever!\" {initiator} says, their face lighting up.",
+            "\"Mommy took me to the zoo, {target}, and I saw a lion! It was so big and roar-y!\" {initiator} says, mimicking a lion's roar with enthusiasm.",
+            "\"{target}, I played in the sandbox at the playground today! I built a castle and it was so tall!\" {initiator} says, their voice filled with pride.",
+            "\"I fell down and got a 'boo-boo' on my knee today, {target}, but mommy kissed it and it feels better now!\" {initiator} says, pouting slightly.",
+            "\"{target}, I played dress-up with my big sister today, and we pretended to be princesses! I had a sparkly crown!\" {initiator} says, twirling around with joy."
+        ]
+    },
+    "mixer_social_Toddler_TalkAbout_Dinosaurs": {
+        "pre_actions": [
+            "{initiator}, a babbling toddler, talks about dinosaurs with {target}."
+        ],
+        "actions": [
+            "\"{Target}, do you know dinosaurs? They're big and scary!\" {Initiator} babbles excitedly.",
+            "\"I saw a dinosaur on TV, {target}! It had big, sharp teeth and a long neck!\" {Initiator} exclaims, pointing at the screen.",
+            "\"Hey, {target}! Did you know dinosaurs lived a long, long time ago, even before our moms and dads were born?\" {Initiator} asks, looking up at {target}.",
+            "\"I have a toy dinosaur, {target}! Wanna see it? It roars and moves its tail!\" {Initiator} says, eager to show off their toy.",
+            "\"Rawwr! I'm a dinosaur, {target}!\" {Initiator} giggles, imitating a dinosaur walking.",
+            "\"Look, {target}! This book has lots of pictures of dinosaurs. Can we read it together?\" {Initiator} asks, holding up a book with colorful illustrations.",
+            "\"Did you know, {target}, dinosaurs were really big? Some were even bigger than our house!\" {Initiator} exclaims, attempting to spread their arms as wide as possible to demonstrate.",
+            "\"{Target}, I love dinosaurs! I can name so many kinds: T-rex, Triceratops, and Stegosaurus!\" {Initiator} declares proudly.",
+            "\"I want to be a paleontologist when I grow up, {target}! That's someone who knows all about dinosaurs!\" {Initiator} shares their future ambition with excitement.",
+            "\"I wish I could see a real dinosaur, {target}! That would be so cool!\" {Initiator} says wistfully, looking up at the sky as if expecting a dinosaur to appear."
+        ]
+    },
+    "mixer_social_Toddler_TalkAbout_Favorite_Color": {
+        "pre_actions": [
+            "{initiator}, a babbling toddler, talks about their favorite color with {target}."
+        ],
+        "actions": [
+            "\"{target}, guess what? My favorite color is \"",
+            "\"You won't believe it, {target}, but my favorite color is \"",
+            "\"Oh, oh, oh! I have something to tell you, {target}! My favorite color, it's \"",
+            "\"I have a super-duper special favorite color, {target}, and it's \"",
+            "\"Do you want to know my top secret, {target}? My favorite color is \"",
+            "\"Hey, {target}, I have a secret! My favorite color is \"",
+            "\"Do you want to hear about my most favorite color ever, {target}? It's \""
+        ]
+    },
+    "mixer_social_Toddler_TalkAbout_Princesses": {
+        "pre_actions": [
+            "{initiator}, a babbling toddler, talks about princesses with {target}."
+        ],
+        "actions": [
+            "\"{target}, guess what? I saw a princess today, and she had the sparkliest dress ever!\" {initiator} babbles excitedly.",
+            "\"I have a princess crown at home, {target}, and I wear it every day. Do you want to see it?\"",
+            "\"Princesses are magical, {target}. I wish I could be a princess and have a castle with a pink unicorn!\"",
+            "\"{target}, did you know princesses always have pretty hair? I want my hair to be long and beautiful like theirs.\"",
+            "\"I have a book about princesses, {target}, and I want to read it to you. Can we sit and read it together?\"",
+            "\"{target}, if I was a princess, I would have a pet dragon to protect me. What would you have as a princess?\"",
+            "\"Do you think there are ladybug princesses, {target}? I love ladybugs, and I want to be their princess!\"",
+            "\"I saw a princess movie yesterday, {target}, and there was a big, magical ballroom. I want to dance like that!\"",
+            "\"{target}, I want to dress up as a princess today. Will you be my prince or princess too?\"",
+            "\"{target}, princesses always go on adventures. Let's find a big castle and go on an adventure together!\""
         ]
     },
     # This is the interaction that runs right when a Sim starts to walk away towards an exit

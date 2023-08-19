@@ -517,7 +517,7 @@ interaction_descriptions = {
     },
     'mixer_social_RevealDeepSecret_targeted_Friendly_HighScore': {
         "pre_actions": [
-            "{Initiator} confesses a profound, deeply-held secret to {target}."
+            "{initiator} confesses a profound, deeply-held secret to {target}."
         ],
         "actions": [
             "\"{target}, I need to tell you something. Promise me you won't judge,\" {initiator} says nervously.",
@@ -3332,14 +3332,14 @@ interaction_descriptions = {
         "actions": [
             "\"Congratulations, {target}! When is the little one due?\" {initiator} asks, smiling warmly.",
             "\"I couldn't help but notice that pregnancy glow, {target}. When can we expect to meet the baby?\" {initiator} asks, excitement evident in their voice.",
-            "\"{Target}, I've been dying to know - when is the baby expected to arrive?\" {initiator} inquires eagerly.",
-            "\"{Target}, forgive me if it's too personal, but I can't help but wonder when your bundle of joy will make their grand entrance. Care to share?\" {initiator} asks, trying to contain their curiosity.",
+            "\"{target}, I've been dying to know - when is the baby expected to arrive?\" {initiator} inquires eagerly.",
+            "\"{target}, forgive me if it's too personal, but I can't help but wonder when your bundle of joy will make their grand entrance. Care to share?\" {initiator} asks, trying to contain their curiosity.",
             "\"I hope you don't mind me asking, {target}, but I'm so excited for you. When is the baby due?\" {initiator} asks, their eyes sparkling with anticipation.",
-            "\"{Target}, I've been counting down the days since I heard the news. Can you tell me when the baby is expected to arrive?\" {initiator} asks, unable to hide their enthusiasm.",
+            "\"{target}, I've been counting down the days since I heard the news. Can you tell me when the baby is expected to arrive?\" {initiator} asks, unable to hide their enthusiasm.",
             "\"I don't mean to pry, {target}, but I'm overjoyed for you. When is the baby expected to join us?\" {initiator} asks, genuinely interested.",
             "\"Your pregnancy has been such a beautiful journey to witness, {target}. When will the little one grace us with their presence?\" {initiator} asks, a hint of awe in their voice.",
             "\"I hope you don't mind me asking, {target}, but I'm eager to know - when is your baby due?\" {initiator} asks, a twinkle of excitement in their eyes.",
-            "\"{Target}, I can't contain my excitement any longer. When is the baby expected to arrive?\" {initiator} asks, barely able to hide their anticipation."
+            "\"{target}, I can't contain my excitement any longer. When is the baby expected to arrive?\" {initiator} asks, barely able to hide their anticipation."
         ]
     },
     "mixer_social_CaressCheek_targeted_romance_highScore": {
@@ -3499,16 +3499,16 @@ interaction_descriptions = {
             "{initiator} offers to give {target} a sexual massage.",
         ],
         "actions": [
-            "\"{Target}, I have something special in mind for tonight. How about I give you a sensual massage to start things off?\" {Initiator} suggests, raising an eyebrow suggestively.",
-            "\"You know, {Target}, I've been studying massage techniques lately. How about I give you a full-body massage as a little foreplay?\" {Initiator} proposes with a mischievous smile.",
-            "\"I've been thinking about a different way to spice things up, {Target}. How about I give you an intimate massage before we get things heated?\" {Initiator} suggests, biting their lip seductively.",
-            "\"{Target}, I want to explore new ways to pleasure you. How about I start with a sensual massage to set the mood?\" {Initiator} suggests, running their fingers lightly over {Target}'s arm.",
-            "\"I've been practicing my massage skills lately, and I think you'd enjoy the benefits, {Target}. How about I give you a tantalizing massage before we take it further?\" {Initiator} proposes, their voice filled with anticipation.",
-            "\"{Target}, I have a surprise for you tonight. How about I give you an erotic massage to kick off our intimate time together?\" {Initiator} suggests, their eyes gleaming with desire.",
-            "\"I've been reading about the power of touch, {Target}, and I'd love to show you what I've learned. How about I give you a passionate massage before we delve into deeper pleasures?\" {Initiator} proposes, their voice filled with excitement.",
-            "\"{Target}, I want to pamper you tonight. How about I start by giving you a sensual massage to awaken your senses?\" {Initiator} suggests, their fingers tracing delicate patterns on {Target}'s thigh.",
-            "\"I've been thinking about ways to heighten our pleasure, {Target}. How about I give you a seductive massage to ignite the fire between us?\" {Initiator} proposes, their voice low and filled with desire.",
-            "\"{Target}, I've been fantasizing about giving you a tantalizing massage. How about I make that fantasy come true tonight?\" {Initiator} suggests, a playful smile dancing on their lips.",
+            "\"{target}, I have something special in mind for tonight. How about I give you a sensual massage to start things off?\" {initiator} suggests, raising an eyebrow suggestively.",
+            "\"You know, {target}, I've been studying massage techniques lately. How about I give you a full-body massage as a little foreplay?\" {initiator} proposes with a mischievous smile.",
+            "\"I've been thinking about a different way to spice things up, {target}. How about I give you an intimate massage before we get things heated?\" {initiator} suggests, biting their lip seductively.",
+            "\"{target}, I want to explore new ways to pleasure you. How about I start with a sensual massage to set the mood?\" {initiator} suggests, running their fingers lightly over {target}'s arm.",
+            "\"I've been practicing my massage skills lately, and I think you'd enjoy the benefits, {target}. How about I give you a tantalizing massage before we take it further?\" {initiator} proposes, their voice filled with anticipation.",
+            "\"{target}, I have a surprise for you tonight. How about I give you an erotic massage to kick off our intimate time together?\" {initiator} suggests, their eyes gleaming with desire.",
+            "\"I've been reading about the power of touch, {target}, and I'd love to show you what I've learned. How about I give you a passionate massage before we delve into deeper pleasures?\" {initiator} proposes, their voice filled with excitement.",
+            "\"{target}, I want to pamper you tonight. How about I start by giving you a sensual massage to awaken your senses?\" {initiator} suggests, their fingers tracing delicate patterns on {target}'s thigh.",
+            "\"I've been thinking about ways to heighten our pleasure, {target}. How about I give you a seductive massage to ignite the fire between us?\" {initiator} proposes, their voice low and filled with desire.",
+            "\"{target}, I've been fantasizing about giving you a tantalizing massage. How about I make that fantasy come true tonight?\" {initiator} suggests, a playful smile dancing on their lips.",
             "\"{target}, I've been studying massage techniques for a while now, and I think I'm ready to give you an intimate massage,\" {initiator} says, their voice filled with anticipation.",
             "\"I've been practicing my massage skills, and I would love to give you an intimate massage if you're open to it,\" {initiator} suggests, trying to gauge {target}'s reaction.",
             "\"I've been reading about the benefits of intimate massage, and I think it could be a wonderful experience for both of us. Would you be interested, {target}?\" {initiator} asks, their eyes filled with curiosity.",
@@ -3526,12 +3526,12 @@ interaction_descriptions = {
             "{initiator} signals their sexual interest in {target}.",
         ],
         "actions": [
-            "\"{Target}, there's something I've been wanting to tell you for a while now. I'm attracted to you,\" {initiator} admits, their voice filled with nervousness.",
+            "\"{target}, there's something I've been wanting to tell you for a while now. I'm attracted to you,\" {initiator} admits, their voice filled with nervousness.",
             "\"I can't keep it a secret any longer, {target}. I have feelings for you, and I needed to let you know,\" {initiator} says, their cheeks turning slightly pink.",
             "\"I've been struggling with this feeling, {target}, but I can't deny it anymore. I'm attracted to you,\" {initiator} confesses, their eyes locked with {target}'s.",
             "\"I hope I'm not crossing any boundaries here, but I can't help but feel a strong attraction towards you, {target},\" {initiator} says, their voice wavering.",
             "\"Believe me, I didn't plan on catching these feelings, but it happened, {target}. I find myself attracted to you,\" {initiator} says, looking slightly embarrassed.",
-            "\"I've been trying to hide it, but it's becoming harder each day. {Target}, I'm attracted to you, and I needed to get it off my chest,\" {initiator} admits, their voice filled with vulnerability.",
+            "\"I've been trying to hide it, but it's becoming harder each day. {target}, I'm attracted to you, and I needed to get it off my chest,\" {initiator} admits, their voice filled with vulnerability.",
             "\"I've been wrestling with my emotions, {target}, but I can't deny it any longer. I'm drawn to you in ways I can't explain,\" {initiator} says, their voice filled with a mix of longing and uncertainty.",
             "\"I hope this doesn't change our friendship, {target}, but I can't keep it to myself any longer. I'm attracted to you,\" {initiator} says, their voice shaking slightly.",
             "\"I know this might come as a surprise, {target}, but I can't keep it hidden any longer. I'm attracted to you, and I needed to tell you,\" {initiator} says, their voice filled with determination.",
@@ -3577,16 +3577,16 @@ interaction_descriptions = {
             "{initiator} attempts to initiate sex with {target}.",
         ],
         "actions": [
-            "{Initiator} leans in close to {target}, their eyes filled with desire.",
+            "{initiator} leans in close to {target}, their eyes filled with desire.",
             "\"I've been thinking about this for a while, {target},\" {initiator} says, seductively.",
-            "{Initiator} reaches out and traces a finger along {target}'s arm, sending shivers down {target}'s spine.",
+            "{initiator} reaches out and traces a finger along {target}'s arm, sending shivers down {target}'s spine.",
             "\"There's something about you, {target}, that I just can't resist,\" {initiator} whispers, their voice laced with anticipation.",
             "As {initiator} moves closer, their lips barely brushing against {target}'s ear, they murmur, \"I want you. Right here. Right now.\"",
             "With a playful smile, {initiator} takes {target}'s hand and leads them to a secluded spot, their intentions clear.",
-            "{Initiator} presses their body against {target}, their lips crashing together in a passionate embrace.",
+            "{initiator} presses their body against {target}, their lips crashing together in a passionate embrace.",
             "\"Tonight, {target}, I want to experience something unforgettable with you,\" {initiator} says, their voice filled with longing.",
             "With a mischievous glint in their eye, {initiator} whispers, \"Let's explore a new level of intimacy, {target}...together.\"",
-            "{Initiator} pulls {target} close, their hands roaming over each other's bodies, as they share a heated gaze filled with desire."
+            "{initiator} pulls {target} close, their hands roaming over each other's bodies, as they share a heated gaze filled with desire."
         ]
     },
     "mixer_social_TalkAboutArt_targeted_Friendly_alwaysOn": {
@@ -3696,16 +3696,16 @@ interaction_descriptions = {
             "{initiator} mischievously asks {target} about their due date."
         ],
         "actions": [
-            "\"{Target}, I couldn't help but notice, when are you expecting the little bundle of joy?\" {Initiator} asks, a malicious smile creeping across their face.",
+            "\"{target}, I couldn't help but notice, when are you expecting the little bundle of joy?\" {initiator} asks, a malicious smile creeping across their face.",
             "\"Oh, I didn't realize you were pregnant, {target}. When's the big day?\" {initiator} says mockingly, trying to hide their amusement.",
             "\"You must be so excited! When's the baby due, {target}?\" {initiator} says mockingly, their eyes filled with judgment.",
             "\"I can't help but wonder, {target}, when is the little one expected to arrive?\" {initiator} asks with a sneer.",
-            "\"{Target}, forgive me if I'm mistaken, but when is your due date? I could have sworn I saw a baby bump,\" {initiator} says, their tone dripping with condescension.",
+            "\"{target}, forgive me if I'm mistaken, but when is your due date? I could have sworn I saw a baby bump,\" {initiator} says, their tone dripping with condescension.",
             "\"I'm sorry if I'm mistaken, {target}, but I thought you were pregnant. When can we expect to meet the newest addition to the family?\" {initiator} taunts, unable to contain their smirk.",
             "\"Oh, {target}, I have to ask, when is the bundle of joy going to make its grand entrance?\" {initiator} says, mocking sweetness evident in their voice.",
             "\"I hope you don't mind me asking, {target}, but when is the big day? You're glowing with motherhood!\" {initiator} jeers, a cruel gleam in their eyes.",
             "\"I have to say, {target}, you hide it well. When are you due, by the way?\" {initiator} says, chuckling under their breath.",
-            "\"{Target}, I have a curious question - when is the baby coming? It seems like you've been glowing lately,\" {initiator} says, their voice filled with sarcasm."
+            "\"{target}, I have a curious question - when is the baby coming? It seems like you've been glowing lately,\" {initiator} says, their voice filled with sarcasm."
         ]
     },
     "mixer_social_AskForLargeLoan_targeted_friendly_alwaysOn": {
@@ -3781,16 +3781,16 @@ interaction_descriptions = {
             "{initiator} tries to beguile {target}."
         ],
         "actions": [
-            "\"{Target}, I've been thinking about you a lot lately. Can I show you why?\" {Initiator} asks, a mischievous glint in their eyes.",
-            "\"I've discovered a secret talent of mine, {Target}, and I'd love to demonstrate it just for you,\" {Initiator} says, a sly smile playing on their lips.",
-            "\"Have I ever told you that I'm quite skilled in the art of persuasion? I think it's time I put my skills to the test,\" {Initiator} says, raising an eyebrow.",
-            "\"I've been studying the art of seduction, {Target}, and I have a feeling you might be my perfect subject,\" {Initiator} says, their voice dripping with charm.",
-            "\"{Target}, let me tell you a little secret. I have a knack for making people fall under my spell,\" {Initiator} says, tapping their fingers together thoughtfully.",
-            "\"I've been learning some mind tricks recently, {Target}. Care to see what I can do?\" {Initiator} asks, their tone full of mystery.",
-            "\"You know, {Target}, I've always been fascinated by the power of persuasion. Would you like to be my experiment?\" {Initiator} suggests, a glimmer of excitement in their eyes.",
-            "\"{Target}, I've been told I have a way with words. Let me show you just how persuasive I can be,\" {Initiator} says confidently.",
-            "\"Allow me to enchant you, {Target}. I promise it will be an experience you won't forget,\" {Initiator} says, a playful smirk on their face.",
-            "\"{Target}, there's something about you that makes me want to use every trick in the book to win you over. Care to see what I've got?\" {Initiator} asks, a grin spreading across their face."
+            "\"{target}, I've been thinking about you a lot lately. Can I show you why?\" {initiator} asks, a mischievous glint in their eyes.",
+            "\"I've discovered a secret talent of mine, {target}, and I'd love to demonstrate it just for you,\" {initiator} says, a sly smile playing on their lips.",
+            "\"Have I ever told you that I'm quite skilled in the art of persuasion? I think it's time I put my skills to the test,\" {initiator} says, raising an eyebrow.",
+            "\"I've been studying the art of seduction, {target}, and I have a feeling you might be my perfect subject,\" {initiator} says, their voice dripping with charm.",
+            "\"{target}, let me tell you a little secret. I have a knack for making people fall under my spell,\" {initiator} says, tapping their fingers together thoughtfully.",
+            "\"I've been learning some mind tricks recently, {target}. Care to see what I can do?\" {initiator} asks, their tone full of mystery.",
+            "\"You know, {target}, I've always been fascinated by the power of persuasion. Would you like to be my experiment?\" {initiator} suggests, a glimmer of excitement in their eyes.",
+            "\"{target}, I've been told I have a way with words. Let me show you just how persuasive I can be,\" {initiator} says confidently.",
+            "\"Allow me to enchant you, {target}. I promise it will be an experience you won't forget,\" {initiator} says, a playful smirk on their face.",
+            "\"{target}, there's something about you that makes me want to use every trick in the book to win you over. Care to see what I've got?\" {initiator} asks, a grin spreading across their face."
         ]
     },
     "mixer_social_BoastAboutFamily_targeted_Friendly_alwaysOn": {
@@ -4288,14 +4288,14 @@ interaction_descriptions = {
             "{initiator} maliciously atttempts to intitate a divorce from {target}."
         ],
         "actions": [
-            "\"{Target}, I've made my decision. I want a divorce,\" {initiator} says coldly, their eyes filled with determination.",
+            "\"{target}, I've made my decision. I want a divorce,\" {initiator} says coldly, their eyes filled with determination.",
             "\"I've been holding this back for too long, {target}, but I can't pretend anymore. I want out of this marriage,\" {initiator} states, their voice laced with bitterness.",
             "\"I've been plotting my escape for a while now, {target}, and I think it's time we end this charade. I want a divorce,\" {initiator} announces, a vindictive smile playing on their lips.",
             "\"I've had enough of pretending, {target}, and I refuse to continue living a lie. I'm filing for divorce,\" {initiator} declares, their tone filled with resentment.",
             "\"There's no going back, {target}. I don't love you anymore, and I want a divorce,\" {initiator} says icily, their eyes devoid of any affection.",
             "\"I've realized that I deserve better than this, {target}. Consider this my official request for a divorce,\" {initiator} states firmly, crossing their arms.",
             "\"You thought you could control me forever, {target}, but I won't let you. I'm filing for divorce,\" {initiator} says with a hint of defiance.",
-            "\"{Target}, I've found someone else. Someone who makes me feel alive again. It's time we end this marriage,\" {initiator} admits shamelessly.",
+            "\"{target}, I've found someone else. Someone who makes me feel alive again. It's time we end this marriage,\" {initiator} admits shamelessly.",
             "\"I'm done pretending that everything is fine, {target}. The truth is, I've fallen out of love with you, and I want a divorce,\" {initiator} confesses with brutal honesty.",
             "\"I know this will hurt you, {target}, but I can't bear to pretend anymore. I'm leaving you. I want a divorce,\" {initiator} says softly, yet resolute."
         ]
@@ -5035,16 +5035,16 @@ interaction_descriptions = {
             "{initiator} tries to seduce {target}."
         ],
         "actions": [
-            "\"{Target}, there's something I've been wanting to tell you... I find you incredibly attractive,\" {initiator} says, coyly.",
+            "\"{target}, there's something I've been wanting to tell you... I find you incredibly attractive,\" {initiator} says, coyly.",
             "\"I can't help but be drawn to you, {target}. There's an undeniable chemistry between us,\" {initiator} says, their voice filled with longing.",
-            "\"{Target}, I've been thinking about you a lot lately, and I can't deny the strong desire I feel for you,\" {initiator} says, their eyes locked with {target}'s.",
+            "\"{target}, I've been thinking about you a lot lately, and I can't deny the strong desire I feel for you,\" {initiator} says, their eyes locked with {target}'s.",
             "\"I've been holding back these feelings for so long, {target}, but I can't resist any longer. I want you,\" {initiator} says, their voice filled with passion.",
-            "\"{Target}, I've been trying to fight it, but I can't deny the intense attraction I feel towards you,\" {initiator} admits, their voice trembling with desire.",
-            "\"{Target}, I hope you don't mind me being forward, but I can't help but fantasize about what it would be like to be with you,\" {initiator} says, their cheeks turning slightly red.",
+            "\"{target}, I've been trying to fight it, but I can't deny the intense attraction I feel towards you,\" {initiator} admits, their voice trembling with desire.",
+            "\"{target}, I hope you don't mind me being forward, but I can't help but fantasize about what it would be like to be with you,\" {initiator} says, their cheeks turning slightly red.",
             "\"I've been wanting to tell you this for a while now, {target}, but I can't hold it in any longer. I want to be more than just friends,\" {initiator} confesses, their heart racing.",
             "\"I've been keeping this to myself, {target}, but I can't deny the strong physical and emotional connection I feel towards you,\" {initiator} says, their voice filled with vulnerability.",
-            "\"{Target}, I hope I'm not crossing any boundaries here, but I can't ignore the way you make me feel. I want to explore this attraction between us,\" {initiator} says, nervously.",
-            "\"{Target}, there's something I need to get off my chest... I'm finding it hard to resist the temptation to kiss you right now,\" {initiator} says, their voice filled with anticipation."
+            "\"{target}, I hope I'm not crossing any boundaries here, but I can't ignore the way you make me feel. I want to explore this attraction between us,\" {initiator} says, nervously.",
+            "\"{target}, there's something I need to get off my chest... I'm finding it hard to resist the temptation to kiss you right now,\" {initiator} says, their voice filled with anticipation."
         ]
     },
     "mixer_social_SellTestAnswers_targeted_Friendly_alwaysOn_prank": {
@@ -5057,8 +5057,8 @@ interaction_descriptions = {
             "\"I've got a little something that might give you an advantage on the test, {target},\" {initiator} says, raising an eyebrow.",
             "\"I've got a little surprise for you, {target}. It's the key to acing the test without even studying,\" {initiator} says, holding out a piece of paper with a mysterious smile.",
             "\"I've got something that might pique your interest, {target}. How about getting ahead of the curve with these fake test answers?\" {initiator} asks, smirking.",
-            "\"Hey {target}, want a shortcut to acing the test? I've got the answers right here. What do you say?\" {Initiator} says, holding up a piece of paper.",
-            "\"You won't believe what I found. These are the secret answers to the upcoming test. Want to get your hands on them?\" {Initiator} teases {Target}.",
+            "\"Hey {target}, want a shortcut to acing the test? I've got the answers right here. What do you say?\" {initiator} says, holding up a piece of paper.",
+            "\"You won't believe what I found. These are the secret answers to the upcoming test. Want to get your hands on them?\" {initiator} teases {target}.",
         ]
     },
     "mixer_Social_SexualOrientation_EndWooHooPartners": {
@@ -5066,16 +5066,16 @@ interaction_descriptions = {
             "{initiator} ends their intimate relationship with {target} due to their sexual orientation."
         ],
         "actions": [
-            "\"{Target}, I need to talk to you. It's about our relationship,\" {Initiator} says, a hint of sadness in their voice. ",
-            "\"I can't keep pretending anymore, {Target}. I have realized something about myself, and it's causing me so much pain,\" {Initiator} confesses, their voice shaking.",
-            "\"I never thought I would find myself in this situation, {Target}, but I have to be true to who I am. Our relationship cannot continue,\" {Initiator} says, tears welling up in their eyes.",
-            "\"{Target}, I can no longer hide the truth from you. It's tearing me apart, and I can't pretend anymore,\" {Initiator} says, their voice choked with emotion.",
-            "\"I've been struggling with this for so long, {Target}, and I can't keep living a lie. I have to end our relationship,\" {Initiator} admits, anguish clear in their voice. ",
-            "\"Love is not enough to ignore my true self, {Target}. I owe it to both of us to be honest,\" {Initiator} says, their voice laced with pain.",
-            "\"No matter how much I care about you, {Target}, I can't deny who I really am. It's time to end our relationship,\" {Initiator} says, their voice trembling.",
-            "\"{Target}, I never wanted to hurt you, but I can't deny who I am anymore. I have to break up with you,\" {Initiator} says, trying to keep their voice steady.",
-            "\"We had something beautiful, {Target}, but I can no longer live a lie. Our relationship has to come to an end,\" {Initiator} says, their voice filled with sorrow.",
-            "\"This is the hardest thing I've ever had to do, {Target}, but I can't ignore who I truly am. I have to end our relationship,\" {Initiator} says, their voice barely above a whisper."
+            "\"{target}, I need to talk to you. It's about our relationship,\" {initiator} says, a hint of sadness in their voice. ",
+            "\"I can't keep pretending anymore, {target}. I have realized something about myself, and it's causing me so much pain,\" {initiator} confesses, their voice shaking.",
+            "\"I never thought I would find myself in this situation, {target}, but I have to be true to who I am. Our relationship cannot continue,\" {initiator} says, tears welling up in their eyes.",
+            "\"{target}, I can no longer hide the truth from you. It's tearing me apart, and I can't pretend anymore,\" {initiator} says, their voice choked with emotion.",
+            "\"I've been struggling with this for so long, {target}, and I can't keep living a lie. I have to end our relationship,\" {initiator} admits, anguish clear in their voice. ",
+            "\"Love is not enough to ignore my true self, {target}. I owe it to both of us to be honest,\" {initiator} says, their voice laced with pain.",
+            "\"No matter how much I care about you, {target}, I can't deny who I really am. It's time to end our relationship,\" {initiator} says, their voice trembling.",
+            "\"{target}, I never wanted to hurt you, but I can't deny who I am anymore. I have to break up with you,\" {initiator} says, trying to keep their voice steady.",
+            "\"We had something beautiful, {target}, but I can no longer live a lie. Our relationship has to come to an end,\" {initiator} says, their voice filled with sorrow.",
+            "\"This is the hardest thing I've ever had to do, {target}, but I can't ignore who I truly am. I have to end our relationship,\" {initiator} says, their voice barely above a whisper."
         ]
     },
     "mixer_social_ShareBabyPictures_Targeted_Friendly_AlwaysOn_STC": {
@@ -5180,8 +5180,8 @@ interaction_descriptions = {
             "{initiator} breaks away from cuddling and gestures towards the massage oil on the nearby table, saying, \"I've been wanting to give you a vigorous massage, {target}. Shall we get started?\"",
             "As {target} stretches out on the couch, {initiator} casually approaches and offers, \"I'm in the mood for a workout. How about a vigorous massage for you, {target}?\"",
             "Gently, {initiator} begins massaging {target}'s shoulders, gradually working their way down. \"You deserve to be pampered, {target}. Let me take care of you.\"",
-            "{Initiator} whispers in {target}'s ear, voice filled with desire, \"I want to give you a massage, {target}. Let me help you relax and unleash your tension.\"",
-            "{Initiator}'s fingers dance across {target}'s tense muscles, causing {target} to shiver in delight. \"{Target}, I've been practicing my massage techniques, and I can't wait to try them on you.\"",
+            "{initiator} whispers in {target}'s ear, voice filled with desire, \"I want to give you a massage, {target}. Let me help you relax and unleash your tension.\"",
+            "{initiator}'s fingers dance across {target}'s tense muscles, causing {target} to shiver in delight. \"{target}, I've been practicing my massage techniques, and I can't wait to try them on you.\"",
             "As {initiator}'s hands glide over {target}'s tense muscles, {target} lets out a pleasurable sigh, \"Wow, {initiator}, you are amazing at this.\"",
         ]
     },
@@ -5494,16 +5494,16 @@ interaction_descriptions = {
             "{initiator} suggests trying for a baby with {target} in a bush outside."
         ],
         "actions": [
-            "\"{Target}, I have a crazy idea. What if we try for a baby... outside... in a bush?\" {Initiator} suggests with a mischievous smile.",
-            "\"I've been thinking, {Target}. What if we make a baby... in a bush? It would be wild, adventurous, and definitely unforgettable,\" {Initiator} says, raising an eyebrow.",
-            "\"Hey {Target}, I know this might sound unconventional, but what if we take things to the next level and try for a baby... outside... in a bush?\" {Initiator} proposes, nervously.",
-            "\"I've been dreaming about our future together, {Target}, and I think it's time we take a leap of faith. How about trying for a baby...in a bush?\" {Initiator} suggests, feeling a mix of excitement and uncertainty.",
-            "\"Life is short, {Target}, and I want to make the most of it. So, what do you say we try for a baby...in a bush? It'll be our little secret adventure,\" {Initiator} proposes, grinning.",
-            "\"Let's make a memory, {Target}, something to tell our future child about. How about trying for a baby...in a bush? It's crazy, I know, but also incredibly romantic,\" {Initiator} suggests, blushing.",
-            "\"{Target}, I have this idea that might sound a bit unconventional, but what if we try for a baby... in a bush? It would be a story to tell for generations,\" {Initiator} says with a mix of excitement and nervousness.",
-            "\"Sometimes, {Target}, the best things in life come from doing something unexpected. So, how about we try for a baby...in a bush? It would be our little secret,\" {Initiator} suggests, biting their lip.",
-            "\"I know it might sound a bit crazy, {Target}, but what if we try for a baby... in a bush? It would be like defying societal norms and having an adventure all at once,\" {Initiator} says, trying to gauge {Target}'s reaction.",
-            "\"{Target}, I've been thinking about our future together, and I have this idea that might sound a little unconventional. What do you think about trying for a baby...in a bush?\" {Initiator} asks, their eyes shining with excitement."
+            "\"{target}, I have a crazy idea. What if we try for a baby... outside... in a bush?\" {initiator} suggests with a mischievous smile.",
+            "\"I've been thinking, {target}. What if we make a baby... in a bush? It would be wild, adventurous, and definitely unforgettable,\" {initiator} says, raising an eyebrow.",
+            "\"Hey {target}, I know this might sound unconventional, but what if we take things to the next level and try for a baby... outside... in a bush?\" {initiator} proposes, nervously.",
+            "\"I've been dreaming about our future together, {target}, and I think it's time we take a leap of faith. How about trying for a baby...in a bush?\" {initiator} suggests, feeling a mix of excitement and uncertainty.",
+            "\"Life is short, {target}, and I want to make the most of it. So, what do you say we try for a baby...in a bush? It'll be our little secret adventure,\" {initiator} proposes, grinning.",
+            "\"Let's make a memory, {target}, something to tell our future child about. How about trying for a baby...in a bush? It's crazy, I know, but also incredibly romantic,\" {initiator} suggests, blushing.",
+            "\"{target}, I have this idea that might sound a bit unconventional, but what if we try for a baby... in a bush? It would be a story to tell for generations,\" {initiator} says with a mix of excitement and nervousness.",
+            "\"Sometimes, {target}, the best things in life come from doing something unexpected. So, how about we try for a baby...in a bush? It would be our little secret,\" {initiator} suggests, biting their lip.",
+            "\"I know it might sound a bit crazy, {target}, but what if we try for a baby... in a bush? It would be like defying societal norms and having an adventure all at once,\" {initiator} says, trying to gauge {target}'s reaction.",
+            "\"{target}, I've been thinking about our future together, and I have this idea that might sound a little unconventional. What do you think about trying for a baby...in a bush?\" {initiator} asks, their eyes shining with excitement."
         ]
     },
     "mixer_social_TryForBabyInHottub_targeted_romance_transition": {
@@ -5618,16 +5618,16 @@ interaction_descriptions = {
             "{initiator} suggests being intimate with {target} in their camping tent."
         ],
         "actions": [
-            "\"{Target}, I have a crazy idea. What do you think about getting cozy in our camping tent?\" {Initiator} asks with a mischievous smile.",
-            "\"I know it might sound unconventional, but how about we make some unforgettable memories together in that camping tent, {target}?\" {Initiator} suggests, raising an eyebrow.",
-            "\"{Target}, I've been thinking... What if we take our camping trip to a whole new level of intimacy? Just you and me, in that tent,\" {Initiator} proposes, their voice laced with anticipation.",
-            "\"Hey, {target}, I have a proposition. How about we turn this camping trip into a romantic adventure? Picture us, alone, beneath the stars in that tent,\" {Initiator} says, their eyes gleaming with excitement.",
-            "\"{Target}, I have this wild idea. What do you think about spicing things up on this camping trip and exploring our connection in the privacy of our tent?\" {Initiator} suggests, their heart pounding.",
-            "\"{Target}, let's make this camping trip unforgettable. How about we create some magical moments together in the cozy confines of our tent?\" {Initiator} proposes, their voice filled with longing.",
-            "\"Here's an idea, {target}. Let's make this camping trip an experience that we'll never forget. Shall we explore our desires within the confines of that tent?\" {Initiator} suggests, a playful smirk on their face.",
-            "\"Imagine this, {target}. The crackling of the campfire, the whisper of the wind through the trees, and us, wrapped in each other's arms inside that tent,\" {Initiator} suggests, their voice tinged with desire.",
-            "\"{Target}, I have a proposition for you. How about we take advantage of this secluded camping spot and indulge in some intimate moments in our tent?\" {Initiator} suggests, their eyes filled with longing.",
-            "\"{Target}, I can't help but imagine how incredible it would be to share intimate moments with you inside that tent. What do you say?\" {Initiator} asks, their voice filled with anticipation."
+            "\"{target}, I have a crazy idea. What do you think about getting cozy in our camping tent?\" {initiator} asks with a mischievous smile.",
+            "\"I know it might sound unconventional, but how about we make some unforgettable memories together in that camping tent, {target}?\" {initiator} suggests, raising an eyebrow.",
+            "\"{target}, I've been thinking... What if we take our camping trip to a whole new level of intimacy? Just you and me, in that tent,\" {initiator} proposes, their voice laced with anticipation.",
+            "\"Hey, {target}, I have a proposition. How about we turn this camping trip into a romantic adventure? Picture us, alone, beneath the stars in that tent,\" {initiator} says, their eyes gleaming with excitement.",
+            "\"{target}, I have this wild idea. What do you think about spicing things up on this camping trip and exploring our connection in the privacy of our tent?\" {initiator} suggests, their heart pounding.",
+            "\"{target}, let's make this camping trip unforgettable. How about we create some magical moments together in the cozy confines of our tent?\" {initiator} proposes, their voice filled with longing.",
+            "\"Here's an idea, {target}. Let's make this camping trip an experience that we'll never forget. Shall we explore our desires within the confines of that tent?\" {initiator} suggests, a playful smirk on their face.",
+            "\"Imagine this, {target}. The crackling of the campfire, the whisper of the wind through the trees, and us, wrapped in each other's arms inside that tent,\" {initiator} suggests, their voice tinged with desire.",
+            "\"{target}, I have a proposition for you. How about we take advantage of this secluded camping spot and indulge in some intimate moments in our tent?\" {initiator} suggests, their eyes filled with longing.",
+            "\"{target}, I can't help but imagine how incredible it would be to share intimate moments with you inside that tent. What do you say?\" {initiator} asks, their voice filled with anticipation."
         ]
     },
     "mixer_social_WooHooInBush_targeted_romance_transition": {
@@ -5690,16 +5690,16 @@ interaction_descriptions = {
             "\"There's something about the stars and the quietness up here that makes me feel so close to you, {target},\" {initiator} whispers, their eyes locked with {target}'s.",
             "\"Being in this observatory with you feels like a dream, {target},\" {initiator} admits, their heart beating a little faster.",
             "\"The stars may be beautiful, but they pale in comparison to you, {target},\" {initiator} says, their eyes sparkling with admiration.",
-            "\"{Target}, I can't help but feel this magnetic pull towards you. Would you mind if I got a little closer?\" {Initiator} asks, their voice filled with desire.",
-            "\"I've been admiring you from afar for so long, {Target}, and tonight, under the stars, I can't resist any longer. Can I show you how I feel?\" {Initiator} says, their eyes locked onto {Target}.",
-            "\"There's something about this observatory that makes me want to take a leap of faith, {Target}, and that leap involves you. Are you ready for it?\" {Initiator} asks, a hint of anticipation in their voice.",
-            "\"{Target}, I've been holding back for too long, but something about this moment feels right. Can I show you how much I've been wanting you?\" {Initiator} says, their voice filled with longing.",
-            "\"I've been waiting for the perfect moment to make my move, {Target}, and being here, surrounded by the beauty of the stars, I can't think of a more perfect time. Can I kiss you?\" {Initiator} asks, their heart racing.",
-            "\"{Target}, every time I look at you, I feel an undeniable connection. In this observatory, where the universe seems to align, can I show you just how much you mean to me?\" {Initiator} says, their voice filled with sincerity.",
-            "\"{Target}, I can't help but be drawn to you. Would you mind if I held your hand and shared this beautiful view with you?\" {Initiator} asks, their voice slightly shaky.",
-            "\"{Target}, there's something about this observatory that makes me feel brave. And in this bravery, I want to make a move on you. Can I take that chance?\" {Initiator} says, their eyes filled with determination.",
-            "\"I've been dreaming about this moment, {Target}, and here we are, alone in the observatory. Can I show you just how much I've been fantasizing about you?\" {Initiator} says, their voice filled with anticipation.",
-            "\"{Target}, there's a spark between us that I can no longer ignore. Being in this observatory, I can't help but feel the need to act on it. Can I take that leap with you?\" {Initiator} asks, their voice filled with hope."
+            "\"{target}, I can't help but feel this magnetic pull towards you. Would you mind if I got a little closer?\" {initiator} asks, their voice filled with desire.",
+            "\"I've been admiring you from afar for so long, {target}, and tonight, under the stars, I can't resist any longer. Can I show you how I feel?\" {initiator} says, their eyes locked onto {target}.",
+            "\"There's something about this observatory that makes me want to take a leap of faith, {target}, and that leap involves you. Are you ready for it?\" {initiator} asks, a hint of anticipation in their voice.",
+            "\"{target}, I've been holding back for too long, but something about this moment feels right. Can I show you how much I've been wanting you?\" {initiator} says, their voice filled with longing.",
+            "\"I've been waiting for the perfect moment to make my move, {target}, and being here, surrounded by the beauty of the stars, I can't think of a more perfect time. Can I kiss you?\" {initiator} asks, their heart racing.",
+            "\"{target}, every time I look at you, I feel an undeniable connection. In this observatory, where the universe seems to align, can I show you just how much you mean to me?\" {initiator} says, their voice filled with sincerity.",
+            "\"{target}, I can't help but be drawn to you. Would you mind if I held your hand and shared this beautiful view with you?\" {initiator} asks, their voice slightly shaky.",
+            "\"{target}, there's something about this observatory that makes me feel brave. And in this bravery, I want to make a move on you. Can I take that chance?\" {initiator} says, their eyes filled with determination.",
+            "\"I've been dreaming about this moment, {target}, and here we are, alone in the observatory. Can I show you just how much I've been fantasizing about you?\" {initiator} says, their voice filled with anticipation.",
+            "\"{target}, there's a spark between us that I can no longer ignore. Being in this observatory, I can't help but feel the need to act on it. Can I take that leap with you?\" {initiator} asks, their voice filled with hope."
         ]
     },
     "mixer_social_WooHooInRocketShip_targeted_romance_transition": {
@@ -6019,16 +6019,16 @@ interaction_descriptions = {
     },
     "mixer_social_BegForNewToys_targeted_friendly_alwaysOn_child": {
         "actions": [
-            "\"{Target}, can we go to the store and get me some new toys, please?\" {Initiator} asks, looking up at {target} with big pleading eyes.",
-            "\"I've been really good lately, {target}, can you buy me new toys as a reward?\" {Initiator} asks, trying to be persuasive.",
-            "\"{Target}, my old toys are so boring. Can we go shopping together and find something fun to play with?\" {Initiator} asks with excitement.",
-            "\"{Target}, I saw a commercial on TV for this amazing toy. Can we go to the store and get it?\" {Initiator} asks, jumping up and down in anticipation.",
-            "\"I really want some new toys, {target}. Can you take me to the toy store and help me pick them out?\" {Initiator} asks, hoping for a positive response.",
-            "\"Hey {target}, I've been thinking. I haven't gotten new toys in a long time. Can we fix that?\" {Initiator} asks, trying to sound casual but also desperate.",
-            "\"{Target}, I've been doing all my chores without complaining. Can we go to the toy store as a special treat?\" {Initiator} asks, hoping to leverage their good behavior.",
-            "\"I've been saving up my pocket money, {target}. Can we go to the toy store so I can buy something really cool?\" {Initiator} asks, proud of their saving efforts.",
-            "\"{Target}, can you please buy me some new toys? My friends have been showing off their new stuff and I feel left out,\" {Initiator} asks, with a hint of sadness in their voice.",
-            "\"{Target}, I've been growing so much, and my old toys are all for babies. Can we go get some 'big kid' toys?\" {Initiator} asks, emphasizing their desire to feel more grown up."
+            "\"{target}, can we go to the store and get me some new toys, please?\" {initiator} asks, looking up at {target} with big pleading eyes.",
+            "\"I've been really good lately, {target}, can you buy me new toys as a reward?\" {initiator} asks, trying to be persuasive.",
+            "\"{target}, my old toys are so boring. Can we go shopping together and find something fun to play with?\" {initiator} asks with excitement.",
+            "\"{target}, I saw a commercial on TV for this amazing toy. Can we go to the store and get it?\" {initiator} asks, jumping up and down in anticipation.",
+            "\"I really want some new toys, {target}. Can you take me to the toy store and help me pick them out?\" {initiator} asks, hoping for a positive response.",
+            "\"Hey {target}, I've been thinking. I haven't gotten new toys in a long time. Can we fix that?\" {initiator} asks, trying to sound casual but also desperate.",
+            "\"{target}, I've been doing all my chores without complaining. Can we go to the toy store as a special treat?\" {initiator} asks, hoping to leverage their good behavior.",
+            "\"I've been saving up my pocket money, {target}. Can we go to the toy store so I can buy something really cool?\" {initiator} asks, proud of their saving efforts.",
+            "\"{target}, can you please buy me some new toys? My friends have been showing off their new stuff and I feel left out,\" {initiator} asks, with a hint of sadness in their voice.",
+            "\"{target}, I've been growing so much, and my old toys are all for babies. Can we go get some 'big kid' toys?\" {initiator} asks, emphasizing their desire to feel more grown up."
         ]
     },
     "mixer_social_BragAboutGrades_targeted_Friendly_alwaysOn_child_teen": {
@@ -6359,7 +6359,7 @@ interaction_descriptions = {
             "{initiator}, a teen, silently kisses teenage {target}'s neck sensually."
         ],
         "actions": [
-            "\"{Target}, I've been wanting to do this for a while now,\" {initiator} says, their voice barely a whisper, as they gently kiss {target}'s neck.",
+            "\"{target}, I've been wanting to do this for a while now,\" {initiator} says, their voice barely a whisper, as they gently kiss {target}'s neck.",
             "The atmosphere becomes charged as {initiator} leans in and plants a soft, lingering kiss on {target}'s neck, sending shivers down their spine.",
             "In that moment, {initiator} musters up the courage to lean in and kiss {target}'s neck, their lips leaving a trail of warmth behind.",
             "As {initiator} places a delicate, sensual kiss on {target}'s neck, a rush of emotions fills the air between them.",
@@ -6580,16 +6580,16 @@ interaction_descriptions = {
             "{initiator}, a teen, shows off their outfit to {target}."
         ],
         "actions": [
-            "\"{Target}, check out this outfit I put together! What do you think?\" {Initiator} twirls around, excitedly showing off their ensemble.",
-            "\"I spent hours picking out the perfect pieces for this outfit, {target}. Do you like it?\" {Initiator} asks, striking a pose.",
-            "\"Hey {target}, I've been experimenting with my style lately. Take a look at what I came up with,\" {Initiator} says, gesturing towards their outfit.",
-            "\"I wanted to show you my new look, {target}. What do you think? Do you think it suits me?\" {Initiator} asks, eagerly awaiting {target}'s opinion.",
-            "\"Guess what, {target}? I've discovered a new fashion trend, and I decided to try it out. Do you think I pulled it off?\" {Initiator} asks, hoping for {target}'s approval.",
-            "\"{Target}, I've been trying to step up my fashion game. Check out this outfit I put together,\" {Initiator} says, striking a confident pose.",
-            "\"{Target}, I need your honest opinion. What do you think of my outfit? Is it a hit or a miss?\" {Initiator} asks, looking for {target}'s fashion expertise.",
-            "\"I've been experimenting with different styles lately, {target}. Take a look at what I've come up with,\" {Initiator} says, eagerly awaiting {target}'s reaction.",
-            "\"I've been inspired by a fashion influencer, and I decided to recreate one of their looks. What do you think, {target}?\" {Initiator} asks, seeking {target}'s validation.",
-            "\"{Target}, I've been working on my personal style. Check out this outfit and let me know what you think,\" {Initiator} says, nervously anticipating {target}'s response."
+            "\"{target}, check out this outfit I put together! What do you think?\" {initiator} twirls around, excitedly showing off their ensemble.",
+            "\"I spent hours picking out the perfect pieces for this outfit, {target}. Do you like it?\" {initiator} asks, striking a pose.",
+            "\"Hey {target}, I've been experimenting with my style lately. Take a look at what I came up with,\" {initiator} says, gesturing towards their outfit.",
+            "\"I wanted to show you my new look, {target}. What do you think? Do you think it suits me?\" {initiator} asks, eagerly awaiting {target}'s opinion.",
+            "\"Guess what, {target}? I've discovered a new fashion trend, and I decided to try it out. Do you think I pulled it off?\" {initiator} asks, hoping for {target}'s approval.",
+            "\"{target}, I've been trying to step up my fashion game. Check out this outfit I put together,\" {initiator} says, striking a confident pose.",
+            "\"{target}, I need your honest opinion. What do you think of my outfit? Is it a hit or a miss?\" {initiator} asks, looking for {target}'s fashion expertise.",
+            "\"I've been experimenting with different styles lately, {target}. Take a look at what I've come up with,\" {initiator} says, eagerly awaiting {target}'s reaction.",
+            "\"I've been inspired by a fashion influencer, and I decided to recreate one of their looks. What do you think, {target}?\" {initiator} asks, seeking {target}'s validation.",
+            "\"{target}, I've been working on my personal style. Check out this outfit and let me know what you think,\" {initiator} says, nervously anticipating {target}'s response."
         ]
     },
     "mixer_social_TalkAboutFavoriteAnimal_targeted_Friendly_alwaysOn_child": {
@@ -6648,16 +6648,16 @@ interaction_descriptions = {
             "{initiator} angrily crushes toddler {target}'s dreams."
         ],
         "actions": [
-            "\"{Target}, you need to wake up and face reality. Your dreams are nothing but illusions,\" {initiator} says, their voice filled with anger.",
+            "\"{target}, you need to wake up and face reality. Your dreams are nothing but illusions,\" {initiator} says, their voice filled with anger.",
             "\"I'm tired of watching you chase after something that will never come true, {target}. It's time to face the harsh truth,\" {initiator} says, their tone filled with frustration.",
             "\"I can't stand seeing you live in this fantasy world, {target}. It's time for me to burst your bubble,\" {initiator} says, their voice laced with annoyance.",
-            "\"{Target}, you need to stop dreaming and start focusing on what's practical. Your dreams are holding you back,\" {initiator} declares, their anger evident.",
+            "\"{target}, you need to stop dreaming and start focusing on what's practical. Your dreams are holding you back,\" {initiator} declares, their anger evident.",
             "\"I've had enough of your unrealistic dreams, {target}. It's time someone brought you back down to earth,\" {initiator} says, their words sharp and cutting.",
             "\"I can't believe you still believe in your childish dreams, {target}. It's time for a reality check,\" {initiator} says, their voice dripping with contempt.",
-            "\"{Target}, it's about time someone shattered your dreams and made you face the truth. Consider me your wake-up call,\" {initiator} says, their anger palpable.",
+            "\"{target}, it's about time someone shattered your dreams and made you face the truth. Consider me your wake-up call,\" {initiator} says, their anger palpable.",
             "\"Your dreams are nothing more than a waste of time, {target}. It's time I opened your eyes to reality,\" {initiator} says, their tone filled with bitterness.",
             "\"I can't stand how you cling to your dreams, {target}, as if they actually matter. It's time for a harsh dose of reality,\" {initiator} says, their frustration evident.",
-            "\"{Target}, I've had enough of your foolish dreams. It's time I crushed them once and for all,\" {initiator} says, their anger seeping through their words."
+            "\"{target}, I've had enough of your foolish dreams. It's time I crushed them once and for all,\" {initiator} says, their anger seeping through their words."
         ]
     },
     "mixer_social_Targeted_Mean_AlwaysOn_STC_Toddler_Scold": {
@@ -6665,16 +6665,16 @@ interaction_descriptions = {
             "{initiator} angrily scolds {target}, who is a toddler."
         ],
         "actions": [
-            "\"{Target}, how many times do I have to tell you not to touch that?! You never listen!\" {Initiator} scolds, frustration evident in their voice.",
-            "\"I can't believe you spilled your juice all over the floor again! Will you ever learn, {target}?\" {Initiator} reprimands, hands on their hips.",
-            "\"Enough is enough, {target}! You can't just throw your toys around like that. It's not funny!\" {Initiator} scolds, their voice stern.",
-            "\"{Target}, we've talked about this. No hitting! How many more times do I have to say it?\" {Initiator} says, their tone laced with anger.",
-            "\"You're testing my patience, {target}. How many times do I have to tell you not to run away like that?\" {Initiator} scolds, taking a deep breath to calm themselves.",
-            "\"Stop screaming, {target}! You're giving me a headache. Can't you be quiet for once?\" {Initiator} says, their voice filled with frustration.",
-            "\"I told you not to touch the stove, {target}. Now look what you've done! I can't believe you!\" {Initiator} scolds, a mix of anger and concern in their eyes.",
-            "\"Enough with the tantrums, {target}! You need to start behaving. It's time to learn some discipline,\" {Initiator} scolds, their voice firm.",
-            "\"{Target}, we've talked about this a hundred times. No throwing food! Clean it up right now!\" {Initiator} reprimands, pointing to the mess.",
-            "\"I don't want to hear any more excuses, {target}. You need to take responsibility for your actions,\" {Initiator} scolds, their tone stern."
+            "\"{target}, how many times do I have to tell you not to touch that?! You never listen!\" {initiator} scolds, frustration evident in their voice.",
+            "\"I can't believe you spilled your juice all over the floor again! Will you ever learn, {target}?\" {initiator} reprimands, hands on their hips.",
+            "\"Enough is enough, {target}! You can't just throw your toys around like that. It's not funny!\" {initiator} scolds, their voice stern.",
+            "\"{target}, we've talked about this. No hitting! How many more times do I have to say it?\" {initiator} says, their tone laced with anger.",
+            "\"You're testing my patience, {target}. How many times do I have to tell you not to run away like that?\" {initiator} scolds, taking a deep breath to calm themselves.",
+            "\"Stop screaming, {target}! You're giving me a headache. Can't you be quiet for once?\" {initiator} says, their voice filled with frustration.",
+            "\"I told you not to touch the stove, {target}. Now look what you've done! I can't believe you!\" {initiator} scolds, a mix of anger and concern in their eyes.",
+            "\"Enough with the tantrums, {target}! You need to start behaving. It's time to learn some discipline,\" {initiator} scolds, their voice firm.",
+            "\"{target}, we've talked about this a hundred times. No throwing food! Clean it up right now!\" {initiator} reprimands, pointing to the mess.",
+            "\"I don't want to hear any more excuses, {target}. You need to take responsibility for your actions,\" {initiator} scolds, their tone stern."
         ]
     },
     "mixer_social_Targeted_Mean_AlwaysOn_STC_Toddler_YellAt": {
@@ -6682,16 +6682,16 @@ interaction_descriptions = {
             "{initiator} angrily yells at {target}, who is a toddler."
         ],
         "actions": [
-            "\"{Target}, stop! No! Bad!\" {Initiator} shouts in frustration, trying to get through to the toddler.",
-            "\"Toddler, you're driving me crazy! Just listen to me for once!\" {Initiator} exclaims, growing more irritated.",
-            "\"I can't believe you're behaving like this, {Target}! Do you have any idea how much you're testing my patience?\" {Initiator} yells, feeling their anger rise.",
-            "\"Enough is enough, {Target}! I will not tolerate this behavior anymore!\" {Initiator} shouts, their face turning red.",
-            "\"I've had it with you, {Target}! You need to start behaving or there will be consequences!\" {Initiator} scolds, their voice filled with anger.",
-            "\"{Target}, I'm so fed up with you right now! Can't you just listen and do as I say?\" {Initiator} yells, their frustration evident in their tone.",
-            "\"Stop it right now, {Target}! You're being absolutely infuriating!\" {Initiator} snaps, trying to keep their temper in check.",
-            "\"I can't handle this anymore, {Target}! Your behavior is driving me insane!\" {Initiator} shouts in exasperation.",
-            "\"{Target}, you're pushing me to my limits! Stop it!\" {Initiator} yells, struggling to control their anger.",
-            "\"This is unacceptable, {Target}! I will not tolerate this kind of behavior from you!\" {Initiator} raises their voice, their words sharp and stern."
+            "\"{target}, stop! No! Bad!\" {initiator} shouts in frustration, trying to get through to the toddler.",
+            "\"Toddler, you're driving me crazy! Just listen to me for once!\" {initiator} exclaims, growing more irritated.",
+            "\"I can't believe you're behaving like this, {target}! Do you have any idea how much you're testing my patience?\" {initiator} yells, feeling their anger rise.",
+            "\"Enough is enough, {target}! I will not tolerate this behavior anymore!\" {initiator} shouts, their face turning red.",
+            "\"I've had it with you, {target}! You need to start behaving or there will be consequences!\" {initiator} scolds, their voice filled with anger.",
+            "\"{target}, I'm so fed up with you right now! Can't you just listen and do as I say?\" {initiator} yells, their frustration evident in their tone.",
+            "\"Stop it right now, {target}! You're being absolutely infuriating!\" {initiator} snaps, trying to keep their temper in check.",
+            "\"I can't handle this anymore, {target}! Your behavior is driving me insane!\" {initiator} shouts in exasperation.",
+            "\"{target}, you're pushing me to my limits! Stop it!\" {initiator} yells, struggling to control their anger.",
+            "\"This is unacceptable, {target}! I will not tolerate this kind of behavior from you!\" {initiator} raises their voice, their words sharp and stern."
         ]
     },
     "mixer_social_TeaseMercilessly_targeted_mean_teen": {
@@ -6699,13 +6699,13 @@ interaction_descriptions = {
             "{initiator}, a mean teenager, teases {target} mercilessly."
         ],
         "actions": [
-            "\"{Target}, you really are pathetic. I don't know why you even bother trying,\" {initiator} sneers, a cruel smirk on their face.",
+            "\"{target}, you really are pathetic. I don't know why you even bother trying,\" {initiator} sneers, a cruel smirk on their face.",
             "\"Look who decided to show up, {target}. Are you ready for another round of humiliation?\" {initiator} taunts, their voice dripping with malice.",
             "\"You know, {target}, it's almost impressive how easily you become the laughingstock of every situation,\" {initiator} jeers, enjoying their own cruelty.",
             "\"I hope you enjoy being everyone's punching bag, {target}, because that's all you'll ever be,\" {initiator} mocks, their words like daggers.",
             "\"Do you ever get tired of being an embarrassment, {target}? It's like you were born to fail,\" {initiator} says, laughing mockingly.",
-            "\"{Target}, you really need to stop pretending like people actually like you. It's getting sad,\" {initiator} taunts, relishing in their power over {target}.",
-            "\"{Initiator}, can't you find someone else to torment? {Target} has suffered enough,\" a voice finally speaks up, defending {target}.",
+            "\"{target}, you really need to stop pretending like people actually like you. It's getting sad,\" {initiator} taunts, relishing in their power over {target}.",
+            "\"{initiator}, can't you find someone else to torment? {target} has suffered enough,\" a voice finally speaks up, defending {target}.",
             "\"You're pathetic, {target}. I can't believe anyone could ever like you,\" {initiator} says, their words laced with venom.",
             "\"Hey, {target}, have you thought about just giving up? It would save us all a lot of time,\" {initiator} teases, a cruel smile on their face.",
             "\"Just admit it, {target}, you're a loser. And everyone knows it,\" {initiator} jeers, their voice loud and mocking."
@@ -6827,16 +6827,16 @@ interaction_descriptions = {
             "{initiator}, a babbling toddler, talks about dinosaurs with {target}."
         ],
         "actions": [
-            "\"{Target}, do you know dinosaurs? They're big and scary!\" {Initiator} babbles excitedly.",
-            "\"I saw a dinosaur on TV, {target}! It had big, sharp teeth and a long neck!\" {Initiator} exclaims, pointing at the screen.",
-            "\"Hey, {target}! Did you know dinosaurs lived a long, long time ago, even before our moms and dads were born?\" {Initiator} asks, looking up at {target}.",
-            "\"I have a toy dinosaur, {target}! Wanna see it? It roars and moves its tail!\" {Initiator} says, eager to show off their toy.",
-            "\"Rawwr! I'm a dinosaur, {target}!\" {Initiator} giggles, imitating a dinosaur walking.",
-            "\"Look, {target}! This book has lots of pictures of dinosaurs. Can we read it together?\" {Initiator} asks, holding up a book with colorful illustrations.",
-            "\"Did you know, {target}, dinosaurs were really big? Some were even bigger than our house!\" {Initiator} exclaims, attempting to spread their arms as wide as possible to demonstrate.",
-            "\"{Target}, I love dinosaurs! I can name so many kinds: T-rex, Triceratops, and Stegosaurus!\" {Initiator} declares proudly.",
-            "\"I want to be a paleontologist when I grow up, {target}! That's someone who knows all about dinosaurs!\" {Initiator} shares their future ambition with excitement.",
-            "\"I wish I could see a real dinosaur, {target}! That would be so cool!\" {Initiator} says wistfully, looking up at the sky as if expecting a dinosaur to appear."
+            "\"{target}, do you know dinosaurs? They're big and scary!\" {initiator} babbles excitedly.",
+            "\"I saw a dinosaur on TV, {target}! It had big, sharp teeth and a long neck!\" {initiator} exclaims, pointing at the screen.",
+            "\"Hey, {target}! Did you know dinosaurs lived a long, long time ago, even before our moms and dads were born?\" {initiator} asks, looking up at {target}.",
+            "\"I have a toy dinosaur, {target}! Wanna see it? It roars and moves its tail!\" {initiator} says, eager to show off their toy.",
+            "\"Rawwr! I'm a dinosaur, {target}!\" {initiator} giggles, imitating a dinosaur walking.",
+            "\"Look, {target}! This book has lots of pictures of dinosaurs. Can we read it together?\" {initiator} asks, holding up a book with colorful illustrations.",
+            "\"Did you know, {target}, dinosaurs were really big? Some were even bigger than our house!\" {initiator} exclaims, attempting to spread their arms as wide as possible to demonstrate.",
+            "\"{target}, I love dinosaurs! I can name so many kinds: T-rex, Triceratops, and Stegosaurus!\" {initiator} declares proudly.",
+            "\"I want to be a paleontologist when I grow up, {target}! That's someone who knows all about dinosaurs!\" {initiator} shares their future ambition with excitement.",
+            "\"I wish I could see a real dinosaur, {target}! That would be so cool!\" {initiator} says wistfully, looking up at the sky as if expecting a dinosaur to appear."
         ]
     },
     "mixer_social_Toddler_TalkAbout_Favorite_Color": {

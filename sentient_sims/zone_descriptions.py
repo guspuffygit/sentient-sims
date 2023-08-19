@@ -401,6 +401,20 @@ zone_descriptions = {
             "Decorated in a harmonious blend of red and white, a fully equipped kitchen and bar offered a place for gym members to refuel and unwind after their workouts."
         ]),
     },
-    
-    
+    "1464926213": {
+        'name': 'Planet Honey Pop',
+        'type': 'Bar',
+        'description': ' '.join([
+            "Planet Honey Pop, a celestial haven for music enthusiasts, hummed with vibrant energy and a dash of whimsy.",
+            "The heart of the establishment was a grand karaoke stage, a gleaming spectacle of flashing LED lights that served as the backdrop, illuminating the lyrics.",
+            "A sleek podium stood proudly inviting patrons to unleash their inner superstar.",
+            "Surrounding the stage, chic tables and chairs were set in a welcoming semi-circle, each providing an intimate view of the performances.",
+            "Against one wall, a bar stretched its length, the shelves behind it a kaleidoscope of colored liquids in glass bottles, an alchemist's delight.",
+            "Adjacent to the bar, a cozy lounge area perched upon a carpet fashioned like piano keys, a playful nod to the musical theme.",
+            "The lounge, with its plush cushions and low tables, offered a somewhat quieter space for patrons to relax and chat between performances.",
+            "In the corner, the gender-neutral bathroom housed a pair of Potty Mouth 2.0 AI toilets, their digital eyes gleaming with a soft red glow.",
+            "These cutting-edge contraptions were the epitome of convenience, offering a hands-free experience combined with the occasional cheeky remark.",
+            "Planet Honey Pop buzzed with life.",
+        ]),
+    },
 }

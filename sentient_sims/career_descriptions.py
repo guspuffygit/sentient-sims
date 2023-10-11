@@ -41,71 +41,71 @@ career_descriptions = {
             1: {
                 "name": "Astronaut Intern",
                 "description": "{0.SimFirstName}'s always had dreams about exploring the cosmos, walking among the stars, and discovering places unknown. {M0.His}{F0.Her} journey begins here, in the file room, categorizing expense reports.",
-                "sentient_sims_description": "{sim_name} is working as an Astronaut Intern.",
+                "sentient_sims_description": "{sim_name} works as an Astronaut Intern.",
             },
             2: {
                 "name": "Module Cleaner",
                 "description": "Little-known fact: Space is an absolutely filthy place. When the shuttles return, guess who gets to hose them down and scrub off the gunk? {0.SimFirstName} hopes the goo is just dirt and not some incurable form of Oozing Space Measles.",
-                "sentient_sims_description": "{sim_name} is working at a space facility cleaning shuttles returning from space.",
+                "sentient_sims_description": "{sim_name} works at a space facility where they clean space shuttles that have returned from space.",
             },
             3: {
                 "name": "Technician",
                 "description": "{0.SimFirstName} doesn't think of {M0.himself}{F0.herself} as just a glorified mechanic. The shuttle costs billions of Simoleons, and any screw-ups would cost lives. {M0.He's}{F0.She's} more like a glorified engineer.",
-                "sentient_sims_description": "{sim_name} is working as an astronaut technician working on space shuttles.",
+                "sentient_sims_description": "{sim_name} works as an astronaut technician working on space shuttles.",
             },
             4: {
                 "name": "Command Center Lead",
                 "description": "Guiding virtual rockets into place, analyzing the movements of blinking dots on a computer screen, running simulations.... Looks like all those hours {0.SimFirstName} spent playing video games are paying off!",
-                "sentient_sims_description": "{sim_name} is working with astronauts at the space center as a command center lead, helping guide rockets in space.",
+                "sentient_sims_description": "{sim_name} works with astronauts at the space center as a command center lead, helping guide rockets in space.",
             },
             5: {
                 "name": "Low-Orbit Specialist",
                 "description": "Low orbit is where the real action is-satellites, space stations, space walks, daredevils attempting to break the world record for high-altitude parachuting. If something goes wrong, it's also the closest place to breathable air, which is why {0.SimFirstName} likes it.",
-                "sentient_sims_description": "{sim_name} is working as a low-orbit specialist, piloting planes into low-orbit and helping guide satellites.",
+                "sentient_sims_description": "{sim_name} works as a low-orbit specialist, piloting planes into low-orbit and helping guide satellites.",
             },
             6: {
                 "name": "Space Cadet",
                 "description": "{0.SimFirstName} was hoping that if {M0.he}{F0.she} \"accidentally\" derailed a shuttle-board \"simulation\" {M0.he}{F0.she} might be able to launch the shuttle and get to space\u00e2\u0080\u00a6but it turns out that actual spacecraft are pretty well-secured. That's good, because {0.SimFirstName} is still learning how to space brake and star park.",
-                "sentient_sims_description": "{sim_name} is working as a space cadet, training to become a full blown astronaut.",
+                "sentient_sims_description": "{sim_name} works as a space cadet, training to become a full blown astronaut.",
             },
             7: {
                 "name": "Astronaut",
                 "description": "This is it: Astronaut. The best of the best. The heroic few. The job kids want to be when they grow up that they still want to be as adults. {0.SimFirstName} will now go boldly into that great beyond to explore the secrets of the universe and eat weird freeze-dried ice cream.",
-                "sentient_sims_description": "{sim_name} is working as an astronaut, they are at the top of their field, exploring space in space shuttles.",
+                "sentient_sims_description": "{sim_name} works as an astronaut, they are at the top of their field, exploring space in space shuttles.",
             }
         },
         "Astronaut_Track2_SpaceRanger": {
             8: {
                 "name": "Planet Patrol",
                 "description": "{0.SimFirstName}'s drawn a pretty good beat. {M0.He's}{F0.She's} patrolling planet Illustria, which is scenic and upscale, with nice shops and restaurants. Luckily, {M0.he}{F0.she} didn't get the Bloodwar planet, which is also pretty scenic but has fewer restaurants.",
-                "sentient_sims_description": "{sim_name} is working planet patrol, a job for astronauts. {sim_name} patrols the planet Illustria, which is scenic and upscale.",
+                "sentient_sims_description": "{sim_name} works as planet patrol, a job for astronauts. {sim_name} patrols the planet Illustria, which is scenic and upscale.",
             },
             9: {
                 "name": "Sheriff of the Stars",
                 "description": "This here galaxy's {0.SimFirstName}'s jurisdiction now. Even-handed with the punishment and generous with the attitude, {M0.he}{F0.she} don't take no nonsense from alien punks, no matter now many tentacles or ocular cavities or rows of teeth they have. Also, {M0.he}{F0.she} gets to talk like a sheriff!",
-                "sentient_sims_description": "{sim_name} is working as sheriff of the stars, patrolling the galaxy and securing it from alien threats.",
+                "sentient_sims_description": "{sim_name} works as sheriff of the stars, patrolling the galaxy and securing it from alien threats.",
             },
             10: {
                 "name": "Space Ranger",
                 "description": "When the universe is in danger, one {M0.man}{F0.woman} gets the call: {0.SimFirstName}, Space Ranger! With {M0.his}{F0.her} stout heart, keen wits, and a phozoplasmic Warp Pack strapped to {M0.his}{F0.her} back, Ranger {0.SimFirstName} defends the known galaxies from evil!",
-                "sentient_sims_description": "{sim_name} is working as THE space ranger, when the universe is in danger, only one person gets the call, {sim_name}, defends the known galaxies from evil.",
+                "sentient_sims_description": "{sim_name} works as THE space ranger, when the universe is in danger, only one person gets the call, {sim_name}, defends the known galaxies from evil.",
             }
         },
         "Astronaut_Track3_Smuggler": {
             8: {
                 "name": "Moon Mercenary",
                 "description": "Any ranger who's quick with a laser can make more Simoleons in private security than serving the public good. {0.SimFirstName} protects galactic warlords, exterminates cabals of tribal terrorists, and helps corrupt governments maintain plausible deniability.",
-                "sentient_sims_description": "{sim_name} is working as a moon mercenary, {sim_name} works as private security protecting galactic warlords, exterminating cabals of tribal terrorists, and helps corrupt governments.",
+                "sentient_sims_description": "{sim_name} works as a moon mercenary, {sim_name} works as private security protecting galactic warlords, exterminating cabals of tribal terrorists, and helps corrupt governments.",
             },
             9: {
                 "name": "Alien Goods Trader",
                 "description": "Want the horn of an endangered zygax? How about a quilt handmade from 2,000 tiny Q505Bs? Maybe just a few Gibsonian chill-out pods for the big party next weekend? {0.SimFirstName} doesn't ask questions. {M0.He}{F0.She} just makes it happen.",
-                "sentient_sims_description": "{sim_name} is working as an alien goods trader, buys and sells legal and illegal alien goods across the galaxy.",
+                "sentient_sims_description": "{sim_name} works as an alien goods trader, buys and sells legal and illegal alien goods across the galaxy.",
             },
             10: {
                 "name": "Interstellar Smuggler",
                 "description": "There's no trade route too treacherous, no cargo too controversial for {0.SimFirstName} to covertly ship across the universe and into {M0.his}{F0.her} customers' covetous hands. Capitalism is capitalism. And a 2000% markup is a 2000% markup.",
-                "sentient_sims_description": "{sim_name} is working as an interstellar smuggler, covertly shipping illegal goods across the galaxy.",
+                "sentient_sims_description": "{sim_name} works as an interstellar smuggler, covertly shipping illegal goods across the galaxy.",
             }
         }
     },
@@ -114,17 +114,17 @@ career_descriptions = {
             1: {
                 "name": "Shelf Stocker",
                 "description": "{0.SimFirstName} is ready to take {M0.his}{F0.her} part in the global economy. People need to buy things to make the economy happen, and that means that people need retailers to sell them things, and THAT means that someone needs to stock a bunch of shelves. Guess what {0.SimFirstName}\u00e2\u0080\u0099s part is?",
-                "sentient_sims_description": "{sim_name} is working as a shelf stocker at a department store.",
+                "sentient_sims_description": "{sim_name} works as a shelf stocker at a department store.",
             },
             2: {
                 "name": "Sales Floor Clerk",
                 "description": "{0.SimFirstName} has been promoted to Sales Floor Clerk! Now {M0.he}{F0.she} can interact directly with the customers and brush up on vital salesmanship skills! And between customers {M0.he}{F0.she} can sweep floors, scrape off gum, heft boxes and restock store displays.",
-                "sentient_sims_description": "{sim_name} is working as a sales floor clerk at a department store.",
+                "sentient_sims_description": "{sim_name} works as a sales floor clerk at a department store.",
             },
             3: {
                 "name": "Customer Support",
                 "description": "\u00e2\u0080\u009cHappy customers, healthy business!\u00e2\u0080\u009d At least, that\u00e2\u0080\u0099s what {0.SimFirstName}\u00e2\u0080\u0099s training manual says. {M0.He}{F0.She} might be earning a healthier wage, manning the support desk with a smile, but the only customers who get sent {M0.his}{F0.her} way are not happy, not at all.",
-                "sentient_sims_description": "{sim_name} is working as a customer service representative at a department store.",
+                "sentient_sims_description": "{sim_name} works as a customer service representative at a department store.",
             }
         }
     },
@@ -209,7 +209,7 @@ career_descriptions = {
             1: {
                 "name": "Coffee Stain Remover",
                 "description": "This is {0.SimFirstName}\u00e2\u0080\u0099s first step into the exciting world of caffeine distribution systems. But of course {M0.he}{F0.she} can\u00e2\u0080\u0099t be responsible for pouring coffee until {M0.he}{F0.she} proves {M0.he}{F0.she} can handle mopping floors, setting up chairs, scrubbing mugs and keeping those frothers and foamers shiny!",
-                "sentient_sims_description": "{sim_name} just started working at starbucks part-time and is responsible for cleaning.",
+                "sentient_sims_description": "{sim_name} recently started a new job at starbucks part-time and is responsible for cleaning.",
             },
             2: {
                 "name": "Bean Blender",
@@ -947,7 +947,7 @@ career_descriptions = {
             1: {
                 "name": "Coffee Stain Remover",
                 "description": "This is {0.SimFirstName}\u00e2\u0080\u0099s first step into the exciting world of caffeine distribution systems. But of course {M0.he}{F0.she} can\u00e2\u0080\u0099t be responsible for pouring coffee until {M0.he}{F0.she} proves {M0.he}{F0.she} can handle mopping floors, setting up chairs, scrubbing mugs and keeping those frothers and foamers shiny!",
-                "sentient_sims_description": "{sim_name} just started working at starbucks and is responsible for cleaning.",
+                "sentient_sims_description": "{sim_name} recently started work at starbucks and is responsible for cleaning.",
             },
             2: {
                 "name": "Bean Blender",
@@ -994,17 +994,17 @@ career_descriptions = {
             1: {
                 "name": "Shelf Stocker",
                 "description": "{0.SimFirstName} is ready to take {M0.his}{F0.her} part in the global economy. People need to buy things to make the economy happen, and that means that people need retailers to sell them things, and THAT means that someone needs to stock a bunch of shelves. Guess what {0.SimFirstName}\u00e2\u0080\u0099s part is?",
-                "sentient_sims_description": "{sim_name} is working part-time as a shelf stocker at a department store.",
+                "sentient_sims_description": "{sim_name} works part-time as a shelf stocker at a department store.",
             },
             2: {
                 "name": "Sales Floor Clerk",
                 "description": "{0.SimFirstName} has been promoted to Sales Floor Clerk! Now {M0.he}{F0.she} can interact directly with the customers and brush up on vital salesmanship skills! And between customers {M0.he}{F0.she} can sweep floors, scrape off gum, heft boxes and restock store displays.",
-                "sentient_sims_description": "{sim_name} is working part-time as a sales floor clerk at a department store.",
+                "sentient_sims_description": "{sim_name} works part-time as a sales floor clerk at a department store.",
             },
             3: {
                 "name": "Customer Support",
                 "description": "\u00e2\u0080\u009cHappy customers, healthy business!\u00e2\u0080\u009d At least, that\u00e2\u0080\u0099s what {0.SimFirstName}\u00e2\u0080\u0099s training manual says. {M0.He}{F0.She} might be earning a healthier wage, manning the support desk with a smile, but the only customers who get sent {M0.his}{F0.her} way are not happy, not at all.",
-                "sentient_sims_description": "{sim_name} is working part-time as a customer service representative at a department store.",
+                "sentient_sims_description": "{sim_name} works part-time as a customer service representative at a department store.",
             }
         }
     },
@@ -1322,7 +1322,7 @@ career_descriptions = {
         "careerTrack_NPC_OwnableRestaurant_Host": {
             1: {
                 "name": "Restaurant Host",
-                "sentient_sims_description": "{sim_name} just started working as a host at a restaurant.",
+                "sentient_sims_description": "{sim_name} just started work as a host at a restaurant.",
             },
             2: {
                 "name": "Restaurant Host",
@@ -1346,7 +1346,7 @@ career_descriptions = {
         "careerTrack_NPC_OwnableRestaurant_Waiter": {
             1: {
                 "name": "Restaurant Waiter",
-                "sentient_sims_description": "{sim_name} just started working as a waiter at a restaurant.",
+                "sentient_sims_description": "{sim_name} just started work as a waiter at a restaurant.",
             },
             2: {
                 "name": "Restaurant Waiter",

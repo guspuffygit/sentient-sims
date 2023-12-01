@@ -1,11 +1,8 @@
 # {initiator} and {target} will be replaced with the names of the sims in the interaction
 import json
-try:
-    from sentient_sims_code.filters.has_not_happened import HasNotHappened
-    from sentient_sims_code.filters.initiator_is_active_sim import InitiatorIsActiveSim
-    from sentient_sims_code.filters.sim_in_memories import SimInMemories
-except:
-    pass
+from sentient_sims_code.filters.has_not_happened import HasNotHappened
+from sentient_sims_code.filters.initiator_is_active_sim import InitiatorIsActiveSim
+from sentient_sims_code.filters.sim_in_memories import SimInMemories
 
 
 interaction_descriptions = {
@@ -426,7 +423,7 @@ interaction_descriptions = {
     },
     "mixer_social_Flirt_targeted_romance_alwaysOn": {
         "pre_actions": [
-            "{initiator} is starting to flirt with {target}, hoping to ignite a romantic connection."
+            "{initiator} is starting to flirt with {target}."
         ]
     },
     "mixer_social_ComplimentAppearance_targeted_romance_alwaysOn": {
@@ -446,12 +443,12 @@ interaction_descriptions = {
     },
     "mixer_social_CaressCheek_targeted_romance_highScore": {
         "pre_actions": [
-            "{initiator} is gently caressing {target}'s cheek, expressing a loving gesture."
+            "{initiator} is gently caressing {target}'s cheek."
         ]
     },
     "mixer_social_BlowAKiss_targeted_romance_highScore": {
         "pre_actions": [
-            "{initiator} is blowing a kiss to {target}, expressing their romantic feelings."
+            "{initiator} is blowing a kiss to {target}."
         ]
     },
     "mixer_social_RememberCommonInterests_targeted_romance_lowScore": {
@@ -556,7 +553,7 @@ interaction_descriptions = {
     },
     "mixer_social_SitIntimate_Kiss_targeted_romance_emotionSpecific": {
         "pre_actions": [
-            "{initiator} is leaning in and giving {target} a passionate kiss, expressing their romantic feelings."
+            "{initiator} is leaning in and giving {target} a passionate kiss."
         ]
     },
     "mixer_social_SitIntimate_MakeOut_targeted_romance_highScore": {
@@ -576,7 +573,7 @@ interaction_descriptions = {
     },
     "mixer_social_SitIntimate_AskForMassage_targeted_romance_highScore": {
         "pre_actions": [
-            "{initiator} is politely asking {target} if they could give them a massage."
+            "{initiator} is politely asking for a massage from {target}."
         ]
     },
     "mixer_social_SitIntimate_WhisperSweetNothings_targeted_romance_middleScore": {
@@ -656,7 +653,7 @@ interaction_descriptions = {
     },
     "mixer_social_ShareSecret_targeted_Friendly_HighScore": {
         "pre_actions": [
-            "{initiator} is sharing a secret with {target}."
+            "{initiator} is sharing personal life goals with {target}."
         ]
     },
     "mixer_social_Flatter_targeted_Friendly_alwaysOn": {
@@ -1592,17 +1589,17 @@ interaction_descriptions = {
     },
     "mixer_social_AttemptToSeduce_targeted_romance_middleScore_teenMale": {
         "pre_actions": [
-            "{initiator} is trying to seduce {target}, hoping to ignite a romantic connection."
+            "{initiator} is trying to seduce {target}."
         ]
     },
     "mixer_social_AttemptToSeduce_targeted_romance_MiddleScore_teenFemale": {
         "pre_actions": [
-            "{initiator} is trying to seduce {target}, hoping to ignite a romantic connection."
+            "{initiator} is trying to seduce {target}."
         ]
     },
     "mixer_social_KissNeck_targeted_romance_relationship_teen": {
         "pre_actions": [
-            "{initiator} is leaning in and kissing {target}'s neck, expressing their romantic feelings towards them."
+            "{initiator} is leaning in and kissing {target}'s neck."
         ]
     },
     "mixer_social_Flirt_targeted_romance_alwaysOn_teen": {
@@ -1697,7 +1694,7 @@ interaction_descriptions = {
     },
     "mixer_social_KissCheek_targeted_romance_alwaysOn": {
         "pre_actions": [
-            "{initiator} is leaning in and gently kissing {target} on the cheek, expressing a romantic gesture."
+            "{initiator} is leaning in and gently kissing {target} on the cheek."
         ]
     },
     "mixer_social_TakePictureTogether_targeted_Friendly_alwaysOn": {
@@ -1732,7 +1729,7 @@ interaction_descriptions = {
     },
     "mixer_social_KissHands_targeted_romance_emotionSpecific": {
         "pre_actions": [
-            "{initiator} is taking {target}'s hand and gently kissing it, a romantic gesture to show affection."
+            "{initiator} is taking {target}'s hands and gently kissing them."
         ]
     },
     "mixer_social_AskMoveIn_targeted_Friendly_alwaysOn": {
@@ -3717,7 +3714,7 @@ interaction_descriptions = {
     },
     "mixer_social_GoingOutSocials_ExchangeNumbers": {
         "pre_actions": [
-            "{initiator} is asking {target} for their phone number, suggesting they should be exchanging numbers to stay in touch."
+            "{initiator} is asking to exchange phone numbers with {target}."
         ]
     },
     "mixer_Social_Clubs_NT_QuitClub": {
@@ -6457,12 +6454,12 @@ interaction_descriptions = {
     },
     "mixer_social_Targeted_Romance_CivicPolicy_FreeLove_NT_BlowAKiss": {
         "pre_actions": [
-            "{initiator} is blowing a kiss towards {target}, expressing their romantic feelings."
+            "{initiator} is blowing a kiss towards {target}."
         ]
     },
     "mixer_social_Targeted_Romance_CivicPolicy_FreeLove_T_CaressCheek": {
         "pre_actions": [
-            "{initiator} is gently caressing {target}'s cheek, expressing a romantic and affectionate gesture."
+            "{initiator} is gently caressing {target}'s cheek."
         ]
     },
     "mixer_social_Targeted_Romance_CivicPolicy_FreeLove_T_Embrace": {
@@ -7683,6 +7680,11 @@ interaction_descriptions = {
     "mixer_social_Fight_targeted_mean_WerewolfToWerewolf_Start_Rampage": {
         "pre_actions": [
             "{initiator} and {target}, both werewolves, are starting a brutal fight, unleashing their rage and causing chaos."
+        ]
+    },
+    "touching_RoommateKey_Socials_GiveKey": {
+        "pre_actions": [
+            "{initiator} is giving {target} a key to the residence."
         ]
     },
     # This is the interaction that runs right when a Sim starts to walk away towards an exit

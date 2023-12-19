@@ -14,7 +14,7 @@ trait_descriptions = {
     "Activities_Fitness": "fitness activities",
     "Activities_Gardening": "gardening activities",
     "Activities_Guitar": "playing the guitar",
-    "Activities_Handiness": "activities related to Handiness",
+    "Activities_Handiness": "skilled at practical physical tasks",
     "Activities_Knitting": "knitting activities",
     "Activities_MediaProduction": "media production activities",
     "Activities_Mischief": "mischievous activities",

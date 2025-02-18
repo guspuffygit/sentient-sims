@@ -1,4 +1,8 @@
-# Sentient Sims Mod
+# Sentient Sims Mod (ARCHIVED)
+
+Everything now lives in https://github.com/guspuffygit/sentient-sims-app
+
+Please go to that repo to make changes to traits etc.
 
 ## Description
 
